@@ -843,6 +843,14 @@ fieldset[disabled] .btn-primary.active {
 /**
  * HERO LOKER LIST
 */
+@media(min-width:1200px){
+    section#hero-loker-list .col-lg-8 {
+        width: 70%;
+    }
+    section#hero-loker-list .col-lg-4 {
+        width: 30%;
+    }
+}
 .button-grid-thumbnail path,.button-list-thumbnail path {
     fill: #999FA9 !important;
 }
