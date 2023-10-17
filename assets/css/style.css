@@ -840,14 +840,26 @@ fieldset[disabled] .btn-primary.active {
     color: var(--ik-primary-color);
 }
 
-
 /**
  * HERO LOKER LIST
- */
- .hero-loker-list__item {
+*/
+.button-grid-thumbnail path,.button-list-thumbnail path {
+    fill: #999FA9 !important;
+}
+.button-grid-thumbnail.button-active path,.button-list-thumbnail.button-active path {
+    fill: #075256 !important;
+}
+.hero-loker-list__item {
     border-radius: 8.169px;
     background: #fff;
     box-shadow: 4px 8px 25px 0px rgba(0, 0, 0, 0.10);
+    margin-bottom: 10px;
+    transition: all 0.5s ease;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    margin-top: 40px !important;
 }
 .hero-loker-list__item-image {
     width: 90px;
@@ -860,25 +872,28 @@ fieldset[disabled] .btn-primary.active {
     bottom: 100%;
     margin-bottom: 5px;
 }
-.button-save{
+.button-save {
     border-radius: 8.169px;
     border: 0.817px solid #075256 !important;
     display: inline-block;
     padding: 9px 14px;
+    position: absolute;
+    right: 0;
+    bottom: 100%;
+    margin-bottom: 15px;
 }
 .button-apply {
     padding: 11px 0 !important;
 }
 .loker-date {
     position: absolute;
-    right: 0;
+    right: 25px;
 }
 a.button-save svg {
     width: 20px;
     height: 20px;
 }
 .hero-loker-list__company {
-    position: absolute;
     bottom: 100%;
     margin-bottom: 1rem;
     position: absolute;
@@ -893,6 +908,7 @@ a.button-save svg {
     border-radius: 8.169px;
     background: #e6eced;
     font-weight: 600;
+    padding: 4px 10px !important;
 }
 @keyframes fill {
     /* 0% {
@@ -944,7 +960,183 @@ a.button-save svg {
     font-weight: 700;
     font-size: 1.2em;
 }
+/*grid thumbnail*/
+/* width */
+.hero-loker-list__wrapper::-webkit-scrollbar {
+    width: 8px;
+    border-radius: 10px;
+}
 
+/* Track */
+.hero-loker-list__wrapper::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+    border-radius: 10px;
+}
+
+/* Handle */
+.hero-loker-list__wrapper::-webkit-scrollbar-thumb {
+    background: #888; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+.hero-loker-list__wrapper::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+.hero-loker-list__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+    max-height: 1000px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item {
+    width: calc(33.3% - 20px);
+    margin-top: 80px !important;
+    margin-bottom: 10px;
+    padding-bottom: 70px !important;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item .col-sm-4 {
+    width: 100%;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item .row {
+    display: block;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-job-list__desc {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.hero-loker-list__wrapper.grid-thumbnail .loker-desc {
+    margin-bottom: 18px;
+    margin-top: 7px !important;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__company {
+    position: relative;
+    width: 100%;
+    display: block;
+    left: 0;
+    bottom: 0;
+    margin-bottom: 0;
+    margin-top: -7px;
+    display: flex;
+    align-items: center;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__company svg {
+    position: relative;
+    margin: 0 0 0 5px;
+    width: 20px;
+    height: 20px;
+}
+.hero-loker-list__wrapper.grid-thumbnail .company-name {
+    font-size: 13.5px;
+    color: #222 !important;
+}
+.hero-loker-list__wrapper.grid-thumbnail .loker-desc div.text-sm {
+    display: none;
+}
+.hero-loker-list__wrapper.grid-thumbnail .loker-date{display: none;}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__badge-wrapper {
+    position: absolute;
+    bottom: 100%;
+    left: 101px;
+    margin-bottom: 1rem;
+}
+.fs-6 {
+    font-size: 13pt !important;
+}
+.hero-loker-list__wrapper.grid-thumbnail .button-save {
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+    right: 24px;
+}
+.hero-loker-list__wrapper.grid-thumbnail .button-apply {
+    width: calc(100% - 61px) !important;
+}
+.hero-loker-list__wrapper.grid-thumbnail .loker-percentage {
+    position: absolute;
+    top: -70px;
+    right: -7px;
+}
+.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item-image {
+    width: 90px;
+    margin-top: -4.5rem !important;
+}
+.hero-loker-list__wrapper.grid-thumbnail .loker-percentage {
+    position: absolute;
+    top: -73px;
+    left: 127px;
+    width: 130px;
+}
+.hero-loker-list__wrapper.grid-thumbnail .circle-wrap {
+    width: 70px;
+    height: 70px;
+}
+.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask, .hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .fill {
+    width: 70px;
+    height: 70px;
+}
+.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask {
+    clip: rect(0px, 70px, 70px, 35px);
+}
+.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask .fill {
+    clip: rect(0px, 35px, 70px, 0px);
+}
+.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask {
+    clip: rect(0px, 70px, 70px, 35px);
+}
+.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .inside-circle {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 12pt;
+}
+.hero-loker-list__wrapper.grid-thumbnail .loker-button {
+    position: absolute !important;
+    width: 100%;
+    bottom: 20px;
+    left: 0;
+    padding: 0 24px;
+}
+ul.pagination.pagination-loker .page-link {
+    border: 0;
+    margin: 0 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #0E0B33;
+    padding: 7px 10px;
+    min-width: 40px;
+    text-align: center;
+}
+ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker  .page-link.active {
+    background: #075256;
+    color: #fff;
+}
+
+/**
+WIDGET LOKER
+**/
+.hero-loker-widget__item-image img {
+    object-fit: cover;
+}
+.hero-loker-widget__item-image {
+    width: 140px;
+}
+.hero-loker-widget li {
+    margin-bottom: 12px;
+}
+.hero-loker-widget ul {
+    padding-left: 22px;
+}
+.button-readmore{background: #F3F6FB;}
+.button-readmore:hover{background: #cfd0d3;}
+.hero-loker-widget__item-button a {
+    padding: 15px 0 !important;
+    border-radius: 15px;
+}
 
 
 /**
