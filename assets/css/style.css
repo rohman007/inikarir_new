@@ -954,10 +954,10 @@ a.button-save svg {
     object-fit: cover;
 }
 .hero-loker-list__badge {
-    color: #075256;
+    color: #000;
     border-radius: 8.169px;
     background: #e6eced;
-    font-weight: 600;
+    font-weight: 500;
     padding: 4px 10px !important;
 }
 @keyframes fill {
@@ -1041,27 +1041,27 @@ a.button-save svg {
     overflow-x: hidden;
     overflow-y: auto;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item {
+.grid-thumbnail .hero-loker-list__item {
     width: calc(33.3% - 20px);
     margin-top: 80px !important;
     margin-bottom: 10px;
     padding-bottom: 70px !important;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item .col-sm-4 {
+.grid-thumbnail .hero-loker-list__item .col-sm-4 {
     width: 100%;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item .row {
+.grid-thumbnail .hero-loker-list__item .row {
     display: block;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-job-list__desc {
+.grid-thumbnail .hero-job-list__desc {
     display: flex;
     flex-direction: column-reverse;
 }
-.hero-loker-list__wrapper.grid-thumbnail .loker-desc {
+.grid-thumbnail .loker-desc {
     margin-bottom: 18px;
     margin-top: 7px !important;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__company {
+.grid-thumbnail .hero-loker-list__company {
     position: relative;
     width: 100%;
     display: block;
@@ -1072,21 +1072,21 @@ a.button-save svg {
     display: flex;
     align-items: center;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__company svg {
+.grid-thumbnail .hero-loker-list__company svg {
     position: relative;
     margin: 0 0 0 5px;
     width: 20px;
     height: 20px;
 }
-.hero-loker-list__wrapper.grid-thumbnail .company-name {
+.grid-thumbnail .company-name {
     font-size: 13.5px;
     color: #222 !important;
 }
-.hero-loker-list__wrapper.grid-thumbnail .loker-desc div.text-sm {
+.grid-thumbnail .loker-desc div.text-sm {
     display: none;
 }
-.hero-loker-list__wrapper.grid-thumbnail .loker-date{display: none;}
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__badge-wrapper {
+.grid-thumbnail .loker-date{display: none;}
+.grid-thumbnail .hero-loker-list__badge-wrapper {
     position: absolute;
     bottom: 100%;
     left: 101px;
@@ -1095,48 +1095,48 @@ a.button-save svg {
 .fs-6 {
     font-size: 13pt !important;
 }
-.hero-loker-list__wrapper.grid-thumbnail .button-save {
+.grid-thumbnail .button-save {
     position: absolute;
     bottom: 0;
     margin: 0;
     right: 24px;
 }
-.hero-loker-list__wrapper.grid-thumbnail .button-apply {
+.grid-thumbnail .button-apply {
     width: calc(100% - 61px) !important;
 }
-.hero-loker-list__wrapper.grid-thumbnail .loker-percentage {
+.grid-thumbnail .loker-percentage {
     position: absolute;
     top: -70px;
     right: -7px;
 }
-.hero-loker-list__wrapper.grid-thumbnail .hero-loker-list__item-image {
+.grid-thumbnail .hero-loker-list__item-image {
     width: 90px;
     margin-top: -4.5rem !important;
 }
-.hero-loker-list__wrapper.grid-thumbnail .loker-percentage {
+.grid-thumbnail .loker-percentage {
     position: absolute;
     top: -73px;
     left: 127px;
     width: 130px;
 }
-.hero-loker-list__wrapper.grid-thumbnail .circle-wrap {
+.grid-thumbnail .circle-wrap {
     width: 70px;
     height: 70px;
 }
-.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask, .hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .fill {
+.grid-thumbnail .circle-wrap .circle .mask, .grid-thumbnail .circle-wrap .circle .fill {
     width: 70px;
     height: 70px;
 }
-.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask {
+.grid-thumbnail .circle-wrap .circle .mask {
     clip: rect(0px, 70px, 70px, 35px);
 }
-.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask .fill {
+.grid-thumbnail .circle-wrap .circle .mask .fill {
     clip: rect(0px, 35px, 70px, 0px);
 }
-.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .circle .mask {
+.grid-thumbnail .circle-wrap .circle .mask {
     clip: rect(0px, 70px, 70px, 35px);
 }
-.hero-loker-list__wrapper.grid-thumbnail .circle-wrap .inside-circle {
+.grid-thumbnail .circle-wrap .inside-circle {
     width: 50px;
     height: 50px;
     line-height: 50px;
@@ -1144,7 +1144,7 @@ a.button-save svg {
     margin-left: 10px;
     font-size: 12pt;
 }
-.hero-loker-list__wrapper.grid-thumbnail .loker-button {
+.grid-thumbnail .loker-button {
     position: absolute !important;
     width: 100%;
     bottom: 20px;
@@ -1186,6 +1186,40 @@ WIDGET LOKER
 .hero-loker-widget__item-button a {
     padding: 15px 0 !important;
     border-radius: 15px;
+}
+
+
+
+/**
+    LOKER DETAIL
+**/
+.hero-loker-detail__item-image img {
+    object-fit: cover;
+}
+.hero-loker-detail__item-image {
+    width: 140px;
+}
+.hero-loker-detail ul {
+    padding-left: 22px;
+}
+.swiper-slide .hero-loker-list__item-image {
+    margin-top: -3.5rem !important;
+}
+.swiper-slide .hero-loker-list__item{
+    padding-bottom: 80px !important;
+}
+.swiper-slide .button-apply {
+    padding: 8px 0 !important;
+    width: calc(100% - 51px) !important;
+}
+.swiper-slide .button-save {
+    padding:6px 11px;
+}
+.company-overview {
+    border-radius: 10px;
+    background: var(--White, #FFF);
+    box-shadow: 4px 8px 25px 0px rgba(0, 0, 0, 0.10);
+    padding: 25px 30px;
 }
 
 

@@ -192,6 +192,49 @@ const swiperTeamWork = new Swiper('.hero-teamwork__slider-swiper', {
     }
 });
 
+
+/**
+ * HERO LOKER DETAIL SLIDER
+ */
+const swiperLoker = new Swiper('.hero-loker__slider-swiper', {
+    // Optional parameters
+    loop: false,
+    autoHeight: true, //enable auto height
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.hero-loker__swiper-next',
+        prevEl: '.hero-loker__swiper-prev',
+    },
+
+    // Default parameters
+    slidesPerView: 4,
+    spaceBetween: 0,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 1,
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 2,
+        },
+        // when window width is >= 768px
+        768: {
+            slidesPerView: 3,
+        },
+        // when window width is >= 1200px
+        1200: {
+            slidesPerView: 4,
+        }
+    }
+});
+
+
 /**
  * HERO ARTICLE SLIDER
  */
