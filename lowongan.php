@@ -49,23 +49,28 @@
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="container d-lg-flex px-0">
-                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                <li class="nav-item">
-                                    <a class="nav-link active" href="#">Home</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">About</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Services</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Article</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#">Contact</a>
-                                </li>
-                            </ul>
+                            <div class="tags-input"> 
+                                <ul id="tags"></ul> 
+                                <label for="input-tag">
+                                    <input type="text" id="input-tag" placeholder="Search" /> 
+                                </label>
+                                <button type="submit" class="searchubmit border-0 position-absolute bottom-0 end-0 bg-white mb-2 me-2" value="Cari" fdprocessedid="dlf8pf">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 26 25" fill="none">
+                                    <path d="M4.75872 24.5691L11.7871 17.5458L8.15297 13.9117L1.12457 20.94C0.547807 21.5168 0.547807 22.4662 1.12457 23.0429L2.65071 24.5691C3.23258 25.1459 4.18705 25.1459 4.75872 24.5691Z" fill="#ACB1C6"/>
+                                    <path d="M9.7193 14.0702L11.6231 15.974L13.7924 13.8048C16.7477 15.8566 20.8412 15.5708 23.4749 12.9371C26.4302 9.98177 26.4302 5.17878 23.4749 2.21838C20.5196 -0.742013 15.7167 -0.736909 12.7563 2.21838C10.1225 4.85212 9.83669 8.94563 11.8886 11.9009L9.7193 14.0702ZM14.2467 3.68837C16.3904 1.54464 19.8663 1.54464 22.0049 3.68837C24.1487 5.83211 24.1487 9.30803 22.0049 11.4467C19.8612 13.5904 16.3853 13.5904 14.2467 11.4467C12.1029 9.30802 12.1029 5.83211 14.2467 3.68837Z" fill="#ACB1C6"/>
+                                    </svg>
+                                </button>
+                                <div class="seggest-tag">
+                                    <div class="all-delete">Clear All</div>
+                                    <div class="text-sm fw-bold">Suggested  based on your search : </div>
+                                    <ul id="suggest-tags">
+                                        <li class="text-xs">Desainer<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
+                                        <li>Part Time<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
+                                        <li>Jakarta<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
+                                    </ul>
+                                    <div class="text-sm text-muted">Ditemukan 97 hasil pencarian</div>
+                                </div>
+                            </div> 
                             
                             <div class="ms-auto">
                                 <div class="header__cta d-flex gap-3 position-relative">
@@ -867,6 +872,66 @@
                     $(this).addClass("button-active");   
                 });
             });
-        </script>
+        
+            // Get the tags and input elements from the DOM 
+            const tags = document.getElementById('tags'); 
+            const input = document.getElementById('input-tag'); 
+    
+            // Add an event listener for keydown on the input element 
+            input.addEventListener('keydown', function (event) { 
+    
+                // Check if the key pressed is 'Enter' 
+                if (event.key === 'Enter') { 
+                
+                    // Prevent the default action of the keypress 
+                    // event (submitting the form) 
+                    event.preventDefault(); 
+                
+                    // Create a new list item element for the tag 
+                    const tag = document.createElement('li'); 
+                
+                    // Get the trimmed value of the input element 
+                    const tagContent = input.value.trim(); 
+                
+                    // If the trimmed value is not an empty string 
+                    if (tagContent !== '') { 
+                
+                        // Set the text content of the tag to  
+                        // the trimmed value 
+                        tag.innerText = tagContent; 
+    
+                        // Add a delete button to the tag 
+                        tag.innerHTML += '<button class="delete-button"><img src="assets/images/close-icon.png"></button>'; 
+                        
+                        // Append the tag to the tags list 
+                        tags.appendChild(tag); 
+                        
+                        // Clear the input element's value 
+                        input.value = ''; 
+                    } 
+                } 
+            }); 
+    
+            // Add an event listener for click on the tags list 
+            tags.addEventListener('click', function (event) { 
+    
+                // If the clicked element has the class 'delete-button' 
+                if (event.target.classList.contains('delete-button')) { 
+                
+                    // Remove the parent element (the tag) 
+                    event.target.parentNode.remove(); 
+                } 
+            }); 
+
+            
+            $(function(){
+                $(".suggest-delete").on("click", function(e) {
+                    $(this).parent().remove();
+                });
+                $(".all-delete").on("click", function(e) {
+                    $("#tags li").parent().remove();
+                });
+            });
+        </script> 
     </body>
 </html>

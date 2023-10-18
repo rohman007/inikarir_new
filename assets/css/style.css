@@ -876,6 +876,14 @@ main#main.search-loker-page {
     opacity: 1;
     margin: 0 var(--swiper-pagination-bullet-horizontal-gap,10px) !important;
 }
+label[for="input-tag"]:before {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    height: 100%;
+}
 
 .hero-loker-featured__slider-swiper .swiper-pagination-bullet-active {
     background-color: #e7eeef;
@@ -892,6 +900,91 @@ main#main.search-loker-page {
     section#hero-loker-list .col-lg-4 {
         width: 30%;
     }
+}
+.tags-input {
+    display: flex;
+    position: absolute;
+    border-bottom: 1px solid #ACB1C6;
+    border-radius: 0;
+    padding: 0 0 5px;
+    position: relative;
+    width: 500px;
+    align-items: center;
+    left: 50%;
+    transform: translateX(-50%);
+    min-height: 40px;
+}
+
+.tags-input ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    position: relative;
+    z-index: 1;
+} 
+.seggest-tag {
+    position: absolute;
+    top: 100%;
+    margin-top: 13px;
+    width: 100%;
+}
+.all-delete {
+    font-size: 13px;
+    font-weight: 600;
+    right: 0;
+    position: absolute;
+    color: #075256;
+}
+.tags-input #suggest-tags li {
+    font-size: 12px !important;
+    padding: 5px 5px 5px 10px;
+}
+ul#suggest-tags {
+    margin: 4px 0;
+}
+.tags-input #suggest-tags li img {
+    width: 11px;
+}
+.tags-input li { 
+    display: inline-block; 
+    background: rgba(233, 233, 233, 0.60); 
+    color: #333; 
+    border-radius: 20px; 
+    font-size: 14px;
+    padding: 5px 8px 5px 13px; 
+    margin-right: 5px; 
+    margin-bottom: 2px;
+    margin-top: 2px;
+} 
+
+.tags-input input[type="text"] { 
+    border: none; 
+    outline: none; 
+    padding: 5px; 
+    font-size: 14px; 
+} 
+
+.tags-input input[type="text"]:focus { 
+    outline: none; 
+} 
+
+.tags-input .delete-button { 
+    background-color: transparent; 
+    border: none; 
+    color: #999; 
+    cursor: pointer; 
+    position: relative;
+    margin-left: 5px; 
+} 
+button.delete-button:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    top: 0;
+    left: 0;
 }
 .button-grid-thumbnail path,.button-list-thumbnail path {
     fill: #999FA9 !important;
