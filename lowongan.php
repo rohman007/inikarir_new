@@ -38,7 +38,7 @@
     <body>
         <header id="header">
             <nav id="navbar" class="navbar navbar-expand-lg">
-                <div class="container">
+                <div class="container position-relative">
                     <a class="navbar-brand" href="#">
                         <img src="./assets/images/logo.png" alt="Ini Karir" />
                     </a>
