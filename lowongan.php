@@ -21,7 +21,10 @@
         <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap-utilities.min.css" />
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link rel="stylesheet" href="https://aafarma.id/js/tokeninput/token-input.css" type="text/css" />
+        <link rel="stylesheet" href="https://aafarma.id/js/tokeninput/token-input-facebook.css" type="text/css" />
         <link rel="stylesheet" href="./assets/css/style.css" />
+
 
         <!-- Favicons -->
         <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicons/apple-touch-icon.png">
@@ -77,6 +80,9 @@
         </header> <!-- /.header -->
 
         <main id="main">
+            <section class="search-loker">
+                <input type="text" name="tag_id" id="tag_id" >
+            </section>
             <section id="hero-loker-list" class="hero-loker-list py-5">
                 <div class="container">
                     <div class="row">
@@ -848,6 +854,7 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script src="./assets/vendor/fullpage/fullpage.min.js"></script>
         <script src="./assets/js/functions.js"></script>
+        <script type="text/javascript" src="https://aafarma.id/js/tokeninput/jquery.tokeninput.js"></script><script>
         <script>
             $(document).ready(function() {
                 $(".button-grid-thumbnail").click(function () {
@@ -861,6 +868,14 @@
                     $(this).addClass("button-active");   
                 });
             });
+            $(function() {
+                $("#tag_id").tokenInput("https://aafarma.id/modul/catalog/ajax.php?action=get_tag", {
+                    
+                    theme: "facebook",
+                    prePopulate: [{"id":"8","name":"Stowel Capsule"},{"id":"15","name":"Asam Lambung"},{"id":"16","name":"GERD"},{"id":"17","name":"Maag"}]
+                
+                });
+            })
         </script>
     </body>
 </html>
