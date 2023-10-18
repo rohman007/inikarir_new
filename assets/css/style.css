@@ -910,6 +910,13 @@ main#main.search-loker-page {
     margin-right: 10px;
     width: 100%;
     margin-top: 40px !important;
+    top: 0px;
+    left: 0px;
+}
+.hero-loker-list__item:hover {
+    box-shadow: 7px 7px 0px 0px #e7eeef !important;
+    top: -4px;
+    left: -4px;
 }
 .hero-loker-list__item-image {
     width: 90px;
@@ -1205,8 +1212,9 @@ WIDGET LOKER
 .swiper-slide .hero-loker-list__item-image {
     margin-top: -3.5rem !important;
 }
-.swiper-slide .hero-loker-list__item{
+.swiper-slide .hero-loker-list__item {
     padding-bottom: 80px !important;
+    margin-top: 70px !important;
 }
 .swiper-slide .button-apply {
     padding: 8px 0 !important;
@@ -1219,7 +1227,40 @@ WIDGET LOKER
     border-radius: 10px;
     background: var(--White, #FFF);
     box-shadow: 4px 8px 25px 0px rgba(0, 0, 0, 0.10);
+    padding: 30px 30px 15px;
+}
+.hero-loker-detail__widget .button-apply {
+    padding: 10px 0 !important;
+    border-radius: 10px !important;
+}
+.hero-loker-detail__widget .button-save {
+    position: relative;
+    margin-bottom: 0;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8.5px 0 !important;
+}
+.hero-loker-detail__widget .button-share {
+    position: relative;
+    border:0.817px solid #075256 !important;
+    margin-bottom: 0;
+    width: 70px;
+    text-align: center;
+    border-radius: 10px;
+    padding: 8.5px 0 !important;
+}
+.button-share svg {
+    width: 20px;
+    height: 20px;
+}
+.hero-loker-detail__widget-content {
+    border: 1px solid #075256;
+    border-radius: 20px;
     padding: 25px 30px;
+}
+.hero-loker-detail__widget-icon {
+    width: 45px;
 }
 
 

@@ -83,7 +83,7 @@
             <section id="hero-loker-detail" class="hero-loker-detail py-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 col-md-8 hero-loker-detail__content ps-md-5">
+                        <div class="col-12 col-sm-12 col-md-8 hero-loker-detail__content ps-md-5 mb-5 mb-sm-0">
                             <div class="hero-loker-detail__item-image mb-3">
                                 <div class="ratio ratio-1x1">
                                     <div>
@@ -120,9 +120,9 @@
                                 </div>
                             </div> 
                             <div class="badge-wrapper mt-2 pt-1 pb-2">
-                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Information Technology</div>
-                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Urgently Needed</div>
+                                <div class="hero-loker-list__badge px-3 me-1 py-1 mb-2 d-inline-block text-xs rounded">Information Technology</div>
+                                <div class="hero-loker-list__badge px-3 me-1 py-1 mb-2 d-inline-block text-xs rounded">Full Time</div>
+                                <div class="hero-loker-list__badge px-3 me-1 py-1 mb-2 d-inline-block text-xs rounded">Urgently Needed</div>
                             </div>
                             <div class="fs-5 mb-2 mt-4 fw-bold">Job Description</div>
                             <div class="text-muted text-sm mb-4 ">
@@ -141,7 +141,7 @@
                                     <li>Ability to work collaboratively in a team environment</li>
                                 </ul>
                             </div>
-                            <div class="company-overview">
+                            <div class="company-overview mt-5">
                                 <div class="d-flex align-items-center mb-3">
                                     <div class="fw-bold fs-5 text-start me-2">Google, Inc</div>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 30 30" fill="none">
@@ -217,17 +217,148 @@
                                     </div>
                                 </div>
                                 <div class=" text-sm mb-2 mt-4 fw-bold">Company Overview</div>
-                                    <div class="text-muted text-sm mb-4 ">
-                                        <p>Google LLC (Google), a subsidiary of Alphabet Inc, is a provider of search and advertising services on the internet. The company's business areas include advertising, search, platforms and operating systems, and enterprise and hardware products.</p>
-                                    </div>
+                                <div class="text-muted text-sm mb-4 ">
+                                    <p>Google LLC (Google), a subsidiary of Alphabet Inc, is a provider of search and advertising services on the internet. The company's business areas include advertising, search, platforms and operating systems, and enterprise and hardware products.</p>
                                 </div>
-                        </div>
-                        <div class="col-12 col-sm-12 col-md-4 hero-loker-detail__widget ps-md-5">
-                            <div class="hero-loker-widget__item-button d-flex justify-content-between align-items-center">
-                                <a href="#" class="btn btn-primary button-apply text-sm fw-bold d-block w-100 px-3 py-2">Apply</a> 
                             </div>
                         </div>
-                        <div class="col-12 col-sm-12 ">
+                        <div class="col-12 col-sm-12 col-md-4 hero-loker-detail__widget ps-md-5">
+                            <div class="text-end text-sm mb-3">Posted September 06, 2023</div>
+                            <div class="hero-loker-widget__item-button d-flex justify-content-between align-items-center mb-4 pb-2">
+                                <a href="#" class="btn btn-primary button-apply text-sm fw-bold d-block w-100 px-3 py-2 me-2">Apply</a> 
+                                <a href="" class="button-save me-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                    <g clip-path="url(#clip0_769_2259)">
+                                    <mask id="mask0_769_2259" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="27">
+                                    <path d="M0.522461 0.765064H25.0307V26.0902H0.522461V0.765064Z" fill="white"></path>
+                                    </mask>
+                                    <g mask="url(#mask0_769_2259)">
+                                    <path d="M5.85556 1.48312C5.44787 1.48312 5.05574 1.64501 4.76734 1.9338C4.47889 2.2222 4.31738 2.61328 4.31738 3.02125V23.504C4.31738 24.0846 4.78653 24.5553 5.36717 24.5553H5.37105C5.68252 24.5553 5.97858 24.4315 6.19777 24.2115C7.21677 23.1933 10.2239 20.1862 11.4659 18.9465C11.812 18.5985 12.285 18.4028 12.7772 18.4028C13.2694 18.4028 13.7424 18.5985 14.0885 18.9465C15.3344 20.1901 18.3568 23.2118 19.3643 24.2208C19.5796 24.435 19.868 24.5553 20.1718 24.5553C20.7602 24.5553 21.237 24.0789 21.237 23.4909V3.02125C21.237 2.61328 21.0755 2.2222 20.7871 1.9338C20.4987 1.64501 20.1065 1.48312 19.6988 1.48312H5.85556Z" stroke="#075256" stroke-width="1.63388" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"></path>
+                                    </g>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0_769_2259">
+                                    <rect width="24.5082" height="24.5082" fill="white" transform="translate(0.523438 0.765129)"></rect>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                </a>
+                                <a href="" class="button-share">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 30 30" fill="none">
+                                    <path d="M23.1342 20.1793C21.6968 20.1793 20.4018 20.8001 19.503 21.7874L11.4187 16.7804C11.6345 16.2279 11.7542 15.6278 11.7542 15C11.7542 14.3719 11.6345 13.7718 11.4187 13.2195L19.503 8.21226C20.4018 9.19966 21.6968 9.82061 23.1342 9.82061C25.8419 9.82061 28.0446 7.61786 28.0446 4.91019C28.0446 2.20253 25.8419 0 23.1342 0C20.4265 0 18.2238 2.20275 18.2238 4.91042C18.2238 5.53824 18.3437 6.13837 18.5593 6.69089L10.4752 11.6979C9.5764 10.7105 8.28139 10.0895 6.84401 10.0895C4.13635 10.0895 1.93359 12.2925 1.93359 15C1.93359 17.7076 4.13635 19.9104 6.84401 19.9104C8.28139 19.9104 9.5764 19.2897 10.4752 18.302L18.5593 23.309C18.3437 23.8616 18.2238 24.4617 18.2238 25.0897C18.2238 27.7972 20.4265 29.9999 23.1342 29.9999C25.8419 29.9999 28.0446 27.7972 28.0446 25.0897C28.0446 22.3821 25.8419 20.1793 23.1342 20.1793ZM20.0143 4.91042C20.0143 3.19015 21.4139 1.79054 23.1342 1.79054C24.8545 1.79054 26.2541 3.19015 26.2541 4.91042C26.2541 6.63069 24.8545 8.0303 23.1342 8.0303C21.4139 8.0303 20.0143 6.63069 20.0143 4.91042ZM6.84401 18.1199C5.12351 18.1199 3.7239 16.7202 3.7239 15C3.7239 13.2797 5.12351 11.8801 6.84401 11.8801C8.56429 11.8801 9.96367 13.2797 9.96367 15C9.96367 16.7202 8.56429 18.1199 6.84401 18.1199ZM20.0143 25.0895C20.0143 23.3692 21.4139 21.9696 23.1342 21.9696C24.8545 21.9696 26.2541 23.3692 26.2541 25.0895C26.2541 26.8098 24.8545 28.2094 23.1342 28.2094C21.4139 28.2094 20.0143 26.8098 20.0143 25.0895Z" fill="#075256"/>
+                                    </svg>
+                                </a>
+                            </div>
+                            <div class="hero-loker-detail__widget-content">
+                                <div class="text-sm fw-bold mb-4 pb-2">Job Overview</div>
+                                <div class="d-flex mb-4">
+                                    <div class="me-3">
+                                        <div class="hero-loker-detail__widget-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="45" viewBox="0 0 56 56" fill="none">
+                                            <g clip-path="url(#clip0_750_1075)">
+                                            <path d="M53.2 11.2H41.0667V7.46672C41.0635 4.89048 38.9762 2.80324 36.4 2.80005H19.6C17.0238 2.80324 14.9365 4.89048 14.9333 7.46672V11.2H2.8C1.25371 11.2 0 12.4538 0 14V34.7758C0.00592447 35.9598 0.751953 37.013 1.86667 37.4109V50.4C1.86667 51.9463 3.12038 53.2001 4.66667 53.2001H51.3333C52.8796 53.2001 54.1333 51.9463 54.1333 50.4V37.4118C55.248 37.0135 55.9945 35.9598 56 34.7758V14C56 12.4538 54.7463 11.2 53.2 11.2ZM16.8 7.46672C16.8 5.92043 18.0537 4.66672 19.6 4.66672H36.4C37.9463 4.66672 39.2 5.92043 39.2 7.46672V11.2H37.3333V7.46672C37.3333 6.95129 36.9154 6.53338 36.4 6.53338H19.6C19.0846 6.53338 18.6667 6.95129 18.6667 7.46672V11.2H16.8V7.46672ZM35.4667 11.2H20.5333V8.40005H35.4667V11.2ZM52.2667 50.4C52.2667 50.9155 51.8488 51.3334 51.3333 51.3334H4.66667C4.15124 51.3334 3.73333 50.9155 3.73333 50.4V37.7317L24.2667 40.5636V42.9334C24.2667 44.4797 25.5204 45.7334 27.0667 45.7334H28.9333C30.4796 45.7334 31.7333 44.4797 31.7333 42.9334V40.5636L52.2667 37.7317V50.4ZM29.8667 42.9334C29.8667 43.4488 29.4488 43.8667 28.9333 43.8667H27.0667C26.5512 43.8667 26.1333 43.4488 26.1333 42.9334V37.3334C26.1333 36.818 26.5512 36.4 27.0667 36.4H28.9333C29.4488 36.4 29.8667 36.818 29.8667 37.3334V42.9334ZM54.1333 34.7758C54.1338 35.2411 53.7915 35.6358 53.3308 35.701L53.0719 35.7365L31.7333 38.6791V37.3334C31.7333 35.7871 30.4796 34.5334 28.9333 34.5334H27.0667C25.5204 34.5334 24.2667 35.7871 24.2667 37.3334V38.6791L2.67012 35.701C2.20937 35.6362 1.86621 35.2416 1.86667 34.7758V14C1.86667 13.4846 2.28457 13.0667 2.8 13.0667H53.2C53.7154 13.0667 54.1333 13.4846 54.1333 14V34.7758Z" fill="#075256"/>
+                                            </g>
+                                            <defs>
+                                            <clipPath id="clip0_750_1075">
+                                            <rect width="56" height="56" fill="white"/>
+                                            </clipPath>
+                                            </defs>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="text-sm fw-bold mb-1">Career Level:</div>
+                                        <div class="text-sm text-muted">Senior-Level</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="me-3">
+                                        <div class="hero-loker-detail__widget-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="35" viewBox="0 0 40 40" fill="none">
+                                            <g clip-path="url(#clip0_750_1080)">
+                                                <path d="M39.6214 37.8238L29.2941 27.6615C31.9985 24.7233 33.6602 20.8374 33.6602 16.5614C33.6589 7.41419 26.1246 0 16.8299 0C7.53523 0 0.000976562 7.41419 0.000976562 16.5614C0.000976562 25.7085 7.53523 33.1227 16.8299 33.1227C20.8459 33.1227 24.5292 31.7337 27.4224 29.4244L37.7898 39.6267C38.295 40.1244 39.1151 40.1244 39.6203 39.6267C40.1266 39.1292 40.1266 38.3215 39.6214 37.8238ZM16.8299 30.5747C8.9656 30.5747 2.59035 24.3007 2.59035 16.5614C2.59035 8.82201 8.9656 2.54806 16.8299 2.54806C24.6943 2.54806 31.0695 8.82201 31.0695 16.5614C31.0695 24.3007 24.6943 30.5747 16.8299 30.5747Z" fill="#075256"/>
+                                            </g>
+                                            <defs>
+                                                <clipPath id="clip0_750_1080">
+                                                <rect width="40" height="40" fill="white"/>
+                                                </clipPath>
+                                            </defs>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="text-sm fw-bold mb-1">Qualification :</div>
+                                        <div class="text-sm text-muted">Bachelor's degree in Computer Science, Web Development or related field</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="me-3">
+                                        <div class="hero-loker-detail__widget-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="45" height="40" viewBox="0 0 56 56" fill="none">
+                                            <mask id="mask0_750_1088" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="56" height="56">
+                                                <path d="M0 3.8147e-06H56V56H0V3.8147e-06Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#mask0_750_1088)">
+                                                <path d="M54.3594 12.0313V20.125H1.64062V12.0313C1.64062 10.2189 3.10953 8.75 4.92187 8.75H51.0781C52.8905 8.75 54.3594 10.2189 54.3594 12.0313Z" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M10.5 13.125V4.375" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M28 13.125V4.375" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M45.5 13.125V4.375" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M12.25 28.875H15.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M12.25 35.875H15.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M12.25 42.875H15.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M26.25 28.875H29.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M26.25 35.875H29.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M26.25 42.875H29.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M40.25 28.875H43.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M40.25 35.875H43.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M40.25 42.875H43.75" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M51.0781 51.625H4.92187C3.10975 51.625 1.64062 50.1559 1.64062 48.3438V12.0313C1.64062 10.2191 3.10975 8.75 4.92187 8.75H51.0781C52.8902 8.75 54.3594 10.2191 54.3594 12.0313V48.3438C54.3594 50.1559 52.8902 51.625 51.0781 51.625Z" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="text-sm fw-bold mb-1">Years of Experience :</div>
+                                        <div class="text-sm text-muted">3+ years of experience in Web Development</div>
+                                    </div>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="me-3">
+                                        <div class="hero-loker-detail__widget-icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="40" viewBox="0 0 48 48" fill="none">
+                                            <mask id="mask0_750_1126" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+                                                <path d="M0 3.8147e-06H48V48H0V3.8147e-06Z" fill="white"/>
+                                            </mask>
+                                            <g mask="url(#mask0_750_1126)">
+                                                <path d="M11.3682 1.40625V6.83578C11.3682 17.929 24.0002 24 24.0002 24C24.0002 24 36.6322 17.929 36.6322 6.83578V1.40625H11.3682Z" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M24.0002 24C24.0002 24 11.3682 30.071 11.3682 41.1642V46.5938H36.6323V41.1642C36.6323 30.071 24.0002 24 24.0002 24Z" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M11.3681 1.40625H7.96777" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M36.6318 1.40625H40.0321" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M11.3681 46.5938H7.96777" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M36.6318 46.5938H40.0321" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M12.7549 13.0415H35.0986" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                <path d="M17.0607 40.5276L11.3682 46.5938H36.4861L30.7935 40.5276C27.074 36.5639 20.7803 36.5639 17.0607 40.5276Z" stroke="#075256" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                            </g>
+                                            </svg>
+                                        </div>
+                                    </div>
+                                    <div class="">
+                                        <div class="text-sm fw-bold mb-1">Available Until :</div>
+                                        <div class="text-sm text-muted">September 9, 2023</div>
+                                    </div>
+                                </div>
+                                <div class="text-sm fw-bold mb-1 mt-5">Skills Specialization :</div>
+                                <div class="badge-wrapper mt-2 pt-1 pb-2">
+                                    <div class="hero-loker-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Web Development</div>
+                                    <div class="hero-loker-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">HTML</div>
+                                    <div class="hero-loker-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">User Interface Design</div>
+                                    <div class="hero-loker-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">CSS</div>
+                                    <div class="hero-loker-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Front-End Development</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 mt-5 mb-4">
+                            <div class="fs-4 mb-0 fw-bold text-center mt-5 pt-4">Related Jobs</div>
                             <div class="hero-loker__slider d-flex grid-thumbnail">
                                 <div class="hero-loker__swiper-prev swiper-circle__navigation-prev d-flex align-items-center justify-content-center">
                                     <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
