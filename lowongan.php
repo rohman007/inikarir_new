@@ -859,12 +859,12 @@
             $(document).ready(function() {
                 $(".button-grid-thumbnail").click(function () {
                     $(".button-list-thumbnail").removeClass("button-active");
-                    $(".hero-loker-list__wrapper").addClass("grid-thumbnail"); // instead of this do the below 
+                    $(".hero-loker-list__wrapper").addClass("grid-thumbnail");
                     $(this).addClass("button-active");   
                 });
                 $(".button-list-thumbnail").click(function () {
                     $(".button-grid-thumbnail").removeClass("button-active");
-                    $(".hero-loker-list__wrapper").removeClass("grid-thumbnail"); // instead of this do the below 
+                    $(".hero-loker-list__wrapper").removeClass("grid-thumbnail");
                     $(this).addClass("button-active");   
                 });
             });
