@@ -161,6 +161,9 @@ fieldset[disabled] .btn-primary.active {
     left: 0;
     right: 0;
     transition: all .15s;
+    z-index: 1;
+}
+.sticky-header #header {
     z-index: 99999;
 }
 
@@ -174,7 +177,7 @@ fieldset[disabled] .btn-primary.active {
 
 #header .navbar {
     transition: all .15s;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 #header .navbar .navbar-collapse.show {
@@ -770,6 +773,22 @@ fieldset[disabled] .btn-primary.active {
     padding: 3px 7px;
     font-size: 13px;
 }
+section.search-loker .tags-input {
+    border: 0;
+    min-height: 0;
+    position: relative;
+}
+section.search-loker .suggest-tag {
+    position: relative;
+    top: 0;
+    margin: 0;
+}
+section.search-loker {
+    position: absolute;
+    width: 100%;
+    top: 118px;
+    z-index: 2;
+}
 
 
 
@@ -806,10 +825,12 @@ main#main.search-loker-page {
     display: block;
 }
 @media(max-width:767px){
+    section.search-loker{display: none;}
     .hero-job-search__logo {
         width: 70%;
         margin: 8vw auto -3vw;
     }
+    #header .navbar{background: #fff;}
 }
 
 
@@ -922,7 +943,7 @@ label[for="input-tag"]:before {
     position: relative;
     z-index: 1;
 } 
-.seggest-tag {
+.suggest-tag {
     position: absolute;
     top: 100%;
     margin-top: 13px;
@@ -1070,45 +1091,28 @@ a.button-save svg {
 }
 .circle-wrap {
     margin: 10px auto;
-    width: 90px;
-    height: 90px;
-    background: #BCCCBF;
-    border-radius: 50%;
-}
-.circle-wrap .circle .mask, .circle-wrap .circle .fill {
-    width: 90px;
-    height: 90px;
-    position: absolute;
-    border-radius: 50%;
-}
-.circle-wrap .circle .mask {
-    clip: rect(0px, 90px, 90px, 45px);
-}
-.circle-wrap .circle .mask.full, .circle-wrap .circle .fill {
-    animation: fill ease-in-out 0.7s;
-    /* transform: rotate(calc(180 * 0.7deg)); */
-
-}
-.circle-wrap .circle .mask .fill {
-    clip: rect(0px, 45px, 90px, 0px);
-    background-color: #16A799;
-}
-.circle-wrap .circle .mask {
-    clip: rect(0px, 90px, 90px, 45px);
+    width: 80px;
+    height: 80px;
+    position: relative;
 }
 .circle-wrap .inside-circle {
     width: 64px;
     height: 64px;
     border-radius: 50%;
-    background: #fff;
+    background: transparent;
     line-height: 64px;
     text-align: center;
-    margin-top: 13px;
-    margin-left: 13px;
+    margin-top: 9px;
+    margin-left: 9px;
     position: absolute;
-    z-index: 100;
     font-weight: 700;
     font-size: 1.2em;
+    top: 0;
+    z-index: 2;
+}
+.grid-thumbnail .circle-wrap svg {
+    width: 70px;
+    height: 70px;
 }
 /*grid thumbnail*/
 /* width */
@@ -1140,6 +1144,9 @@ a.button-save svg {
     max-height: 1000px;
     overflow-x: hidden;
     overflow-y: auto;
+}
+.fs-6 {
+    font-size: 13pt !important;
 }
 .grid-thumbnail .hero-loker-list__item {
     width: calc(33.3% - 20px);
@@ -1191,9 +1198,6 @@ a.button-save svg {
     bottom: 100%;
     left: 101px;
     margin-bottom: 1rem;
-}
-.fs-6 {
-    font-size: 13pt !important;
 }
 .grid-thumbnail .button-save {
     position: absolute;
@@ -1264,6 +1268,113 @@ ul.pagination.pagination-loker .page-link {
 ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker  .page-link.active {
     background: #075256;
     color: #fff;
+}
+@media(max-width:767px){
+    .hero-loker-list__item,.grid-thumbnail .hero-loker-list__item {
+        width: 100%;
+        padding-left: 24px !important;
+        padding-right: 24px !important;
+    }
+    .hero-loker-list__item {
+        width: 100%;
+        margin-top: 80px !important;
+        margin-bottom: 10px;
+        padding-bottom: 70px !important;
+    }
+    .hero-loker-list__item .col-sm-4 {
+        width: 100%;
+    }
+    .hero-loker-list__item .row {
+        display: block;
+    }
+    .hero-job-list__desc {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .loker-desc {
+        margin-bottom: 18px;
+        margin-top: 7px !important;
+    }
+    .hero-loker-list__company {
+        position: relative;
+        width: 100%;
+        display: block;
+        left: 0;
+        bottom: 0;
+        margin-bottom: 0;
+        margin-top: -7px;
+        display: flex;
+        align-items: center;
+    }
+    .hero-loker-list__company svg {
+        position: relative;
+        margin: 0 0 0 5px;
+        width: 20px;
+        height: 20px;
+    }
+    .company-name {
+        font-size: 13.5px;
+        color: #222 !important;
+    }
+    .loker-desc div.text-sm {
+        display: none;
+    }
+    .loker-date{display: none;}
+    .hero-loker-list__badge-wrapper {
+        position: absolute;
+        bottom: 100%;
+        left: 101px;
+        margin-bottom: 1rem;
+    }
+    .button-save {
+        position: absolute;
+        bottom: 0;
+        margin: 0;
+        right: 24px;
+    }
+    .button-apply {
+        width: calc(100% - 61px) !important;
+    }
+    .loker-percentage {
+        position: absolute;
+        top: -70px;
+        right: -7px;
+    }
+    .hero-loker-list__item-image {
+        width: 90px;
+        margin-top: -4.5rem !important;
+    }
+    .loker-percentage {
+        position: absolute;
+        top: -73px;
+        left: 127px;
+        width: 130px;
+    }
+    .circle-wrap {
+        width: 70px;
+        height: 70px;
+    }
+    .circle-wrap svg {
+        width: 70px;
+        height: 70px;
+    }
+    #header{z-index: 999;}
+    .hero-loker-list__wrapper{height: auto;}
+    .circle-wrap .inside-circle {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+        font-size: 12pt;
+    }
+    .loker-button {
+        position: absolute !important;
+        width: 100%;
+        bottom: 20px;
+        left: 0;
+        padding: 0 24px;
+    }
 }
 
 /**
@@ -1692,8 +1803,28 @@ WIDGET LOKER
     .hero-howto__item::after {
         display: none !important;
     }
+    nav .suggest-tag {
+        position: relative;
+    }
+    .tags-input {
+        position: relative;
+        flex-wrap: wrap;
+        width: 100%;
+        left: 0;
+        transform: translate(0);
+        margin: 0 0 20px;
+        border: 0;
+    }
+    .search-block {
+        border-bottom: 1px solid #ACB1C6;
+        padding-bottom: 4px;
+        margin-top: 20px;
+    }
 }
 
+@media (min-width: 768px) {
+    nav .suggest-tag{display: none !important;}
+}
 
 @media only screen and (min-width: 992px) {
     .navbar-brand > img {
