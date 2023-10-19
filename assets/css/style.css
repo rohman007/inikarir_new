@@ -830,6 +830,15 @@ main#main.search-loker-page {
         width: 70%;
         margin: 8vw auto -3vw;
     }
+    .hero-loker__slider {
+        margin: 0 -10px;
+    }
+    #hero-loker-detail .grid-thumbnail .loker-percentage {
+        right: 0 !important;
+    }
+    #hero-loker-detail .grid-thumbnail .hero-loker-list__badge-wrapper {
+        left: 100px !important;
+    }
     #header .navbar{background: #fff;}
 }
 
@@ -1277,9 +1286,13 @@ ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker
     }
     .hero-loker-list__item {
         width: 100%;
-        margin-top: 80px !important;
+        margin-top: 90px !important;
         margin-bottom: 10px;
         padding-bottom: 70px !important;
+    }
+    .hero-loker-widget {
+        margin-top: 70px;
+        padding: 0 20px;
     }
     .hero-loker-list__item .col-sm-4 {
         width: 100%;
@@ -1359,7 +1372,22 @@ ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker
         height: 70px;
     }
     #header{z-index: 999;}
-    .hero-loker-list__wrapper{height: auto;}
+    .hero-loker-list__wrapper {
+        max-height: none;
+    }
+    .button-grid-thumbnail, .button-list-thumbnail {
+        display: none;
+    }
+    .hero-loker-list__item-image {
+        width: 130px;
+    }
+    .loker-percentage {
+        left: auto !important;
+        right: 20px !important;
+    }
+    .hero-loker-list__badge-wrapper {
+        left: 145px !important;
+    }
     .circle-wrap .inside-circle {
         width: 50px;
         height: 50px;
@@ -1442,6 +1470,7 @@ WIDGET LOKER
     margin-bottom: 0;
     width: 70px;
     text-align: center;
+    right: 0;
     border-radius: 10px;
     padding: 8.5px 0 !important;
 }
@@ -1465,6 +1494,10 @@ WIDGET LOKER
 }
 .hero-loker-detail__widget-icon {
     width: 45px;
+}
+#hero-loker-detail .grid-thumbnail .loker-percentage {
+    top: -53px;
+    right: 0;
 }
 
 
