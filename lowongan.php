@@ -42,37 +42,36 @@
                     <a class="navbar-brand" href="#">
                         <img src="./assets/images/logo.png" alt="Ini Karir" />
                     </a>
-
+                    <div class="tags-input"> 
+                        <div class="position-relative search-block w-100 d-flex align-items-center flex-wrap">
+                            <ul id="tags"></ul> 
+                            <label for="input-tag">
+                                <input type="text" id="input-tag" placeholder="Search" /> 
+                            </label>
+                            <button type="submit" class="searchubmit border-0 position-absolute bottom-0 end-0 bg-white mb-2 me-2" value="Cari" fdprocessedid="dlf8pf">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 26 25" fill="none">
+                                <path d="M4.75872 24.5691L11.7871 17.5458L8.15297 13.9117L1.12457 20.94C0.547807 21.5168 0.547807 22.4662 1.12457 23.0429L2.65071 24.5691C3.23258 25.1459 4.18705 25.1459 4.75872 24.5691Z" fill="#ACB1C6"/>
+                                <path d="M9.7193 14.0702L11.6231 15.974L13.7924 13.8048C16.7477 15.8566 20.8412 15.5708 23.4749 12.9371C26.4302 9.98177 26.4302 5.17878 23.4749 2.21838C20.5196 -0.742013 15.7167 -0.736909 12.7563 2.21838C10.1225 4.85212 9.83669 8.94563 11.8886 11.9009L9.7193 14.0702ZM14.2467 3.68837C16.3904 1.54464 19.8663 1.54464 22.0049 3.68837C24.1487 5.83211 24.1487 9.30803 22.0049 11.4467C19.8612 13.5904 16.3853 13.5904 14.2467 11.4467C12.1029 9.30802 12.1029 5.83211 14.2467 3.68837Z" fill="#ACB1C6"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <!-- <div class="suggest-tag">
+                            <div class="all-delete">Clear All</div>
+                            <div class="text-sm fw-bold">Suggested  based on your search : </div>
+                            <ul id="suggest-tags">
+                                <li class="text-xs">Desainer<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
+                                <li>Part Time<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
+                                <li>Jakarta<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
+                            </ul>
+                            <div class="text-sm text-muted">Ditemukan 97 hasil pencarian</div>
+                        </div> -->
+                    </div> 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse" id="navbarSupportedContent">
                         <div class="container position-relative d-lg-flex px-0">
-                            <div class="tags-input"> 
-                                <div class="position-relative search-block w-100 d-flex align-items-center flex-wrap">
-                                    <ul id="tags"></ul> 
-                                    <label for="input-tag">
-                                        <input type="text" id="input-tag" placeholder="Search" /> 
-                                    </label>
-                                    <button type="submit" class="searchubmit border-0 position-absolute bottom-0 end-0 bg-white mb-2 me-2" value="Cari" fdprocessedid="dlf8pf">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="20" viewBox="0 0 26 25" fill="none">
-                                        <path d="M4.75872 24.5691L11.7871 17.5458L8.15297 13.9117L1.12457 20.94C0.547807 21.5168 0.547807 22.4662 1.12457 23.0429L2.65071 24.5691C3.23258 25.1459 4.18705 25.1459 4.75872 24.5691Z" fill="#ACB1C6"/>
-                                        <path d="M9.7193 14.0702L11.6231 15.974L13.7924 13.8048C16.7477 15.8566 20.8412 15.5708 23.4749 12.9371C26.4302 9.98177 26.4302 5.17878 23.4749 2.21838C20.5196 -0.742013 15.7167 -0.736909 12.7563 2.21838C10.1225 4.85212 9.83669 8.94563 11.8886 11.9009L9.7193 14.0702ZM14.2467 3.68837C16.3904 1.54464 19.8663 1.54464 22.0049 3.68837C24.1487 5.83211 24.1487 9.30803 22.0049 11.4467C19.8612 13.5904 16.3853 13.5904 14.2467 11.4467C12.1029 9.30802 12.1029 5.83211 14.2467 3.68837Z" fill="#ACB1C6"/>
-                                        </svg>
-                                    </button>
-                                </div>
-                                <div class="suggest-tag">
-                                    <div class="all-delete">Clear All</div>
-                                    <div class="text-sm fw-bold">Suggested  based on your search : </div>
-                                    <ul id="suggest-tags">
-                                        <li class="text-xs">Desainer<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
-                                        <li>Part Time<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
-                                        <li>Jakarta<button class="delete-button suggest-delete"><img src="assets/images/close-icon.png"></button></li>
-                                    </ul>
-                                    <div class="text-sm text-muted">Ditemukan 97 hasil pencarian</div>
-                                </div>
-                            </div> 
                             
                             <div class="ms-auto">
                                 <div class="header__cta d-flex gap-3 position-relative">
@@ -106,7 +105,7 @@
             <section id="hero-loker-list" class="hero-loker-list py-5">
                 <div class="container">
                     <div class="row">
-                        <div class="col-12 col-sm-12 co-md-8 col-lg-8">
+                        <div class="col-12 col-sm-12 co-md-9 col-lg-9">
                             <div class="hero-loker-list__heading text-center">
                                 <div class="d-flex align-items-center justify-content-end">
                                     <div class="button-grid-thumbnail me-2">
@@ -145,6 +144,7 @@
                             <div class="hero-loker-list__wrapper">
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -238,6 +238,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -331,6 +332,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -424,6 +426,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -517,6 +520,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -610,6 +614,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -703,6 +708,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -796,6 +802,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -889,6 +896,7 @@
                                 </div>
                                 <div class="hero-loker-list__item p-3 p-lg-4 mt-4">
                                     <div class="row">
+                                        <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
                                         <div class="flex-grow-1 pe-2 col-sm-4">
                                             <div class="position-relative">
                                                 <div class="hero-loker-list__item-image mb-3">
@@ -993,7 +1001,7 @@
                                 </ul>
                             </nav>
                         </div> <!-- /.col -->
-                        <div class="col-12 col-sm-12 col-md-4 col-lg-4 hero-loker-widget ps-md-5">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-3 hero-loker-widget ps-md-4">
                             <div class="hero-loker-widget__item-image mb-3 mx-auto">
                                 <div class="ratio ratio-1x1">
                                     <div>
@@ -1168,6 +1176,50 @@
                 </div> <!-- /.footer copyright -->
             </div> <!-- /.container -->
         </footer> <!-- /.footer -->
+
+
+        <!-- Overview-->
+        <div class="modal fade" id="overviewModal" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="overviewModal" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <div class="modal-body">
+                
+                    <div class="hero-loker-widget__item-image mb-3 mx-auto">
+                        <div class="ratio ratio-1x1">
+                            <div>
+                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="fw-bold fs-5 mb-2 text-center">Senior UI Designer</div>
+                    <div class="company-name text-sm text-muted text-center mb-4">Creative Solutions, Inc.</div>
+                    <hr/>
+                    <div class="text-muted text-sm mb-3 mt-4">Qualification : </div>
+                    <ul class=" text-sm mb-4">
+                        <li>A bachelor’s degree and 1 year experience.</li>
+                        <li>A portfolio of professional UI/UX design work for both web and mobile platforms.</li>
+                        <li>Excellent written and verbal communication skills.</li>
+                        <li>Multi-tasking and time-management skills, with the ability to prioritize tasks.</li>
+                    </ul>
+                    <hr/>
+                    <div class="text-muted text-sm mb-3 mt-4">Responsibilities & Duties :</div>
+                    <ul class=" text-sm">
+                        <li>Illustrate design ideas using storyboards, process flows, and sitemaps</li>
+                        <li>Develop UI mockups and prototypes that clearly illustrate how sites function and look like</li>
+                        <li>Identify and troubleshoot UX problems (e.g. responsiveness)</li>
+                        <li>Conduct layout adjustments based on user feedback.</li>
+                    </ul>
+                    <div class="hero-loker-widget__item-button d-flex justify-content-between align-items-center mt-5">
+                        <a href="#" class="btn btn-default button-readmore text-sm fw-bold d-block w-100 px-3 py-2 me-3">Read More</a>
+                        <a href="#" class="btn btn-primary button-apply text-sm fw-bold d-block w-100 px-3 py-2">Apply</a> 
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        <!-- End Overview-->
+
 
         <!-- Video.js -->
         <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>

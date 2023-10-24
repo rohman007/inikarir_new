@@ -47,7 +47,7 @@
                 </div>
                 <div class="container">
                     <div class="d-flex justify-content-center align-items-md-center row">
-                        <div class="col-12 col-md-6">
+                        <div class="col-12 col-md-6 col-lg-5">
                             <div class="hero-job-search__content">
                                 <div class="hero-job-search__lokal">
                                     <form action="[lokal_url]" method="POST">

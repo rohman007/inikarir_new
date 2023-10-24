@@ -164,7 +164,7 @@ fieldset[disabled] .btn-primary.active {
     z-index: 1;
 }
 .sticky-header #header {
-    z-index: 99999;
+    z-index: 999;
 }
 
 .sticky-header #header {
@@ -824,8 +824,41 @@ main#main.search-loker-page {
 .hero-job-search__lokal.active,.hero-job-search__global.active {
     display: block;
 }
+nav#navbar .tags-input {
+    margin-top: -10px;
+}
 @media(max-width:767px){
-    section.search-loker{display: none;}
+    section.search-loker {
+        position: relative;
+        padding: 0 15px;
+        margin-top: -38px;
+        margin-bottom: -20px;
+    }
+    nav#navbar .tags-input {
+        position: absolute;
+        width: calc(100% - 190px);
+        left: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        top: 50%;
+        margin: 0 !important;
+    }
+    button.searchubmit {
+        margin-right: 0 !important;
+        right: -3px !important;
+        position: fixed !important;
+        bottom: 5px !important;
+    }
+    nav#navbar .tags-input li {
+        display: flex;
+    }
+    nav#navbar .search-block {
+        margin: 0;
+        flex-wrap: nowrap !important;
+        overflow-x: auto;
+    }
+    nav#navbar .tags-input ul {
+        display: flex;
+    }
     .hero-job-search__logo {
         width: 70%;
         margin: 8vw auto -3vw;
@@ -1269,6 +1302,34 @@ ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker
     background: #075256;
     color: #fff;
 }
+
+#overviewModal button.btn-close {
+    position: absolute;
+    right: 6px;
+    top: 5px;
+    z-index: 2;
+}
+#overviewModal .modal-body {
+    padding: 40px 30px 30px;
+}
+#overviewModal .modal-content {
+    border: 0;
+}
+
+.hero-job-list__close-info {
+    z-index: 2;
+}
+button.overview-button {
+    background: transparent !important;
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    font-size: 0;
+    z-index: 1;
+}
 @media(max-width:767px){
     .hero-loker-list__item,.grid-thumbnail .hero-loker-list__item {
         width: 100%;
@@ -1306,6 +1367,7 @@ ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker
         display: flex;
         align-items: center;
     }
+    button.overview-button {display: block;}
     .hero-loker-list__company svg {
         position: relative;
         margin: 0 0 0 5px;
@@ -1359,7 +1421,10 @@ ul.pagination.pagination-loker .active>.page-link,ul.pagination.pagination-loker
         height: 70px;
     }
     #header{z-index: 999;}
-    .hero-loker-list__wrapper{height: auto;}
+    .hero-loker-list__wrapper {
+        max-height: none;
+    }
+    .hero-loker-widget{display: none;}
     .circle-wrap .inside-circle {
         width: 50px;
         height: 50px;
