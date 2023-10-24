@@ -828,6 +828,54 @@ nav#navbar .tags-input {
     margin-top: -10px;
     z-index: 2;
 }
+button.searchubmit {
+    margin-right: 0 !important;
+    right: -3px !important;
+    position: fixed !important;
+    /* background: transparent !important; */
+    top: 0;
+    /* transform: translateY(-50%); */
+    margin: 0 !important;
+    height: calc(100% - 7px);
+}
+nav#navbar .tags-input li {
+    display: flex;
+}
+nav#navbar .search-block {
+    margin: 0;
+    flex-wrap: nowrap !important;
+    overflow-x: auto;
+}
+nav#navbar .tags-input ul {
+    display: flex;
+}
+@media(min-width:768px){
+    button.searchubmit{height:100%}
+    /* width */
+    nav#navbar .search-block::-webkit-scrollbar {
+        width: 8px;
+        height: 5px;
+        border-radius: 10px;
+        margin-bottom:-10px;
+    }
+
+    /* Track */
+    nav#navbar .search-block::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+        border-radius: 10px;
+    }
+
+    /* Handle */
+    nav#navbar .search-block::-webkit-scrollbar-thumb {
+        background: #888; 
+        border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    nav#navbar .search-block::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+    }
+}
 @media(max-width:767px){
     section.search-loker {
         position: relative;
@@ -842,23 +890,6 @@ nav#navbar .tags-input {
         transform: translateX(-50%) translateY(-50%);
         top: 50%;
         margin: 0 !important;
-    }
-    button.searchubmit {
-        margin-right: 0 !important;
-        right: -3px !important;
-        position: fixed !important;
-        bottom: 5px !important;
-    }
-    nav#navbar .tags-input li {
-        display: flex;
-    }
-    nav#navbar .search-block {
-        margin: 0;
-        flex-wrap: nowrap !important;
-        overflow-x: auto;
-    }
-    nav#navbar .tags-input ul {
-        display: flex;
     }
     .hero-job-search__logo {
         width: 70%;
