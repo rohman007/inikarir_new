@@ -863,6 +863,15 @@ nav#navbar .tags-input {
         width: 70%;
         margin: 8vw auto -3vw;
     }
+    .hero-loker__slider {
+        margin: 0 -10px;
+    }
+    #hero-loker-detail .grid-thumbnail .loker-percentage {
+        right: 0 !important;
+    }
+    #hero-loker-detail .grid-thumbnail .hero-loker-list__badge-wrapper {
+        left: 100px !important;
+    }
     #header .navbar{background: #fff;}
 }
 
@@ -1338,9 +1347,13 @@ button.overview-button {
     }
     .hero-loker-list__item {
         width: 100%;
-        margin-top: 80px !important;
+        margin-top: 90px !important;
         margin-bottom: 10px;
         padding-bottom: 70px !important;
+    }
+    .hero-loker-widget {
+        margin-top: 70px;
+        padding: 0 20px;
     }
     .hero-loker-list__item .col-sm-4 {
         width: 100%;
@@ -1425,6 +1438,19 @@ button.overview-button {
         max-height: none;
     }
     .hero-loker-widget{display: none;}
+    .button-grid-thumbnail, .button-list-thumbnail {
+        display: none;
+    }
+    .hero-loker-list__item-image {
+        width: 130px;
+    }
+    .loker-percentage {
+        left: auto !important;
+        right: 20px !important;
+    }
+    .hero-loker-list__badge-wrapper {
+        left: 145px !important;
+    }
     .circle-wrap .inside-circle {
         width: 50px;
         height: 50px;
@@ -1498,6 +1524,21 @@ WIDGET LOKER
     box-shadow: 4px 8px 25px 0px rgba(0, 0, 0, 0.10);
     padding: 30px 30px 15px;
 }
+.hero-loker__swiper-prev {
+    position: absolute;
+    top: 50%;
+    left: -40px;
+    margin-top: -18px;
+}
+.hero-loker__swiper-next {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    margin-top: -18px;
+}
+.hero-loker__slider{
+    position: relative;
+}
 .hero-loker-detail__widget .button-apply {
     padding: 10px 0 !important;
     border-radius: 10px !important;
@@ -1507,6 +1548,7 @@ WIDGET LOKER
     margin-bottom: 0;
     width: 70px;
     text-align: center;
+    right: 0;
     border-radius: 10px;
     padding: 8.5px 0 !important;
 }
@@ -1531,7 +1573,24 @@ WIDGET LOKER
 .hero-loker-detail__widget-icon {
     width: 45px;
 }
-
+#hero-loker-detail .grid-thumbnail .loker-percentage {
+    top: -53px;
+    right: 0;
+}
+@media(max-width:767px){
+    .hero-loker__swiper-next {
+        position: relative;
+        top: 0;
+        margin: 0;
+        right: 0;
+    }
+    .hero-loker__swiper-prev {
+        position: relative;
+        top: 0;
+        margin: 0;
+        left: 0;
+    }
+}
 
 /**
  * HERO TOP COMPANY
