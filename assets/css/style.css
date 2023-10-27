@@ -1104,9 +1104,9 @@ button.delete-button:before {
     left: 0px;
 }
 .hero-loker-list__item:hover {
-    box-shadow: 7px 7px 0px 0px #e7eeef !important;
     top: -4px;
     left: -4px;
+    box-shadow: 6px 2px 15px 0px rgba(0, 0, 0, 0.15); 
 }
 .hero-loker-list__item-image {
     width: 90px;
