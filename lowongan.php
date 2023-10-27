@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="https://aafarma.id/js/tokeninput/token-input.css" type="text/css" />
         <link rel="stylesheet" href="https://aafarma.id/js/tokeninput/token-input-facebook.css" type="text/css" />
-        <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style.css?v=1" />
 
 
         <!-- Favicons -->

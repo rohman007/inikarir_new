@@ -839,15 +839,17 @@ button.searchubmit {
     height: calc(100% - 7px);
 }
 nav#navbar .tags-input li {
-    display: flex;
+    /* display: flex; */
 }
 nav#navbar .search-block {
     margin: 0;
-    flex-wrap: nowrap !important;
-    overflow-x: auto;
+    /* flex-wrap: nowrap !important; */
+    /* overflow-x: auto; */
+    overflow-y: auto;
+    height: 35px;
 }
 nav#navbar .tags-input ul {
-    display: flex;
+    /* display: flex; */
 }
 @media(min-width:768px){
     button.searchubmit{height:100%}
