@@ -152,7 +152,6 @@
                                     </div>
                                 </div>
                             </div>
-                            
                             <div class="profile-change-password mb-5">
                                 <a href="#"><img src="assets/images/lock-icon.svg"> Change Password</a>   
                             </div>
@@ -252,7 +251,156 @@
                             </div> <!-- /.swiper -->
                         </div>
                         <div class="col-12 col-sm-12 co-md-9 col-lg-9 profile-page_data ps-md-4">
-                            
+                            <div class="profile-page_data-menu d-sm-flex align-items-center justify-content-between">
+                                <ul class="d-flex flex-wrap list-unstyled m-0">
+                                    <li class="active ms-4"><a href="#">Dashboard</a></li>
+                                    <li class="ms-4"><a href="#">Profile</a></li>
+                                    <li class="ms-4"><a href="#">Application Status</a></li>
+                                    <li class="ms-4"><a href="#">Personality Test</a></li>
+                                </ul>
+                                <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
+                            </div>
+                            <div class="profile-page_data-information mb-4">
+                                <label class="">PROFILE INFORMATION</label> 
+                                <h2>You currently <span class="fw-bold">80% completed</span></h2>
+                                <div class="bar-information-block d-flex align-items-center justify-content-between">
+                                    <img src="assets/images/icon-base.svg">
+                                    <div class="bar-information">
+                                        <div style="width:80%"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-page_data-summary">
+                                <h2 class="">Application Summary</h2>
+                                <div class="row justify-content-between align-items-center" >
+                                    <div class="col-sm-5 position-relative">
+                                        <canvas id="application-summary"></canvas>
+                                    </div>
+                                    <div class="col-sm-6 text-muted mt-4 mt-sm-0">
+                                        <h3>Total Apply</h3>
+                                        <div class="total-apply">
+                                            <span>67</span> Job Vacancy
+                                        </div>
+                                        <div class="legend-summary">
+                                            <div class="row">
+                                                <div class="col-sm-12 submitted d-flex align-items-center mb-2">
+                                                    <div class="color-legend"></div> Submitted
+                                                </div>
+                                                <div class="col-sm-6 processing d-flex align-items-center mb-2">
+                                                    <div class="color-legend"></div> Processing
+                                                </div>
+                                                <div class="col-sm-6 rejected d-flex align-items-center mb-2">
+                                                    <div class="color-legend"></div> Rejected
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-sm-6 pe-md-3">
+                                    <div class="profile-page_data-submitted mb-4">
+                                        <h3 class="">Recently Submitted</h3> 
+                                        <ol class="m-0">
+                                            <li class="d-flex align-items-center">
+                                                <div>
+                                                    <div class="fw-bold">Senior UI/UX Designer</div>
+                                                    <div class="text-sm text-muted">Google, Inc</div>
+                                                <div>
+                                            </li>
+                                            <li class="d-flex align-items-center">
+                                                <div>
+                                                    <div class="fw-bold">Senior UI/UX Designer</div>
+                                                    <div class="text-sm text-muted">Google, Inc</div>
+                                                <div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 ps-md-3">
+                                    <div class="profile-page_data-submitted mb-4">
+                                        <h3 class="">Recently Bookmarked</h3> 
+                                        <ol class="m-0">
+                                            <li class="d-flex align-items-center">
+                                                <div>
+                                                    <div class="fw-bold">Senior UI/UX Designer</div>
+                                                    <div class="text-sm text-muted">Google, Inc</div>
+                                                <div>
+                                            </li>
+                                            <li class="d-flex align-items-center">
+                                                <div>
+                                                    <div class="fw-bold">Senior UI/UX Designer</div>
+                                                    <div class="text-sm text-muted">Google, Inc</div>
+                                                <div>
+                                            </li>
+                                        </ol>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="title-section mb-4 mt-3">
+                                <h2>Strength and Personality</h2>
+                            </div>
+                            <div class="row align-items-start">
+                                <div class="col-sm-6 pe-md-3 mb-4">
+                                    <div class="card profile-page_data-papikostick">
+                                        <div class="card-header d-flex justify-content-between align-items-center">
+                                            <div class="">
+                                                <div class="fw-500">PAPIKOSTICK</div>
+                                                <div class="text-sm text-muted">Psychology Test</div>
+                                            </div>
+                                            <div class="icon-card-header">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                                <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
+                                                <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
+                                                <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                        <canvas id="papikostick"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6 ps-md-3 mb-4">
+                                    <div class="card profile-page_data-disc-summary">
+                                        <div class="card-header d-flex justify-content-between align-items-center">
+                                            <div class="">
+                                                <div class="fw-500">PAPIKOSTICK</div>
+                                                <div class="text-sm text-muted">Psychology Test</div>
+                                            </div>
+                                            <div class="icon-card-header">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                                <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
+                                                <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
+                                                <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
+                                                </svg>
+                                            </div>
+                                        </div>
+                                        <div class="card-body">
+                                        <canvas id="disc-summary"></canvas>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card profile-page_data-disc">
+                                <div class="card-header d-flex justify-content-between align-items-center">
+                                    <div class="">
+                                        <div class="fw-500">DISC</div>
+                                        <div class="text-sm text-muted">Personality System Graph</div>
+                                    </div>
+                                    <div class="icon-card-header">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                        <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
+                                        <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
+                                        <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <div class="card-body p-4">
+                                    <canvas id="disc" style="height:40vh; width:100%"></canvas>
+                                </div>
+                            </div>
+                            <a href="#" class="btn btn-primary w-100 py-3 text-sm fw-bold mt-5">More Detail</a>
                         </div> <!-- /.col -->
                         
                     </div> <!-- /.row -->
@@ -453,7 +601,189 @@
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script src="./assets/vendor/fullpage/fullpage.min.js"></script>
         <script src="./assets/js/functions.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0-rc"></script>
         <script>
+            const ctx = document.getElementById('application-summary');
+            Chart.register(ChartDataLabels);
+            new Chart(ctx, {
+                type: 'doughnut',
+                data: {
+                    labels: ['Submitted', 'Processing', 'Rejected'],
+                    datasets: [
+                        {
+                            data: [21, 31, 15],
+                            backgroundColor: ["#bacabd","#075257","#fd0100"],
+                        },
+                    ],
+                },
+                options: {
+                    layout: {
+                        padding: {
+                            bottom: 20 // Adjust the value as needed
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        datalabels: {
+                            display: true,
+                            backgroundColor: '#fff',
+                            anchor: 'end',
+                            borderRadius: 100,
+                            color: '#000',
+                            fontSize:20,
+                            weight: 'bold',
+                            font: {
+                                size: 26,
+                                family:'Poppins, sans-serif'
+                            },
+                            padding: {
+                                top: 12, // Controls the top padding of the data label
+                                bottom: 8, // Controls the bottom padding of the data label
+                                left: 14, // Controls the left padding of the data label
+                                right: 14 // Controls the right padding of the data label
+                            },
+                            borderWidth: 1, // Border width
+                                borderColor: 'rgba(0, 0, 0, 0.1)' // Border color
+                        },
+                    },
+                },
+            });
+
+            
+            const discsummary = document.getElementById('disc-summary');
+            Chart.register(ChartDataLabels);
+            new Chart(discsummary , {
+                type: 'pie',
+                data: {
+                    labels: ['Compliance', 'Dominance', 'Influence', 'Steadlines'],
+                    datasets: [
+                        {
+                            data: [21, 31, 15, 30],
+                            backgroundColor: ["#fd0100","#ffb700","#bacabd","#075257",],
+                        },
+                    ],
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'right',
+                        },
+                        datalabels: {
+                            display: false,
+                        },
+                    },
+                },
+            });
+            
+            const disc = document.getElementById('disc');
+            Chart.register(ChartDataLabels);
+            new Chart(disc, {
+                type: 'line',
+                data: {
+                    labels: ['D', 'I', 'S', 'C'],
+                    datasets: [
+                        {
+                            data: [-10, -10, 10, 5],
+                            backgroundColor: ["#075257"],
+                            borderColor: '#075257',
+                            pointBackgroundColor: '#075257',
+                            pointBorderColor: '#075257',   
+                            label:'Mask Public Self', 
+                        },
+                        {
+                            data: [30, -60, 10, 50],
+                            backgroundColor: ["#feb800"],
+                            borderColor: '#feb800',
+                            pointBackgroundColor: '#feb800',
+                            pointBorderColor: '#feb800', 
+                            label:'Core Private Self',    
+                        },
+                        {
+                            data: [5, -30, 10, 40],
+                            backgroundColor: ["#f90000"],
+                            borderColor: '#f90000',
+                            pointBackgroundColor: '#f90000',
+                            pointBorderColor: '#f90000',    
+                            label:'Mirror Perceived Self', 
+                        },
+                    ],
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                        },
+                        datalabels: {
+                            display: false,
+                        },
+                    },
+                    scales: {
+                        x: {
+                            offset: true, // Add space on both sides of the x-axis
+                        },
+                        y: {
+                            beginAtZero: true,
+                            
+                            offset: true, // Add space on both sides of the x-axis
+                        }
+                    }
+                },
+            });
+            const papikostick = document.getElementById('papikostick');
+            Chart.register(ChartDataLabels);
+            new Chart(papikostick, {
+                type: 'radar',
+                data: {
+                    labels: [
+                        'Work Direction',
+                        'Leadership',
+                        'Activity',
+                        'Social Nature',
+                        'Work Style',
+                        'Temprament',
+                        'Followeship'
+                    ],
+                    datasets: [{
+                        label: '',
+                        data: [65, 59, 90, 81, 56, 55, 40],
+                        fill: true,
+                        backgroundColor: 'rgb(7 82 87 / 30%)',
+                        borderColor: '#075257',
+                        pointBackgroundColor: '#075257',
+                        pointBorderColor: '#075257',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#075257',
+                        pointColor: '#f00'
+                    }]
+                },
+                options: {
+                    elements: {
+                        line: {
+                            borderWidth: 2
+                        },
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        datalabels: {
+                            display: false,
+                        },
+                    },
+                    scales: {
+                        r: {
+                            ticks: {
+                            display: false // Hides the labels in the middel (numbers)
+                            }
+                        }
+                    }
+                },
+            });
             document.addEventListener('click', function(event) {
                 var inputElement = document.getElementById("input-tag");
                 var otherDivElement = document.getElementById("suggest-loker");

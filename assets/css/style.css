@@ -1576,7 +1576,7 @@ WIDGET LOKER
 }
 .profile-short {
     background: #FFF;
-    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.10));
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
     padding: 60px 25px 20px;
     border-radius: 20px;
     margin-top: 8px;
@@ -1645,7 +1645,7 @@ a.edit-icon img {
     text-align: center;
 }
 .hero-event__heading_single h3 {
-    font-size: 1rem;
+    font-size: 11pt;
     text-transform: uppercase;
     margin: 0;
 }
@@ -1701,7 +1701,7 @@ a.edit-icon img {
     margin-top: 0px;
 }
 .hero-event__item {
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.10);
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 0 16px 20px;
@@ -1717,8 +1717,266 @@ a.edit-icon img {
     margin: 0 -15px;
     width: calc(100% + 30px);
 }
+.profile-page_data-menu ul a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+    padding: 9px 0;
+    border-bottom: 2px solid transparent;
+}
 
+.profile-page_data-menu ul .active a {
+    color:#075256;
+    border-color: #075256;
+    font-weight: bold;
+}
+.logout-button{
+    padding: 12px 33px;
+}
+.hero-event__heading_single h3 {
+    font-size: 11pt;
+    text-transform: uppercase;
+    margin: 0;
+}
+.profile-page_data-information label {
+    font-size: 13pt;
+    letter-spacing: 3px;
+}
+.profile-page_data-information {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
+    padding: 35px 50px;
+    margin-top: 40px;
+}
+.profile-page_data-information h2 {
+    font-size: 18pt;
+    font-weight: normal;
+    margin-top: 15px;
+}
+.bar-information {
+    width: 100%;
+    height: 14px;
+    border-radius: 50px;
+    background: #E7EEEF;
+    margin-top: 2px;
+    position: relative;
+}
+.bar-information div {
+    position: absolute;
+    height: 100%;
+    border-radius: 20px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.10) 0%, rgba(0, 0, 0, 0.00) 100%), #43B38E;
+    top: 0;
+    left: 0;
+}
+.bar-information-block img {
+    width: 42px;
+    margin-right: 15px;
+}
+.profile-page_data-summary {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
+    padding: 35px 50px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.profile-page_data-summary h2 {
+    font-weight: 600;
+    font-size: 24pt;
+    color: #000;
+    margin-bottom: 40px;
+}
+.profile-page_data-summary h3 {
+    font-size: 19pt;
+}
+.total-apply {
+    font-size: 26pt;
+}
+.total-apply span {
+    color: #000;
+    font-weight: bold;
+    font-size: 50pt;
+}
+.legend-summary {
+    font-size: 15pt;
+}
+.legend-summary .color-legend {
+    background: #f00;
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.legend-summary .submitted .color-legend {background: #bacabd;}
+.legend-summary .processing .color-legend {background: #075257;}
+.legend-summary .rejected .color-legend {background: #fd0100;}
+.profile-page_data-summary .col-sm-5:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% - 20px);
+    padding-top: calc(100% - 20px);
+    background: #f8f8f8;
+    border-radius: 100%;
+    top: calc(50% - 10px);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.profile-page_data-summary canvas{
+    position: relative;
+    z-index: 2;
+}
+.profile-page_data-summary .col-sm-5:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(50% - 30px);
+    padding-top: calc(50% - 30px);
+    background: #fff;
+    border-radius: 100%;
+    top: calc(50% - 10px);
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
 
+}
+.profile-page_data-submitted {
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
+    padding: 30px 35px;
+}
+.profile-page_data-submitted h3 {
+    font-size: 17pt;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* Custom styles for the ordered list */
+.profile-page_data-submitted ol {
+    counter-reset: my-counter; /* Reset the counter for each ol element */
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+}
+
+.profile-page_data-submitted ol li {
+    counter-increment: my-counter; /* Increment the counter for each li element */
+    margin-bottom: 10px; /* Adjust spacing between list items */
+}
+
+.profile-page_data-submitted ol li:last-child {margin: 0;}
+
+.profile-page_data-submitted ol li::before {
+    content: counter(my-counter) ". ";
+    font-weight: bold;
+    margin-right: 25px;
+    width: 25px;
+    text-align: right;
+}
+.title-section h2 {
+    font-weight: 600;
+    color: #000;
+    font-size: 25pt;
+    display: inline-block;
+    background: #fff;
+    position: relative;
+    padding-right: 30px;
+}
+.title-section {
+    position: relative;
+}
+.title-section:before {
+    content: "";
+    height: 1px;
+    background: #ccc;
+    position: absolute;
+    top: 50%;
+    width: calc(100% - 40px);
+}
+.title-section:after {
+    content: "";
+    border-top: 15px solid #075256;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-radius: 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    margin-top: -7px;
+}
+.card.profile-page_data-papikostick,.card.profile-page_data-disc-summary,.card.profile-page_data-disc{
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
+    border-radius: 20px;
+    margin-top: 15px;
+    border: 0;
+    overflow: hidden;
+}
+.card.profile-page_data-papikostick .card-header,.card.profile-page_data-disc-summary .card-header,.card.profile-page_data-disc .card-header {
+    background: #fff;
+    padding: 20px 36px;
+}
+.card.profile-page_data-papikostick .card-body {
+    padding: 0 20px;
+    position: relative;
+    padding-top: 80%;
+}
+canvas#papikostick {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+}
+.card.profile-page_data-disc-summary .card-body {
+    padding: 0 50px;
+    position: relative;
+    padding-top: 60%;
+}
+canvas#disc-summary {
+    position: absolute;
+    /* width: 80% !important; */
+    /* height: 100% !important; */
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+@media(max-width:767px){
+    .title-section h2 {
+        font-size: 17pt;
+    }
+    .title-section:after {
+        content: "";
+        border-top: 12px solid #075256;
+        border-left: 8px solid transparent;
+        border-right: 8px solid transparent;
+    }
+    .profile-page_data-summary {
+        padding: 25px 30px;
+    }
+    .profile-page_data-summary h2 {
+        font-size: 19pt;
+    }
+    .profile-page_data-information{
+        padding: 25px 30px;
+    }
+    .profile-page_data-menu ul a{
+        display: block;
+    }
+    .profile-page_data-menu li {
+        width: 100%;
+        margin: 0 0 10px !important;
+        padding: 0 10px;
+    }
+    .total-apply {
+        font-size: 22pt;
+    }
+    .legend-summary {
+        font-size: 14pt;
+    }
+    .total-apply span {
+        font-size: 46pt;
+    }
+    
+}
 
 /**
     LOKER DETAIL
