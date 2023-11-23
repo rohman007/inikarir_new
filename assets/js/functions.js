@@ -234,6 +234,47 @@ const swiperLoker = new Swiper('.hero-loker__slider-swiper', {
     }
 });
 
+/**
+ * HERO ARTICLE SLIDER
+ */
+const swiperArticleSingle = new Swiper('.hero-event__swiper-single', {
+    // Optional parameters
+    loop: false,
+    autoHeight: true, //enable auto height
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.hero-event__single-next',
+        prevEl: '.hero-event__single-prev',
+    },
+    pagination: {
+        el: '.hero-event__pagination-single',
+        renderBullet: function (index, className) {
+          return '<span class="' + className + '"></span>';
+        },
+    },
+
+    // Default parameters
+    slidesPerView: 1,
+    spaceBetween: 0,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        },
+        // when window width is >= 640px
+        768: {
+            slidesPerView: 1,
+            spaceBetween: 0
+        }
+    }
+});
 
 /**
  * HERO ARTICLE SLIDER

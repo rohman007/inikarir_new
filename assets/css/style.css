@@ -1526,6 +1526,183 @@ WIDGET LOKER
 
 
 
+
+
+
+/*PROFILE*/
+.profile-cover {
+    border-radius: 20px;
+    background: #e6eef0;
+    /* overflow: hidden; */
+    height: 225px;
+    position: relative;
+    z-index: 1;
+}
+.profile-cover > img {
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+.profile-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
+.profile-photo {
+    padding: 6px;
+    width: 140px;
+    height: 140px;
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 25px;
+    transform: translateY(-60%);
+    border-radius: 50%;
+    background: #fff;
+    box-shadow: 0 -2px 5px #00000017 inset;
+}
+.profile-photo:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: calc(100% - 12px);
+    height: calc(100% - 12px);
+    top: 6px;
+    left: 6px;
+    background: #e6eef0;
+    border-radius: 50%;
+}
+.profile-short {
+    background: #FFF;
+    filter: drop-shadow(0px 0px 15px rgba(0, 0, 0, 0.10));
+    padding: 60px 25px 20px;
+    border-radius: 20px;
+    margin-top: 8px;
+}
+a.edit-icon img {
+    height: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+}
+.profile-available img {
+    vertical-align: sub;
+    width: 20px;
+}
+.profile-available {
+    color: #268d61;
+}
+.profile-professional_list-icon img {
+    width: 25px;
+}
+.profile-professional_list-icon  {
+    width: 30px;
+}
+.fw-500 {
+    font-weight: 500;
+}
+.profile-skill_list > div {
+    color: #075256;
+    border-radius: 30.561px;
+    background: rgba(7, 82, 86, 0.10);
+    display: inline-block;
+    padding: 5px 13px;
+    font-size: 13px;
+    margin-bottom: 7px;
+}
+.profile-skill_list a.add-skill {
+    color: #075256;
+    border-radius: 30.561px;
+    background: rgba(7, 82, 86, 0.10);
+    display: inline-block;
+    font-size: 18px;
+    margin-bottom: 7px;
+    text-decoration: none;
+    width: 29.5px;
+    padding: 2px 0;
+    height: 29.5px;
+    text-align: center;
+}
+.profile-change-password img {
+    width: 25px;
+    position: relative;
+    top: -3px;
+    margin-right: 3px;
+}
+.profile-change-password a:hover {
+    color:#075256
+}
+.profile-change-password a {
+    text-decoration: none;
+    color: #111;
+    width: 100%;
+    display: block;
+    padding: 10px;
+}
+.profile-change-password {
+    text-align: center;
+}
+.hero-event__heading_single h3 {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin: 0;
+}
+.hero-event__heading_single .hero-event__navigation .next,.hero-event__heading_single .hero-event__navigation .prev {
+    border: 2px solid #e5e5e5;
+    width: 26px;
+    height: 26px;
+}
+.hero-event__heading_single .hero-event__navigation .next path,.hero-event__heading_single .hero-event__navigation .prev path{
+    fill: #e5e5e5;
+}
+.hero-event__heading_single .hero-event__navigation .prev:not(.swiper-button-disabled) path,.hero-event__heading_single .hero-event__navigation .next:not(.swiper-button-disabled) path {
+    fill: var(--ik-primary-color) !important
+}
+.hero-event__heading_single .hero-event__navigation .next:not(.swiper-button-disabled), .hero-event__heading_single .hero-event__navigation .prev:not(.swiper-button-disabled) {
+    border-color: var(--ik-primary-color);
+}
+.hero-event__item h4 {
+    font-size: 12pt !important;
+}
+.hero-event__item > div:last-child span {
+    color: #075256;
+    font-weight: 500;
+}
+.hero-event__item-category{
+    color: #075256;
+}
+.hero-event__item-date {
+    background: #fff;
+    position: absolute;
+    top: 10px;
+    width: auto;
+    height: auto;
+    left: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 10px !important;
+    line-height: 1.2;
+    padding: 6px;
+    font-weight: 500;
+    color: #075256;
+}
+.hero-event__item-date span {
+    display: block;
+}
+.hero-event__item-date span:nth-child(1) {
+    color: #000;
+}
+.hero-event__item-date span:nth-child(2) {
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 0.8;
+    margin-top: 0px;
+}
+
+
+
 /**
     LOKER DETAIL
 **/
