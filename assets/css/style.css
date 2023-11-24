@@ -1939,6 +1939,86 @@ canvas#disc-summary {
     left: 10%;
     transform: translateY(-50%);
 }
+.bar-aplication-status {
+    background: #90a4ad;
+    height: 4px;
+    position: relative;
+    border-radius: 25px;
+    margin-bottom: 4px;
+}
+.bar-aplication-status div {
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #16a79a;
+    border-radius: 20px;
+}
+.aplication-status label{position: relative;}
+.aplication-status input:checked{opacity: 0;}
+.aplication-status input:checked ~ .custom-radio {
+    width: 14px;
+    border: 5px solid #16a79a;
+    height: 14px;
+    border-radius: 50%;
+    position: absolute;
+    left: -0.5px;
+    background: #fff;
+    top: 2.5px;
+}
+.status-loker div {
+    width: 70px;
+    height: 5px;
+    background: #a81f17;
+    border-radius: 10px;
+    margin: 15px auto 15px;
+}
+.green-status div{
+    background: #16a798;
+}
+.add-button-border span {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: #e5e5e5;
+    border-radius: 50%;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    color: #0b6b62;
+}
+.add-button-border {
+    border: 2px dashed #218388;
+    width: 100%;
+    display: flex;
+    border-radius: 10px;
+    text-decoration: none;
+    padding-top: 60%;
+    position: relative;
+}
+section#profile-page .hero-loker-list__wrapper {
+    max-height: none;
+    overflow: unset;
+    margin: 0 -15px !important;
+}
+section#profile-page .hero-loker-list__item {
+    width: 100% !important;
+    margin-left: 0;
+    margin-right: 0;
+}
+section#profile-page #list-application .hero-loker-list__item {
+    padding-bottom: 10px !important;
+}
+section#profile-page #list-history .hero-loker-list__item {
+    padding-bottom: 10px !important;
+}
+section#profile-page .hero-loker-list__wrapper > .col-sm-4 {
+    display: flex;
+}
 @media(max-width:767px){
     .title-section h2 {
         font-size: 17pt;
