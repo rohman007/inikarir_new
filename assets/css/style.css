@@ -1873,8 +1873,11 @@ a.edit-icon img {
     width: 25px;
     text-align: right;
 }
+.title-section-default h2 {
+    font-weight: 700 !important;
+}
 .title-section h2 {
-    font-weight: 600;
+    font-weight: 700 !important;
     color: #000;
     font-size: 25pt;
     display: inline-block;
@@ -2019,7 +2022,120 @@ section#profile-page #list-history .hero-loker-list__item {
 section#profile-page .hero-loker-list__wrapper > .col-sm-4 {
     display: flex;
 }
+.profile-data_list:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background: #467d80;
+    border-radius: 2px;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.profile-data_list {
+    padding-left: 50px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.profile-data_list .fs-4 {
+    font-size: 18pt !important;
+    font-weight: 600;
+}
+.profile-data{
+    position: relative;
+}
+.profile-data:before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: calc(100% - 10px);
+    top: 0;
+    border-left: 1px dashed #075256;
+    left: 15.5px;
+}
+.profile-data_list:first-child:after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 10px;
+    height: 50%;
+    background: #fff;
+    left: 11px;
+    top: -6px;
+}
+a.profile-data_add-button {
+    text-decoration: none;
+    color: #075256;
+    font-weight: 500;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgb(7 82 86 / 10%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+span.bullet {
+    width: 3px;
+    height: 3px;
+    background: #000;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    top: -1px;
+}
+.profile-sosmed a {
+    background: rgb(7 82 86 / 10%);
+    width: 39px;
+    display: flex;
+    height: 38px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+.category-portfolio div {
+    background: rgb(7 82 86 / 10%);
+    color: #075256;
+    font-weight: 500;
+    padding: 4px 10px;
+    border-radius: 7px;
+    margin-right: 5px;
+}
+.portfolio-photo {
+    background: #e5edee;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.profile-profile-data_portfolio-list {
+    box-shadow: 0px 0px 15px -2px rgba(0, 0, 0, 0.10);
+    border-radius: 15px;
+    padding: 20px 17px;
+}
+.icon-option {
+    position: relative;
+    right: -10px;
+}
+.portfolio-photo img {
+    object-fit: cover;
+}
+.profile-data_list {
+    padding-left: 40px;
+}
+.profile-data_list-action {
+    background: rgb(7 82 86 / 10%);
+    border-radius: 10px;
+    display: inline-block;
+    padding: 17px 15px;
+}
 @media(max-width:767px){
+    .profile-data_list .fs-4 {
+        font-size: 15pt !important;
+        font-weight: 600;
+    }
     .title-section h2 {
         font-size: 17pt;
     }

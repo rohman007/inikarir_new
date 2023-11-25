@@ -1,0 +1,20 @@
+<svg width="21" height="21" viewBox="0 0 21 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="cib:tiktok" clip-path="url(#clip0_1513_1273)" filter="url(#filter0_i_1513_1273)">
+<path id="Vector" d="M10.8226 0.220286C11.9317 0.203125 13.0345 0.213295 14.136 0.203125C14.2027 1.50039 14.6692 2.8218 15.6188 3.73897C16.5665 4.67903 17.907 5.10933 19.2112 5.25488V8.66743C17.989 8.62738 16.761 8.37314 15.6519 7.84686C15.1688 7.62822 14.7188 7.34665 14.2783 7.05872C14.2726 9.53502 14.2885 12.0081 14.2624 14.4743C14.1963 15.659 13.8054 16.8381 13.1165 17.8144C12.008 19.4396 10.084 20.4991 8.10792 20.5322C6.89583 20.6015 5.68501 20.271 4.65216 19.6621C2.94048 18.6527 1.73602 16.805 1.56059 14.8219C1.5385 14.402 1.5351 13.9812 1.55042 13.5609C1.70297 11.9484 2.50065 10.4058 3.7388 9.35642C5.1422 8.13416 7.10812 7.55195 8.94882 7.89644C8.96598 9.15175 8.91577 10.4058 8.91577 11.6611C8.07487 11.3891 7.09223 11.4653 6.35747 11.9757C5.81991 12.3299 5.41367 12.8509 5.20132 13.4586C5.02589 13.8883 5.0761 14.3656 5.08627 14.8219C5.28776 16.2126 6.62506 17.3815 8.05262 17.255C8.99903 17.2449 9.90603 16.6957 10.3993 15.8917C10.5588 15.6101 10.7374 15.3222 10.7469 14.991C10.8302 13.4751 10.7971 11.9656 10.8073 10.4497C10.8143 7.03329 10.7971 3.62647 10.8232 0.220922L10.8226 0.220286Z" fill="#075256"/>
+</g>
+<defs>
+<filter id="filter0_i_1513_1273" x="0.203125" y="0.203125" width="20.3398" height="21.1137" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="0.774828"/>
+<feGaussianBlur stdDeviation="1.4528"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.2 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_1513_1273"/>
+</filter>
+<clipPath id="clip0_1513_1273">
+<rect width="20.3392" height="20.3392" fill="white" transform="translate(0.203125 0.203125)"/>
+</clipPath>
+</defs>
+</svg>

@@ -310,12 +310,12 @@
                                     <h2 class="fw-bold">Education</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Parahyangan University, Bandung  <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">Computer Science <span class="bullet"></span> 2002 - 2006</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
@@ -330,23 +330,23 @@
                                     <h2 class="fw-bold">Training</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Junior Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
@@ -361,23 +361,23 @@
                                     <h2 class="fw-bold">Certification</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Junior Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
@@ -392,23 +392,23 @@
                                     <h2 class="fw-bold">Work Experience</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
+                                    <div class="profile-data_list d-flex justify-content-between align-items-center">
                                         <div>
                                             <div class="fs-4 fw-500">Junior Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
                                             <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
+                                        <div class="profile-data_list-action">
                                             <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
                                             <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
