@@ -89,9 +89,31 @@
                                 </div>
                             </div>
                             <div class="profile-short mb-4">
-                                <div class="profile-name fw-bold">Cloud Strike <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></div>
-                                <div class="profile-job text-muted text-sm mb-4">UI/UX Designer</div>
-                                <div class="profile-available text-sm fw-bold mb-4"><img class="me-2" src="assets/images/work-icon.svg">Available for work</div>
+                                <div class="profile-name fw-bold d-flex align-items-center">
+                                    <input type="text" class="border-0 form-control fw-bold px-0 py-1" placeholder="Your Name" name=""> 
+                                    <div class="edit-action d-flex">
+                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                        <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                    </div>
+                                </div>
+                                <div class="profile-job text-muted text-sm mb-4">
+                                    <input type="text" class="border-0 form-control px-0 py-1 text-sm" placeholder="Profession" name="">
+                                </div>
+                                <div class=" text-sm fw-bold mb-4 w-100">
+                                    <select id="available-select" style="opacity:0;height:0;width:0;position:absolute" class="border-0 p-0" name="">
+                                        <option value="available">available</option>
+                                        <option value="unavailable">unavailable</option>
+                                    </select>  
+                                    <div class="dropdown custom-select">
+                                        <button class="w-100 fw-bold text-sm dropdown-toggle selected-option profile-available" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                            <img src="assets/images/work-icon.svg" class="me-2"> Available for work 
+                                        </button>
+                                        <ul class="dropdown-menu options  w-100 py-0">
+                                            <li data-img="assets/images/work-icon.svg" data-value="available" class="profile-available text-sm w-100"> <img src="assets/images/work-icon.svg" class="me-2"> Available for work </li>
+                                            <li data-img="assets/images/x-work-icon.svg" data-value="unavailable" class="profile-unavailable text-sm w-100" > <img src="assets/images/x-work-icon.svg" class="me-2"> Unavailable for work </li>
+                                        </ul>
+                                    </div>                                
+                                </div>
                                 <div class="profile-professional mb-4">
                                     <div class="fw-bold mb-2">Professional Details <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></div>    
                                     <div class="profile-professional_list">
@@ -103,7 +125,7 @@
                                             </div>
                                             <div class="">
                                                 <div class="text-xs text-muted mb-1">Salary Expectations</div>
-                                                <div class="text-sm fw-500">Rp 10.000.000 / month</div>
+                                                <div class="text-sm fw-500 d-flex align-items-center">Rp <input type="text" class="ms-1 form-control px-0 border-0 text-sm fw-500" name="" placeholder="000000000"> <span class="text-nowrap">/ month</span></div>
                                             </div>
                                         </div>
                                         <div class="d-flex mb-3 align-items-center">
@@ -114,7 +136,10 @@
                                             </div>
                                             <div class="">
                                                 <div class="text-xs text-muted mb-1">Career Level</div>
-                                                <div class="text-sm fw-500">Senior Level</div>
+                                                <select id="career-level-select" class="form-control text-sm fw-500 px-2 py-1" name="">
+                                                    <option value="available">Junior Level</option>
+                                                    <option value="unavailable" selected>Senior Level</option>
+                                                </select>  
                                             </div>
                                         </div>
                                         <div class="d-flex mb-3 align-items-center">
@@ -125,7 +150,13 @@
                                             </div>
                                             <div class="">
                                                 <div class="text-xs text-muted mb-1">Work Experience</div>
-                                                <div class="text-sm fw-500">5 Years Experience</div>
+                                                <div class="text-sm fw-500 d-flex align-items-center">
+                                                    <lable class="experience-input me-1 position-relative" for="exprerience">
+                                                        <input id="exprerience" type="text" name="" style="width:80px" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </lable>
+                                                     Experience
+                                                </div>
                                             </div>
                                         </div>
                                         <div class="d-flex mb-3 align-items-center">
@@ -136,19 +167,43 @@
                                             </div>
                                             <div class="">
                                                 <div class="text-xs text-muted mb-1">Employment Type</div>
-                                                <div class="text-sm fw-500">Full Time, Part Time</div>
+                                                <div class="row text-xs employment-select">
+                                                    <div class="col-6 mb-1">
+                                                        <input type="checkbox" name="employment-type" id="fulltime"> 
+                                                        <label for="fulltime">Full Time</label>
+                                                    </div>
+                                                    <div class="col-6 mb-1 ps-md-0">
+                                                        <input type="checkbox" name="employment-type" id="parttime">
+                                                        <label for="parttime">Part Time</label>
+                                                    </div>
+                                                    <div class="col-6 mb-1">
+                                                        <input type="checkbox" name="employment-type" id="contract"> 
+                                                        <label for="contract">Contract</label>
+                                                    </div>
+                                                    <div class="col-6 mb-1 ps-md-0">
+                                                        <input type="checkbox" name="employment-type" id="freelancer"> 
+                                                        <label for="freelancer">Freelancer</label>
+                                                    </div>
+                                                    <div class="col-6 mb-1">
+                                                        <input type="checkbox" name="employment-type" id="interns"> 
+                                                        <label for="interns">Interns</label>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="profile-skill">
-                                    <div class="fw-bold mb-2">Skills</div>    
-                                    <div class="profile-skill_list">
-                                        <div class="text-sm">UI Designer</div>
-                                        <div class="text-sm">UX Designer</div>
-                                        <div class="text-sm">Figma</div>
-                                        <div class="text-sm">Product Designer</div>
-                                        <a href="#" class="add-skill">+</a>
+                                    <div class="fw-bold mb-2">Skills</div>  
+                                    <div class="profile-skill fw-bold d-flex align-items-center">
+                                        <div>
+                                            <input type="text" id="skills" class="border-0 text-sm form-control fw-500 px-0 py-0" placeholder="Skills 1,Skills 2,Skills 3" name="" > 
+                                            <lable class="text-xs fw-normal text-muted d-block" for="skills" style="color: #ccc !important;font-size: 11px !important;">separate by coma</lable>
+                                        </div>
+                                        <div class="edit-action d-flex">
+                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                            <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -763,6 +818,23 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0-rc"></script>
         <script>
+            
+            $(document).ready(function() {
+                $(".custom-select .options li").on('click', function(){
+                    var value = $(this).attr('data-img');
+                    var valueData = $(this).attr('data-value');
+                    $(".custom-select .selected-option").html('<img src="' + value + '" alt="Selected Image" class="me-2"> ' + $(this).text());
+                    $(".custom-select .selected-option").removeClass("profile-unavailable");
+                    $(".custom-select .selected-option").removeClass("profile-available");
+                    $(".custom-select .selected-option").addClass('profile-'+valueData);
+
+                    // Perbarui nilai elemen select
+                    $("#available-select").val(valueData);
+
+                    // Trigger event perubahan pada elemen select
+                    $("#available-select").change();
+                });
+            });
             const ctx = document.getElementById('application-summary');
             Chart.register(ChartDataLabels);
             new Chart(ctx, {
@@ -968,7 +1040,7 @@
                 event.stopPropagation();
             });
             $(document).ready(function() {
-                
+
                 $(".button-grid-thumbnail").click(function () {
                     $(".button-list-thumbnail").removeClass("button-active");
                     $(".hero-loker-list__wrapper").addClass("grid-thumbnail");

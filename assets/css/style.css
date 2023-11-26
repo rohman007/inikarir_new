@@ -1587,7 +1587,17 @@ a.edit-icon img {
     position: relative;
     top: -1px;
 }
-.profile-available img {
+.profile-unavailable img {
+    vertical-align: sub;
+    width: 20px;
+}
+.profile-unavailable {
+    color: #8d2626;
+}
+.profile-unavailable img {
+    fill: #8d2626;
+}
+.profile-available img,.selected-option img{
     vertical-align: sub;
     width: 20px;
 }
@@ -2130,6 +2140,67 @@ span.bullet {
     border-radius: 10px;
     display: inline-block;
     padding: 17px 15px;
+}
+#profile-page input:focus,
+#profile-page select{
+    outline: none !important;
+    box-shadow: none;
+}
+#profile-page .form-control{
+    border-radius: 9px;
+}
+.experience-input img {
+    height: 14px;
+    position: absolute;
+    top: 8px;
+    right: 8px;
+}
+.employment-select input{
+    position: relative;
+    top:2px
+}
+#profile-page input::-webkit-input-placeholder {
+    color: #ddd;
+}
+
+#profile-page input:-moz-placeholder { /* Firefox 18- */
+color: #ddd;  
+}
+
+#profile-page input::-moz-placeholder {  /* Firefox 19+ */
+color: #ddd;  
+}
+
+#profile-page input:-ms-input-placeholder {  
+color: #ddd;  
+}
+select#career-level-select {
+    appearance: auto;
+    border-radius: 9px;
+}
+.selected-option {
+    background: transparent;
+    border-color: #ccc;
+    padding: 6px 12px;
+    text-align: left;
+    position: relative;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+}
+ul.dropdown-menu.options li {
+    padding: 7px 12px;
+    border-bottom: 1px solid #ddd;
+}
+.selected-option:after {
+    width: 8px;
+    height: 8px;
+    border: 0;
+    border-bottom: 2px solid #555;
+    border-right: 2px solid #555;
+    transform: rotate(45deg);
+    position: absolute;
+    right: 10px;
+    top: 12px;
 }
 @media(max-width:767px){
     .profile-data_list .fs-4 {
