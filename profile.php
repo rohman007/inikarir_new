@@ -376,9 +376,9 @@
                         <div class="col-12 col-sm-12 co-md-9 col-lg-9 profile-page_data ps-md-4">
                             <div class="profile-page_data-menu d-sm-flex align-items-center justify-content-between">
                                 <ul class="d-flex flex-wrap list-unstyled m-0">
-                                    <li class="ms-4"><a href="#">Dashboard</a></li>
-                                    <li class="active ms-4"><a href="#">Profile</a></li>
-                                    <li class="ms-4"><a href="#">Application Status</a></li>
+                                    <li class="ms-4"><a href="profile-dashboard.php">Dashboard</a></li>
+                                    <li class="active ms-4"><a href="profile.php">Profile</a></li>
+                                    <li class="ms-4"><a href="profile-application.php">Application Status</a></li>
                                     <li class="ms-4"><a href="#">Personality Test</a></li>
                                 </ul>
                                 <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
