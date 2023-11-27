@@ -337,69 +337,81 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="title-section mb-4 mt-3">
-                                <h2>Strength and Personality</h2>
+                            <div class="accordion" id="accordionProfile">
+                                <div class="accordion-item">
+                                    <div class="accordion-header" id="panelsStayOpen-headingOne">
+                                        <button class="accordion-button p-0 title-section mb-3 mt-4" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                            <h2>Strength and Personality</h2>
+                                        </button>
+                                    </div>
+                                    <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                    <div class="accordion-body p-0">
+                                        <div class="row align-items-start">
+                                            <div class="col-sm-6 pe-md-3 mb-4">
+                                                <div class="card profile-page_data-papikostick">
+                                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                                        <div class="">
+                                                            <div class="fw-500">PAPIKOSTICK</div>
+                                                            <div class="text-sm text-muted">Psychology Test</div>
+                                                        </div>
+                                                        <div class="icon-card-header">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                                            <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
+                                                            <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
+                                                            <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                    <canvas id="papikostick"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 ps-md-3 mb-4">
+                                                <div class="card profile-page_data-disc-summary">
+                                                    <div class="card-header d-flex justify-content-between align-items-center">
+                                                        <div class="">
+                                                            <div class="fw-500">PAPIKOSTICK</div>
+                                                            <div class="text-sm text-muted">Psychology Test</div>
+                                                        </div>
+                                                        <div class="icon-card-header">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                                            <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
+                                                            <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
+                                                            <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
+                                                            </svg>
+                                                        </div>
+                                                    </div>
+                                                    <div class="card-body">
+                                                    <canvas id="disc-summary"></canvas>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="card profile-page_data-disc">
+                                            <div class="card-header d-flex justify-content-between align-items-center">
+                                                <div class="">
+                                                    <div class="fw-500">DISC</div>
+                                                    <div class="text-sm text-muted">Personality System Graph</div>
+                                                </div>
+                                                <div class="icon-card-header">
+                                                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
+                                                    <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
+                                                    <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
+                                                    <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
+                                                    </svg>
+                                                </div>
+                                            </div>
+                                            <div class="card-body p-4">
+                                                <canvas id="disc" style="height:40vh; width:100%"></canvas>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    </div>
+                                </div>
+                                
                             </div>
-                            <div class="row align-items-start">
-                                <div class="col-sm-6 pe-md-3 mb-4">
-                                    <div class="card profile-page_data-papikostick">
-                                        <div class="card-header d-flex justify-content-between align-items-center">
-                                            <div class="">
-                                                <div class="fw-500">PAPIKOSTICK</div>
-                                                <div class="text-sm text-muted">Psychology Test</div>
-                                            </div>
-                                            <div class="icon-card-header">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
-                                                <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
-                                                <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
-                                                <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                        <canvas id="papikostick"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-sm-6 ps-md-3 mb-4">
-                                    <div class="card profile-page_data-disc-summary">
-                                        <div class="card-header d-flex justify-content-between align-items-center">
-                                            <div class="">
-                                                <div class="fw-500">PAPIKOSTICK</div>
-                                                <div class="text-sm text-muted">Psychology Test</div>
-                                            </div>
-                                            <div class="icon-card-header">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
-                                                <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
-                                                <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
-                                                <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
-                                                </svg>
-                                            </div>
-                                        </div>
-                                        <div class="card-body">
-                                        <canvas id="disc-summary"></canvas>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card profile-page_data-disc">
-                                <div class="card-header d-flex justify-content-between align-items-center">
-                                    <div class="">
-                                        <div class="fw-500">DISC</div>
-                                        <div class="text-sm text-muted">Personality System Graph</div>
-                                    </div>
-                                    <div class="icon-card-header">
-                                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" viewBox="0 0 32 32" fill="none">
-                                        <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"/>
-                                        <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"/>
-                                        <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"/>
-                                        </svg>
-                                    </div>
-                                </div>
-                                <div class="card-body p-4">
-                                    <canvas id="disc" style="height:40vh; width:100%"></canvas>
-                                </div>
-                            </div>
+                            
                             <a href="#" class="btn btn-primary w-100 py-3 text-sm fw-bold mt-5">More Detail</a>
                         </div> <!-- /.col -->
                         

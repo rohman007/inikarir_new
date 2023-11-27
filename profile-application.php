@@ -261,575 +261,601 @@
                                 <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
                             </div>
                             <div class="ps-sm-4 mt-5">
-                                <div class="title-section mb-4 mt-3">
-                                    <h2 class="fw-bold">Aplication Status</h2>
-                                </div>
-                                <div class="aplication-status row justify-content-between mb-3">
-                                    <div class="col-sm-2 col-6 mb-3 mb-sm-0">
-                                        <div class="bar-aplication-status">
-                                            <div style="width:calc(2/2*100%)"></div>
+                                <div class="accordion" id="accordionProfile">
+                                    <div class="accordion-item">
+                                        <div class="accordion-header" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button title-section mb-4 mt-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                                                <h2 class="fw-bold">Aplication Status</h2>  
+                                            </button>
                                         </div>
-                                        <div class="d-flex align-items-center justify-content-between text-xs">
-                                            <label class="d-flex align-items-center ">
-                                                <input type="radio" name="bar-status" class="me-1" checked> Submit
-                                                <div class="custom-radio"></div>
-                                            </label>
-                                            <div>2</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2 col-6 mb-3 mb-sm-0">
-                                        <div class="bar-aplication-status">
-                                            <div style="width:calc(1/2*100%)"></div>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between text-xs">
-                                            <label class="d-flex align-items-center ">
-                                                <input type="radio" name="bar-status" class="me-1" > Review
-                                                <div class="custom-radio"></div>
-                                            </label>
-                                            <div>1 of 2</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2 col-6 mb-3 mb-sm-0">
-                                        <div class="bar-aplication-status">
-                                            <div style="width:calc(0/2*100%)"></div>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between text-xs">
-                                            <label class="d-flex align-items-center ">
-                                                <input type="radio" name="bar-status" class="me-1" > Process
-                                                <div class="custom-radio"></div>
-                                            </label>
-                                            <div>0 of 2</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-2 col-6 mb-3 mb-sm-0">
-                                        <div class="bar-aplication-status">
-                                            <div style="width:calc(0/2*100%)"></div>
-                                        </div>
-                                        <div class="d-flex align-items-center justify-content-between text-xs">
-                                            <label class="d-flex align-items-center ">
-                                                <input type="radio" name="bar-status" class="me-1" > Interview
-                                                <div class="custom-radio"></div>
-                                            </label>
-                                            <div>0 of 2</div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-1">
-                                    </div>
-                                </div>
-                                <div id="list-application" class="row hero-loker-list__wrapper grid-thumbnail">
-                                    <div class="col-sm-4">
-                                        <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
-                                            <div class="row">
-                                                <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
-                                                <div class="flex-grow-1 pe-2 col-sm-4">
-                                                    <div class="position-relative">
-                                                        <div class="hero-loker-list__item-image mb-3">
-                                                            <div class="ratio ratio-1x1">
-                                                                <div>
-                                                                    <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body p-0">
+                                            <div class="aplication-status row justify-content-between mb-3">
+                                                <div class="col-sm-2 col-6 mb-3 mb-sm-0">
+                                                    <div class="bar-aplication-status">
+                                                        <div style="width:calc(2/2*100%)"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between text-xs">
+                                                        <label class="d-flex align-items-center ">
+                                                            <input type="radio" name="bar-status" class="me-1" checked> Submit
+                                                            <div class="custom-radio"></div>
+                                                        </label>
+                                                        <div>2</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2 col-6 mb-3 mb-sm-0">
+                                                    <div class="bar-aplication-status">
+                                                        <div style="width:calc(1/2*100%)"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between text-xs">
+                                                        <label class="d-flex align-items-center ">
+                                                            <input type="radio" name="bar-status" class="me-1" > Review
+                                                            <div class="custom-radio"></div>
+                                                        </label>
+                                                        <div>1 of 2</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2 col-6 mb-3 mb-sm-0">
+                                                    <div class="bar-aplication-status">
+                                                        <div style="width:calc(0/2*100%)"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between text-xs">
+                                                        <label class="d-flex align-items-center ">
+                                                            <input type="radio" name="bar-status" class="me-1" > Process
+                                                            <div class="custom-radio"></div>
+                                                        </label>
+                                                        <div>0 of 2</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-2 col-6 mb-3 mb-sm-0">
+                                                    <div class="bar-aplication-status">
+                                                        <div style="width:calc(0/2*100%)"></div>
+                                                    </div>
+                                                    <div class="d-flex align-items-center justify-content-between text-xs">
+                                                        <label class="d-flex align-items-center ">
+                                                            <input type="radio" name="bar-status" class="me-1" > Interview
+                                                            <div class="custom-radio"></div>
+                                                        </label>
+                                                        <div>0 of 2</div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-1">
+                                                </div>
+                                            </div>
+                                            <div id="list-application" class="row hero-loker-list__wrapper grid-thumbnail">
+                                                <div class="col-sm-4">
+                                                    <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
+                                                        <div class="row">
+                                                            <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
+                                                            <div class="flex-grow-1 pe-2 col-sm-4">
+                                                                <div class="position-relative">
+                                                                    <div class="hero-loker-list__item-image mb-3">
+                                                                        <div class="ratio ratio-1x1">
+                                                                            <div>
+                                                                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="position-relative">
+                                                                        <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
+                                                                        <div class="hero-loker-list__badge-wrapper">
+                                                                            <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                                                        </div>
+                                                                        <div class="hero-loker-list__company">
+                                                                            <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hero-job-list__desc col-sm-4">   
+                                                                <div class="text-sm">
+                                                                    <div class="d-flex mb-1">
+                                                                        <span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span class="ps-1">Bekasi</span>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <span>Rp</span>
+                                                                        <span class="ps-1">4,500,000 per month</span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="mt-3 loker-desc">
+                                                                    <div class="fw-bold mb-1 text-sm">Description:</div>
+                                                                    <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="hero-job-list__close-info col-sm-4">
+                                                                <div class="text-end text-sm loker-date">28 Juli 2023</div>
+                                                                <div class="d-flex align-items-end justify-content-between mb-3">
+                                                                    <div class="d-flex align-items-center loker-percentage">
+                                                                        <div class="text-sm me-2">Match :</div>
+                                                                        <div class="circle-wrap">
+                                                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
+                                                                            <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
+                                                                            <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
+                                                                            <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
+                                                                            <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
+                                                                            <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
+                                                                            <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
+                                                                            <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
+                                                                            <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
+                                                                            <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
+                                                                            </svg>
+                                                                            <div class="inside-circle"> 90% </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-block position-relative status-loker green-status w-100">
+                                                                    <div></div>
                                                                 </div>
                                                             </div>
                                                         </div>
-                                                        <div class="position-relative">
-                                                            <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
-                                                            <div class="hero-loker-list__badge-wrapper">
-                                                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                                            </div>
-                                                            <div class="hero-loker-list__company">
-                                                                <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
-                                                            </div>
-                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="hero-job-list__desc col-sm-4">   
-                                                    <div class="text-sm">
-                                                        <div class="d-flex mb-1">
-                                                            <span>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                                </svg>
-                                                            </span>
-                                                            <span class="ps-1">Bekasi</span>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span>Rp</span>
-                                                            <span class="ps-1">4,500,000 per month</span>
-                                                        </div>
-                                                    </div> 
-                                                    <div class="mt-3 loker-desc">
-                                                        <div class="fw-bold mb-1 text-sm">Description:</div>
-                                                        <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
-                                                    </div>
-                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
+                                                        <div class="row">
+                                                            <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
+                                                            <div class="flex-grow-1 pe-2 col-sm-4">
+                                                                <div class="position-relative">
+                                                                    <div class="hero-loker-list__item-image mb-3">
+                                                                        <div class="ratio ratio-1x1">
+                                                                            <div>
+                                                                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="position-relative">
+                                                                        <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
+                                                                        <div class="hero-loker-list__badge-wrapper">
+                                                                            <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                                                        </div>
+                                                                        <div class="hero-loker-list__company">
+                                                                            <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hero-job-list__desc col-sm-4">   
+                                                                <div class="text-sm">
+                                                                    <div class="d-flex mb-1">
+                                                                        <span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span class="ps-1">Bekasi</span>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <span>Rp</span>
+                                                                        <span class="ps-1">4,500,000 per month</span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="mt-3 loker-desc">
+                                                                    <div class="fw-bold mb-1 text-sm">Description:</div>
+                                                                    <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
+                                                                </div>
+                                                            </div>
 
-                                                <div class="hero-job-list__close-info col-sm-4">
-                                                    <div class="text-end text-sm loker-date">28 Juli 2023</div>
-                                                    <div class="d-flex align-items-end justify-content-between mb-3">
-                                                        <div class="d-flex align-items-center loker-percentage">
-                                                            <div class="text-sm me-2">Match :</div>
-                                                            <div class="circle-wrap">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
-                                                                <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
-                                                                <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
-                                                                <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
-                                                                <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
-                                                                <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
-                                                                <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
-                                                                <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
-                                                                <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
-                                                                <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
-                                                                </svg>
-                                                                <div class="inside-circle"> 90% </div>
+                                                            <div class="hero-job-list__close-info col-sm-4">
+                                                                <div class="text-end text-sm loker-date">28 Juli 2023</div>
+                                                                <div class="d-flex align-items-end justify-content-between mb-3">
+                                                                    <div class="d-flex align-items-center loker-percentage">
+                                                                        <div class="text-sm me-2">Match :</div>
+                                                                        <div class="circle-wrap">
+                                                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
+                                                                            <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
+                                                                            <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
+                                                                            <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
+                                                                            <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
+                                                                            <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
+                                                                            <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
+                                                                            <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
+                                                                            <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
+                                                                            <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
+                                                                            </svg>
+                                                                            <div class="inside-circle"> 90% </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="d-block position-relative status-loker w-100">
+                                                                    <div></div>
+                                                                </div>
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="d-block position-relative status-loker green-status w-100">
-                                                        <div></div>
+                                                </div>
+                                                <div class="col-sm-4 align-items-center">
+                                                    <a href="" class="add-aplication add-button-border">
+                                                        <span>+</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="mb-5 mt-4 pb-1"></div>
+                                        <div class="accordion-header" id="panelsStayOpen-headingTwo">
+                                            <button class="accordion-button title-section mb-2 mt-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                                <h2 class="fw-bold">Bookmark</h2>  
+                                            </button>
+                                        </div>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body p-0">
+                                            <div id="list-bookmark" class="row hero-loker-list__wrapper grid-thumbnail">
+                                                <div class="col-sm-4">
+                                                    <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
+                                                        <div class="row">
+                                                            <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
+                                                            <div class="flex-grow-1 pe-2 col-sm-4">
+                                                                <div class="position-relative">
+                                                                    <div class="hero-loker-list__item-image mb-3">
+                                                                        <div class="ratio ratio-1x1">
+                                                                            <div>
+                                                                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="position-relative">
+                                                                        <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
+                                                                        <div class="hero-loker-list__badge-wrapper">
+                                                                            <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                                                        </div>
+                                                                        <div class="hero-loker-list__company">
+                                                                            <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hero-job-list__desc col-sm-4">   
+                                                                <div class="text-sm">
+                                                                    <div class="d-flex mb-1">
+                                                                        <span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span class="ps-1">Bekasi</span>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <span>Rp</span>
+                                                                        <span class="ps-1">4,500,000 per month</span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="mt-3 loker-desc">
+                                                                    <div class="fw-bold mb-1 text-sm">Description:</div>
+                                                                    <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="hero-job-list__close-info col-sm-4">
+                                                                <div class="text-end text-sm loker-date">28 Juli 2023</div>
+                                                                <div class="d-flex align-items-end justify-content-between mb-3">
+                                                                    <div class="d-flex align-items-center loker-percentage">
+                                                                        <div class="text-sm me-2">Match :</div>
+                                                                        <div class="circle-wrap">
+                                                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
+                                                                            <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
+                                                                            <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
+                                                                            <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
+                                                                            <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
+                                                                            <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
+                                                                            <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
+                                                                            <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
+                                                                            <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
+                                                                            <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
+                                                                            </svg>
+                                                                            <div class="inside-circle"> 90% </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="d-block position-relative loker-button">
+                                                                    <a href="#" class="btn btn-primary button-apply text-xs fw-bold d-block w-100 px-3 py-2">Apply</a>
+                                                                    
+                                                                    <a href="" class="button-save">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                                                        <g clip-path="url(#clip0_769_2259)">
+                                                                        <mask id="mask0_769_2259" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="27">
+                                                                        <path d="M0.522461 0.765064H25.0307V26.0902H0.522461V0.765064Z" fill="white"/>
+                                                                        </mask>
+                                                                        <g mask="url(#mask0_769_2259)">
+                                                                        <path d="M5.85556 1.48312C5.44787 1.48312 5.05574 1.64501 4.76734 1.9338C4.47889 2.2222 4.31738 2.61328 4.31738 3.02125V23.504C4.31738 24.0846 4.78653 24.5553 5.36717 24.5553H5.37105C5.68252 24.5553 5.97858 24.4315 6.19777 24.2115C7.21677 23.1933 10.2239 20.1862 11.4659 18.9465C11.812 18.5985 12.285 18.4028 12.7772 18.4028C13.2694 18.4028 13.7424 18.5985 14.0885 18.9465C15.3344 20.1901 18.3568 23.2118 19.3643 24.2208C19.5796 24.435 19.868 24.5553 20.1718 24.5553C20.7602 24.5553 21.237 24.0789 21.237 23.4909V3.02125C21.237 2.61328 21.0755 2.2222 20.7871 1.9338C20.4987 1.64501 20.1065 1.48312 19.6988 1.48312H5.85556Z" stroke="#075256" stroke-width="1.63388" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </g>
+                                                                        </g>
+                                                                        <defs>
+                                                                        <clipPath id="clip0_769_2259">
+                                                                        <rect width="24.5082" height="24.5082" fill="white" transform="translate(0.523438 0.765129)"/>
+                                                                        </clipPath>
+                                                                        </defs>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
+                                                        <div class="row">
+                                                            <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
+                                                            <div class="flex-grow-1 pe-2 col-sm-4">
+                                                                <div class="position-relative">
+                                                                    <div class="hero-loker-list__item-image mb-3">
+                                                                        <div class="ratio ratio-1x1">
+                                                                            <div>
+                                                                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="position-relative">
+                                                                        <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
+                                                                        <div class="hero-loker-list__badge-wrapper">
+                                                                            <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                                                        </div>
+                                                                        <div class="hero-loker-list__company">
+                                                                            <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hero-job-list__desc col-sm-4">   
+                                                                <div class="text-sm">
+                                                                    <div class="d-flex mb-1">
+                                                                        <span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span class="ps-1">Bekasi</span>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <span>Rp</span>
+                                                                        <span class="ps-1">4,500,000 per month</span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="mt-3 loker-desc">
+                                                                    <div class="fw-bold mb-1 text-sm">Description:</div>
+                                                                    <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="hero-job-list__close-info col-sm-4">
+                                                                <div class="text-end text-sm loker-date">28 Juli 2023</div>
+                                                                <div class="d-flex align-items-end justify-content-between mb-3">
+                                                                    <div class="d-flex align-items-center loker-percentage">
+                                                                        <div class="text-sm me-2">Match :</div>
+                                                                        <div class="circle-wrap">
+                                                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
+                                                                            <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
+                                                                            <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
+                                                                            <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
+                                                                            <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
+                                                                            <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
+                                                                            <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
+                                                                            <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
+                                                                            <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
+                                                                            <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
+                                                                            </svg>
+                                                                            <div class="inside-circle"> 90% </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="d-block position-relative loker-button">
+                                                                    <a href="#" class="btn btn-primary button-apply text-xs fw-bold d-block w-100 px-3 py-2">Apply</a>
+                                                                    
+                                                                    <a href="" class="button-save">
+                                                                        <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
+                                                                        <g clip-path="url(#clip0_769_2259)">
+                                                                        <mask id="mask0_769_2259" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="27">
+                                                                        <path d="M0.522461 0.765064H25.0307V26.0902H0.522461V0.765064Z" fill="white"/>
+                                                                        </mask>
+                                                                        <g mask="url(#mask0_769_2259)">
+                                                                        <path d="M5.85556 1.48312C5.44787 1.48312 5.05574 1.64501 4.76734 1.9338C4.47889 2.2222 4.31738 2.61328 4.31738 3.02125V23.504C4.31738 24.0846 4.78653 24.5553 5.36717 24.5553H5.37105C5.68252 24.5553 5.97858 24.4315 6.19777 24.2115C7.21677 23.1933 10.2239 20.1862 11.4659 18.9465C11.812 18.5985 12.285 18.4028 12.7772 18.4028C13.2694 18.4028 13.7424 18.5985 14.0885 18.9465C15.3344 20.1901 18.3568 23.2118 19.3643 24.2208C19.5796 24.435 19.868 24.5553 20.1718 24.5553C20.7602 24.5553 21.237 24.0789 21.237 23.4909V3.02125C21.237 2.61328 21.0755 2.2222 20.7871 1.9338C20.4987 1.64501 20.1065 1.48312 19.6988 1.48312H5.85556Z" stroke="#075256" stroke-width="1.63388" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                        </g>
+                                                                        </g>
+                                                                        <defs>
+                                                                        <clipPath id="clip0_769_2259">
+                                                                        <rect width="24.5082" height="24.5082" fill="white" transform="translate(0.523438 0.765129)"/>
+                                                                        </clipPath>
+                                                                        </defs>
+                                                                        </svg>
+                                                                    </a>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 align-items-center">
+                                                    <a href="" class="add-aplication add-button-border">
+                                                        <span>+</span>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="mb-5 mt-4 pb-1"></div>
+                                        <div class="accordion-header" id="panelsStayOpen-headingThree">
+                                            <button class="accordion-button title-section mb-2 mt-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                                <h2 class="fw-bold">History</h2>  
+                                            </button>
+                                        </div>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body p-0">
+                                            <div id="list-history" class="row hero-loker-list__wrapper grid-thumbnail">
+                                                <div class="col-sm-4">
+                                                    <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
+                                                        <div class="row">
+                                                            <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
+                                                            <div class="flex-grow-1 pe-2 col-sm-4">
+                                                                <div class="position-relative">
+                                                                    <div class="hero-loker-list__item-image mb-3">
+                                                                        <div class="ratio ratio-1x1">
+                                                                            <div>
+                                                                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="position-relative">
+                                                                        <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
+                                                                        <div class="hero-loker-list__badge-wrapper">
+                                                                            <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                                                        </div>
+                                                                        <div class="hero-loker-list__company">
+                                                                            <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hero-job-list__desc col-sm-4">   
+                                                                <div class="text-sm">
+                                                                    <div class="d-flex mb-1">
+                                                                        <span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span class="ps-1">Bekasi</span>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <span>Rp</span>
+                                                                        <span class="ps-1">4,500,000 per month</span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="mt-3 loker-desc">
+                                                                    <div class="fw-bold mb-1 text-sm">Description:</div>
+                                                                    <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="hero-job-list__close-info col-sm-4">
+                                                                <div class="text-end text-sm loker-date">28 Juli 2023</div>
+                                                                <div class="d-flex align-items-end justify-content-between mb-3">
+                                                                    <div class="d-flex align-items-center loker-percentage">
+                                                                        <div class="text-sm me-2">Match :</div>
+                                                                        <div class="circle-wrap">
+                                                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
+                                                                            <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
+                                                                            <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
+                                                                            <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
+                                                                            <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
+                                                                            <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
+                                                                            <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
+                                                                            <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
+                                                                            <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
+                                                                            <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
+                                                                            </svg>
+                                                                            <div class="inside-circle"> 90% </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="d-block position-relative status-loker green-status w-100">
+                                                                    <div></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4">
+                                                    <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
+                                                        <div class="row">
+                                                            <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
+                                                            <div class="flex-grow-1 pe-2 col-sm-4">
+                                                                <div class="position-relative">
+                                                                    <div class="hero-loker-list__item-image mb-3">
+                                                                        <div class="ratio ratio-1x1">
+                                                                            <div>
+                                                                                <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                    <div class="position-relative">
+                                                                        <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
+                                                                        <div class="hero-loker-list__badge-wrapper">
+                                                                            <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                                                        </div>
+                                                                        <div class="hero-loker-list__company">
+                                                                            <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <div class="hero-job-list__desc col-sm-4">   
+                                                                <div class="text-sm">
+                                                                    <div class="d-flex mb-1">
+                                                                        <span>
+                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
+                                                                                <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
+                                                                                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                                                                            </svg>
+                                                                        </span>
+                                                                        <span class="ps-1">Bekasi</span>
+                                                                    </div>
+                                                                    <div class="d-flex">
+                                                                        <span>Rp</span>
+                                                                        <span class="ps-1">4,500,000 per month</span>
+                                                                    </div>
+                                                                </div> 
+                                                                <div class="mt-3 loker-desc">
+                                                                    <div class="fw-bold mb-1 text-sm">Description:</div>
+                                                                    <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="hero-job-list__close-info col-sm-4">
+                                                                <div class="text-end text-sm loker-date">28 Juli 2023</div>
+                                                                <div class="d-flex align-items-end justify-content-between mb-3">
+                                                                    <div class="d-flex align-items-center loker-percentage">
+                                                                        <div class="text-sm me-2">Match :</div>
+                                                                        <div class="circle-wrap">
+                                                                            <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                            <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
+                                                                            <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
+                                                                            <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
+                                                                            <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
+                                                                            <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
+                                                                            <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
+                                                                            <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
+                                                                            <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
+                                                                            <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
+                                                                            <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
+                                                                            </svg>
+                                                                            <div class="inside-circle"> 90% </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                
+                                                                <div class="d-block position-relative status-loker w-100">
+                                                                    <div></div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4">
-                                        <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
-                                            <div class="row">
-                                                <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
-                                                <div class="flex-grow-1 pe-2 col-sm-4">
-                                                    <div class="position-relative">
-                                                        <div class="hero-loker-list__item-image mb-3">
-                                                            <div class="ratio ratio-1x1">
-                                                                <div>
-                                                                    <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="position-relative">
-                                                            <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
-                                                            <div class="hero-loker-list__badge-wrapper">
-                                                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                                            </div>
-                                                            <div class="hero-loker-list__company">
-                                                                <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="hero-job-list__desc col-sm-4">   
-                                                    <div class="text-sm">
-                                                        <div class="d-flex mb-1">
-                                                            <span>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                                </svg>
-                                                            </span>
-                                                            <span class="ps-1">Bekasi</span>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span>Rp</span>
-                                                            <span class="ps-1">4,500,000 per month</span>
-                                                        </div>
-                                                    </div> 
-                                                    <div class="mt-3 loker-desc">
-                                                        <div class="fw-bold mb-1 text-sm">Description:</div>
-                                                        <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="hero-job-list__close-info col-sm-4">
-                                                    <div class="text-end text-sm loker-date">28 Juli 2023</div>
-                                                    <div class="d-flex align-items-end justify-content-between mb-3">
-                                                        <div class="d-flex align-items-center loker-percentage">
-                                                            <div class="text-sm me-2">Match :</div>
-                                                            <div class="circle-wrap">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
-                                                                <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
-                                                                <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
-                                                                <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
-                                                                <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
-                                                                <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
-                                                                <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
-                                                                <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
-                                                                <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
-                                                                <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
-                                                                </svg>
-                                                                <div class="inside-circle"> 90% </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="d-block position-relative status-loker w-100">
-                                                        <div></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 align-items-center">
-                                        <a href="" class="add-aplication add-button-border">
-                                            <span>+</span>
-                                        </a>
-                                    </div>
                                 </div>
-                                <div class="mb-5 mt-4 pb-1"></div>
-                                <div class="title-section mb-2 mt-5">
-                                    <h2 class="fw-bold">Bookmark</h2>
-                                </div>
-                                <div id="list-bookmark" class="row hero-loker-list__wrapper grid-thumbnail">
-                                    <div class="col-sm-4">
-                                        <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
-                                            <div class="row">
-                                                <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
-                                                <div class="flex-grow-1 pe-2 col-sm-4">
-                                                    <div class="position-relative">
-                                                        <div class="hero-loker-list__item-image mb-3">
-                                                            <div class="ratio ratio-1x1">
-                                                                <div>
-                                                                    <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="position-relative">
-                                                            <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
-                                                            <div class="hero-loker-list__badge-wrapper">
-                                                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                                            </div>
-                                                            <div class="hero-loker-list__company">
-                                                                <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="hero-job-list__desc col-sm-4">   
-                                                    <div class="text-sm">
-                                                        <div class="d-flex mb-1">
-                                                            <span>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                                </svg>
-                                                            </span>
-                                                            <span class="ps-1">Bekasi</span>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span>Rp</span>
-                                                            <span class="ps-1">4,500,000 per month</span>
-                                                        </div>
-                                                    </div> 
-                                                    <div class="mt-3 loker-desc">
-                                                        <div class="fw-bold mb-1 text-sm">Description:</div>
-                                                        <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="hero-job-list__close-info col-sm-4">
-                                                    <div class="text-end text-sm loker-date">28 Juli 2023</div>
-                                                    <div class="d-flex align-items-end justify-content-between mb-3">
-                                                        <div class="d-flex align-items-center loker-percentage">
-                                                            <div class="text-sm me-2">Match :</div>
-                                                            <div class="circle-wrap">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
-                                                                <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
-                                                                <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
-                                                                <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
-                                                                <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
-                                                                <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
-                                                                <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
-                                                                <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
-                                                                <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
-                                                                <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
-                                                                </svg>
-                                                                <div class="inside-circle"> 90% </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="d-block position-relative loker-button">
-                                                        <a href="#" class="btn btn-primary button-apply text-xs fw-bold d-block w-100 px-3 py-2">Apply</a>
-                                                        
-                                                        <a href="" class="button-save">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                                            <g clip-path="url(#clip0_769_2259)">
-                                                            <mask id="mask0_769_2259" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="27">
-                                                            <path d="M0.522461 0.765064H25.0307V26.0902H0.522461V0.765064Z" fill="white"/>
-                                                            </mask>
-                                                            <g mask="url(#mask0_769_2259)">
-                                                            <path d="M5.85556 1.48312C5.44787 1.48312 5.05574 1.64501 4.76734 1.9338C4.47889 2.2222 4.31738 2.61328 4.31738 3.02125V23.504C4.31738 24.0846 4.78653 24.5553 5.36717 24.5553H5.37105C5.68252 24.5553 5.97858 24.4315 6.19777 24.2115C7.21677 23.1933 10.2239 20.1862 11.4659 18.9465C11.812 18.5985 12.285 18.4028 12.7772 18.4028C13.2694 18.4028 13.7424 18.5985 14.0885 18.9465C15.3344 20.1901 18.3568 23.2118 19.3643 24.2208C19.5796 24.435 19.868 24.5553 20.1718 24.5553C20.7602 24.5553 21.237 24.0789 21.237 23.4909V3.02125C21.237 2.61328 21.0755 2.2222 20.7871 1.9338C20.4987 1.64501 20.1065 1.48312 19.6988 1.48312H5.85556Z" stroke="#075256" stroke-width="1.63388" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            </g>
-                                                            <defs>
-                                                            <clipPath id="clip0_769_2259">
-                                                            <rect width="24.5082" height="24.5082" fill="white" transform="translate(0.523438 0.765129)"/>
-                                                            </clipPath>
-                                                            </defs>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
-                                            <div class="row">
-                                                <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
-                                                <div class="flex-grow-1 pe-2 col-sm-4">
-                                                    <div class="position-relative">
-                                                        <div class="hero-loker-list__item-image mb-3">
-                                                            <div class="ratio ratio-1x1">
-                                                                <div>
-                                                                    <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="position-relative">
-                                                            <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
-                                                            <div class="hero-loker-list__badge-wrapper">
-                                                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                                            </div>
-                                                            <div class="hero-loker-list__company">
-                                                                <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="hero-job-list__desc col-sm-4">   
-                                                    <div class="text-sm">
-                                                        <div class="d-flex mb-1">
-                                                            <span>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                                </svg>
-                                                            </span>
-                                                            <span class="ps-1">Bekasi</span>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span>Rp</span>
-                                                            <span class="ps-1">4,500,000 per month</span>
-                                                        </div>
-                                                    </div> 
-                                                    <div class="mt-3 loker-desc">
-                                                        <div class="fw-bold mb-1 text-sm">Description:</div>
-                                                        <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="hero-job-list__close-info col-sm-4">
-                                                    <div class="text-end text-sm loker-date">28 Juli 2023</div>
-                                                    <div class="d-flex align-items-end justify-content-between mb-3">
-                                                        <div class="d-flex align-items-center loker-percentage">
-                                                            <div class="text-sm me-2">Match :</div>
-                                                            <div class="circle-wrap">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
-                                                                <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
-                                                                <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
-                                                                <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
-                                                                <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
-                                                                <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
-                                                                <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
-                                                                <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
-                                                                <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
-                                                                <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
-                                                                </svg>
-                                                                <div class="inside-circle"> 90% </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="d-block position-relative loker-button">
-                                                        <a href="#" class="btn btn-primary button-apply text-xs fw-bold d-block w-100 px-3 py-2">Apply</a>
-                                                        
-                                                        <a href="" class="button-save">
-                                                            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" viewBox="0 0 26 26" fill="none">
-                                                            <g clip-path="url(#clip0_769_2259)">
-                                                            <mask id="mask0_769_2259" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="26" height="27">
-                                                            <path d="M0.522461 0.765064H25.0307V26.0902H0.522461V0.765064Z" fill="white"/>
-                                                            </mask>
-                                                            <g mask="url(#mask0_769_2259)">
-                                                            <path d="M5.85556 1.48312C5.44787 1.48312 5.05574 1.64501 4.76734 1.9338C4.47889 2.2222 4.31738 2.61328 4.31738 3.02125V23.504C4.31738 24.0846 4.78653 24.5553 5.36717 24.5553H5.37105C5.68252 24.5553 5.97858 24.4315 6.19777 24.2115C7.21677 23.1933 10.2239 20.1862 11.4659 18.9465C11.812 18.5985 12.285 18.4028 12.7772 18.4028C13.2694 18.4028 13.7424 18.5985 14.0885 18.9465C15.3344 20.1901 18.3568 23.2118 19.3643 24.2208C19.5796 24.435 19.868 24.5553 20.1718 24.5553C20.7602 24.5553 21.237 24.0789 21.237 23.4909V3.02125C21.237 2.61328 21.0755 2.2222 20.7871 1.9338C20.4987 1.64501 20.1065 1.48312 19.6988 1.48312H5.85556Z" stroke="#075256" stroke-width="1.63388" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round"/>
-                                                            </g>
-                                                            </g>
-                                                            <defs>
-                                                            <clipPath id="clip0_769_2259">
-                                                            <rect width="24.5082" height="24.5082" fill="white" transform="translate(0.523438 0.765129)"/>
-                                                            </clipPath>
-                                                            </defs>
-                                                            </svg>
-                                                        </a>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 align-items-center">
-                                        <a href="" class="add-aplication add-button-border">
-                                            <span>+</span>
-                                        </a>
-                                    </div>
-                                </div>
-                                <div class="mb-5 mt-4 pb-1"></div>
-                                <div class="title-section mb-2 mt-5">
-                                    <h2 class="fw-bold">History</h2>
-                                </div>
-                                <div id="list-history" class="row hero-loker-list__wrapper grid-thumbnail">
-                                    <div class="col-sm-4">
-                                        <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
-                                            <div class="row">
-                                                <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
-                                                <div class="flex-grow-1 pe-2 col-sm-4">
-                                                    <div class="position-relative">
-                                                        <div class="hero-loker-list__item-image mb-3">
-                                                            <div class="ratio ratio-1x1">
-                                                                <div>
-                                                                    <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="position-relative">
-                                                            <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
-                                                            <div class="hero-loker-list__badge-wrapper">
-                                                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                                            </div>
-                                                            <div class="hero-loker-list__company">
-                                                                <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="hero-job-list__desc col-sm-4">   
-                                                    <div class="text-sm">
-                                                        <div class="d-flex mb-1">
-                                                            <span>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                                </svg>
-                                                            </span>
-                                                            <span class="ps-1">Bekasi</span>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span>Rp</span>
-                                                            <span class="ps-1">4,500,000 per month</span>
-                                                        </div>
-                                                    </div> 
-                                                    <div class="mt-3 loker-desc">
-                                                        <div class="fw-bold mb-1 text-sm">Description:</div>
-                                                        <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="hero-job-list__close-info col-sm-4">
-                                                    <div class="text-end text-sm loker-date">28 Juli 2023</div>
-                                                    <div class="d-flex align-items-end justify-content-between mb-3">
-                                                        <div class="d-flex align-items-center loker-percentage">
-                                                            <div class="text-sm me-2">Match :</div>
-                                                            <div class="circle-wrap">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
-                                                                <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
-                                                                <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
-                                                                <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
-                                                                <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
-                                                                <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
-                                                                <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
-                                                                <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
-                                                                <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
-                                                                <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
-                                                                </svg>
-                                                                <div class="inside-circle"> 90% </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="d-block position-relative status-loker green-status w-100">
-                                                        <div></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4">
-                                        <div class="hero-loker-list__item p-3 p-lg-4 mt-4 w-100">
-                                            <div class="row">
-                                                <button type="button" class="overview-button border-0 bg-transparent" data-bs-toggle="modal" data-bs-target="#overviewModal" fdprocessedid="l3vpp">Button Overview Popup</button>
-                                                <div class="flex-grow-1 pe-2 col-sm-4">
-                                                    <div class="position-relative">
-                                                        <div class="hero-loker-list__item-image mb-3">
-                                                            <div class="ratio ratio-1x1">
-                                                                <div>
-                                                                    <img src="./assets/images/DSC03092 1.png" alt="Image" class="rounded w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                        <div class="position-relative">
-                                                            <div class="fw-bold fs-6 mb-2">Senior UI Designer</div>
-                                                            <div class="hero-loker-list__badge-wrapper">
-                                                                <div class="hero-loker-list__badge px-3 me-1 py-1 d-inline-block text-xs rounded">Full Time</div>
-                                                            </div>
-                                                            <div class="hero-loker-list__company">
-                                                                <div class="company-name text-xs text-muted">Creative Solutions, Inc.</div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="hero-job-list__desc col-sm-4">   
-                                                    <div class="text-sm">
-                                                        <div class="d-flex mb-1">
-                                                            <span>
-                                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo-alt" viewBox="0 0 16 16">
-                                                                    <path d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"/>
-                                                                    <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
-                                                                </svg>
-                                                            </span>
-                                                            <span class="ps-1">Bekasi</span>
-                                                        </div>
-                                                        <div class="d-flex">
-                                                            <span>Rp</span>
-                                                            <span class="ps-1">4,500,000 per month</span>
-                                                        </div>
-                                                    </div> 
-                                                    <div class="mt-3 loker-desc">
-                                                        <div class="fw-bold mb-1 text-sm">Description:</div>
-                                                        <p class="text-xs text-muted d-block mt-2 mb-0">Develop and maintain software applications and programs for our clients using various programming languages and platforms.</p>
-                                                    </div>
-                                                </div>
-
-                                                <div class="hero-job-list__close-info col-sm-4">
-                                                    <div class="text-end text-sm loker-date">28 Juli 2023</div>
-                                                    <div class="d-flex align-items-end justify-content-between mb-3">
-                                                        <div class="d-flex align-items-center loker-percentage">
-                                                            <div class="text-sm me-2">Match :</div>
-                                                            <div class="circle-wrap">
-                                                                <svg width="80" height="80" viewBox="0 0 80 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                                                <path d="M40 0C48.0183 9.56174e-08 55.8516 2.40982 62.4833 6.91678L56.8625 15.1876C51.8887 11.8074 46.0137 10 40 10V0Z" fill="#16A799"/>
-                                                                <path d="M63.5153 7.64216C70.0017 12.356 74.9217 18.9104 77.6369 26.455L68.2276 29.8413C66.1913 24.1828 62.5013 19.267 57.6365 15.7316L63.5153 7.64216Z" fill="#16A799"/>
-                                                                <path d="M77.9835 27.46C80.4973 35.0741 80.6646 43.2679 78.464 50.9783L68.848 48.2337C70.4985 42.4509 70.373 36.3056 68.4876 30.595L77.9835 27.46Z" fill="#16A799"/>
-                                                                <path d="M78.1142 52.1369C75.6813 59.7772 71.0083 66.51 64.7016 71.4616L58.5262 63.5962C63.2562 59.8825 66.761 54.8329 68.5857 49.1027L78.1142 52.1369Z" fill="#16A799"/>
-                                                                <path d="M63.7097 72.2157C57.2519 76.9685 49.5146 79.6707 41.502 79.9718L41.1265 69.9788C47.136 69.753 52.9389 67.7263 57.7823 64.1617L63.7097 72.2157Z" fill="#16A799"/>
-                                                                <path d="M40 80C31.9817 80 24.1485 77.5902 17.5167 73.0832L23.1375 64.8124C28.1113 68.1926 33.9863 70 40 70V80Z" fill="#16A799"/>
-                                                                <path d="M16.6983 72.512C10.181 67.841 5.218 61.3191 2.45317 53.7926L11.8399 50.3444C13.9135 55.9894 17.6358 60.8808 22.5237 64.384L16.6983 72.512Z" fill="#16A799"/>
-                                                                <path d="M2.04106 52.6142C-0.48756 45.0051 -0.670964 36.8116 1.51465 29.0969L11.136 31.8227C9.49678 37.6087 9.63433 43.7538 11.5308 49.4607L2.04106 52.6142Z" fill="#16A799"/>
-                                                                <path d="M1.85563 27.9581C4.26953 20.3118 8.92573 13.5674 15.2201 8.60006L21.4151 16.45C16.6943 20.1755 13.2021 25.2338 11.3917 30.9686L1.85563 27.9581Z" fill="#16A799"/>
-                                                                <path d="M16.2657 7.80243C22.72 3.04471 30.4551 0.336556 38.4676 0.0293657L38.8507 10.022C32.8413 10.2524 27.04 12.2835 22.1993 15.8518L16.2657 7.80243Z" fill="#aaa"/>
-                                                                </svg>
-                                                                <div class="inside-circle"> 90% </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    
-                                                    <div class="d-block position-relative status-loker w-100">
-                                                        <div></div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
+                                
                             </div>
                             
                         </div> <!-- /.col -->

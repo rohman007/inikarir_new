@@ -539,614 +539,657 @@
                                         </div>
                                     </div>
                                 </div>
-                                <!-- Education -->
-                                <div class="mt-4 pt-1"></div>
-                                <div class="title-section mb-3 mt-5">
-                                    <h2 class="fw-bold">Education</h2>
-                                </div>
-                                <div class="profile-data">
-                                    <div class="profile-data_list">
-                                        <div class="education-data-01">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Parahyangan University, Bandung  <div data-toggle="education-data-01" class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">Computer Science <span class="bullet"></span> 2002 - 2006</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
+                                <div class="accordion" id="accordionProfile">
+                                    <div class="accordion-item">
+                                        <div class="mt-4 pt-1"></div>
+                                        <div class="accordion-header p-0" id="panelsStayOpen-headingOne">
+                                            <button class="accordion-button title-section mb-3 mt-5 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne" >
+                                                <h2 class="fw-bold">Education</h2>
+                                            </button>
                                         </div>
-                                        <div class="education-data-01-edit d-none">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="School/Campus name">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="education-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+                                        <div class="accordion-body p-0">
+                                            <!-- Education -->
+                                            <div class="profile-data">
+                                                <div class="profile-data_list">
+                                                    <div class="education-data-01">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Parahyangan University, Bandung  <div data-toggle="education-data-01" class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">Computer Science <span class="bullet"></span> 2002 - 2006</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Major in">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
-                                                    </div>
-                                                </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="file1">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="file1">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="profile-data_list education-add-edit d-none">
-                                        <div class="">
-                                            <div class="d-flex justify-content-between align-items-center">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="School/Campus name">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="education-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    <div class="education-data-01-edit d-none">
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="School/Campus name">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="education-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Major in">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="file1">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="file1">
+                                                            </label>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Major in">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
-                                                    </div>
                                                 </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="file1">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="file1">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-toggle="education-add" class="profile-data_add-button education-add">+</div>
-                                <!-- End Education -->
-                                <!-- Training -->
-                                <div class="mt-4 pt-1"></div>
-                                <div class="title-section mb-3 mt-5">
-                                    <h2 class="fw-bold">Training</h2>
-                                </div>
-                                <div class="profile-data">
-                                    <div class="profile-data_list">
-                                        <div class="training-data-01">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Software Engineering <div data-toggle="training-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="training-data-01-edit d-none">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="training-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                <div class="profile-data_list education-add-edit d-none">
+                                                    <div class="">
+                                                        <div class="d-flex justify-content-between align-items-center">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="School/Campus name">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="education-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Major in">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="file1">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="file1">
+                                                            </label>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
-                                                    </div>
                                                 </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filetraining1">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="filetraining1">
-                                                </label>
                                             </div>
+                                            <div data-toggle="education-add" class="profile-data_add-button education-add">+</div>
+                                            <!-- End Education -->
+                                        </div>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list">
-                                        <div class="training-data-02">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="training-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
+                                    <div class="accordion-item">
+                                        <div class="mt-4 pt-1"></div>
+                                        <div class="accordion-header" id="panelsStayOpen-headingTwo">
+                                        <button class="accordion-button title-section mb-3 mt-5 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                                            <h2 class="fw-bold">Training</h2>
+                                        </button>
                                         </div>
-                                        <div class="training-data-02-edit d-none">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="training-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingTwo">
+                                        <div class="accordion-body p-0">
+                                            <!-- Training -->
+                                            <div class="profile-data">
+                                                <div class="profile-data_list">
+                                                    <div class="training-data-01">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Software Engineering <div data-toggle="training-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
-                                                    </div>
-                                                </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filetraining2">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="filetraining2">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="profile-data_list training-add-edit d-none">
-                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                            <div>
-                                                <div class="fs-4 fw-500 d-flex">
-                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
-                                                    <div class="edit-action d-flex">
-                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                        <span data-toggle="training-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="text-sm d-flex align-items-center">
-                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
-                                                    <span class="bullet"></span> 
-                                                    <lable class="year-input me-1 position-relative" for="exprerience">
-                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                        <img src="assets/images/calendar-icon.svg">
-                                                    </lable>
-                                                </div>
-                                            </div>
-                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filetrainingadd">
-                                                <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                <div class="">Upload photo/video here</div>
-                                                <input type="file" name="" id="filetrainingadd">
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-toggle="training-add" href="#" class="profile-data_add-button training-add">+</div>
-                                <!-- End Training  -->
-                                <!-- Certification -->
-                                <div class="mt-4 pt-1"></div>
-                                <div class="title-section mb-3 mt-5">
-                                    <h2 class="fw-bold">Certification</h2>
-                                </div>
-                                <div class="profile-data">
-                                    <div class="profile-data_list">
-                                        <div class="certification-data-01">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Software Engineering <div data-toggle="certification-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="certification-data-01-edit d-none">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="certification-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    <div class="training-data-01-edit d-none">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="training-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filetraining1">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="filetraining1">
+                                                            </label>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
-                                                    </div>
                                                 </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filecertification1">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="filecertification1">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="profile-data_list">
-                                        <div class="certification-data-02">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="certification-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="certification-data-02-edit d-none">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="certification-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                <div class="profile-data_list">
+                                                    <div class="training-data-02">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="training-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
-                                                    </div>
-                                                </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filecertification2">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="filecertification2">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="profile-data_list certification-add-edit d-none">
-                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                            <div>
-                                                <div class="fs-4 fw-500 d-flex">
-                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
-                                                    <div class="edit-action d-flex">
-                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                        <span data-toggle="certification-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
-                                                    </div>
-                                                </div>
-                                                <div class="text-sm d-flex align-items-center">
-                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
-                                                    <span class="bullet"></span> 
-                                                    <lable class="year-input me-1 position-relative" for="exprerience">
-                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                        <img src="assets/images/calendar-icon.svg">
-                                                    </lable>
-                                                </div>
-                                            </div>
-                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filecertificationadd">
-                                                <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                <div class="">Upload photo/video here</div>
-                                                <input type="file" name="" id="filecertificationadd">
-                                            </label>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div data-toggle="certification-add" href="#" class="profile-data_add-button certification-add">+</div>
-                                <!-- End Certification  -->
-                                <!-- Work Experience -->
-                                <div class="mt-4 pt-1"></div>
-                                <div class="title-section mb-3 mt-5">
-                                    <h2 class="fw-bold">Work Experience</h2>
-                                </div>
-                                <div class="profile-data">
-                                    <div class="profile-data_list">
-                                        <div class="experience-data-01">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Software Engineering <div data-toggle="experience-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="experience-data-01-edit d-none">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="experience-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    <div class="training-data-02-edit d-none">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="training-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filetraining2">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="filetraining2">
+                                                            </label>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
+                                                </div>
+                                                <div class="profile-data_list training-add-edit d-none">
+                                                    <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                        <div>
+                                                            <div class="fs-4 fw-500 d-flex">
+                                                                <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
+                                                                <div class="edit-action d-flex">
+                                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                    <span data-toggle="training-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-sm d-flex align-items-center">
+                                                                <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
+                                                                <span class="bullet"></span> 
+                                                                <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                    <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                    <img src="assets/images/calendar-icon.svg">
+                                                                </lable>
+                                                            </div>
+                                                        </div>
+                                                        <label class="profile-data_list-action upload-data text-center text-xs" for="filetrainingadd">
+                                                            <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                            <div class="">Upload photo/video here</div>
+                                                            <input type="file" name="" id="filetrainingadd">
+                                                        </label>
                                                     </div>
                                                 </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperience1">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="fileexperience1">
-                                                </label>
                                             </div>
+                                            <div data-toggle="training-add" href="#" class="profile-data_add-button training-add">+</div>
+                                            <!-- End Training  -->
+                                        </div>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list">
-                                        <div class="experience-data-02">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="experience-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                                    <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
-                                                </div>
-                                                <div class="profile-data_list-action mt-3 mt-sm-0">
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
-                                                </div>
-                                            </div>
+                                    <div class="accordion-item">
+                                        <div class="mt-4 pt-1"></div>
+                                        <div class="accordion-header" id="panelsStayOpen-headingThree">
+                                        <button class="accordion-button title-section mb-3 mt-5 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                                            <h2 class="fw-bold">Certification</h2>
+                                        </button>
                                         </div>
-                                        <div class="experience-data-02-edit d-none">
-                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                                <div>
-                                                    <div class="fs-4 fw-500 d-flex">
-                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
-                                                        <div class="edit-action d-flex">
-                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                            <span data-toggle="experience-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingThree">
+                                        <div class="accordion-body p-0">
+                                            <!-- Certification -->
+                                            <div class="profile-data">
+                                                <div class="profile-data_list">
+                                                    <div class="certification-data-01">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Software Engineering <div data-toggle="certification-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
                                                         </div>
                                                     </div>
-                                                    <div class="text-sm d-flex align-items-center">
-                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
-                                                        <span class="bullet"></span> 
-                                                        <lable class="year-input me-1 position-relative" for="exprerience">
-                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                            <img src="assets/images/calendar-icon.svg">
-                                                        </lable>
+                                                    <div class="certification-data-01-edit d-none">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="certification-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filecertification1">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="filecertification1">
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperience2">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="fileexperience2">
-                                                </label>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="profile-data_list experience-add-edit d-none">
-                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
-                                            <div>
-                                                <div class="fs-4 fw-500 d-flex">
-                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
-                                                    <div class="edit-action d-flex">
-                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                        <span data-toggle="experience-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                <div class="profile-data_list">
+                                                    <div class="certification-data-02">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="certification-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="certification-data-02-edit d-none">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="certification-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filecertification2">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="filecertification2">
+                                                            </label>
+                                                        </div>
                                                     </div>
                                                 </div>
-                                                <div class="text-sm d-flex align-items-center">
-                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
-                                                    <span class="bullet"></span> 
-                                                    <lable class="year-input me-1 position-relative" for="exprerience">
-                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
-                                                        <img src="assets/images/calendar-icon.svg">
-                                                    </lable>
+                                                <div class="profile-data_list certification-add-edit d-none">
+                                                    <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                        <div>
+                                                            <div class="fs-4 fw-500 d-flex">
+                                                                <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
+                                                                <div class="edit-action d-flex">
+                                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                    <span data-toggle="certification-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-sm d-flex align-items-center">
+                                                                <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
+                                                                <span class="bullet"></span> 
+                                                                <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                    <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                    <img src="assets/images/calendar-icon.svg">
+                                                                </lable>
+                                                            </div>
+                                                        </div>
+                                                        <label class="profile-data_list-action upload-data text-center text-xs" for="filecertificationadd">
+                                                            <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                            <div class="">Upload photo/video here</div>
+                                                            <input type="file" name="" id="filecertificationadd">
+                                                        </label>
+                                                    </div>
                                                 </div>
                                             </div>
-                                            <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperienceadd">
-                                                <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                <div class="">Upload photo/video here</div>
-                                                <input type="file" name="" id="fileexperienceadd">
-                                            </label>
+                                            <div data-toggle="certification-add" href="#" class="profile-data_add-button certification-add">+</div>
+                                            <!-- End Certification  -->
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="mt-4 pt-1"></div>
+                                        <div class="accordion-header" id="panelsStayOpen-headingFour">
+                                        <button class="accordion-button title-section mb-3 mt-5 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                                            <h2 class="fw-bold">Work Experience</h2>
+                                        </button>
+                                        </div>
+                                        <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFour">
+                                        <div class="accordion-body p-0">
+                                            <!-- Work Experience -->
+                                            <div class="profile-data">
+                                                <div class="profile-data_list">
+                                                    <div class="experience-data-01">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Software Engineering <div data-toggle="experience-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="experience-data-01-edit d-none">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="experience-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperience1">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="fileexperience1">
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-data_list">
+                                                    <div class="experience-data-02">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="experience-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                                <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                                            </div>
+                                                            <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                                <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="experience-data-02-edit d-none">
+                                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                            <div>
+                                                                <div class="fs-4 fw-500 d-flex">
+                                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
+                                                                    <div class="edit-action d-flex">
+                                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                        <span data-toggle="experience-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="text-sm d-flex align-items-center">
+                                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
+                                                                    <span class="bullet"></span> 
+                                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                        <img src="assets/images/calendar-icon.svg">
+                                                                    </lable>
+                                                                </div>
+                                                            </div>
+                                                            <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperience2">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="fileexperience2">
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="profile-data_list experience-add-edit d-none">
+                                                    <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                        <div>
+                                                            <div class="fs-4 fw-500 d-flex">
+                                                                <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
+                                                                <div class="edit-action d-flex">
+                                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                    <span data-toggle="experience-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                                </div>
+                                                            </div>
+                                                            <div class="text-sm d-flex align-items-center">
+                                                                <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
+                                                                <span class="bullet"></span> 
+                                                                <lable class="year-input me-1 position-relative" for="exprerience">
+                                                                    <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                                    <img src="assets/images/calendar-icon.svg">
+                                                                </lable>
+                                                            </div>
+                                                        </div>
+                                                        <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperienceadd">
+                                                            <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                            <div class="">Upload photo/video here</div>
+                                                            <input type="file" name="" id="fileexperienceadd">
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div data-toggle="experience-add" href="#" class="profile-data_add-button experience-add">+</div>
+                                            <!-- End Work Experience  -->
+                                        </div>
+                                        </div>
+                                    </div>
+                                    <div class="accordion-item">
+                                        <div class="mt-4 pt-1"></div>
+                                        <div class="accordion-header" id="panelsStayOpen-headingFive">
+                                        <button class="accordion-button title-section mb-3 mt-5 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+                                            <h2 class="fw-bold">Portfolio</h2>
+                                        </button>
+                                        </div>
+                                        <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingFive">
+                                        <div class="accordion-body p-0">
+                                            <!-- Portfolio -->
+                                            <div class="row profile-data_portfolio">
+                                                <div class="col-sm-4 mb-4">
+                                                    <div class="profile-profile-data_portfolio-list">
+                                                        <div class="mb-2 fw-500 d-flex justify-content-between">
+                                                            UI Landing Page
+                                                            <div class="icon-option">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
+                                                                <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
+                                                                <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-3">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <div class="category-portfolio ms-2">
+                                                                <div>Phyton</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
+                                                        <div class="portfolio-photo ratio ratio-4x3 position-relative">
+                                                            <img src="assets/images/portfolio.jpg" class="w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 mb-4">
+                                                    <div class="profile-profile-data_portfolio-list">
+                                                        <div class="mb-2 fw-500 d-flex justify-content-between">
+                                                            UI Landing Page
+                                                            <div class="icon-option">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
+                                                                <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
+                                                                <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-3">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <div class="category-portfolio ms-2">
+                                                                <div>Phyton</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
+                                                        <div class="portfolio-photo ratio ratio-4x3 position-relative">
+                                                            <img src="assets/images/portfolio.jpg" class="w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 mb-4">
+                                                    <div class="profile-profile-data_portfolio-list">
+                                                        <div class="mb-2 fw-500 d-flex justify-content-between">
+                                                            UI Landing Page
+                                                            <div class="icon-option">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
+                                                                <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
+                                                                <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-3">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <div class="category-portfolio ms-2">
+                                                                <div>Phyton</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
+                                                        <div class="portfolio-photo ratio ratio-4x3 position-relative">
+                                                            <img src="assets/images/portfolio.jpg" class="w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 mb-4">
+                                                    <div class="profile-profile-data_portfolio-list">
+                                                        <div class="mb-2 fw-500 d-flex justify-content-between">
+                                                            UI Landing Page
+                                                            <div class="icon-option">
+                                                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                                                                <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
+                                                                <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
+                                                                <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
+                                                                </svg>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-3">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <div class="category-portfolio ms-2">
+                                                                <div>Phyton</div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
+                                                        <div class="portfolio-photo ratio ratio-4x3 position-relative">
+                                                            <img src="assets/images/portfolio.jpg" class="w-100">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 mb-4 potfolio-add-edit d-none">
+                                                    <div class="profile-profile-data_portfolio-list portfolio-input">
+                                                        <div class="mb-2 fw-500 d-flex justify-content-between">
+                                                            <input type="text" name="" class="form-control fw-500 px-0 py-0 border-0" placeholder="Type of Work">
+                                                            <div class="edit-action d-flex">
+                                                                <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                                <span data-toggle="potfolio-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                            </div>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-2">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <span class="ms-2 position-relative">
+                                                                <input type="text" name="daterange" id="dateportfolio" placeholder="Date Range" class=" text-sm form-control px-2 py-1 daterange" placeholder="Date Range"/>
+                                                                <label class="date-icon" for="dateportfolio"><img src="assets/images/calendar-icon.svg"></label>
+                                                            </span>
+                                                        </div>
+                                                        <div class="d-flex align-items-center text-sm text-muted mb-3">
+                                                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                                <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
+                                                            </svg>
+                                                            <div class="category-portfolio ms-2">
+                                                                <input type="text" name="" class="form-control text-sm fw-500 px-0 py-0 border-0" placeholder="Tags">
+                                                            </div>
+                                                        </div>
+                                                        <div class="portfolio-desc text-sm text-muted mb-4">
+                                                            <textarea placeholder="Work description..." class="form-control border-0 px-0 py-0 text-sm" rows="1" style="height:40px"></textarea>
+                                                        </div>
+                                                        <label class="portfolio-photo ratio ratio-4x3 position-relative" for="fileportfolio1">
+                                                            <div class="upload-data">
+                                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                                <div class="">Upload photo/video here</div>
+                                                                <input type="file" name="" id="fileportfolio1">
+                                                            </div>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-4 align-items-center potfolio-add">
+                                                    <div data-toggle="potfolio-add" class="add-aplication profile-data_add-button add-button-border">
+                                                        <span>+</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <!-- End Portfolio  -->
+                                        </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div data-toggle="experience-add" href="#" class="profile-data_add-button experience-add">+</div>
-                                <!-- End Work Experience  -->
-                                <!-- Portfolio -->
-                                <div class="mt-4 pt-1"></div>
-                                <div class="title-section mb-4 mt-5">
-                                    <h2 class="fw-bold">Portfolio</h2>
-                                </div>
-                                <div class="row profile-data_portfolio">
-                                    <div class="col-sm-4 mb-4">
-                                        <div class="profile-profile-data_portfolio-list">
-                                            <div class="mb-2 fw-500 d-flex justify-content-between">
-                                                UI Landing Page
-                                                <div class="icon-option">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                    <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
-                                                    <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
-                                                    <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
-                                                </svg>
-                                                <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
-                                                </svg>
-                                                <div class="category-portfolio ms-2">
-                                                    <div>Phyton</div>
-                                                </div>
-                                            </div>
-                                            <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
-                                            <div class="portfolio-photo ratio ratio-4x3 position-relative">
-                                                <img src="assets/images/portfolio.jpg" class="w-100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 mb-4">
-                                        <div class="profile-profile-data_portfolio-list">
-                                            <div class="mb-2 fw-500 d-flex justify-content-between">
-                                                UI Landing Page
-                                                <div class="icon-option">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                    <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
-                                                    <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
-                                                    <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
-                                                </svg>
-                                                <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
-                                                </svg>
-                                                <div class="category-portfolio ms-2">
-                                                    <div>Phyton</div>
-                                                </div>
-                                            </div>
-                                            <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
-                                            <div class="portfolio-photo ratio ratio-4x3 position-relative">
-                                                <img src="assets/images/portfolio.jpg" class="w-100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 mb-4">
-                                        <div class="profile-profile-data_portfolio-list">
-                                            <div class="mb-2 fw-500 d-flex justify-content-between">
-                                                UI Landing Page
-                                                <div class="icon-option">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                    <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
-                                                    <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
-                                                    <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
-                                                </svg>
-                                                <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
-                                                </svg>
-                                                <div class="category-portfolio ms-2">
-                                                    <div>Phyton</div>
-                                                </div>
-                                            </div>
-                                            <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
-                                            <div class="portfolio-photo ratio ratio-4x3 position-relative">
-                                                <img src="assets/images/portfolio.jpg" class="w-100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 mb-4">
-                                        <div class="profile-profile-data_portfolio-list">
-                                            <div class="mb-2 fw-500 d-flex justify-content-between">
-                                                UI Landing Page
-                                                <div class="icon-option">
-                                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                                                    <path d="M12 13.0527C12.5523 13.0527 13 12.605 13 12.0527C13 11.5004 12.5523 11.0527 12 11.0527C11.4477 11.0527 11 11.5004 11 12.0527C11 12.605 11.4477 13.0527 12 13.0527Z" fill="#5E6778"/>
-                                                    <path d="M12 7C12.5523 7 13 6.55228 13 6C13 5.44772 12.5523 5 12 5C11.4477 5 11 5.44772 11 6C11 6.55228 11.4477 7 12 7Z" fill="#5E6778"/>
-                                                    <path d="M12 19.1064C12.5523 19.1064 13 18.6587 13 18.1064C13 17.5542 12.5523 17.1064 12 17.1064C11.4477 17.1064 11 17.5542 11 18.1064C11 18.6587 11.4477 19.1064 12 19.1064Z" fill="#5E6778"/>
-                                                    </svg>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
-                                                </svg>
-                                                <span class="ms-2">Thu, 14 Feb ~ Mon, 28 Feb</span>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
-                                                </svg>
-                                                <div class="category-portfolio ms-2">
-                                                    <div>Phyton</div>
-                                                </div>
-                                            </div>
-                                            <div class="portfolio-desc text-sm text-muted mb-4">Create a landing page design for architecture website</div>
-                                            <div class="portfolio-photo ratio ratio-4x3 position-relative">
-                                                <img src="assets/images/portfolio.jpg" class="w-100">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 mb-4 potfolio-add-edit d-none">
-                                        <div class="profile-profile-data_portfolio-list portfolio-input">
-                                            <div class="mb-2 fw-500 d-flex justify-content-between">
-                                                <input type="text" name="" class="form-control fw-500 px-0 py-0 border-0" placeholder="Type of Work">
-                                                <div class="edit-action d-flex">
-                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                    <span data-toggle="potfolio-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
-                                                </div>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-2">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
-                                                </svg>
-                                                <span class="ms-2 position-relative">
-                                                    <input type="text" name="daterange" id="dateportfolio" placeholder="Date Range" class=" text-sm form-control px-2 py-1 daterange" placeholder="Date Range"/>
-                                                    <label class="date-icon" for="dateportfolio"><img src="assets/images/calendar-icon.svg"></label>
-                                                </span>
-                                            </div>
-                                            <div class="d-flex align-items-center text-sm text-muted mb-3">
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
-                                                    <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
-                                                </svg>
-                                                <div class="category-portfolio ms-2">
-                                                    <input type="text" name="" class="form-control text-sm fw-500 px-0 py-0 border-0" placeholder="Tags">
-                                                </div>
-                                            </div>
-                                            <div class="portfolio-desc text-sm text-muted mb-4">
-                                                <textarea placeholder="Work description..." class="form-control border-0 px-0 py-0 text-sm" rows="1" style="height:40px"></textarea>
-                                            </div>
-                                            <label class="portfolio-photo ratio ratio-4x3 position-relative" for="fileportfolio1">
-                                                <div class="upload-data">
-                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
-                                                    <div class="">Upload photo/video here</div>
-                                                    <input type="file" name="" id="fileportfolio1">
-                                                </div>
-                                            </label>
-                                        </div>
-                                    </div>
-                                    <div class="col-sm-4 align-items-center potfolio-add">
-                                        <div data-toggle="potfolio-add" class="add-aplication profile-data_add-button add-button-border">
-                                            <span>+</span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- End Portfolio  -->
+                                
                             </div>
                             
                         </div> <!-- /.col -->
