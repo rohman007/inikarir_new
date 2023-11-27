@@ -1209,6 +1209,20 @@
                 event.stopPropagation();
             });
             $(document).ready(function() {
+                $(".custom-select .options li").on('click', function(){
+                    var value = $(this).attr('data-img');
+                    var valueData = $(this).attr('data-value');
+                    $(".custom-select .selected-option").html('<img src="' + value + '" alt="Selected Image" class="me-2"> ' + $(this).text());
+                    $(".custom-select .selected-option").removeClass("profile-unavailable");
+                    $(".custom-select .selected-option").removeClass("profile-available");
+                    $(".custom-select .selected-option").addClass('profile-'+valueData);
+
+                    // Perbarui nilai elemen select
+                    $("#available-select").val(valueData);
+
+                    // Trigger event perubahan pada elemen select
+                    $("#available-select").change();
+                });
                 $(".edit-icon").on('click', function(){
                     var valueData = $(this).attr('data-toggle');
                     $("."+valueData).addClass("d-none");
