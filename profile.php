@@ -89,66 +89,189 @@
                                 </div>
                             </div>
                             <div class="profile-short mb-4">
-                                <div class="profile-name fw-bold">Cloud Strike <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></div>
-                                <div class="profile-job text-muted text-sm mb-4">UI/UX Designer</div>
-                                <div class="profile-available text-sm fw-bold mb-4"><img class="me-2" src="assets/images/work-icon.svg">Available for work</div>
+                                <div class="data-profile-01">
+                                    <div class="profile-name fw-bold">Cloud Strike <div data-toggle="data-profile-01" href="##" class="edit-icon ms-2" href=""><img src="assets/images/edit-icon.svg"></div></div>
+                                    <div class="profile-job text-muted text-sm mb-4">UI/UX Designer</div>
+                                    <div class="profile-available text-sm fw-bold mb-4"><img class="me-2" src="assets/images/work-icon.svg">Available for work</div>
+                                </div>
+                                <div class="data-profile-01-edit d-none">
+                                    <div class="profile-name fw-bold d-flex align-items-center">
+                                        <input type="text" class="border-0 form-control fw-bold px-0 py-1 pb-0" placeholder="Your Name" name=""> 
+                                        <div class="edit-action d-flex">
+                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                            <span data-toggle="data-profile-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="profile-job text-muted text-sm mb-3">
+                                        <input type="text" class="border-0 form-control px-0 py-1 text-sm" placeholder="Profession" name="">
+                                    </div>
+                                    <div class=" text-sm fw-bold mb-4 w-100">
+                                        <select id="available-select" style="opacity:0;height:0;width:0;position:absolute" class="border-0 p-0" name="">
+                                            <option value="available">available</option>
+                                            <option value="unavailable">unavailable</option>
+                                        </select>  
+                                        <div class="dropdown custom-select">
+                                            <button class="w-100 fw-bold text-sm dropdown-toggle selected-option profile-available" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img src="assets/images/work-icon.svg" class="me-2"> Available for work 
+                                            </button>
+                                            <ul class="dropdown-menu options  w-100 py-0">
+                                                <li data-img="assets/images/work-icon.svg" data-value="available" class="profile-available text-sm w-100"> <img src="assets/images/work-icon.svg" class="me-2"> Available for work </li>
+                                                <li data-img="assets/images/x-work-icon.svg" data-value="unavailable" class="profile-unavailable text-sm w-100" > <img src="assets/images/x-work-icon.svg" class="me-2"> Unavailable for work </li>
+                                            </ul>
+                                        </div>                                
+                                    </div>
+                                </div>
                                 <div class="profile-professional mb-4">
-                                    <div class="fw-bold mb-2">Professional Details <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></div>    
-                                    <div class="profile-professional_list">
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/rp-icon.svg">
+                                    <div class="data-profile-02">
+                                        <div class="fw-bold mb-2">Professional Details <div data-toggle="data-profile-02" class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></div></div>    
+                                        <div class="profile-professional_list">
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/rp-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Salary Expectations</div>
+                                                    <div class="text-sm fw-500">Rp 10.000.000 / month</div>
                                                 </div>
                                             </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Salary Expectations</div>
-                                                <div class="text-sm fw-500">Rp 10.000.000 / month</div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/work-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Career Level</div>
+                                                    <div class="text-sm fw-500">Senior Level</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Work Experience</div>
+                                                    <div class="text-sm fw-500">5 Years Experience</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/time-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Employment Type</div>
+                                                    <div class="text-sm fw-500">Full Time, Part Time</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/work-icon.svg">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Career Level</div>
-                                                <div class="text-sm fw-500">Senior Level</div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/calendar-icon.svg">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Work Experience</div>
-                                                <div class="text-sm fw-500">5 Years Experience</div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/time-icon.svg">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Employment Type</div>
-                                                <div class="text-sm fw-500">Full Time, Part Time</div>
+                                        <div class="profile-skill">
+                                            <div class="fw-bold mb-2">Skills</div>    
+                                            <div class="profile-skill_list">
+                                                <div class="text-sm">UI Designer</div>
+                                                <div class="text-sm">UX Designer</div>
+                                                <div class="text-sm">Figma</div>
+                                                <div class="text-sm">Product Designer</div>
+                                                <a href="#" class="add-skill">+</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="profile-skill">
-                                    <div class="fw-bold mb-2">Skills</div>    
-                                    <div class="profile-skill_list">
-                                        <div class="text-sm">UI Designer</div>
-                                        <div class="text-sm">UX Designer</div>
-                                        <div class="text-sm">Figma</div>
-                                        <div class="text-sm">Product Designer</div>
-                                        <a href="#" class="add-skill">+</a>
+                                    <div class="data-profile-02-edit d-none">
+                                        <div class="fw-bold mb-2">Professional Details</div>    
+                                        <div class="profile-professional_list">
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/rp-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Salary Expectations</div>
+                                                    <div class="text-sm fw-500 d-flex align-items-center">Rp <input type="text" class="ms-1 form-control px-0 border-0 text-sm fw-500" name="" placeholder="000000000"> <span class="text-nowrap">/ month</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/work-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Career Level</div>
+                                                    <select id="career-level-select" class="form-control text-sm fw-500 px-2 py-1" name="">
+                                                        <option value="available">Junior Level</option>
+                                                        <option value="unavailable" selected>Senior Level</option>
+                                                    </select>  
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Work Experience</div>
+                                                    <div class="text-sm fw-500 d-flex align-items-center">
+                                                        <lable class="experience-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                        Experience
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/time-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Employment Type</div>
+                                                    <div class="row text-xs employment-select">
+                                                        <div class="col-6 mb-1">
+                                                            <input type="checkbox" name="employment-type" id="fulltime"> 
+                                                            <label for="fulltime">Full Time</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1 ps-md-0">
+                                                            <input type="checkbox" name="employment-type" id="parttime">
+                                                            <label for="parttime">Part Time</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1">
+                                                            <input type="checkbox" name="employment-type" id="contract"> 
+                                                            <label for="contract">Contract</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1 ps-md-0">
+                                                            <input type="checkbox" name="employment-type" id="freelancer"> 
+                                                            <label for="freelancer">Freelancer</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1">
+                                                            <input type="checkbox" name="employment-type" id="interns"> 
+                                                            <label for="interns">Interns</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-skill">
+                                            <div class="fw-bold mb-2">Skills</div>  
+                                            <div class="profile-skill fw-bold d-flex align-items-center">
+                                                <div>
+                                                    <input type="text" id="skills" class="border-0 text-sm form-control fw-500 px-0 py-0" placeholder="Skills 1,Skills 2,Skills 3" name="" > 
+                                                    <lable class="text-xs fw-normal text-muted d-block" for="skills" style="color: #ccc !important;font-size: 11px !important;">separate by coma</lable>
+                                                </div>
+                                                <div class="edit-action d-flex">
+                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                    <span data-toggle="data-profile-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -261,48 +384,160 @@
                                 <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
                             </div>
                             <div class="ps-sm-4 mt-5">
-                                <div class="title-section-default mb-3 mt-3">
-                                    <h2 class="fw-bold">About Me <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></h2>
+                                <div class="data-profile-03">
+                                    <div class="title-section-default mb-3 mt-3">
+                                        <h2 class="fw-bold">About Me <div data-toggle="data-profile-03" class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></div></h2>
+                                    </div>
+                                    <div class="profile-about text-muted mb-3 pb-1">
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac urna nec eros fermentum cursus. Nullam et eros in odio consectetur efficitur. Praesent pretium odio quis augue ullamcorper, sit amet placerat lorem facilisis. Pellentesque leo augue, aliquam sed pellentesque a, aliquet in ipsum. Vestibulum rutrum in felis id vulputate.</p>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Gender:</div>
+                                            <div class="">Male</div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Birthday:</div>
+                                            <div class="">August 11, 1996</div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Latest Education:</div>
+                                            <div class="">Bachelor</div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Religion:</div>
+                                            <div class="">Islam</div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Phone:</div>
+                                            <div class="">089697757575</div>
+                                        </div>
+                                        <div class="col-sm-4 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Email:</div>
+                                            <div class="">cloud.exsoldier@mail.com</div>
+                                        </div>
+                                        <div class="col-sm-5 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Address:</div>
+                                            <div class="">Midgar, The mountainous village of Nibelheim</div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-sosmed d-flex">
+                                        <a class="me-3 sosmed-icon" href="#"><img src="assets/images/linkin-icon.svg"></a>
+                                        <a class="me-3 sosmed-icon" href="#"><img src="assets/images/fb-icon.svg"></a>
+                                        <a class="me-3 sosmed-icon" href="#"><img src="assets/images/ig-icon.svg"></a>
+                                        <a class="me-3 sosmed-icon" href="#"><img src="assets/images/yt-icon.svg"></a>
+                                        <a class="me-3 sosmed-icon" href="#"><img src="assets/images/tiktok-icon.svg"></a>
+                                    </div>
                                 </div>
-                                <div class="profile-about text-muted mb-3 pb-1">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ac urna nec eros fermentum cursus. Nullam et eros in odio consectetur efficitur. Praesent pretium odio quis augue ullamcorper, sit amet placerat lorem facilisis. Pellentesque leo augue, aliquam sed pellentesque a, aliquet in ipsum. Vestibulum rutrum in felis id vulputate.</p>
-                                </div>
-                                <div class="row">
-                                    <div class="col-sm-3 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Gender:</div>
-                                        <div class="">Male</div>
+                                <div class="data-profile-03-edit d-none">
+                                    <div class="title-section-default mb-3 mt-3">
+                                        <h2 class="fw-bold">
+                                            About Me 
+                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                            <span data-toggle="data-profile-03" class="x-icon ms-0 px-1" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        </h2>
                                     </div>
-                                    <div class="col-sm-3 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Birthday:</div>
-                                        <div class="">August 11, 1996</div>
+                                    <div class="profile-about text-muted mb-3 pb-1">
+                                        <textarea placeholder="Write story of your life here..." class="form-control border-0 px-0 py-0" rows="4"></textarea>
                                     </div>
-                                    <div class="col-sm-3 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Latest Education:</div>
-                                        <div class="">Bachelor</div>
+                                    <div class="row">
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Gender:</div>
+                                            <div class="pe-sm-5">
+                                                <select id="gender-select" class="form-control text-sm fw-500 px-2 py-1" name="">
+                                                    <option value="male"selected>Male</option>
+                                                    <option value="female">Female</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Birthday:</div>
+                                            <div class="pe-sm-4">
+                                                <input type="date" id="birthday" placeholder="Birthday" name="" class="form-control text-sm fw-500 px-2 py-1">
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Latest Education:</div>
+                                            <div class="">Bachelor</div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Religion:</div>
+                                            <div class="">
+                                                <select id="religion-select" class="form-control text-sm fw-500 px-2 py-1 w-50" name="">
+                                                    <option value="islam"selected>Islam</option>
+                                                    <option value="christianity">Christianity</option>
+                                                    <option value="hinduism">Hinduism</option>
+                                                    <option value="buddhism">Buddhism</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-3 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Phone:</div>
+                                            <div class=""><input type="text" name="" class="form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. 123 456 7890"></div>
+                                        </div>
+                                        <div class="col-sm-4 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Email:</div>
+                                            <div class=""><input type="text" name="" class="form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. cloud.exsoldier@mail.com"></div>
+                                        </div>
+                                        <div class="col-sm-5 mb-4">
+                                            <div class="text-ms fw-bold mb-1">Address:</div>
+                                            <div class=""><input type="text" name="" class="form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. Midgar, The mountainous village of Nibelheim"></div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-3 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Religion:</div>
-                                        <div class="">Islam</div>
+                                    <div class="profile-sosmed mt-4">
+                                        <div class="row">
+                                            <div class="col-sm-6 mb-2">
+                                                <div class="d-flex me-3 align-items-center">
+                                                    <a class="me-2 sosmed-icon" href="#"><img src="assets/images/linkin-icon.svg"></a>
+                                                    <input type="text" name="" class="w-100 form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. https://www.linkedin.com/in/yourname/">
+                                                    <!-- <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-2">
+                                                <div class="d-flex me-3 align-items-center">
+                                                    <a class="me-2 sosmed-icon" href="#"><img src="assets/images/fb-icon.svg"></a>
+                                                    <input type="text" name="" class="w-100 form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. https://www.facebook.com/yourname/">
+                                                    <!-- <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-2">
+                                                <div class="d-flex me-3 align-items-center">
+                                                    <a class="me-2 sosmed-icon" href="#"><img src="assets/images/ig-icon.svg"></a>
+                                                    <input type="text" name="" class="w-100 form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. https://www.instagram.com/yourname/">
+                                                    <!-- <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-2">
+                                                <div class="d-flex me-3 align-items-center">
+                                                    <a class="me-2 sosmed-icon" href="#"><img src="assets/images/yt-icon.svg"></a>
+                                                    <input type="text" name="" class="w-100 form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. https://www.youtube.com/yourname/">
+                                                    <!-- <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-6 mb-2">
+                                                <div class="d-flex me-3 align-items-center">
+                                                    <a class="me-2 sosmed-icon" href="#"><img src="assets/images/tiktok-icon.svg"></a>
+                                                    <input type="text" name="" class="w-100 form-control text-sm fw-500 px-0 py-0 border-0" placeholder="ex. https://www.tiktok.com/yourname/">
+                                                    <!-- <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <a class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></a>
+                                                    </div> -->
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
-                                    <div class="col-sm-3 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Phone:</div>
-                                        <div class="">089697757575</div>
-                                    </div>
-                                    <div class="col-sm-4 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Email:</div>
-                                        <div class="">cloud.exsoldier@mail.com</div>
-                                    </div>
-                                    <div class="col-sm-5 mb-4">
-                                        <div class="text-ms fw-bold mb-1">Address:</div>
-                                        <div class="">Midgar, The mountainous village of Nibelheim</div>
-                                    </div>
-                                </div>
-                                <div class="profile-sosmed d-flex">
-                                    <a class="me-3" href="#"><img src="assets/images/linkin-icon.svg"></a>
-                                    <a class="me-3" href="#"><img src="assets/images/fb-icon.svg"></a>
-                                    <a class="me-3" href="#"><img src="assets/images/ig-icon.svg"></a>
-                                    <a class="me-3" href="#"><img src="assets/images/yt-icon.svg"></a>
-                                    <a class="me-3" href="#"><img src="assets/images/tiktok-icon.svg"></a>
                                 </div>
                                 <!-- Education -->
                                 <div class="mt-4 pt-1"></div>
@@ -310,19 +545,77 @@
                                     <h2 class="fw-bold">Education</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Parahyangan University, Bandung  <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">Computer Science <span class="bullet"></span> 2002 - 2006</div>
+                                    <div class="profile-data_list">
+                                        <div class="education-data-01">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Parahyangan University, Bandung  <div data-toggle="education-data-01" class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">Computer Science <span class="bullet"></span> 2002 - 2006</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="education-data-01-edit d-none">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="School/Campus name">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="education-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Major in">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="file1">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="file1">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-data_list education-add-edit d-none">
+                                        <div class="">
+                                            <div class="d-flex justify-content-between align-items-center">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="School/Campus name">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="education-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Major in">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="file1">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="file1">
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" class="profile-data_add-button">+</a>
+                                <div data-toggle="education-add" class="profile-data_add-button education-add">+</div>
                                 <!-- End Education -->
                                 <!-- Training -->
                                 <div class="mt-4 pt-1"></div>
@@ -330,30 +623,116 @@
                                     <h2 class="fw-bold">Training</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                    <div class="profile-data_list">
+                                        <div class="training-data-01">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Software Engineering <div data-toggle="training-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="training-data-01-edit d-none">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="training-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filetraining1">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="filetraining1">
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Junior Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                    <div class="profile-data_list">
+                                        <div class="training-data-02">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="training-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="training-data-02-edit d-none">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="training-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filetraining2">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="filetraining2">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-data_list training-add-edit d-none">
+                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                            <div>
+                                                <div class="fs-4 fw-500 d-flex">
+                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Training name">
+                                                    <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <span data-toggle="training-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-sm d-flex align-items-center">
+                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Organizer">
+                                                    <span class="bullet"></span> 
+                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </lable>
+                                                </div>
+                                            </div>
+                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filetrainingadd">
+                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                <div class="">Upload photo/video here</div>
+                                                <input type="file" name="" id="filetrainingadd">
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" class="profile-data_add-button">+</a>
+                                <div data-toggle="training-add" href="#" class="profile-data_add-button training-add">+</div>
                                 <!-- End Training  -->
                                 <!-- Certification -->
                                 <div class="mt-4 pt-1"></div>
@@ -361,30 +740,116 @@
                                     <h2 class="fw-bold">Certification</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                    <div class="profile-data_list">
+                                        <div class="certification-data-01">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Software Engineering <div data-toggle="certification-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="certification-data-01-edit d-none">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="certification-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filecertification1">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="filecertification1">
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Junior Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                    <div class="profile-data_list">
+                                        <div class="certification-data-02">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="certification-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="certification-data-02-edit d-none">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="certification-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="filecertification2">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="filecertification2">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-data_list certification-add-edit d-none">
+                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                            <div>
+                                                <div class="fs-4 fw-500 d-flex">
+                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Certification name">
+                                                    <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <span data-toggle="certification-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-sm d-flex align-items-center">
+                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Issuer">
+                                                    <span class="bullet"></span> 
+                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </lable>
+                                                </div>
+                                            </div>
+                                            <label class="profile-data_list-action upload-data text-center text-xs" for="filecertificationadd">
+                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                <div class="">Upload photo/video here</div>
+                                                <input type="file" name="" id="filecertificationadd">
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" class="profile-data_add-button">+</a>
+                                <div data-toggle="certification-add" href="#" class="profile-data_add-button certification-add">+</div>
                                 <!-- End Certification  -->
                                 <!-- Work Experience -->
                                 <div class="mt-4 pt-1"></div>
@@ -392,30 +857,116 @@
                                     <h2 class="fw-bold">Work Experience</h2>
                                 </div>
                                 <div class="profile-data">
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                    <div class="profile-data_list">
+                                        <div class="experience-data-01">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Software Engineering <div data-toggle="experience-data-01" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">XYZ Corporation <span class="bullet"></span> 2018</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="experience-data-01-edit d-none">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="experience-data-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperience1">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="fileexperience1">
+                                                </label>
+                                            </div>
                                         </div>
                                     </div>
-                                    <div class="profile-data_list d-sm-flex justify-content-between align-items-center">
-                                        <div>
-                                            <div class="fs-4 fw-500">Junior Software Engineering <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a> <a class="edit-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
-                                            <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                    <div class="profile-data_list">
+                                        <div class="experience-data-02">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500">Junior Software Engineering <div data-toggle="experience-data-02" class="edit-icon ms-2" ><img src="assets/images/edit-icon.svg"></div> <a class="delete-icon ms-2" href="#"><img src="assets/images/delete-icon.svg"></a></div>
+                                                    <div class="text-sm">ABC Corporation <span class="bullet"></span> 2019</div>
+                                                </div>
+                                                <div class="profile-data_list-action mt-3 mt-sm-0">
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
+                                                    <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                                </div>
+                                            </div>
                                         </div>
-                                        <div class="profile-data_list-action mt-3 mt-sm-0">
-                                            <a href="#" class="mx-1"><img src="assets/images/action-serach-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-download-icon.svg"></a>
-                                            <a href="#" class="mx-1"><img src="assets/images/action-delete-icon.svg"></a>
+                                        <div class="experience-data-02-edit d-none">
+                                            <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                                <div>
+                                                    <div class="fs-4 fw-500 d-flex">
+                                                        <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
+                                                        <div class="edit-action d-flex">
+                                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                            <span data-toggle="experience-data-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="text-sm d-flex align-items-center">
+                                                        <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
+                                                        <span class="bullet"></span> 
+                                                        <lable class="year-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                    </div>
+                                                </div>
+                                                <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperience2">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="fileexperience2">
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="profile-data_list experience-add-edit d-none">
+                                        <div class="d-sm-flex justify-content-between align-items-center w-100">
+                                            <div>
+                                                <div class="fs-4 fw-500 d-flex">
+                                                    <input type="text" name="" class="form-control fs-4 fw-500 px-0 py-0 border-0" placeholder="Job Position">
+                                                    <div class="edit-action d-flex">
+                                                        <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                        <span data-toggle="experience-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    </div>
+                                                </div>
+                                                <div class="text-sm d-flex align-items-center">
+                                                    <input type="text" style="width:80px" name="" class="form-control text-sm px-0 py-0 border-0" placeholder="Company">
+                                                    <span class="bullet"></span> 
+                                                    <lable class="year-input me-1 position-relative" for="exprerience">
+                                                        <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </lable>
+                                                </div>
+                                            </div>
+                                            <label class="profile-data_list-action upload-data text-center text-xs" for="fileexperienceadd">
+                                                <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                <div class="">Upload photo/video here</div>
+                                                <input type="file" name="" id="fileexperienceadd">
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
-                                <a href="#" class="profile-data_add-button">+</a>
+                                <div data-toggle="experience-add" href="#" class="profile-data_add-button experience-add">+</div>
                                 <!-- End Work Experience  -->
                                 <!-- Portfolio -->
                                 <div class="mt-4 pt-1"></div>
@@ -551,10 +1102,48 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-sm-4 align-items-center">
-                                        <a href="" class="add-aplication add-button-border">
+                                    <div class="col-sm-4 mb-4 potfolio-add-edit d-none">
+                                        <div class="profile-profile-data_portfolio-list portfolio-input">
+                                            <div class="mb-2 fw-500 d-flex justify-content-between">
+                                                <input type="text" name="" class="form-control fw-500 px-0 py-0 border-0" placeholder="Type of Work">
+                                                <div class="edit-action d-flex">
+                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                    <span data-toggle="potfolio-add" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex align-items-center text-sm text-muted mb-2">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                    <path d="M8 14.375C6.73915 14.375 5.50661 14.0011 4.45824 13.3006C3.40988 12.6001 2.59278 11.6045 2.11027 10.4396C1.62776 9.27473 1.50152 7.99293 1.7475 6.7563C1.99348 5.51967 2.60064 4.38376 3.4922 3.4922C4.38376 2.60064 5.51967 1.99348 6.7563 1.7475C7.99293 1.50152 9.27473 1.62776 10.4396 2.11027C11.6045 2.59278 12.6001 3.40988 13.3006 4.45824C14.0011 5.50661 14.375 6.73915 14.375 8C14.3717 9.68974 13.699 11.3093 12.5042 12.5042C11.3093 13.699 9.68974 14.3717 8 14.375ZM8 2.375C6.88748 2.375 5.79995 2.7049 4.87492 3.32299C3.94989 3.94107 3.22892 4.81957 2.80318 5.84741C2.37744 6.87524 2.26604 8.00624 2.48309 9.09739C2.70013 10.1885 3.23586 11.1908 4.02253 11.9775C4.8092 12.7641 5.81148 13.2999 6.90262 13.5169C7.99376 13.734 9.12476 13.6226 10.1526 13.1968C11.1804 12.7711 12.0589 12.0501 12.677 11.1251C13.2951 10.2001 13.625 9.11252 13.625 8C13.6233 6.50867 13.0302 5.07889 11.9757 4.02435C10.9211 2.96982 9.49134 2.37666 8 2.375ZM11.875 8C11.875 7.90055 11.8355 7.80516 11.7652 7.73484C11.6948 7.66451 11.5995 7.625 11.5 7.625H8.375V4.5C8.375 4.40055 8.33549 4.30516 8.26517 4.23484C8.19484 4.16451 8.09946 4.125 8 4.125C7.90055 4.125 7.80516 4.16451 7.73484 4.23484C7.66451 4.30516 7.625 4.40055 7.625 4.5V8C7.625 8.09946 7.66451 8.19484 7.73484 8.26517C7.80516 8.33549 7.90055 8.375 8 8.375H11.5C11.5995 8.375 11.6948 8.33549 11.7652 8.26517C11.8355 8.19484 11.875 8.09946 11.875 8Z" fill="#5E6778"/>
+                                                </svg>
+                                                <span class="ms-2 position-relative">
+                                                    <input type="text" name="daterange" id="dateportfolio" placeholder="Date Range" class=" text-sm form-control px-2 py-1 daterange" placeholder="Date Range"/>
+                                                    <label class="date-icon" for="dateportfolio"><img src="assets/images/calendar-icon.svg"></label>
+                                                </span>
+                                            </div>
+                                            <div class="d-flex align-items-center text-sm text-muted mb-3">
+                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                                    <path d="M14.9117 8.01897L8.3805 1.48772C8.27875 1.38662 8.15371 1.31208 8.01639 1.27067C7.87907 1.22925 7.73367 1.22223 7.59299 1.25022L2.54924 2.25647C2.47777 2.27318 2.41238 2.30955 2.36048 2.36145C2.30857 2.41336 2.27221 2.47874 2.25549 2.55022L1.24924 7.59397C1.22125 7.73465 1.22828 7.88004 1.26969 8.01737C1.31111 8.15469 1.38564 8.27973 1.48674 8.38147L8.01799 14.9127C8.09905 14.9943 8.19547 15.0589 8.30168 15.1029C8.4079 15.1469 8.52178 15.1693 8.63674 15.169C8.86841 15.167 9.09025 15.0751 9.2555 14.9127L14.9117 9.25647C15.0741 9.09123 15.166 8.86939 15.168 8.63772C15.1683 8.52276 15.1459 8.40887 15.1019 8.30266C15.0579 8.19645 14.9933 8.10002 14.9117 8.01897ZM14.3805 8.72522L8.72425 14.3815C8.71312 14.3936 8.6996 14.4033 8.68454 14.4099C8.66947 14.4165 8.6532 14.4199 8.63674 14.4199C8.62029 14.4199 8.60402 14.4165 8.58895 14.4099C8.57389 14.4033 8.56037 14.3936 8.54924 14.3815L2.01799 7.85022C2.00237 7.83657 1.99108 7.81864 1.98553 7.79865C1.97998 7.77866 1.9804 7.75748 1.98674 7.73772L2.94299 2.94397L7.73674 1.98772C7.75751 1.98161 7.77954 1.9813 7.80047 1.9868C7.8214 1.99231 7.84043 2.00343 7.85549 2.01897L14.3805 8.55022C14.3926 8.56135 14.4023 8.57487 14.4089 8.58993C14.4155 8.60499 14.419 8.62127 14.419 8.63772C14.419 8.65417 14.4155 8.67045 14.4089 8.68551C14.4023 8.70058 14.3926 8.7141 14.3805 8.72522ZM5.87424 5.25022C5.87424 5.37383 5.83759 5.49467 5.76891 5.59745C5.70024 5.70023 5.60263 5.78034 5.48842 5.82765C5.37422 5.87495 5.24855 5.88733 5.12731 5.86321C5.00607 5.8391 4.89471 5.77957 4.8073 5.69216C4.71989 5.60475 4.66037 5.49339 4.63625 5.37215C4.61214 5.25091 4.62451 5.12525 4.67182 5.01104C4.71912 4.89684 4.79923 4.79923 4.90201 4.73055C5.00479 4.66188 5.12563 4.62522 5.24924 4.62522C5.415 4.62522 5.57398 4.69107 5.69119 4.80828C5.8084 4.92549 5.87424 5.08446 5.87424 5.25022Z" fill="#5E6778"/>
+                                                </svg>
+                                                <div class="category-portfolio ms-2">
+                                                    <input type="text" name="" class="form-control text-sm fw-500 px-0 py-0 border-0" placeholder="Tags">
+                                                </div>
+                                            </div>
+                                            <div class="portfolio-desc text-sm text-muted mb-4">
+                                                <textarea placeholder="Work description..." class="form-control border-0 px-0 py-0 text-sm" rows="1" style="height:40px"></textarea>
+                                            </div>
+                                            <label class="portfolio-photo ratio ratio-4x3 position-relative" for="fileportfolio1">
+                                                <div class="upload-data">
+                                                    <img class="mx-1" src="assets/images/upload-icon.svg">
+                                                    <div class="">Upload photo/video here</div>
+                                                    <input type="file" name="" id="fileportfolio1">
+                                                </div>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-4 align-items-center potfolio-add">
+                                        <div data-toggle="potfolio-add" class="add-aplication profile-data_add-button add-button-border">
                                             <span>+</span>
-                                        </a>
+                                        </div>
                                     </div>
                                 </div>
                                 <!-- End Portfolio  -->
@@ -762,186 +1351,67 @@
         <script src="./assets/js/functions.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0-rc"></script>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-daterangepicker@3.1.0/moment.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap-daterangepicker@3.1.0/daterangepicker.js"></script>
         <script>
-            const ctx = document.getElementById('application-summary');
-            Chart.register(ChartDataLabels);
-            new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Submitted', 'Processing', 'Rejected'],
-                    datasets: [
-                        {
-                            data: [21, 31, 15],
-                            backgroundColor: ["#bacabd","#075257","#fd0100"],
-                        },
-                    ],
-                },
-                options: {
-                    layout: {
-                        padding: {
-                            bottom: 20 // Adjust the value as needed
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false,
-                        },
-                        datalabels: {
-                            display: true,
-                            backgroundColor: '#fff',
-                            anchor: 'end',
-                            borderRadius: 100,
-                            color: '#000',
-                            fontSize:20,
-                            weight: 'bold',
-                            font: {
-                                size: 26,
-                                family:'Poppins, sans-serif'
-                            },
-                            padding: {
-                                top: 12, // Controls the top padding of the data label
-                                bottom: 8, // Controls the bottom padding of the data label
-                                left: 14, // Controls the left padding of the data label
-                                right: 14 // Controls the right padding of the data label
-                            },
-                            borderWidth: 1, // Border width
-                                borderColor: 'rgba(0, 0, 0, 0.1)' // Border color
-                        },
-                    },
-                },
-            });
+            $(document).ready(function() {
+                $('.daterange').daterangepicker({
+                    opens: 'left', // Adjust the calendar position if needed
+                    autoApply: true, // Automatically apply the date range when selected
+                    locale: {
+                        format: 'YYYY-MM-DD'
+                    }
+                });
+                $("#birthday").on("input",function(){
+                    if($(this).val().length>0){
+                    $(this).addClass("full");
+                }
+                else{
+                    $(this).removeClass("full");
+                }
+                });
+                
+                $("#birthday").on("input",function(){
+                    if($(this).val().length>0){
+                    $(this).addClass("full");
+                }
+                else{
+                    $(this).removeClass("full");
+                }
+                });
+                $(".custom-select .options li").on('click', function(){
+                    var value = $(this).attr('data-img');
+                    var valueData = $(this).attr('data-value');
+                    $(".custom-select .selected-option").html('<img src="' + value + '" alt="Selected Image" class="me-2"> ' + $(this).text());
+                    $(".custom-select .selected-option").removeClass("profile-unavailable");
+                    $(".custom-select .selected-option").removeClass("profile-available");
+                    $(".custom-select .selected-option").addClass('profile-'+valueData);
 
-            
-            const discsummary = document.getElementById('disc-summary');
-            Chart.register(ChartDataLabels);
-            new Chart(discsummary , {
-                type: 'pie',
-                data: {
-                    labels: ['Compliance', 'Dominance', 'Influence', 'Steadlines'],
-                    datasets: [
-                        {
-                            data: [21, 31, 15, 30],
-                            backgroundColor: ["#fd0100","#ffb700","#bacabd","#075257",],
-                        },
-                    ],
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: {
-                            position: 'right',
-                        },
-                        datalabels: {
-                            display: false,
-                        },
-                    },
-                },
+                    // Perbarui nilai elemen select
+                    $("#available-select").val(valueData);
+
+                    // Trigger event perubahan pada elemen select
+                    $("#available-select").change();
+                });
             });
-            
-            const disc = document.getElementById('disc');
-            Chart.register(ChartDataLabels);
-            new Chart(disc, {
-                type: 'line',
-                data: {
-                    labels: ['D', 'I', 'S', 'C'],
-                    datasets: [
-                        {
-                            data: [-10, -10, 10, 5],
-                            backgroundColor: ["#075257"],
-                            borderColor: '#075257',
-                            pointBackgroundColor: '#075257',
-                            pointBorderColor: '#075257',   
-                            label:'Mask Public Self', 
-                        },
-                        {
-                            data: [30, -60, 10, 50],
-                            backgroundColor: ["#feb800"],
-                            borderColor: '#feb800',
-                            pointBackgroundColor: '#feb800',
-                            pointBorderColor: '#feb800', 
-                            label:'Core Private Self',    
-                        },
-                        {
-                            data: [5, -30, 10, 40],
-                            backgroundColor: ["#f90000"],
-                            borderColor: '#f90000',
-                            pointBackgroundColor: '#f90000',
-                            pointBorderColor: '#f90000',    
-                            label:'Mirror Perceived Self', 
-                        },
-                    ],
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: {
-                            position: 'bottom',
-                        },
-                        datalabels: {
-                            display: false,
-                        },
-                    },
-                    scales: {
-                        x: {
-                            offset: true, // Add space on both sides of the x-axis
-                        },
-                        y: {
-                            beginAtZero: true,
-                            
-                            offset: true, // Add space on both sides of the x-axis
-                        }
-                    }
-                },
+            $(".edit-icon").on('click', function(){
+                var valueData = $(this).attr('data-toggle');
+                $("."+valueData).addClass("d-none");
+                $("."+valueData+"-edit").removeClass("d-none");
+                $("."+valueData+"-edit").addClass("d-block");
             });
-            const papikostick = document.getElementById('papikostick');
-            Chart.register(ChartDataLabels);
-            new Chart(papikostick, {
-                type: 'radar',
-                data: {
-                    labels: [
-                        'Work Direction',
-                        'Leadership',
-                        'Activity',
-                        'Social Nature',
-                        'Work Style',
-                        'Temprament',
-                        'Followeship'
-                    ],
-                    datasets: [{
-                        label: '',
-                        data: [65, 59, 90, 81, 56, 55, 40],
-                        fill: true,
-                        backgroundColor: 'rgb(7 82 87 / 30%)',
-                        borderColor: '#075257',
-                        pointBackgroundColor: '#075257',
-                        pointBorderColor: '#075257',
-                        pointHoverBackgroundColor: '#fff',
-                        pointHoverBorderColor: '#075257',
-                        pointColor: '#f00'
-                    }]
-                },
-                options: {
-                    elements: {
-                        line: {
-                            borderWidth: 2
-                        },
-                    },
-                    plugins: {
-                        legend: {
-                            display: false,
-                        },
-                        datalabels: {
-                            display: false,
-                        },
-                    },
-                    scales: {
-                        r: {
-                            ticks: {
-                            display: false // Hides the labels in the middel (numbers)
-                            }
-                        }
-                    }
-                },
+            $(".profile-data_add-button").on('click', function(){
+                var valueData = $(this).attr('data-toggle');
+                $("."+valueData).addClass("d-none");
+                $("."+valueData+"-edit").removeClass("d-none");
+                $("."+valueData+"-edit").addClass("d-block");
+            });
+            $(".x-icon").on('click', function(){
+                var valueData = $(this).attr('data-toggle');
+                $("."+valueData).addClass("d-blcok");
+                $("."+valueData).removeClass("d-none");
+                $("."+valueData+"-edit").addClass("d-none");
             });
             document.addEventListener('click', function(event) {
                 var inputElement = document.getElementById("input-tag");
