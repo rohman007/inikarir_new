@@ -2312,6 +2312,13 @@ label.date-icon img {
     color:black;
     content:""!important;
 }
+.delete-skill {
+    color: #F00;
+    font-weight: bold;
+    position: absolute;
+    left: -3px;
+    top: -6px;
+}
 @media(max-width:767px){
     .profile-data_list .fs-4 {
         font-size: 15pt !important;

@@ -173,10 +173,10 @@
                                         <div class="profile-skill">
                                             <div class="fw-bold mb-2">Skills</div>    
                                             <div class="profile-skill_list">
-                                                <div class="text-sm">UI Designer</div>
-                                                <div class="text-sm">UX Designer</div>
-                                                <div class="text-sm">Figma</div>
-                                                <div class="text-sm">Product Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UI Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UX Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Figma</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Product Designer</div>
                                                 <a href="#" class="add-skill">+</a>
                                             </div>
                                         </div>

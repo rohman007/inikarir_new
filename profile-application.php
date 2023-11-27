@@ -89,66 +89,189 @@
                                 </div>
                             </div>
                             <div class="profile-short mb-4">
-                                <div class="profile-name fw-bold">Cloud Strike <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></div>
-                                <div class="profile-job text-muted text-sm mb-4">UI/UX Designer</div>
-                                <div class="profile-available text-sm fw-bold mb-4"><img class="me-2" src="assets/images/work-icon.svg">Available for work</div>
+                                <div class="data-profile-01">
+                                    <div class="profile-name fw-bold">Cloud Strike <div data-toggle="data-profile-01" href="##" class="edit-icon ms-2" href=""><img src="assets/images/edit-icon.svg"></div></div>
+                                    <div class="profile-job text-muted text-sm mb-4">UI/UX Designer</div>
+                                    <div class="profile-available text-sm fw-bold mb-4"><img class="me-2" src="assets/images/work-icon.svg">Available for work</div>
+                                </div>
+                                <div class="data-profile-01-edit d-none">
+                                    <div class="profile-name fw-bold d-flex align-items-center">
+                                        <input type="text" class="border-0 form-control fw-bold px-0 py-1 pb-0" placeholder="Your Name" name=""> 
+                                        <div class="edit-action d-flex">
+                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                            <span data-toggle="data-profile-01" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="profile-job text-muted text-sm mb-3">
+                                        <input type="text" class="border-0 form-control px-0 py-1 text-sm" placeholder="Profession" name="">
+                                    </div>
+                                    <div class=" text-sm fw-bold mb-4 w-100">
+                                        <select id="available-select" style="opacity:0;height:0;width:0;position:absolute" class="border-0 p-0" name="">
+                                            <option value="available">available</option>
+                                            <option value="unavailable">unavailable</option>
+                                        </select>  
+                                        <div class="dropdown custom-select">
+                                            <button class="w-100 fw-bold text-sm dropdown-toggle selected-option profile-available" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                <img src="assets/images/work-icon.svg" class="me-2"> Available for work 
+                                            </button>
+                                            <ul class="dropdown-menu options  w-100 py-0">
+                                                <li data-img="assets/images/work-icon.svg" data-value="available" class="profile-available text-sm w-100"> <img src="assets/images/work-icon.svg" class="me-2"> Available for work </li>
+                                                <li data-img="assets/images/x-work-icon.svg" data-value="unavailable" class="profile-unavailable text-sm w-100" > <img src="assets/images/x-work-icon.svg" class="me-2"> Unavailable for work </li>
+                                            </ul>
+                                        </div>                                
+                                    </div>
+                                </div>
                                 <div class="profile-professional mb-4">
-                                    <div class="fw-bold mb-2">Professional Details <a class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></a></div>    
-                                    <div class="profile-professional_list">
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/rp-icon.svg">
+                                    <div class="data-profile-02">
+                                        <div class="fw-bold mb-2">Professional Details <div data-toggle="data-profile-02" class="edit-icon ms-2" href="#"><img src="assets/images/edit-icon.svg"></div></div>    
+                                        <div class="profile-professional_list">
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/rp-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Salary Expectations</div>
+                                                    <div class="text-sm fw-500">Rp 10.000.000 / month</div>
                                                 </div>
                                             </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Salary Expectations</div>
-                                                <div class="text-sm fw-500">Rp 10.000.000 / month</div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/work-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Career Level</div>
+                                                    <div class="text-sm fw-500">Senior Level</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Work Experience</div>
+                                                    <div class="text-sm fw-500">5 Years Experience</div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/time-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Employment Type</div>
+                                                    <div class="text-sm fw-500">Full Time, Part Time</div>
+                                                </div>
                                             </div>
                                         </div>
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/work-icon.svg">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Career Level</div>
-                                                <div class="text-sm fw-500">Senior Level</div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/calendar-icon.svg">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Work Experience</div>
-                                                <div class="text-sm fw-500">5 Years Experience</div>
-                                            </div>
-                                        </div>
-                                        <div class="d-flex mb-3 align-items-center">
-                                            <div class="me-3">
-                                                <div class="profile-professional_list-icon">
-                                                    <img src="assets/images/time-icon.svg">
-                                                </div>
-                                            </div>
-                                            <div class="">
-                                                <div class="text-xs text-muted mb-1">Employment Type</div>
-                                                <div class="text-sm fw-500">Full Time, Part Time</div>
+                                        <div class="profile-skill">
+                                            <div class="fw-bold mb-2">Skills</div>    
+                                            <div class="profile-skill_list">
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UI Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UX Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Figma</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Product Designer</div>
+                                                <a href="#" class="add-skill">+</a>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
-                                <div class="profile-skill">
-                                    <div class="fw-bold mb-2">Skills</div>    
-                                    <div class="profile-skill_list">
-                                        <div class="text-sm">UI Designer</div>
-                                        <div class="text-sm">UX Designer</div>
-                                        <div class="text-sm">Figma</div>
-                                        <div class="text-sm">Product Designer</div>
-                                        <a href="#" class="add-skill">+</a>
+                                    <div class="data-profile-02-edit d-none">
+                                        <div class="fw-bold mb-2">Professional Details</div>    
+                                        <div class="profile-professional_list">
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/rp-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Salary Expectations</div>
+                                                    <div class="text-sm fw-500 d-flex align-items-center">Rp <input type="text" class="ms-1 form-control px-0 border-0 text-sm fw-500" name="" placeholder="000000000"> <span class="text-nowrap">/ month</span></div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/work-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Career Level</div>
+                                                    <select id="career-level-select" class="form-control text-sm fw-500 px-2 py-1" name="">
+                                                        <option value="available">Junior Level</option>
+                                                        <option value="unavailable" selected>Senior Level</option>
+                                                    </select>  
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/calendar-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Work Experience</div>
+                                                    <div class="text-sm fw-500 d-flex align-items-center">
+                                                        <lable class="experience-input me-1 position-relative" for="exprerience">
+                                                            <input id="exprerience" type="text" name="" style="width:80px;line-height:normal" class="form-control px-2 py-1 text-sm fw-500" placeholder="Years">
+                                                            <img src="assets/images/calendar-icon.svg">
+                                                        </lable>
+                                                        Experience
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="d-flex mb-3 align-items-center">
+                                                <div class="me-3">
+                                                    <div class="profile-professional_list-icon">
+                                                        <img src="assets/images/time-icon.svg">
+                                                    </div>
+                                                </div>
+                                                <div class="">
+                                                    <div class="text-xs text-muted mb-1">Employment Type</div>
+                                                    <div class="row text-xs employment-select">
+                                                        <div class="col-6 mb-1">
+                                                            <input type="checkbox" name="employment-type" id="fulltime"> 
+                                                            <label for="fulltime">Full Time</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1 ps-md-0">
+                                                            <input type="checkbox" name="employment-type" id="parttime">
+                                                            <label for="parttime">Part Time</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1">
+                                                            <input type="checkbox" name="employment-type" id="contract"> 
+                                                            <label for="contract">Contract</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1 ps-md-0">
+                                                            <input type="checkbox" name="employment-type" id="freelancer"> 
+                                                            <label for="freelancer">Freelancer</label>
+                                                        </div>
+                                                        <div class="col-6 mb-1">
+                                                            <input type="checkbox" name="employment-type" id="interns"> 
+                                                            <label for="interns">Interns</label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-skill">
+                                            <div class="fw-bold mb-2">Skills</div>  
+                                            <div class="profile-skill fw-bold d-flex align-items-center">
+                                                <div>
+                                                    <input type="text" id="skills" class="border-0 text-sm form-control fw-500 px-0 py-0" placeholder="Skills 1,Skills 2,Skills 3" name="" > 
+                                                    <lable class="text-xs fw-normal text-muted d-block" for="skills" style="color: #ccc !important;font-size: 11px !important;">separate by coma</lable>
+                                                </div>
+                                                <div class="edit-action d-flex">
+                                                    <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                    <span data-toggle="data-profile-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                </div>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -1061,186 +1184,6 @@
         <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0-rc"></script>
         <script>
-            const ctx = document.getElementById('application-summary');
-            Chart.register(ChartDataLabels);
-            new Chart(ctx, {
-                type: 'doughnut',
-                data: {
-                    labels: ['Submitted', 'Processing', 'Rejected'],
-                    datasets: [
-                        {
-                            data: [21, 31, 15],
-                            backgroundColor: ["#bacabd","#075257","#fd0100"],
-                        },
-                    ],
-                },
-                options: {
-                    layout: {
-                        padding: {
-                            bottom: 20 // Adjust the value as needed
-                        }
-                    },
-                    plugins: {
-                        legend: {
-                            display: false,
-                        },
-                        datalabels: {
-                            display: true,
-                            backgroundColor: '#fff',
-                            anchor: 'end',
-                            borderRadius: 100,
-                            color: '#000',
-                            fontSize:20,
-                            weight: 'bold',
-                            font: {
-                                size: 26,
-                                family:'Poppins, sans-serif'
-                            },
-                            padding: {
-                                top: 12, // Controls the top padding of the data label
-                                bottom: 8, // Controls the bottom padding of the data label
-                                left: 14, // Controls the left padding of the data label
-                                right: 14 // Controls the right padding of the data label
-                            },
-                            borderWidth: 1, // Border width
-                                borderColor: 'rgba(0, 0, 0, 0.1)' // Border color
-                        },
-                    },
-                },
-            });
-
-            
-            const discsummary = document.getElementById('disc-summary');
-            Chart.register(ChartDataLabels);
-            new Chart(discsummary , {
-                type: 'pie',
-                data: {
-                    labels: ['Compliance', 'Dominance', 'Influence', 'Steadlines'],
-                    datasets: [
-                        {
-                            data: [21, 31, 15, 30],
-                            backgroundColor: ["#fd0100","#ffb700","#bacabd","#075257",],
-                        },
-                    ],
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: {
-                            position: 'right',
-                        },
-                        datalabels: {
-                            display: false,
-                        },
-                    },
-                },
-            });
-            
-            const disc = document.getElementById('disc');
-            Chart.register(ChartDataLabels);
-            new Chart(disc, {
-                type: 'line',
-                data: {
-                    labels: ['D', 'I', 'S', 'C'],
-                    datasets: [
-                        {
-                            data: [-10, -10, 10, 5],
-                            backgroundColor: ["#075257"],
-                            borderColor: '#075257',
-                            pointBackgroundColor: '#075257',
-                            pointBorderColor: '#075257',   
-                            label:'Mask Public Self', 
-                        },
-                        {
-                            data: [30, -60, 10, 50],
-                            backgroundColor: ["#feb800"],
-                            borderColor: '#feb800',
-                            pointBackgroundColor: '#feb800',
-                            pointBorderColor: '#feb800', 
-                            label:'Core Private Self',    
-                        },
-                        {
-                            data: [5, -30, 10, 40],
-                            backgroundColor: ["#f90000"],
-                            borderColor: '#f90000',
-                            pointBackgroundColor: '#f90000',
-                            pointBorderColor: '#f90000',    
-                            label:'Mirror Perceived Self', 
-                        },
-                    ],
-                },
-                options: {
-                    responsive: true,
-                    plugins: {
-                        legend: {
-                            position: 'bottom',
-                        },
-                        datalabels: {
-                            display: false,
-                        },
-                    },
-                    scales: {
-                        x: {
-                            offset: true, // Add space on both sides of the x-axis
-                        },
-                        y: {
-                            beginAtZero: true,
-                            
-                            offset: true, // Add space on both sides of the x-axis
-                        }
-                    }
-                },
-            });
-            const papikostick = document.getElementById('papikostick');
-            Chart.register(ChartDataLabels);
-            new Chart(papikostick, {
-                type: 'radar',
-                data: {
-                    labels: [
-                        'Work Direction',
-                        'Leadership',
-                        'Activity',
-                        'Social Nature',
-                        'Work Style',
-                        'Temprament',
-                        'Followeship'
-                    ],
-                    datasets: [{
-                        label: '',
-                        data: [65, 59, 90, 81, 56, 55, 40],
-                        fill: true,
-                        backgroundColor: 'rgb(7 82 87 / 30%)',
-                        borderColor: '#075257',
-                        pointBackgroundColor: '#075257',
-                        pointBorderColor: '#075257',
-                        pointHoverBackgroundColor: '#fff',
-                        pointHoverBorderColor: '#075257',
-                        pointColor: '#f00'
-                    }]
-                },
-                options: {
-                    elements: {
-                        line: {
-                            borderWidth: 2
-                        },
-                    },
-                    plugins: {
-                        legend: {
-                            display: false,
-                        },
-                        datalabels: {
-                            display: false,
-                        },
-                    },
-                    scales: {
-                        r: {
-                            ticks: {
-                            display: false // Hides the labels in the middel (numbers)
-                            }
-                        }
-                    }
-                },
-            });
             document.addEventListener('click', function(event) {
                 var inputElement = document.getElementById("input-tag");
                 var otherDivElement = document.getElementById("suggest-loker");
@@ -1266,7 +1209,24 @@
                 event.stopPropagation();
             });
             $(document).ready(function() {
-                
+                $(".edit-icon").on('click', function(){
+                    var valueData = $(this).attr('data-toggle');
+                    $("."+valueData).addClass("d-none");
+                    $("."+valueData+"-edit").removeClass("d-none");
+                    $("."+valueData+"-edit").addClass("d-block");
+                });
+                $(".profile-data_add-button").on('click', function(){
+                    var valueData = $(this).attr('data-toggle');
+                    $("."+valueData).addClass("d-none");
+                    $("."+valueData+"-edit").removeClass("d-none");
+                    $("."+valueData+"-edit").addClass("d-block");
+                });
+                $(".x-icon").on('click', function(){
+                    var valueData = $(this).attr('data-toggle');
+                    $("."+valueData).addClass("d-blcok");
+                    $("."+valueData).removeClass("d-none");
+                    $("."+valueData+"-edit").addClass("d-none");
+                });
                 $(".button-grid-thumbnail").click(function () {
                     $(".button-list-thumbnail").removeClass("button-active");
                     $(".hero-loker-list__wrapper").addClass("grid-thumbnail");
