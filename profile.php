@@ -170,19 +170,15 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="profile-skill">
-                                            <div class="fw-bold mb-2">Skills</div>    
-                                            <div class="profile-skill_list">
-                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UI Designer</div>
-                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UX Designer</div>
-                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Figma</div>
-                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Product Designer</div>
-                                                <a href="#" class="add-skill">+</a>
-                                            </div>
-                                        </div>
                                     </div>
                                     <div class="data-profile-02-edit d-none">
-                                        <div class="fw-bold mb-2">Professional Details</div>    
+                                        <div class="fw-bold mb-2 d-flex align-items-center">
+                                            Professional Details
+                                            <div class="edit-action d-flex">
+                                                <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                                <span data-toggle="data-profile-02" class="x-icon ms-0 px-1" href="#"><img src="assets/images/x-icon.svg"></span>
+                                            </div>
+                                        </div>    
                                         <div class="profile-professional_list">
                                             <div class="d-flex mb-3 align-items-center">
                                                 <div class="me-3">
@@ -259,7 +255,22 @@
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="profile-skill">
+                                    </div>
+                                    <div class="profile-skill">
+                                        <div class="profile-skill_data">
+                                            <div class="fw-bold mb-2">
+                                                Skills
+                                                <div data-toggle="profile-skill_data" href="##" class="edit-icon ms-2"><img src="assets/images/edit-icon.svg"></div>
+                                            </div>    
+                                            <div class="profile-skill_list">
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UI Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>UX Designer</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Figma</div>
+                                                <div class="text-sm position-relative"><div class="delete-skill">x</div>Product Designer</div>
+                                                <div class="add-skill edit-icon" data-toggle="profile-skill_data">+</div>
+                                            </div>
+                                        </div>
+                                        <div class="profile-skill_data-edit d-none">
                                             <div class="fw-bold mb-2">Skills</div>  
                                             <div class="profile-skill fw-bold d-flex align-items-center">
                                                 <div>
@@ -268,10 +279,41 @@
                                                 </div>
                                                 <div class="edit-action d-flex">
                                                     <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
-                                                    <span data-toggle="data-profile-02" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                                    <span data-toggle="profile-skill_data" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
                                                 </div>
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="profile-cv mb-4 mt-4 pt-1">
+                                <div class="profile-cv_data">
+                                    <div class="text-center fw-bold mb-2 text-green d-flex justify-content-between">
+                                        Curriculum Vitae
+                                        <div data-toggle="profile-cv_data" href="##" class="edit-icon ms-2"><img src="assets/images/edit-icon.svg"></div>
+                                    </div>
+                                    <div class="ratio ratio-16x9 position-relative">
+                                        <div class="profile-data_list-action d-flex align-items-center justify-content-center">
+                                            <a href="#" class="mx-2"><img src="assets/images/action-serach-icon.svg"></a>
+                                            <a href="#" class="mx-2"><img src="assets/images/action-download-icon.svg"></a>
+                                            <a href="#" class="mx-2"><img src="assets/images/action-delete-icon.svg"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="profile-cv_data-edit d-none">
+                                    <div class="text-center fw-bold mb-2 text-green d-flex justify-content-between">
+                                        Curriculum Vitae
+                                        <div class="edit-action d-flex">
+                                            <a class="check-icon ms-2 px-1" href="#"><img src="assets/images/check-icon.svg"></a>
+                                            <span data-toggle="profile-cv_data" class="x-icon ms-1 px-2" href="#"><img src="assets/images/x-icon.svg"></span>
+                                        </div>
+                                    </div>
+                                    <div class="ratio ratio-16x9 position-relative">
+                                        <label class="profile-data_list-action upload-data d-flex  justify-content-center align-items-center flex-column" for="filecvadd">
+                                            <img class="mx-1" src="assets/images/upload-icon.svg">
+                                            <div class="mt-2">Upload CV here</div>
+                                            <input type="file" name="" id="filecvadd">
+                                        </label>
                                     </div>
                                 </div>
                             </div>

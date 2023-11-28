@@ -1636,7 +1636,7 @@ WIDGET LOKER
     font-size: 13px;
     margin-bottom: 7px;
 }
-.profile-skill_list a.add-skill {
+.profile-skill_list .add-skill {
     color: #075256;
     border-radius: 30.561px;
     background: rgba(7, 82, 86, 0.10);
@@ -1648,6 +1648,15 @@ WIDGET LOKER
     padding: 2px 0;
     height: 29.5px;
     text-align: center;
+}
+.text-green {
+    color: #075256;
+}
+.profile-cv .profile-data_list-action.upload-data div {
+    font-size: 10pt;
+}
+.profile-cv .profile-data_list-action img {
+    width: 35px;
 }
 .profile-change-password img {
     width: 25px;
