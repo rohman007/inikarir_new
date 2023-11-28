@@ -56,6 +56,9 @@
                             </button>
                         </div>
                     </div> 
+                    <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
                     
                 </div> <!-- /.container -->
             </nav> <!-- /.nav -->
@@ -417,13 +420,21 @@
                         </div>
                         <div class="col-12 col-sm-12 co-md-9 col-lg-9 profile-page_data ps-md-4">
                             <div class="profile-page_data-menu d-sm-flex align-items-center justify-content-between">
-                                <ul class="d-flex flex-wrap list-unstyled m-0">
-                                    <li class="active ms-4"><a href="profile-dashboard.php">Dashboard</a></li>
-                                    <li class="ms-4"><a href="profile.php">Profile</a></li>
+                                <div class="navbar-collapse collapse d-sm-flex align-items-center justify-content-between" id="navbarSupportedContent" style="">
+                                    <ul class="navbar-nav d-sm-flex flex-wrap list-unstyled m-0  flex-row">
+                                        <li class="nav-item active ms-4"><a class="nav-link" href="profile-dashboard.php">Dashboard</a></li>
+                                        <li class="nav-item ms-4"><a class="nav-link" href="profile.php">Profile</a></li>
+                                        <li class="nav-item ms-4"><a class="nav-link" href="profile-application.php">Application Status</a></li>
+                                        <li class="nav-item ms-4"><a class="nav-link" href="#">Personality Test</a></li>
+                                    </ul>
+                                    <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
+                                </div>
+                                <!-- <ul class="d-flex flex-wrap list-unstyled m-0">
+                                    <li class="ms-4"><a href="profile-dashboard.php">Dashboard</a></li>
+                                    <li class="active ms-4"><a href="profile.php">Profile</a></li>
                                     <li class="ms-4"><a href="profile-application.php">Application Status</a></li>
                                     <li class="ms-4"><a href="#">Personality Test</a></li>
-                                </ul>
-                                <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
+                                </ul> -->
                             </div>
                             <div class="profile-page_data-information mb-4">
                                 <label class="">PROFILE INFORMATION</label> 
