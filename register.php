@@ -42,28 +42,59 @@
         <div class="row align-items-center justify-content-center">
             <div class="col-12 col-sm-6 col-md-10">
                 <div class="form-block bg-white d-sm-flex rounded-3 py-sm-5 py-4 px-sm-5 px-3 my-3">
-                    <div class="px-3 col-12 col-sm-6 col-md-6 text-sm pe-sm-5">
+                    <div class="form-block pe-3 ps-2 col-12 col-sm-5 col-md-5 d-none d-sm-flex">
+                        <div class="image-form overflow-hidden rounded-4 d-flex overflow-hidded">
+                            <img src="./assets/images/hero-register.jpg" class="form-image w-100 object-fit-cover">
+                        </div>
+                    </div>
+                    <div class="px-3 col-12 col-sm-7 col-md-7 text-sm ps-sm-5">
                         <a class="navbar-brand" href="#">
-                            <img src="./assets/images/logo.png" alt="Ini Karir" />
+                            <img src="./assets/images/logo.png" alt="Ini Karir" style="width:55px !important"/>
                         </a>
-                        <h1 class="fw-700 fs-3 text-black mt-4">Welcome</h1>
-                        <p class="fw-500 mb-4 text-xs">Login to access your IniKarir account</p>
-                        <form action="" class="login-form">  
-                            <div class="form-group mb-3 position-relative">
-                                <label>Email</label>
-                                <input type="text" class="form-control text-sm" name="username" placeholder="" required="">
-                            </div>
+                        <h1 class="fw-700 fs-3 text-black mt-4 mb-3">Sign up</h1>
+                        <p class="fw-500 mb-4 text-xs">Let’s get you all set up so you can access your personal account.</p>
+                        <form action="" class="login-form">
+                            <div class="row">
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group mb-3 position-relative">
+                                        <label>Firt Name</label>
+                                        <input type="text" class="form-control text-sm" name="firstname" placeholder="" required="">
+                                    </div>
+                                </div>
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group mb-3 position-relative">
+                                        <label>Last Name</label>
+                                        <input type="text" class="form-control text-sm" name="lastname" placeholder="" required="">
+                                    </div>
+                                </div>  
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group mb-3 position-relative">
+                                        <label>Email</label>
+                                        <input type="text" class="form-control text-sm" name="email" placeholder="" required="">
+                                    </div>
+                                </div>  
+                                <div class="col-12 col-sm-6">
+                                    <div class="form-group mb-3 position-relative">
+                                        <label>Phone Number</label>
+                                        <input type="text" class="form-control text-sm" name="nohp" placeholder="" required="">
+                                    </div>
+                                </div>  
+                            </div>  
                             <div class="form-group mb-3 position-relative">
                                 <label>Password</label>
                                 <input id="password-field" type="password" class="form-control text-sm" name="password" placeholder="" required="">
                                 <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password position-absolute end-0 top-0 mt-2 me-2 fs-6"></span>
                             </div>
-                            <div class="d-flex aling-items-center justify-content-between text-xs">
-                            <div class="d-flex fw-500"><input type="checkbox" name="remember" id="remember" class="me-1 mt-0"><label for="remember">Remember me</label></div>
-                            <a href="forgot-passwod.php" class="text-red text-decoration-none fw-500">Forgot Password</a>
+                            <div class="form-group mb-3 position-relative">
+                                <label>Confirm Password</label>
+                                <input id="password-field" type="password" class="form-control text-sm" name="repassword" placeholder="" required="">
+                                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password position-absolute end-0 top-0 mt-2 me-2 fs-6"></span>
                             </div>
-                            <button class="btn btn-primary text-sm rounded-1 px-3 py-2 w-100 mb-2 mt-4" type="submit">Login</button>
-                            <p class="mb-4 text-center text-xs fw-500">Don't have an account? <a href="register.php" class="ms-1 text-red text-decoration-none">Sign up</a></p>
+                            <div class="d-flex aling-items-center justify-content-between text-xs">
+                            <div class="d-flex fw-500"><input type="checkbox" name="remember" id="remember" class="me-1 mt-0"><label for="remember">I agree to all the <a href="#" class="text-red text-decoration-none fw-500">Terms</a> and <a href="#" class="text-red text-decoration-none fw-500">Privacy Policies</a></label></div>
+                            </div>
+                            <button class="btn btn-primary text-sm rounded-1 px-3 py-2 w-100 mb-2 mt-4" type="submit">Create account</button>
+                            <p class="mb-4 text-center text-xs fw-500">Already have an account? <a href="login.php" class="ms-1 text-red text-decoration-none">Login</a></p>
                             <div class="label-login-others text-muted text-center position-relative mb-4"><span class="px-2 bg-white text-xs position-relative">Or login with</span></div>
                             <div class="row align-items-center">
                                 <div class="col-4"><a href="#" class="btn btn-primary text-sm rounded-1 px-3 py-2 w-100  bg-white ">
@@ -93,11 +124,6 @@
                                 </a></div>
                             </div>
                         </form>
-                    </div>
-                    <div class="form-block px-3 col-12 col-sm-6 col-md-6 d-none d-sm-flex">
-                        <div class="image-form overflow-hidden rounded-4 d-flex overflow-hidded">
-                            <img src="./assets/images/hero-login.jpg" class="form-image w-100 object-fit-cover">
-                        </div>
                     </div>
                 </div>                
             </div>

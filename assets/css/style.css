@@ -41,7 +41,15 @@ h1, h2, h3, h4, h5, h6 {
 .text-sm {
     font-size: 14px;
 }
-
+.fw-600{
+    font-weight: 600;
+}
+.fw-700{
+    font-weight: 700;
+}
+.bg-grey{
+    background: #F3F3F3;
+}
 .text-site {
     color: var(--ik-primary-color);
 }
@@ -379,6 +387,47 @@ fieldset[disabled] .btn-primary.active {
     z-index: 15;
 }
 
+
+/* LOGIN */
+.form-block a.navbar-brand img {
+    width: 90px !important;
+}
+.form-block .form-group label {
+    position: absolute;
+    background: #fff;
+    font-size: 9pt;
+    left: 7px;
+    top: -8px;
+    padding: 0 4px;
+}
+.form-block .form-group .form-control {
+    border-color: #ccc;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 4px;
+}
+.toggle-password {
+    padding-top: 2px;
+}
+.text-red{
+    color:#FF8682;
+}
+.label-login-others:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    top: 10px;
+}
+.form-block .btn-primary:hover{
+    background: #075256;
+    border-color:#075256;
+}
+.form-block .btn-primary{
+    background: #16A799;
+    border-color:#16A799;
+}
 
 /**
  * HERO AHEAD

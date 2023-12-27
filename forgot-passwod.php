@@ -43,27 +43,23 @@
             <div class="col-12 col-sm-6 col-md-10">
                 <div class="form-block bg-white d-sm-flex rounded-3 py-sm-5 py-4 px-sm-5 px-3 my-3">
                     <div class="px-3 col-12 col-sm-6 col-md-6 text-sm pe-sm-5">
-                        <a class="navbar-brand" href="#">
-                            <img src="./assets/images/logo.png" alt="Ini Karir" />
+                        <a class="navbar-brand mb-4 d-inline-block" href="#">
+                            <img src="./assets/images/logo.png" alt="Ini Karir" style="width:55px !important"/>
+                        </a><br/>
+                        <a class="text-xs text-decoration-none text-black fw-500 d-flex" href="login.php">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 24" fill="none">
+                            <path d="M16.5684 18.75L9.81836 12L16.5684 5.25" fill="black"/>
+                            <path d="M16.5684 18.75L9.81836 12L16.5684 5.25" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>Back to login
                         </a>
-                        <h1 class="fw-700 fs-3 text-black mt-4">Welcome</h1>
-                        <p class="fw-500 mb-4 text-xs">Login to access your IniKarir account</p>
+                        <h1 class="fw-700 fs-3 text-black mt-4 mb-3">Forgot your password?</h1>
+                        <p class="fw-500 mb-4 text-xs">Don’t worry, happens to all of us. Enter your email below to recover your password</p>
                         <form action="" class="login-form">  
-                            <div class="form-group mb-3 position-relative">
+                            <div class="form-group position-relative">
                                 <label>Email</label>
                                 <input type="text" class="form-control text-sm" name="username" placeholder="" required="">
                             </div>
-                            <div class="form-group mb-3 position-relative">
-                                <label>Password</label>
-                                <input id="password-field" type="password" class="form-control text-sm" name="password" placeholder="" required="">
-                                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password position-absolute end-0 top-0 mt-2 me-2 fs-6"></span>
-                            </div>
-                            <div class="d-flex aling-items-center justify-content-between text-xs">
-                            <div class="d-flex fw-500"><input type="checkbox" name="remember" id="remember" class="me-1 mt-0"><label for="remember">Remember me</label></div>
-                            <a href="forgot-passwod.php" class="text-red text-decoration-none fw-500">Forgot Password</a>
-                            </div>
-                            <button class="btn btn-primary text-sm rounded-1 px-3 py-2 w-100 mb-2 mt-4" type="submit">Login</button>
-                            <p class="mb-4 text-center text-xs fw-500">Don't have an account? <a href="register.php" class="ms-1 text-red text-decoration-none">Sign up</a></p>
+                            <button class="btn btn-primary text-sm rounded-1 px-3 py-2 w-100 mb-4 mt-3" type="submit">Submit</button>
                             <div class="label-login-others text-muted text-center position-relative mb-4"><span class="px-2 bg-white text-xs position-relative">Or login with</span></div>
                             <div class="row align-items-center">
                                 <div class="col-4"><a href="#" class="btn btn-primary text-sm rounded-1 px-3 py-2 w-100  bg-white ">
@@ -89,14 +85,13 @@
                                     <image id="image0_2_13493" width="128" height="128" xlink:href="data:image/png;base64,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"/>
                                     </defs>
                                     </svg>
-
                                 </a></div>
                             </div>
                         </form>
                     </div>
                     <div class="form-block px-3 col-12 col-sm-6 col-md-6 d-none d-sm-flex">
                         <div class="image-form overflow-hidden rounded-4 d-flex overflow-hidded">
-                            <img src="./assets/images/hero-login.jpg" class="form-image w-100 object-fit-cover">
+                            <img src="./assets/images/hero-forgot-password.jpg" class="form-image w-100 object-fit-cover">
                         </div>
                     </div>
                 </div>                
