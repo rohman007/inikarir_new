@@ -14,7 +14,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,700;0,800;1,400;1,600;1,800&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css" />
@@ -57,7 +57,7 @@
                             <div class="row">
                                 <div class="col-12 col-sm-6">
                                     <div class="form-group mb-3 position-relative">
-                                        <label>Firt Name</label>
+                                        <label>Fisrt Name</label>
                                         <input type="text" class="form-control text-sm" name="firstname" placeholder="" required="">
                                     </div>
                                 </div>
@@ -87,8 +87,8 @@
                             </div>
                             <div class="form-group mb-3 position-relative">
                                 <label>Confirm Password</label>
-                                <input id="password-field" type="password" class="form-control text-sm" name="repassword" placeholder="" required="">
-                                <span toggle="#password-field" class="fa fa-fw fa-eye field-icon toggle-password position-absolute end-0 top-0 mt-2 me-2 fs-6"></span>
+                                <input id="repassword-field" type="password" class="form-control text-sm" name="repassword" placeholder="" required="">
+                                <span toggle="#repassword-field" class="fa fa-fw fa-eye field-icon toggle-password position-absolute end-0 top-0 mt-2 me-2 fs-6"></span>
                             </div>
                             <div class="d-flex aling-items-center justify-content-between text-xs">
                             <div class="d-flex fw-500"><input type="checkbox" name="remember" id="remember" class="me-1 mt-0"><label for="remember">I agree to all the <a href="#" class="text-red text-decoration-none fw-500">Terms</a> and <a href="#" class="text-red text-decoration-none fw-500">Privacy Policies</a></label></div>

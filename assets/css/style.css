@@ -7,7 +7,7 @@
     --bs-primary-rgb: #075256;
 }
 
-body {
+body,.mce-container iframe {
     font-family: 'Poppins', sans-serif;
 }
 
@@ -34,7 +34,9 @@ h1, h2, h3, h4, h5, h6 {
   --bs-btn-disabled-border-color: #075256;
   --bs-gradient: none;
 }
-
+.text-xxs {
+    font-size: 11px;
+}
 .text-xs {
     font-size: 13px;
 }
@@ -427,6 +429,37 @@ fieldset[disabled] .btn-primary.active {
 .form-block .btn-primary{
     background: #16A799;
     border-color:#16A799;
+}
+.form-block .btn-primary.button-option{
+    border-color: #ccc;
+}
+.form-block .btn-primary.button-option:hover{
+    border-color: #16A799;
+}
+.form-block .btn-primary.button-option:hover path,.form-block .btn-primary.button-option:hover circle{
+    fill: #16A799 !important;
+}
+
+
+/*CREATE COMPANY*/
+.create-company-form .mce-container.mce-tinymce {
+    border: 0;
+    box-shadow: none;
+    background: #f9f9f9;
+    padding: 7px 7px;
+    border-radius: 5px;
+}
+.create-company-form .mce-stack-layout-item {
+    display: block;
+    border: 0 !important;
+}
+.create-company-form .mce-toolbar-grp.mce-last {
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+.create-company-form .mce-top-part::before{display: none;}
+.create-company-form .mce-menubar {
+    border: 0 !important;
 }
 
 /**
