@@ -64,9 +64,9 @@
                             <div class="row">
                                 <div class="col-12 col-md-8">
                                     <div class="row">
-                                        <div class="col-12 col-md-3 pe-sm-4">
-                                            <label class="ratio ratio-1x1 bg-grey rounded-4 position-relative" for="logocompany">
-                                                <div class="w-100 h-100 d-flex align-items-center justify-content-center text-muted">Logo</div>
+                                        <div class="col-5 col-md-3 pe-sm-4 mb-4">
+                                            <label class="ratio ratio-1x1 bg-darkgrey rounded-4 position-relative" for="logocompany">
+                                                <div class="w-100 h-100 d-flex fw-600 align-items-center justify-content-center text-muted">Logo</div>
                                                 <input type="file" name="logocompany" id="logocompany" class="position-absolute opacity-0">
                                             </label>
                                         </div>
@@ -86,7 +86,7 @@
                                                         <div class="bg-grey d-flex rounded-2 px-2 py-2 align-items-center justify-content-between">
                                                             <select name="workingstart" class="bg-transparent border-0 text-xs">
                                                                 <option value="">Select</option>
-                                                                <option value="moday">Monday</option>
+                                                                <option value="monday">Monday</option>
                                                                 <option value="tuesday">Tuesday</option>
                                                                 <option value="wednesday">Wednesday</option>
                                                                 <option value="thursday">Thursday</option>
@@ -97,7 +97,7 @@
                                                             <div class="mx-2">-</div>
                                                             <select name="workingend" class="bg-transparent border-0 text-xs">
                                                                 <option value="">Select</option>
-                                                                <option value="moday">Monday</option>
+                                                                <option value="monday">Monday</option>
                                                                 <option value="tuesday">Tuesday</option>
                                                                 <option value="wednesday">Wednesday</option>
                                                                 <option value="thursday">Thursday</option>
@@ -124,6 +124,43 @@
                                         <label class="fw-600 mb-1">Company Overview :</label>    
                                         <textarea name="overview" class="usetiny"></textarea>
                                     </div>
+                                </div>
+                                <div class="col-12 col-md-4">                                      
+                                    <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-600 mb-0">Contact Name :</label>
+                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactname" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-600 mb-0">Contact Number :</label>
+                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactnumber" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-600 mb-0">Contact Email :</label>
+                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactemail" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-600 mb-0">Website :</label>
+                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="website" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-600 mb-0">Location :</label>
+                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="location" placeholder="" required="">
+                                    </div>
+                                    <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-600 mb-0">Industry :</label>
+                                        <div class="industry-input">
+                                            <div class="industry-input-list d-flex">
+                                                <select name="industry1" class="bg-grey border-0 text-xs px-2 py-1 rounded-1">
+                                                    <option value="">Select</option>
+                                                    <option value="a">Industy A</option>
+                                                    <option value="b">Industy B</option>
+                                                    <option value="c">Industy C</option>
+                                                </select>
+                                                <div class="add-industry ms-3">+</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <button class="btn btn-primary text-sm rounded-1 py-2 mb-2 d-inline-block fw-500" type="submit" style="padding-left: 35px;padding-right: 35px;">Save</button>
                                 </div>
                             </div>
                         </form>
