@@ -1,7 +1,59 @@
 (function($) {
   'use strict';
   $(function() {
-
+    var data = {
+      labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      datasets: [{
+        label: '# of Votes',
+        data: [10, 19, 3, 5, 2, 3, 20],
+        backgroundColor: [
+          '#075257',
+          '#075257',
+          '#075257',
+          '#075257',
+          '#075257',
+          '#075257',
+          '#075257'
+        ],
+        borderColor: [
+          'rgba(7,82,88,1)'
+        ],
+        borderWidth: 4,
+        fill: false
+      }]
+    };
+    var options = {
+      scales: {
+        yAxes: [{
+          ticks: {
+            beginAtZero: true
+          },
+          gridLines: {
+            display: false,
+          },
+          
+          display: false,
+        }],
+      },
+      
+      legend: {
+        display: false
+      },
+      elements: {
+        point: {
+          radius: 5
+        }
+      }
+  
+    };
+    if ($("#lineChart").length) {
+      var lineChartCanvas = $("#lineChart").get(0).getContext("2d");
+      var lineChart = new Chart(lineChartCanvas, {
+        type: 'line',
+        data: data,
+        options: options
+      });
+    }
     Chart.defaults.global.legend.labels.usePointStyle = true;
     
     if ($("#serviceSaleProgress").length) {
@@ -520,5 +572,9 @@
         todayHighlight: true,
       });
     }
+    
+    
   });
+  
 })(jQuery);
+

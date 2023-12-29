@@ -5698,7 +5698,7 @@ textarea.form-control-lg {
   background-color: #fff;
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  border-radius: 0.3125rem; }
+  border-radius: 10px; }
   .card > hr {
     margin-right: 0;
     margin-left: 0; }
@@ -12920,11 +12920,14 @@ code {
         background: transparent; }
 
 /* Cards */
+canvas#lineChart {
+    height: 150px !important;
+}
 .card {
   border: 0;
   background: #fff; }
   .card .card-body {
-    padding: 2.5rem 2.5rem; }
+    padding: 1.5rem 1.5rem; }
     .card .card-body + .card-body {
       padding-top: 1rem; }
   .card .card-title {
@@ -14526,8 +14529,8 @@ dl {
       width: 100%; } }
 
 .content-wrapper {
-  background: #f2edf3;
-  padding: 2.75rem 2.25rem;
+  /* background: #f2edf3; */
+  padding: 2.75rem 1.75rem;
   width: 100%;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
