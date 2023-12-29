@@ -4,8 +4,12 @@
     var data = {
       labels: ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
       datasets: [{
-        label: '# of Votes',
+        label: 'Applicant: ',
         data: [10, 19, 3, 5, 2, 3, 20],
+        shadowColor: 'rgba(0, 0, 0, 0.5)', // Shadow color for the line
+        shadowBlur: 10, // Blur level
+        shadowOffsetX: 5, // X-axis offset of the shadow
+        shadowOffsetY: 5,  // Y-axis offset of the shadow
         backgroundColor: [
           '#075257',
           '#075257',
@@ -18,6 +22,7 @@
         borderColor: [
           'rgba(7,82,88,1)'
         ],
+        pointBorderColor: 'rgba(255, 255, 255, 1)', // Point color
         borderWidth: 4,
         fill: false
       }]
@@ -35,13 +40,17 @@
           display: false,
         }],
       },
-      
+      layout: {
+        padding: {
+          top: 5 // Adjust the top padding as needed
+        }
+      },
       legend: {
         display: false
       },
       elements: {
         point: {
-          radius: 5
+          radius: 7,
         }
       }
   
@@ -54,6 +63,11 @@
         options: options
       });
     }
+    $('input[name="daterange"]').daterangepicker({
+      opens: 'left'
+    }, function(start, end, label) {
+      console.log("A new date selection was made: " + start.format('YYYY-MM-DD') + ' to ' + end.format('YYYY-MM-DD'));
+    });
     Chart.defaults.global.legend.labels.usePointStyle = true;
     
     if ($("#serviceSaleProgress").length) {

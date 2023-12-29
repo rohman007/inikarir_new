@@ -1993,6 +1993,8 @@ th {
   text-align: inherit;
   text-align: -webkit-match-parent; }
 
+  .text-green{color:#075256 !important}
+
 thead,
 tbody,
 tfoot,
@@ -2011,7 +2013,8 @@ button {
 
 button:focus:not(:focus-visible) {
   outline: 0; }
-.text-sm{font-size:14px}
+.text-sm,.text-sm *{font-size:14px !important}
+.text-xs,.text-xs *{font-size:11px !important}
 input,
 button,
 select,
@@ -3351,7 +3354,9 @@ progress {
 
 .caption-top {
   caption-side: top; }
-
+  .table-responsive.text-xs td {
+    padding: 7px 0px;
+}
 .table-sm > :not(caption) > * > * {
   padding: 0.25rem 0.25rem; }
 
@@ -8511,7 +8516,7 @@ textarea.form-control-lg {
 .text-primary, .list-wrapper .completed .remove {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important; }
-
+.text-purple{color: #6172F3 !important;}
 .text-secondary, .list-wrapper .remove {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-secondary-rgb), var(--bs-text-opacity)) !important; }
@@ -11072,6 +11077,8 @@ input:focus {
 .text-reddit {
   color: #ff4500; }
 
+.text-red {
+    color: #F63D68 !important; }
 .bg-twitter {
   background: #2caae1; }
 
@@ -11241,6 +11248,82 @@ address p {
 
 .icon-sm {
   font-size: 1rem; }
+
+
+/*Activity*/
+.activity-block {
+  max-height: 500px;
+  overflow-y: auto;
+}
+/* width */
+.activity-block::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 10px;
+}
+
+/* Track */
+.activity-block::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.activity-block::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.activity-block::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+}
+.activity-list:hover {border-color: #075256;}
+.activity-list {
+  margin-left: 90px;
+  border-left: 3px solid #ddd;
+  padding-left: 35px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-right: 40px;
+}
+.dashboard-title:after {
+    content: "";
+    display: block;
+    width: 50px;
+    background: #075258;
+    height: 3px;
+    margin: 20px 0 20px;
+}
+.date-activity {
+  position: absolute;
+  left: -90px;
+  font-size: 12px !important;
+}
+.title.activity {
+  font-weight: 500;
+}
+
+
+/*Top Dashboard*/
+.list-step.text-center.me-5 {
+  position: relative;
+  margin: 0 !important;
+  width: 130px;
+}
+.list-step.check:before {background: #075256;}
+.list-step:before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 60%;
+  background: #A1AEBE;
+  height: 3px;
+  left: 100%;
+  transform: translate(-50%);
+  top: 16px;
+}
+.list-step:last-child::before {display: none;}
 
 /* Miscellanoeous */
 body,
@@ -12920,22 +13003,19 @@ code {
         background: transparent; }
 
 /* Cards */
-canvas#lineChart {
-    height: 150px !important;
-}
 .card {
+  width:100%;
   border: 0;
   background: #fff; }
   .card .card-body {
-    padding: 1.5rem 1.5rem; }
+    padding: 1.5rem 1.25rem; }
     .card .card-body + .card-body {
       padding-top: 1rem; }
   .card .card-title {
     color: #343a40;
     margin-bottom: 0.75rem;
     text-transform: capitalize;
-    
-    font-size: 1.125rem; }
+    font-size:15px; }
   .card .card-subtitle {
     
     margin-top: 0.625rem;
@@ -13616,9 +13696,13 @@ dl {
     padding: 0.9375rem; }
     .table th img,
     .table td img {
-      width: 36px;
-      height: 36px;
+      width: 30px;
+      height: 30px;
       border-radius: 100%; }
+      .table td img.match-persentage {
+    height: 37px;
+    width: 37px;
+}
     .table th .badge,
     .table td .badge {
       margin-bottom: 0; }
@@ -14372,8 +14456,11 @@ dl {
   padding-top: 100px;
   background:#f3f3f3;
  }
+ .fw-500 {
+  font-weight: 500 !important;
+}
  .fw-600 {
-  font-weight: 600;
+  font-weight: 600 !important;
 }
 @media (min-width: 992px) {
   .sidebar-icon-only .navbar .navbar-brand-wrapper {
@@ -14530,7 +14617,7 @@ dl {
 
 .content-wrapper {
   /* background: #f2edf3; */
-  padding: 2.75rem 1.75rem;
+  padding: 1.75rem 25px;
   width: 100%;
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
