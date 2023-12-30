@@ -149,10 +149,10 @@
                 <span class="menu-title">Job Vacancy</span>
                 <i class="menu-arrow"></i>
               </a>
-              <div class="collapse" id="ui-basic">
+              <div class="collapse dropdown-menu" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/buttons.html">Buttons</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/typography.html">Typography</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/jobposting.php">Job Posting</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/recruitmentprocess.html">Recruitment Process</a></li>
                 </ul>
               </div>
             </li>
