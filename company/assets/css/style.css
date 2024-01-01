@@ -14308,6 +14308,27 @@ input[type="range"]::-moz-range-thumb {
   border-left: 4px solid transparent;
   border-right: 4px solid transparent;
 } */
+@media(max-width:767px){
+  .filter-form {
+    position: relative;
+    top: 0;
+    right: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  .filter-form .dropdown {
+    width: calc(50% - 10px);
+    margin: 0 5px 40px!important;
+}
+.filter-form .dropdown-toggle {
+  min-width: auto;
+  max-width: 100%;
+}
+.filter-form .dropdown-menu{
+  margin-top:5px !important ;
+}
+}
 
 
 
