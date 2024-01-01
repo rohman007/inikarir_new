@@ -176,12 +176,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="candidates.php">
-                <img src="assets/images/icon/candidates.svg">
-                <span class="menu-title">Candidates</span>
-              </a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="calendar.php">
                 <img src="assets/images/icon/calendar.svg">
                 <span class="menu-title">Calendar</span>
@@ -367,7 +361,7 @@
                             <tbody>
                               <tr>
                                 <td class="p-0 text-xs fw-500 text-muted">
-                                  <img src="assets/images/faces/face1.jpg" class="me-1" alt="image"> <span>Jane Doe</span> <span class="ms-3">2hrs ago</span>
+                                  <img src="assets/images/faces/face1.jpg" class="me-1 rounded-pill" alt="image"> <span>Jane Doe</span> <span class="ms-3">2hrs ago</span>
                                 </td>
                               </tr>
                             </tbody>
@@ -400,49 +394,49 @@
                             <tbody>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> David Grey
+                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> David Grey
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
                               </tr>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> Stella Johnson
+                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> Stella Johnson
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
                               </tr>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> Marina Michel
+                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> Marina Michel
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
                               </tr>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> John Doe
+                                  <img src="assets/images/faces/face4.jpg" class="me-2 rounded-pill" alt="image"> John Doe
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
                               </tr>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> David Grey
+                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> David Grey
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
                               </tr>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> Stella Johnson
+                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> Stella Johnson
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
                               </tr>
                               <tr>
                                 <td class="fw-500">
-                                  <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> Marina Michel
+                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> Marina Michel
                                 </td>
                                 <td> Chief Technology </td>
                                 <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
@@ -462,41 +456,41 @@
                             <tbody>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> PT. Talent A
+                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent A
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> PT. Talent B
+                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent B
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> PT. Talent C
+                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent C
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> PT. Talent D
+                                  <img src="assets/images/faces/face4.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent D
                                 </td>
                               </tr><tr>
                                 <td>
-                                  <img src="assets/images/faces/face1.jpg" class="me-2" alt="image"> PT. Talent A
+                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent A
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face2.jpg" class="me-2" alt="image"> PT. Talent B
+                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent B
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face3.jpg" class="me-2" alt="image"> PT. Talent C
+                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent C
                                 </td>
                               </tr>
                               <tr>
                                 <td>
-                                  <img src="assets/images/faces/face4.jpg" class="me-2" alt="image"> PT. Talent D
+                                  <img src="assets/images/faces/face4.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent D
                                 </td>
                               </tr>
                             </tbody>
