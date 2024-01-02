@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
     <link rel="stylesheet" href="assets/vendors/owlcarousel/assets/owl.carousel.min.css">
     <link rel="stylesheet" href="assets/vendors/owlcarousel/assets/owl.theme.default.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.7/css/dataTables.bootstrap5.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400;1,500&display=swap" rel="stylesheet">
@@ -30,7 +31,7 @@
           <button class="navbar-toggler navbar-toggler align-self-center d-sm-none" type="button" data-toggle="minimize">
             <span class="mdi mdi-menu"></span>
           </button>
-          <h1 class="page-title mb-0 fs-5 fw-600">Dashboard</h1>
+          <h1 class="page-title mb-0 fs-5 fw-600">Company</h1>
           <div class="search-field d-none d-md-block">
             <form class="d-flex align-items-center h-100" action="#">
               <div class="input-group">
@@ -131,7 +132,7 @@
             <a class="switch-link" href="">Switch back to<br/>personal dashboard <img src="assets/images/icon/switch.png"></a>
           </div>
           <ul class="nav">
-            <li class="nav-item active">
+            <li class="nav-item">
               <a class="nav-link" href="index.php">
                 <img src="assets/images/icon/home.svg">
                 <span class="menu-title">Dashboard</span>
@@ -298,242 +299,200 @@
         </nav>
         <!-- partial -->
         <div class="main-panel">
-          <div class="content-wrapper">
-            <div class="mb-4 mt-2 pb-2 d-sm-flex align-items-center">
-              <div class="text-black fw-bold fs-6 col-sm-4  mb-4 mb-md-0 text-center text-md-start">Hello HR professionals! <br/>Wishing you a fantastic start to the day</div>
-              <div class="account-status-step text-xs d-flex w-100 justify-content-center">
-                <div class="list-step text-center me-5 check">
-                  <img src="assets/images/icon/check-step.svg" class="mb-2" style="width:35px">
-                  <div class="text-green fw-bold">Account Setup</div>
-                </div>
-                <div class="list-step text-center me-5 check">
-                  <img src="assets/images/icon/check-step.svg" class="mb-2" style="width:35px">
-                  <div class="text-green fw-bold">Add Job</div>
-                </div>
-                <div class="list-step text-center me-5">
-                  <img src="assets/images/icon/default-step.svg" class="mb-2" style="width:35px">
-                  <div class="text-green fw-500">Connect Email</div>
-                </div>
-                <div class="list-step text-center me-5">
-                  <img src="assets/images/icon/default-step.svg" class="mb-2" style="width:35px">
-                  <div class="text-green fw-500">Connect Social Media</div>
-                </div>
-                <div class="list-step text-center me-5">
-                  <img src="assets/images/icon/default-step.svg" class="mb-2" style="width:35px">
-                  <div class="text-green fw-500">Add Team</div>
-                </div>
-              </div>
-            </div>
+          <div class="content-wrapper" id="company-page">
             <div class="row">
-              <div class="col-md-6 pe-md-4">
-                <div class="card mb-4">
-                  <div class="card-body">
-                    <div class="align-items-center d-flex justify-content-between mb-3">
-                      <div>
-                        <h4 class="card-title float-left fw-bold text-black mb-1 fs-6">Job Applied</h4>
-                        <div class="text-muted text-xs">Daily applicant reports</div>
+              <div class="col-12">
+                <ul class="nav nav-tabs mb-4" id="candidatesTab" role="tablist">
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="companyactive-tab" data-bs-toggle="tab" data-bs-target="#companyactive" type="button" role="tab" aria-controls="comapanyactive" aria-selected="true">Active</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="companyinactive-tab" data-bs-toggle="tab" data-bs-target="#companyinactive" type="button" role="tab" aria-controls="companyinactive" aria-selected="false">Inactive</button>
+                  </li>
+                </ul>
+                <div class="tab-content" id="myTabContent">
+                  <div class="tab-pane fade show active" id="companyactive" role="tabpanel" aria-labelledby="companyactive-tab">
+                    <div class="filter-form d-flex">
+                      <div class="dropdown show me-3">
+                        <a class="btn btn-secondary dropdown-toggle bg-white border-0 px-3 py-2 rounded-3 text-xs fw-500 text-muted d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg width="20" height="20" class="me-2" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <mask id="mask0_2_9828" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                          <rect x="0.916016" y="0.766113" width="23.33" height="23.33" fill="url(#pattern0)"/>
+                          </mask>
+                          <g mask="url(#mask0_2_9828)">
+                          <rect x="0.916016" y="0.766113" width="23.33" height="23.33" fill="#16A799"/>
+                          </g>
+                          <defs>
+                          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0_2_9828" transform="scale(0.0078125)"/>
+                          </pattern>
+                          <image id="image0_2_9828" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAC99AAAvfQHNrEeoAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAXRQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARmHy3gAAAHt0Uk5TAAECAwQFBggLDA4REhQVFhcaHB4fICIkJSkqKy4vMjY3ODk7PD1BQ0dJSkxNUFFSV1haXV5iZWpsbW5wcnN6fX+Bg4iOj5CUlpidnqCkqKuvsLK1uLm/wMHFxsfJzM3O0NPW19jb3d7f4uPn6err7O/x8vT1+Pr7/P3+22Zr8QAAAfVJREFUeNrt09dTU0EAxeHNNQaCBQsiKooFRBF7bCCi0owaG4Jij6JGEQuaiPn98z44GUJyEwhzd3ccznncPTvne1ljFEVR7CbZZcyhZm/ziYH5cWPSc5c2epkPUjkYNyYNH87F3O/3Z6EEgDfHHc/3zEA5AJ4edjjfOQmVAHi4z9F8e6ZIGIA/d9sczG+bKEA4APJjWy3Pt9z8CbUBsHA9aXG+aegb1AfA/EDC0vyGC59gZQDkUoGN/dNvYXUAyPZHPn/0BaweADM9kc4fmILGADDZGdl8x70ijQMoZtojmQ/Sv2EtAChMRPL3YK0AEEAAAQQQQAAB/i9AhzE74v4A3Y/fGTP4/mzMD6B3GmaNGYTXxzwA+p5BCQDTB90CYqde/iuXAPBgrztAcCZbKi8BWLyz0w0gnppdKpcBID+6xT4gcfFjeXkZAH4MJ+0Cmi5/Xl6uAMCXKwl7gOahucpyFQBy5wM7gJZrX6vLIQDYZQOw+cb3sLIrQOvIQnjZDWD72K9aZReAtlv52mX7gN23C/XKtgF7MovgD7D/fhH8AboesXLsAbqnwCOg9wl4BPQ9B5+AV+AXgAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCLDuASMN5KoxR6oON5l4vTcnjDlZ794oirLu8xccRUwjTVlGsQAAAABJRU5ErkJggg=="/>
+                          </defs>
+                          </svg>Company
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                          <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                          <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                        </div>
                       </div>
-                      <div class="position-relative date-range">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 15 15" fill="none">
-                          <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1312 1.92128V1.22803C10.1312 0.845363 10.4418 0.53479 10.8244 0.53479C11.2071 0.53479 11.5177 0.845363 11.5177 1.22803V1.92128H12.2109C12.7627 1.92128 13.2917 2.14034 13.6813 2.53064C14.0716 2.92024 14.2906 3.44918 14.2906 4.001V12.3199C14.2906 12.8717 14.0716 13.4007 13.6813 13.7903C13.2917 14.1806 12.7627 14.3996 12.2109 14.3996C9.81021 14.3996 4.90621 14.3996 2.50551 14.3996C1.95369 14.3996 1.42474 14.1806 1.03514 13.7903C0.644844 13.4007 0.425781 12.8717 0.425781 12.3199C0.425781 10.1889 0.425781 6.13203 0.425781 4.001C0.425781 3.44918 0.644844 2.92024 1.03514 2.53064C1.42474 2.14034 1.95369 1.92128 2.50551 1.92128H3.19875V1.22803C3.19875 0.845363 3.50933 0.53479 3.892 0.53479C4.27467 0.53479 4.58524 0.845363 4.58524 1.22803V1.92128H10.1312ZM12.9042 6.08073H1.81227V12.3199C1.81227 12.5036 1.88506 12.6804 2.01539 12.81C2.14502 12.9404 2.3218 13.0132 2.50551 13.0132H12.2109C12.3946 13.0132 12.5714 12.9404 12.701 12.81C12.8314 12.6804 12.9042 12.5036 12.9042 12.3199V6.08073ZM5.97172 11.6267H10.8244C11.2071 11.6267 11.5177 11.3161 11.5177 10.9334C11.5177 10.5508 11.2071 10.2402 10.8244 10.2402H5.97172C5.58905 10.2402 5.27848 10.5508 5.27848 10.9334C5.27848 11.3161 5.58905 11.6267 5.97172 11.6267ZM3.892 8.8537H8.7447C9.12737 8.8537 9.43794 8.54313 9.43794 8.16046C9.43794 7.77779 9.12737 7.46722 8.7447 7.46722H3.892C3.50933 7.46722 3.19875 7.77779 3.19875 8.16046C3.19875 8.54313 3.50933 8.8537 3.892 8.8537ZM12.2109 3.30776H2.50551C2.3218 3.30776 2.14502 3.38055 2.01539 3.51088C1.88506 3.64052 1.81227 3.8173 1.81227 4.001V4.69425H12.9042V4.001C12.9042 3.8173 12.8314 3.64052 12.701 3.51088C12.5714 3.38055 12.3946 3.30776 12.2109 3.30776Z" fill="#075256"/>
-                        </svg>
-                        <input type="text" name="daterange" value="01/01/2024 - 01/15/2024" class="text-green form-control w-auto text-xs py-1 px-2 fw-500 ps-4 rounded-pill"/>
+                      <div class="dropdown show me-3">
+                        <a class="btn btn-secondary dropdown-toggle bg-white border-0 px-3 py-2 rounded-3 text-xs fw-500 text-muted d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg width="20" height="20" class="me-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <mask id="mask0_2_12525" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                          <rect x="0.621094" y="0.431152" width="23.33" height="23.33" fill="url(#pattern1)"/>
+                          </mask>
+                          <g mask="url(#mask0_2_12525)">
+                          <rect x="0.621094" y="0.431152" width="23.33" height="23.33" fill="#16A799"/>
+                          </g>
+                          <defs>
+                          <pattern id="pattern1" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0_2_12525" transform="scale(0.0078125)"/>
+                          </pattern>
+                          <image id="image0_2_12525" width="128" height="128" xlink:href="data:image/png;base64,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"/>
+                          </defs>
+                          </svg>Location
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item text-xs" href="#">Jakarta</a>
+                          <a class="dropdown-item text-xs" href="#">Bogor</a>
+                          <a class="dropdown-item text-xs" href="#">Depok</a>
+                        </div>
+                      </div>
+                      <div class="dropdown show">
+                        <a class="btn btn-secondary dropdown-toggle bg-white border-0 px-3 py-2 rounded-3 text-xs fw-500 text-muted d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg width="20" height="20" class="me-2" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <mask id="mask0_2_12539" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="24" height="24">
+                          <rect x="0.213867" y="0.431152" width="23.33" height="23.33" fill="url(#pattern2)"/>
+                          </mask>
+                          <g mask="url(#mask0_2_12539)">
+                          <rect x="0.213867" y="0.431152" width="23.33" height="23.33" fill="#16A799"/>
+                          </g>
+                          <defs>
+                          <pattern id="pattern2" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0_2_12539" transform="scale(0.0078125)"/>
+                          </pattern>
+                          <image id="image0_2_12539" width="128" height="128" xlink:href="data:image/png;base64,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"/>
+                          </defs>
+                          </svg>Industry
+                        </a>
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item text-xs" href="#">Accounting</a>
+                          <a class="dropdown-item text-xs" href="#">Airlines/Aviation</a>
+                          <a class="dropdown-item text-xs" href="#">Alternative Dispute Resolution</a>
+                        </div>
                       </div>
                     </div>
-                    <canvas id="lineChart" style="height:100px" height="100"></canvas>
+                    <div class="hero-company-list__wrapper row">
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                   </div>
-                </div>
-                <div id="last-activity" class="card mb-4">
-                  <div class="card-body">
-                    <h4 class="card-title float-left fw-bold text-black mb-4">Latest Activity</h4>
-                    <div class="activity-block">
-                        <div class="activity-list">
-                          <div class="date-activity text-muted fw-500 text-sm">Dec 12</div>
-                          <div class="title activity text-black text-sm mb-2">20 applied for chief design officer</div>
-                          <div class="desc activity text-muted text-xs mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper ullamcorper quis.</div>
-                          <a href="#" class="btn btn-primary bg-white text-purple text-xs px-2 py-2 rounded-2 blockquote-secondary">Candidates</a>
-                        </div>
-                        <div class="activity-list">
-                          <div class="date-activity text-muted fw-500 text-sm">Dec 1</div>
-                          <div class="title activity text-black text-sm mb-2">Chief design officer job vacancy created</div>
-                          <div class="desc activity text-muted text-xs mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper ullamcorper quis.</div>
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td class="p-0 text-xs fw-500 text-muted">
-                                  <img src="assets/images/faces/face1.jpg" class="me-1 rounded-pill" alt="image"> <span>Jane Doe</span> <span class="ms-3">2hrs ago</span>
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                        <div class="activity-list">
-                          <div class="date-activity text-muted fw-500 text-sm">Nov 18</div>
-                          <div class="title activity text-black text-sm mb-2">17 candidates invited to interview</div>
-                          <div class="desc activity text-muted text-xs mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper ullamcorper quis.</div>
-                          <a href="#" class="btn btn-primary bg-white text-red text-xs px-2 py-2 rounded-2 blockquote-secondary">Calendar</a>
-                        </div>
-                        <div class="activity-list">
-                          <div class="date-activity text-muted fw-500 text-sm">Nov 4</div>
-                          <div class="title activity text-black text-sm mb-2">10 applicants processed</div>
-                          <div class="desc activity text-muted text-xs mb-2 fw-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper ullamcorper quis.</div>
-                          <a href="#" class="btn btn-primary bg-white text-purple text-xs px-2 py-2 rounded-2 blockquote-secondary">Candidates</a>
-                        </div>
+                  <div class="tab-pane fade" id="companyinactive" role="tabpanel" aria-labelledby="companyinactive-tab">
+                    <div class="filter-form d-flex">  
+                      <div class="filter-matchingcandidates text-xs fw-500 py-2 mt-1">
+                        <svg width="30" height="20" viewBox="0 0 42 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g opacity="0.5">
+                        <path d="M8.70117 8.81616H32.9672" stroke="black" stroke-width="1.85186" stroke-linecap="round"/>
+                        <path d="M10.7231 14.4783H30.9449" stroke="black" stroke-width="1.85186" stroke-linecap="round"/>
+                        <path d="M12.7451 20.1404H28.9225" stroke="black" stroke-width="1.85186" stroke-linecap="round"/>
+                        </g>
+                        </svg> Filter
                       </div>
                     </div>
-                </div>
-              </div>
-              <div class="col-md-6 ps-md-0">
-                <div class="row">
-                  <div class="col-12 col-md-7 pe-md-4 d-md-flex">
+                      
                     <div class="card mb-4">
                       <div class="card-body">
-                        <h4 class="card-title float-left fw-bold text-black mb-3">New Applicant</h4>
-                        <div class="table-responsive text-xs">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> David Grey
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> Stella Johnson
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> Marina Michel
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face4.jpg" class="me-2 rounded-pill" alt="image"> John Doe
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> David Grey
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> Stella Johnson
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                              <tr>
-                                <td class="fw-500">
-                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> Marina Michel
-                                </td>
-                                <td> Chief Technology </td>
-                                <td> <img src="assets/images/100.svg" class="match-persentage"> </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
+                      
                       </div>
                     </div>
                   </div>
-                  <div class="col-12 col-md-5 ps-md-0 d-md-flex">
-                    <div class="card mb-4">
-                      <div class="card-body">
-                        <h4 class="card-title float-left fw-bold text-black mb-3">Recently Added Company</h4>
-                        <div class="table-responsive text-xs">
-                          <table class="table table-borderless">
-                            <tbody>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent A
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent B
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent C
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face4.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent D
-                                </td>
-                              </tr><tr>
-                                <td>
-                                  <img src="assets/images/faces/face1.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent A
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face2.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent B
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face3.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent C
-                                </td>
-                              </tr>
-                              <tr>
-                                <td>
-                                  <img src="assets/images/faces/face4.jpg" class="me-2 rounded-pill" alt="image"> PT. Talent D
-                                </td>
-                              </tr>
-                            </tbody>
-                          </table>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="row">
-                  <div class="col-6 pe-md-3 pe-2 d-flex">
-                    <div class="card px-2 mb-4">
-                      <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
-                        <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Total Companies</div>
-                        <div class="dashboard-number text-black fs-1 fw-500 mb-2">20</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 ps-md-2 ps-2 d-flex">
-                    <div class="card px-2 mb-4">
-                      <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
-                        <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Active Jobs</div>
-                        <div class="dashboard-number text-black fs-1 fw-500 mb-2">170</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 pe-md-3 pe-2 d-flex">
-                    <div class="card px-2 mb-4">
-                      <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
-                        <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Total Candidates</div>
-                        <div class="dashboard-number text-black fs-1 fw-500 mb-2">5k</div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-6 ps-md-2 ps-2 d-flex">
-                    <div class="card px-2 mb-4">
-                      <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
-                        <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Today Interviews</div>
-                        <div class="dashboard-number text-black fs-1 fw-500 mb-2">200</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
           </div>
@@ -560,11 +519,15 @@
     <script src="assets/js/dashboard.js?v=<?= rand();?>"></script>
     <script src="assets/js/todolist.js"></script>
     <script src="assets/vendors/owlcarousel/owl.carousel.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
     <!-- End custom js for this page -->
     <script>
       $(document).ready(function(){
+        
+
         $('.sidebar-slide').owlCarousel({
             stagePadding: 20,
             center:false,

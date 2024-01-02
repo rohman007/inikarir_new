@@ -105,7 +105,7 @@
             <li class="nav-item nav-profile dropdown ms-4">
               <a class="nav-link dropdown-toggle" id="profileDropdown" href="#" data-bs-toggle="dropdown" aria-expanded="false">
                 <div class="nav-profile-text text-end">
-                  <p class="mb-2 text-black fw-600 fs-6">David Greymaax</p>
+                  <p class="mb-2 text-black fw-600">David Greymaax</p>
                   <p class="text-grey text-sm mb-0">Admin</p>
                 </div>
                 <div class="nav-profile-img">
@@ -316,7 +316,7 @@
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="matchingapplicant" role="tabpanel" aria-labelledby="matchingapplicant-tab">
                     <div class="filter-form d-flex">
-                      <div class="dropdown show me-4">
+                      <div class="dropdown show me-3">
                         <a class="btn btn-secondary dropdown-toggle bg-white border-0 px-3 py-2 rounded-3 text-xs fw-500 text-muted d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           <svg width="20" height="20" class="me-2" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                           <mask id="mask0_2_9828" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
@@ -353,7 +353,7 @@
                           <a class="dropdown-item text-xs" href="#">Chief Designer Officer</a>
                         </div>
                       </div>
-                      <div class="ms-2 ms-md-4 text-xs">Experience</div>
+                      <div class="ms-2 ms-md-3 text-xs">Experience</div>
                       <div class=wrapper>
                         <div class="range">
                           <input type="range" min="0" max="100" value="0" id="range" /> 
@@ -1635,7 +1635,7 @@
     <!-- Custom js for this page -->
     <script src="assets/js/dashboard.js?v=<?= rand();?>"></script>
     <script src="assets/js/todolist.js"></script>
-    <script src="assets/js/todolist.js"></script>
+    <script src="assets/vendors/owlcarousel/owl.carousel.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
