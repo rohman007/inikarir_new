@@ -353,8 +353,8 @@
                           <a class="dropdown-item text-xs" href="#">Chief Designer Officer</a>
                         </div>
                       </div>
-                      <div class="ms-2 ms-md-3 text-xs">Experience</div>
-                      <div class=wrapper>
+                      <div class="ms-2 ms-md-3 text-xs mt-4 mt-sm-0">Experience</div>
+                      <div class="wrapper mt-4 mt-sm-0">
                         <div class="range">
                           <input type="range" min="0" max="100" value="0" id="range" /> 
                           <div class="value">0 years</div>

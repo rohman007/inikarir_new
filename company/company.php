@@ -387,11 +387,24 @@
                       </div>
                     </div>
                     <div class="hero-company-list__wrapper row">
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-sm-5 add-company">
+                        <div class="card rounded-4">
+                          <a href="company-add.php" class="add-button">
+                            <div class="plus-icon">+</div>
+                            <div class="label-button">Create Company</div>
+                          </a>
+                        </div>
+                      </div>
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                          </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-5 pe-0">
+                              <div class="col-4 col-sm-5 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -432,10 +445,242 @@
                         <div class="card rounded-4">
                           <div class="action-company">
                             <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-5 pe-0">
+                              <div class="col-4 col-sm-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-4 col-sm-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-4 col-sm-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-4 col-sm-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-4 col-sm-5 pe-0">
+                                <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
+                                  <div class="ratio ratio-1x1">
+                                      <div>
+                                          <img src="assets/images/company.png" alt="Image" class="object-fit-cover w-100 h-100 position-absolute top-0 start-0 bottom-0 end-0">
+                                      </div>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-7 ps-3">
+                                <div class="fw-bold text-black">Google, Inc</div>
+                              </div>
+                            </div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-3 align-items-center">
+                              <img src="assets/images/icon/career-icon.svg"> 
+                              <div class="text-sm ms-2">Web Design & Development</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/user-icon.svg"> 
+                              <div class="text-sm ms-2">100 employees</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/time-icon.svg"> 
+                              <div class="text-sm ms-2">Monday - Friday</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/black-phone-icon.svg"> 
+                              <div class="text-sm ms-2">0812-4567-8910</div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-company-list__item col-12 col-sm-3 mt-5">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="row">
+                              <div class="col-4 col-sm-5 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
