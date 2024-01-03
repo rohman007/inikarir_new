@@ -31,7 +31,7 @@
           <button class="navbar-toggler navbar-toggler align-self-center d-sm-none" type="button" data-toggle="minimize">
             <span class="mdi mdi-menu"></span>
           </button>
-          <h1 class="page-title mb-0 fs-5 fw-600">Company</h1>
+          <h1 class="page-title mb-0 fs-5 fw-600">Job Post</h1>
           <div class="search-field d-none d-md-block">
             <form class="d-flex align-items-center h-100" action="#">
               <div class="input-group">
@@ -152,8 +152,8 @@
               </a>
               <div class="collapse dropdown-menu" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="jobposting.php">Job Posting</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="recruitmentprocess.html">Recruitment Process</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/jobposting.php">Job Posting</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/recruitmentprocess.html">Recruitment Process</a></li>
                 </ul>
               </div>
             </li>
@@ -299,153 +299,296 @@
         </nav>
         <!-- partial -->
         <div class="main-panel">
-          <div class="content-wrapper" id="company-page">
+          <div class="content-wrapper" id="jobposting-page">
             <div class="row">
               <div class="col-12">
                 <ul class="nav nav-tabs mb-4" id="candidatesTab" role="tablist">
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="companyactive-tab" data-bs-toggle="tab" data-bs-target="#companyactive" type="button" role="tab" aria-controls="comapanyactive" aria-selected="true">Active</button>
+                    <button class="nav-link active" id="jobposting-tab" data-bs-toggle="tab" data-bs-target="#jobposting" type="button" role="tab" aria-controls="jobposting" aria-selected="true">Job Posting</button>
                   </li>
                   <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="companyinactive-tab" data-bs-toggle="tab" data-bs-target="#companyinactive" type="button" role="tab" aria-controls="companyinactive" aria-selected="false">Inactive</button>
+                    <button class="nav-link" id="jobhistory-tab" data-bs-toggle="tab" data-bs-target="#jobhistory" type="button" role="tab" aria-controls="jobhistory" aria-selected="false">History</button>
                   </li>
                 </ul>
                 <div class="tab-content" id="myTabContent">
-                  <div class="tab-pane fade show active" id="companyactive" role="tabpanel" aria-labelledby="companyactive-tab">
-                  <a class="text-xs text-decoration-none text-black fw-500 d-flex align-items-center mb-3" href="javascript:history.back()">
-                            <svg class="me-2" width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <rect width="25" height="25" transform="matrix(-1 0 0 1 25.6289 0.940674)" fill="url(#pattern0)"/>
-                            <defs>
-                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_2_13868" transform="scale(0.0078125)"/>
-                            </pattern>
-                            <image id="image0_2_13868" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADsQAAA7EB9YPtSQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJwSURBVHic7d09axRRGIbhe+aAla3B0r8hYmcjGFJbib1so+IXaBtN/GhUrPwW7ESsxcJC1F9gof4CESIKIo7FoASzS3Zmc+bN5twXnDLDA+/DJpmdOQckSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkbVABx4G3wA/gK/ACOBAZSsOogUdAM2b9AkZx0TSEEeOHv36dDEun7D6xeQEa4FRUQOWzh+mG/3edjompXLoWoAHOhCRVNtP+Cli/zuYKk3JdWBP9Bg53/JlDwE/g9dbH0dBq4CndPwUa4HxAXmWQgMf0K8HFgLzKYJYSXArIqwwSk+8KWoJCJOAh/UqwHJBXGVgCWQK1JXhAvxJcDsirDBJwn34luBKQVxlYApGAe/QrwcrwcZVDTf8SrA4fVznUwF0sQdEq4Db9SnA1IK8ysASiAm7RrwTXAvIqgwq4Sb8SXA/IqwxmLUE17qJLwCvgW88Lu+Zn3eC/Eixvg1CuYdcKtC1YAp6hEi0m4A6wLziIYuytgDVgd3QShViroxMoVFMD76NTKMy7BHwBjkYnUYhRAj4Au4CDwWE0rFXam0n/HAFe0v5RGP0/qivv2nAjSPPF7wMK5jeCBZvlmQCHP+d8IKRgPhdYMJ8MLpjvBhTMt4MK5vAL5hvCBZtljwCHP+fcIKJgDr9g7hRWMPcKLJi7hRYsAU9w+EVys+jCTXNm0Lh1LiKstt5nug8/24ERGtYC3Yd/ISSpsvDQKPGR6YbvsXE71Ak2H74HR+5gFZPv+3t0bCEq4BjwBvhO+37mc2B/ZChJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRtQ38A9GwPyk+0wKwAAAAASUVORK5CYII="/>
-                            </defs>
-                            </svg> Back
+                  <div class="tab-pane fade show active" id="jobposting" role="tabpanel" aria-labelledby="jobposting-tab">
+                    <div class="filter-form d-flex">
+                      <div class="dropdown show me-3">
+                        <a class="btn btn-secondary dropdown-toggle bg-white border-0 px-3 py-2 rounded-3 text-xs fw-500 text-muted d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <svg width="20" height="20" class="me-2" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <mask id="mask0_2_9828" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                          <rect x="0.916016" y="0.766113" width="23.33" height="23.33" fill="url(#pattern0)"/>
+                          </mask>
+                          <g mask="url(#mask0_2_9828)">
+                          <rect x="0.916016" y="0.766113" width="23.33" height="23.33" fill="#16A799"/>
+                          </g>
+                          <defs>
+                          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0_2_9828" transform="scale(0.0078125)"/>
+                          </pattern>
+                          <image id="image0_2_9828" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAC99AAAvfQHNrEeoAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAXRQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARmHy3gAAAHt0Uk5TAAECAwQFBggLDA4REhQVFhcaHB4fICIkJSkqKy4vMjY3ODk7PD1BQ0dJSkxNUFFSV1haXV5iZWpsbW5wcnN6fX+Bg4iOj5CUlpidnqCkqKuvsLK1uLm/wMHFxsfJzM3O0NPW19jb3d7f4uPn6err7O/x8vT1+Pr7/P3+22Zr8QAAAfVJREFUeNrt09dTU0EAxeHNNQaCBQsiKooFRBF7bCCi0owaG4Jij6JGEQuaiPn98z44GUJyEwhzd3ccznncPTvne1ljFEVR7CbZZcyhZm/ziYH5cWPSc5c2epkPUjkYNyYNH87F3O/3Z6EEgDfHHc/3zEA5AJ4edjjfOQmVAHi4z9F8e6ZIGIA/d9sczG+bKEA4APJjWy3Pt9z8CbUBsHA9aXG+aegb1AfA/EDC0vyGC59gZQDkUoGN/dNvYXUAyPZHPn/0BaweADM9kc4fmILGADDZGdl8x70ijQMoZtojmQ/Sv2EtAChMRPL3YK0AEEAAAQQQQAAB/i9AhzE74v4A3Y/fGTP4/mzMD6B3GmaNGYTXxzwA+p5BCQDTB90CYqde/iuXAPBgrztAcCZbKi8BWLyz0w0gnppdKpcBID+6xT4gcfFjeXkZAH4MJ+0Cmi5/Xl6uAMCXKwl7gOahucpyFQBy5wM7gJZrX6vLIQDYZQOw+cb3sLIrQOvIQnjZDWD72K9aZReAtlv52mX7gN23C/XKtgF7MovgD7D/fhH8AboesXLsAbqnwCOg9wl4BPQ9B5+AV+AXgAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCLDuASMN5KoxR6oON5l4vTcnjDlZ794oirLu8xccRUwjTVlGsQAAAABJRU5ErkJggg=="/>
+                          </defs>
+                          </svg>Company
                         </a>
-                        <form action="" class="create-company-form">
-                            <div class="row">
-                                <div class="col-12 col-md-8">
-                                    <div class="row">
-                                        <div class="col-5 col-md-3 pe-sm-4 mb-4">
-                                            <label class="ratio ratio-1x1 bg-darkgrey rounded-4 position-relative" for="logocompany">
-                                                <div class="w-100 h-100 d-flex fw-600 align-items-center justify-content-center text-muted">Logo</div>
-                                                <input type="file" name="logocompany" id="logocompany" class="position-absolute opacity-0">
-                                            </label>
-                                        </div>
-                                        <div class="col-12 col-md-9">                                            
-                                            <div class="form-group mb-4 pb-2 position-relative">
-                                                <label class="fw-600 mb-0">Company Name :</label>
-                                                <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companyname" placeholder="" required="">
-                                            </div>                                         
-                                            <div class="form-group mb-4 pb-2 position-relative">
-                                                <label class="fw-600 mb-0">Company Address :</label>
-                                                <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companyaddress" placeholder="" required="">
-                                            </div>
-                                            <div class="row">
-                                                <div class="col-12 col-md-7">                                    
-                                                    <div class="form-group mb-4 pb-2 position-relative">
-                                                        <label class="fw-600 mb-1">Working Days :</label>
-                                                        <div class="bg-white d-flex rounded-2 px-2 py-2 align-items-center justify-content-between">
-                                                            <select name="workingstart" class="bg-transparent border-0 text-xs">
-                                                                <option value="">Select</option>
-                                                                <option value="monday">Monday</option>
-                                                                <option value="tuesday">Tuesday</option>
-                                                                <option value="wednesday">Wednesday</option>
-                                                                <option value="thursday">Thursday</option>
-                                                                <option value="friday">Friday</option>
-                                                                <option value="saturday">Saturday</option>
-                                                                <option value="sunday">Sunday</option>
-                                                            </select>
-                                                            <div class="mx-2">-</div>
-                                                            <select name="workingend" class="bg-transparent border-0 text-xs">
-                                                                <option value="">Select</option>
-                                                                <option value="monday">Monday</option>
-                                                                <option value="tuesday">Tuesday</option>
-                                                                <option value="wednesday">Wednesday</option>
-                                                                <option value="thursday">Thursday</option>
-                                                                <option value="friday">Friday</option>
-                                                                <option value="saturday">Saturday</option>
-                                                                <option value="sunday">Sunday</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-5">                                      
-                                                    <div class="form-group mb-4 pb-2 position-relative">
-                                                        <label class="fw-600 mb-0">Company Size :</label>
-                                                        <div class="d-flex align-items-center">
-                                                            <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companysize" placeholder="" required="">
-                                                            <div class="fw-600 ms-1 text-xs">Employees</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="form-group mb-3 position-relative">
-                                        <label class="fw-600 mb-1">Company Overview :</label>    
-                                        <div class="bg-white rounded-3 p-2">
-                                          <textarea name="overview" class="usetiny"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">                                      
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Name :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactname" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Number :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactnumber" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Email :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactemail" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Website :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="website" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Location :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="location" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Industry :</label>
-                                        <div class="industry-input">
-                                            <div class="industry-input-list d-flex">
-                                                <select name="industry1" class="bg-white border-0 text-xs px-2 py-1 rounded-1">
-                                                    <option value="">Select</option>
-                                                    <option value="a">Industy A</option>
-                                                    <option value="b">Industy B</option>
-                                                    <option value="c">Industy C</option>
-                                                </select>
-                                                <div class="add-industry ms-3">+</div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <button class="btn btn-primary text-sm rounded-1 mb-2 d-inline-block fw-500" type="submit" style="padding-left: 35px;padding-right: 35px;">Save</button>
-                                </div>
-                            </div>
-                        </form>
-                  </div>
-                  <div class="tab-pane fade" id="companyinactive" role="tabpanel" aria-labelledby="companyinactive-tab">
-                    <div class="filter-form d-flex">  
-                      <div class="filter-matchingcandidates text-xs fw-500 py-2 mt-1">
-                        <svg width="30" height="20" viewBox="0 0 42 29" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <g opacity="0.5">
-                        <path d="M8.70117 8.81616H32.9672" stroke="black" stroke-width="1.85186" stroke-linecap="round"/>
-                        <path d="M10.7231 14.4783H30.9449" stroke="black" stroke-width="1.85186" stroke-linecap="round"/>
-                        <path d="M12.7451 20.1404H28.9225" stroke="black" stroke-width="1.85186" stroke-linecap="round"/>
-                        </g>
-                        </svg> Filter
+
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                          <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                          <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                          <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                        </div>
                       </div>
                     </div>
-                      
-                    <div class="card mb-4">
-                      <div class="card-body">
-                      
+                    <div class="row">
+                      <div class="col-12 col-sm-9">
+                        <div class="hero-job-list__wrapper row">
+                          <div class="hero-job-list__item col-12 col-sm-4 mt-sm-4 add-company">
+                            <div class="card rounded-4 bg-transparent">
+                              <a href="job-add.php" class="add-button">
+                                <div class="plus-icon">+</div>
+                                <div class="label-button">Create Job Post</div>
+                              </a>
+                            </div>
+                          </div>
+                          <div class="hero-job-list__item col-12 col-sm-4 mt-4">
+                            <div class="card rounded-4">
+                              <div class="action-company">
+                                <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                                <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                              </div>
+                              <div class="card-body text-sm">
+                                <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                    <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                    <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                                </div>
+                                <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                                <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                                <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <img src="assets/images/icon/location-icon.svg"> 
+                                  <div class="text-sm ms-2">Bekasi</div>
+                                </div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <div class="text-sm">Rp 4,500,000 per month</div>
+                                </div>
+                                <div class="text-muted text-sm mt-3">5 Applicant</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="hero-job-list__item col-12 col-sm-4 mt-4">
+                            <div class="card rounded-4">
+                              <div class="action-company">
+                                <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                                <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                              </div>
+                              <div class="card-body text-sm">
+                                <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                    <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                    <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                                </div>
+                                <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                                <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                                <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <img src="assets/images/icon/location-icon.svg"> 
+                                  <div class="text-sm ms-2">Bekasi</div>
+                                </div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <div class="text-sm">Rp 4,500,000 per month</div>
+                                </div>
+                                <div class="text-muted text-sm mt-3">5 Applicant</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="hero-job-list__item col-12 col-sm-4 mt-4">
+                            <div class="card rounded-4">
+                              <div class="action-company">
+                                <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                                <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                              </div>
+                              <div class="card-body text-sm">
+                                <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                    <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                    <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                                </div>
+                                <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                                <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                                <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <img src="assets/images/icon/location-icon.svg"> 
+                                  <div class="text-sm ms-2">Bekasi</div>
+                                </div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <div class="text-sm">Rp 4,500,000 per month</div>
+                                </div>
+                                <div class="text-muted text-sm mt-3">5 Applicant</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="hero-job-list__item col-12 col-sm-4 mt-4">
+                            <div class="card rounded-4">
+                              <div class="action-company">
+                                <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                                <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                              </div>
+                              <div class="card-body text-sm">
+                                <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                    <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                    <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                                </div>
+                                <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                                <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                                <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <img src="assets/images/icon/location-icon.svg"> 
+                                  <div class="text-sm ms-2">Bekasi</div>
+                                </div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <div class="text-sm">Rp 4,500,000 per month</div>
+                                </div>
+                                <div class="text-muted text-sm mt-3">5 Applicant</div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="hero-job-list__item col-12 col-sm-4 mt-4">
+                            <div class="card rounded-4">
+                              <div class="action-company">
+                                <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                                <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                              </div>
+                              <div class="card-body text-sm">
+                                <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                    <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                    <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                                </div>
+                                <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                                <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                                <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <img src="assets/images/icon/location-icon.svg"> 
+                                  <div class="text-sm ms-2">Bekasi</div>
+                                </div>
+                                <div class="d-flex data-company mt-2 align-items-center">
+                                  <div class="text-sm">Rp 4,500,000 per month</div>
+                                </div>
+                                <div class="text-muted text-sm mt-3">5 Applicant</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-12 col-sm-3 mt-4">
+                        <div class="card rounded-3">
+                          <div class="card-body">
+                            <div class="fw-bold text-black mb-2">Professioanl HT Tips</div>
+                            <div class="text-xs text-muted">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="tab-pane fade" id="jobhistory" role="tabpanel" aria-labelledby="jobhistory-tab">
+                    <div class="hero-job-list__wrapper row">
+                      <div class="hero-job-list__item col-12 col-sm-3 mt-4">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                            </div>
+                            <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                            <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <div class="text-sm">Rp 4,500,000 per month</div>
+                            </div>
+                            <div class="text-muted text-sm mt-3">5 Applicant</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-job-list__item col-12 col-sm-3 mt-4">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                            </div>
+                            <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                            <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <div class="text-sm">Rp 4,500,000 per month</div>
+                            </div>
+                            <div class="text-muted text-sm mt-3">5 Applicant</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-job-list__item col-12 col-sm-3 mt-4">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                            </div>
+                            <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                            <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <div class="text-sm">Rp 4,500,000 per month</div>
+                            </div>
+                            <div class="text-muted text-sm mt-3">5 Applicant</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="hero-job-list__item col-12 col-sm-3 mt-4">
+                        <div class="card rounded-4">
+                          <div class="action-company">
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/applicant-icon.svg"></a>
+                          </div>
+                          <div class="card-body text-sm">
+                            <div class="hero-job-list__badge-wrapper d-flex align-items-center justify-content-between">
+                                <div class="fw-600 hero-job-list__badge px-3 me-1 mb-2 py-1 d-inline-block text-xs rounded">Full Time</div>
+                                <a href="#" class="bg-white share-button"><img src="assets/images/icon/ShareNetwork.svg"></a>
+                            </div>
+                            <div class="fw-bold text-black mt-1">Senior UI Designer</div>
+                            <div class="company-name text-xs text-muted mb-2">Creative Solutions, Inc.</div>
+                            <div class="text-xs text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut et sapien augue. Cras ut rutrum nisi. Etiam sit amet dolor enim. Donec maximus</div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <img src="assets/images/icon/location-icon.svg"> 
+                              <div class="text-sm ms-2">Bekasi</div>
+                            </div>
+                            <div class="d-flex data-company mt-2 align-items-center">
+                              <div class="text-sm">Rp 4,500,000 per month</div>
+                            </div>
+                            <div class="text-muted text-sm mt-3">5 Applicant</div>
+                          </div>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -479,15 +622,10 @@
     <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script src="./assets/vendors/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
     <!-- End custom js for this page -->
     <script>
       $(document).ready(function(){
         
-        tinymce.init({
-                selector:'.usetiny',
-                menubar: "table tools",
-            });
 
         $('.sidebar-slide').owlCarousel({
             stagePadding: 20,

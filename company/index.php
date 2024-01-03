@@ -151,8 +151,8 @@
               </a>
               <div class="collapse dropdown-menu" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/jobposting.php">Job Posting</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/recruitmentprocess.html">Recruitment Process</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="jobposting.php">Job Posting</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="recruitmentprocess.html">Recruitment Process</a></li>
                 </ul>
               </div>
             </li>

@@ -26,7 +26,7 @@ var lightColor = getComputedStyle(document.body).getPropertyValue('--light');
         if (element.attr('href').indexOf("index.html") !== -1) {
           element.parents('.nav-item').last().addClass('active');
           if (element.parents('.sub-menu').length) {
-            element.closest('.collapse').addClass('show');
+            element.closest('.collapse').addClass('');
             element.addClass('active');
           }
         }
@@ -35,7 +35,7 @@ var lightColor = getComputedStyle(document.body).getPropertyValue('--light');
         if (element.attr('href').indexOf(current) !== -1) {
           element.parents('.nav-item').last().addClass('active');
           if (element.parents('.sub-menu').length) {
-            element.closest('.collapse').addClass('show');
+            element.closest('.collapse').addClass('');
             element.addClass('active');
           }
           if (element.parents('.submenu-item').length) {

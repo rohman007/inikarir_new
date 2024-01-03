@@ -14191,6 +14191,60 @@ dl {
       padding-top: 0px; } }
 
 
+/*Job Posting*/
+div#jobposting-page .filter-form {
+  right: auto;
+  left: 210px;
+}
+.hero-job-list__wrapper .action-company a:last-child img {
+    height: 20px;
+}
+.mce-menubar {
+    border: 0;
+}
+.hero-job-list__wrapper .action-company a:last-child {
+    background: #fff !important;
+}
+.hero-job-list__item.add-company .card {
+  background: transparent;
+  box-shadow: none;
+}
+.hero-job-list__badge {
+    color: #000;
+    border-radius: 8.169px;
+    background: #e6eced;
+    font-weight: 500;
+    padding: 4px 10px !important;
+}
+.hero-job-list__wrapper .company-name {
+  font-size: 13.5px;
+  color: #222 !important;
+}
+.share-button img {
+    height: 19px;
+}
+
+.share-button {
+    border-radius: 5.63px;
+    background: #F7F7F7 !important;
+    width: 33px;
+    height: 33px;
+    margin-top: -2px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-job-list__item .card-body {
+  padding: 20px 15px 15px !important;
+}
+
+.hero-job-list__item .card {
+  box-shadow: 1.967px 3.934px 9.834px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 8px !important;
+    width: calc(100% - 30px);
+    margin-bottom: 30px;
+}
+
 /*Company*/
 .action-company a:last-child img {
   height: 16px;
@@ -14202,7 +14256,6 @@ dl {
 .action-company a img {
   height: 19px;
 }
-
 .action-company a {
   background: #fff;
   width: 33px;

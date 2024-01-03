@@ -152,8 +152,8 @@
               </a>
               <div class="collapse dropdown-menu" id="ui-basic">
                 <ul class="nav flex-column sub-menu">
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/jobposting.php">Job Posting</a></li>
-                  <li class="nav-item"> <a class="nav-link" href="pages/ui-features/recruitmentprocess.html">Recruitment Process</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="jobposting.php">Job Posting</a></li>
+                  <li class="nav-item"> <a class="nav-link" href="recruitmentprocess.html">Recruitment Process</a></li>
                 </ul>
               </div>
             </li>
@@ -398,9 +398,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -444,9 +444,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -490,9 +490,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -536,9 +536,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -582,9 +582,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -628,9 +628,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -674,9 +674,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -724,9 +724,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -770,9 +770,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -816,9 +816,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -862,9 +862,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -908,9 +908,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -954,9 +954,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -1000,9 +1000,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
@@ -1046,9 +1046,9 @@
                       <div class="hero-company-list__item col-12 col-sm-3 mt-5">
                         <div class="card rounded-4">
                           <div class="action-company">
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-edit.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
-                            <a href="#" class="companyedit bg-white"><img src="assets/images/icon/company-check.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-edit.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-suitcase.svg"></a>
+                            <a href="#" class="bg-white"><img src="assets/images/icon/company-check.svg"></a>
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
