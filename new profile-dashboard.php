@@ -23,7 +23,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
         <link rel="stylesheet" href="https://aafarma.id/js/tokeninput/token-input.css" type="text/css" />
         <link rel="stylesheet" href="https://aafarma.id/js/tokeninput/token-input-facebook.css" type="text/css" />
-        <link rel="stylesheet" href="./assets/css/style.css?v=11" />
+        <link rel="stylesheet" href="./assets/css/style.css?v=111" />
 
 
         <!-- Favicons -->
@@ -42,7 +42,27 @@
                     <a class="navbar-brand" href="#">
                         <img src="./assets/images/logo.png" alt="Ini Karir" />
                     </a>
-                    <div class="tags-input"> 
+                    <div class="navbar-collapse collapse d-none d-sm-flex align-items-center me-4 justify-content-between" id="navbarSupportedContent" style="">
+                        <ul class="navbar-nav d-sm-flex flex-wrap list-unstyled m-0  flex-row">
+                            <li class="nav-item ms-4"><a class="nav-link active" href="">Home</a></li>
+                            <li class="nav-item ms-4"><a class="nav-link" href="">Job Vacancy</a></li>
+                            <li class="nav-item ms-4"><a class="nav-link" href="#">Services</a></li>
+                            <li class="nav-item ms-4"><a class="nav-link" href="">Article</a></li>
+                            <li class="nav-item ms-4"><a class="nav-link" href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="search-input me-3 me-sm-5"> 
+                        <div class="position-relative w-100 d-flex align-items-center flex-wrap">
+                            <input type="text" id="search" placeholder="Search" class="form-control text-sm"/> 
+                            <button type="submit" class="border-0 position-absolute bottom-0 end-0 bg-white mb-1 me-1 top-0 mt-0 bg-transparent" value="Cari" fdprocessedid="dlf8pf">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="18" viewBox="0 0 26 25" fill="none">
+                                <path d="M4.75872 24.5691L11.7871 17.5458L8.15297 13.9117L1.12457 20.94C0.547807 21.5168 0.547807 22.4662 1.12457 23.0429L2.65071 24.5691C3.23258 25.1459 4.18705 25.1459 4.75872 24.5691Z" fill="#ACB1C6"/>
+                                <path d="M9.7193 14.0702L11.6231 15.974L13.7924 13.8048C16.7477 15.8566 20.8412 15.5708 23.4749 12.9371C26.4302 9.98177 26.4302 5.17878 23.4749 2.21838C20.5196 -0.742013 15.7167 -0.736909 12.7563 2.21838C10.1225 4.85212 9.83669 8.94563 11.8886 11.9009L9.7193 14.0702ZM14.2467 3.68837C16.3904 1.54464 19.8663 1.54464 22.0049 3.68837C24.1487 5.83211 24.1487 9.30803 22.0049 11.4467C19.8612 13.5904 16.3853 13.5904 14.2467 11.4467C12.1029 9.30802 12.1029 5.83211 14.2467 3.68837Z" fill="#ACB1C6"/>
+                                </svg>
+                            </button>
+                        </div>
+                    </div>
+                    <!--<div class="tags-input"> 
                         <div class="position-relative search-block w-100 d-flex align-items-center flex-wrap">
                             <ul id="tags"></ul> 
                             <label for="input-tag">
@@ -55,7 +75,7 @@
                                 </svg>
                             </button>
                         </div>
-                    </div> 
+                    </div> -->
                     <div class="d-flex align-items-center after-loggin">
                         <a class="profile-icon d-flex text-decoration-none align-items-center me-sm-4 me-1" href="profile-dashboard.php">
                             <div class="me-2 nav-profile-img profile-photo position-relative">

@@ -3501,6 +3501,11 @@ a.sidebar-slide-data img {
   width: 18px;
   height: auto;
 }
+
+.clickable-date {
+  cursor: pointer;
+  background-color: #e6f7ff; /* Change background color for clickable dates */
+}
 @media (max-width: 575.98px) {
   .table-responsive-sm {
     overflow-x: auto;
@@ -3527,11 +3532,6 @@ a.sidebar-slide-data img {
   height: 4px !important;
   border-radius: 10px;
 }
-.clickable-date {
-  cursor: pointer;
-  background-color: #e6f7ff; /* Change background color for clickable dates */
-}
-
 /* Track */
 .nav-tabs::-webkit-scrollbar-track {
   background: #f1f1f1;
