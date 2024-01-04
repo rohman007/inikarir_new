@@ -79,7 +79,7 @@
                         <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse" id="navbarSupportedContentHeader">
                             <div class="position-relative px-0">
                                 
                                 <div class="ms-auto">
@@ -111,6 +111,49 @@
             </div>
         </section>
         <main id="main">
+            <section class="profile-page_data mb-sm-4">
+                <div class="container">
+                    <div class="profile-page_data-menu d-sm-flex align-items-center justify-content-between pt-sm-5 mt-sm-4">
+                        <div class="navbar-collapse collapse d-sm-flex align-items-center  justify-content-between" id="navbarSupportedContent" style="">
+                            <ul class="navbar-nav d-sm-flex flex-wrap list-unstyled m-0  flex-row">
+                                <li class="nav-item ms-4"><a class="nav-link" href="">Home</a></li>
+                                <li class="nav-item active ms-4"><a class="nav-link" href="">Job Vacancy</a></li>
+                                <li class="nav-item ms-4"><a class="nav-link" href="#">Services</a></li>
+                                <li class="nav-item ms-4"><a class="nav-link" href="">Article</a></li>
+                                <li class="nav-item ms-4"><a class="nav-link" href="#">Contact</a></li>
+                            </ul>
+                            <a href="#" class="btn btn-primary logout-button text-sm fw-bold d-sm-none">Logout</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="slide-banner" class="py-4">
+                <div class="container">
+                    <div class="row justify-content-center text-center">
+                        <div class="col-12 col-sm-7 col-md-8">
+                            <div class="hero-banner__slider d-flex grid-thumbnail">
+                                <div class="mx-2 mx-lg-2 swiper hero-banner__swiper-single">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide p-2 px-2">
+                                            <img src="assets/images/slide-banner.png" class="w-100">
+                                        </div>
+                                        <div class="swiper-slide p-2 px-2">
+                                            <img src="assets/images/slide-banner.png" class="w-100">
+                                        </div>
+                                        <div class="swiper-slide p-2 px-2">
+                                            <img src="assets/images/slide-banner.png" class="w-100">
+                                        </div>
+                                        <div class="swiper-slide p-2 px-2">
+                                            <img src="assets/images/slide-banner.png" class="w-100">
+                                        </div>
+                                    </div>
+                                <div class="hero-banner__pagination-single"></div>
+                                </div>
+                            </div> <!-- /.slider -->
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="search-result" class="hero-loker-list py-5">
                 <div class="container">
                     <div class="row">
@@ -1255,7 +1298,7 @@
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
         <script src="./assets/vendor/fullpage/fullpage.min.js"></script>
-        <script src="./assets/js/functions.js"></script>
+        <script src="./assets/js/functions.js?v=11"></script>
         <script>
             $(document).ready(function() {
                 $(".button-grid-thumbnail").click(function () {

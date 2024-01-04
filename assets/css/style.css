@@ -2511,8 +2511,24 @@ label.date-icon img {
     left: -3px;
     top: -6px;
 }
-.profile-page_data .navbar-collapse a{font-size: 12pt;}
+.profile-page_data .navbar-collapse a{font-size: 11pt;}
+.swiper-pagination-bullet {
+    width: 20px;
+    border-radius: 5px;
+    height: 4px;
+}
+.swiper-pagination-bullet-active{
+    background: #075256 !important;
+}
 @media(min-width:768px){
+    section.profile-page_data .navbar-collapse .navbar-nav {
+        left: 14%;
+        position: relative;
+        width: 50%;
+    }
+    section.profile-page_data {
+        border-bottom: 1px solid #ddd;
+    }
     .profile-page_data .navbar-collapse {
         display: flex!important;
         flex-basis: auto;

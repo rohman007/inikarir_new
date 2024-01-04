@@ -35,7 +35,7 @@
         <meta name="theme-color" content="#ffffff">
     </head>
 
-    <body>
+    <body class="after-login">
         <header id="header">
             <nav id="navbar" class="navbar navbar-expand-lg">
                 <div class="container position-relative">
@@ -56,9 +56,30 @@
                             </button>
                         </div>
                     </div> 
-                    <button class="navbar-toggler collapsed border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <div class="d-flex align-items-center after-loggin">
+                        <a class="profile-icon d-flex text-decoration-none align-items-center me-sm-4 me-1" href="profile-dashboard.php">
+                            <div class="me-2 nav-profile-img profile-photo position-relative">
+                                <img src="assets/images/profile-photo.avif" alt="image">
+                            </div>
+                            <div class="nav-profile-text d-none d-sm-block">
+                                <p class="mb-0 text-sm text-black fw-600">David Greymaax</p>
+                                <p class="text-muted text-xs mb-0">Loremipsum</p>
+                            </div>
+                        </a>
+                        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <div class="position-relative px-0">
+                                
+                                <div class="ms-auto">
+                                    <div class="header__cta">
+                                        <a href="#" class="btn btn-primary px-4 py-2 text-sm fw-600 logout-button">Logout</a>
+                                    </div> <!-- /.cta -->
+                                </div>
+                            </div>
+                        </div> <!-- /.collapse menu -->
+                    </div>
                     
                 </div> <!-- /.container -->
             </nav> <!-- /.nav -->
@@ -428,14 +449,8 @@
                                         <li class="nav-item ms-4"><a class="nav-link" href="#">Personality Test</a></li>
                                         <li class="nav-item ms-4"><a class="nav-link" href="#">Manage Company</a></li>
                                     </ul>
-                                    <a href="#" class="btn btn-primary logout-button text-sm fw-bold">Logout</a>
+                                    <a href="#" class="btn btn-primary logout-button text-sm fw-bold d-sm-none">Logout</a>
                                 </div>
-                                <!-- <ul class="d-flex flex-wrap list-unstyled m-0">
-                                    <li class="ms-4"><a href="profile-dashboard.php">Dashboard</a></li>
-                                    <li class="active ms-4"><a href="profile.php">Profile</a></li>
-                                    <li class="ms-4"><a href="profile-application.php">Application Status</a></li>
-                                    <li class="ms-4"><a href="#">Personality Test</a></li>
-                                </ul> -->
                             </div>
                             <div class="profile-page_data-verify mb-4">
                                 <div class="text-red fw-500 mb-4">
