@@ -312,7 +312,7 @@
                 </ul>
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="companyactive" role="tabpanel" aria-labelledby="companyactive-tab">
-                  <a class="text-xs text-decoration-none text-black fw-500 d-flex align-items-center mb-3" href="javascript:history.back()">
+                    <a class="text-xs text-decoration-none text-black fw-500 d-flex align-items-center mb-3" href="javascript:history.back()" style="width: 70px;">
                             <svg class="me-2" width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect width="25" height="25" transform="matrix(-1 0 0 1 25.6289 0.940674)" fill="url(#pattern0)"/>
                             <defs>
@@ -323,7 +323,7 @@
                             </defs>
                             </svg> Back
                         </a>
-                        <form action="" class="create-company-form">
+                        <form action="" class="create-company-form form-block">
                             <div class="row">
                                 <div class="col-12 col-md-8">
                                     <div class="row">
@@ -335,17 +335,17 @@
                                         </div>
                                         <div class="col-12 col-md-9">                                            
                                             <div class="form-group mb-4 pb-2 position-relative">
-                                                <label class="fw-600 mb-0">Company Name :</label>
+                                                <label class="fw-bold mb-0">Company Name :</label>
                                                 <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companyname" placeholder="" required="">
                                             </div>                                         
                                             <div class="form-group mb-4 pb-2 position-relative">
-                                                <label class="fw-600 mb-0">Company Address :</label>
+                                                <label class="fw-bold mb-0">Company Address :</label>
                                                 <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companyaddress" placeholder="" required="">
                                             </div>
                                             <div class="row">
                                                 <div class="col-12 col-md-7">                                    
                                                     <div class="form-group mb-4 pb-2 position-relative">
-                                                        <label class="fw-600 mb-1">Working Days :</label>
+                                                        <label class="fw-bold mb-1">Working Days :</label>
                                                         <div class="bg-white d-flex rounded-2 px-2 py-2 align-items-center justify-content-between">
                                                             <select name="workingstart" class="bg-transparent border-0 text-xs">
                                                                 <option value="">Select</option>
@@ -373,7 +373,7 @@
                                                 </div>
                                                 <div class="col-12 col-md-5">                                      
                                                     <div class="form-group mb-4 pb-2 position-relative">
-                                                        <label class="fw-600 mb-0">Company Size :</label>
+                                                        <label class="fw-bold mb-0">Company Size :</label>
                                                         <div class="d-flex align-items-center">
                                                             <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companysize" placeholder="" required="">
                                                             <div class="fw-600 ms-1 text-xs">Employees</div>
@@ -384,7 +384,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group mb-3 position-relative">
-                                        <label class="fw-600 mb-1">Company Overview :</label>    
+                                        <label class="fw-bold mb-1">Company Overview :</label>    
                                         <div class="bg-white rounded-3 p-2">
                                           <textarea name="overview" class="usetiny"></textarea>
                                         </div>
@@ -392,27 +392,27 @@
                                 </div>
                                 <div class="col-12 col-md-4">                                      
                                     <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Name :</label>
+                                        <label class="fw-bold mb-0">Contact Name :</label>
                                         <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactname" placeholder="" required="">
                                     </div>
                                     <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Number :</label>
+                                        <label class="fw-bold mb-0">Contact Number :</label>
                                         <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactnumber" placeholder="" required="">
                                     </div>
                                     <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Email :</label>
+                                        <label class="fw-bold mb-0">Contact Email :</label>
                                         <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactemail" placeholder="" required="">
                                     </div>
                                     <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Website :</label>
+                                        <label class="fw-bold mb-0">Website :</label>
                                         <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="website" placeholder="" required="">
                                     </div>
                                     <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Location :</label>
+                                        <label class="fw-bold mb-0">Location :</label>
                                         <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="location" placeholder="" required="">
                                     </div>
                                     <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Industry :</label>
+                                        <label class="fw-bold mb-0">Industry :</label>
                                         <div class="industry-input">
                                             <div class="industry-input-list d-flex">
                                                 <select name="industry1" class="bg-white border-0 text-xs px-2 py-1 rounded-1">

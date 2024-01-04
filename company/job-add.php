@@ -312,123 +312,132 @@
                 </ul>
                 <div class="tab-content" id="myTabContent">
                   <div class="tab-pane fade show active" id="companyactive" role="tabpanel" aria-labelledby="companyactive-tab">
-                  <a class="text-xs text-decoration-none text-black fw-500 d-flex align-items-center mb-3" href="javascript:history.back()">
-                            <svg class="me-2" width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-                            <rect width="25" height="25" transform="matrix(-1 0 0 1 25.6289 0.940674)" fill="url(#pattern0)"/>
-                            <defs>
-                            <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
-                            <use xlink:href="#image0_2_13868" transform="scale(0.0078125)"/>
-                            </pattern>
-                            <image id="image0_2_13868" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADsQAAA7EB9YPtSQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJwSURBVHic7d09axRRGIbhe+aAla3B0r8hYmcjGFJbib1so+IXaBtN/GhUrPwW7ESsxcJC1F9gof4CESIKIo7FoASzS3Zmc+bN5twXnDLDA+/DJpmdOQckSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkbVABx4G3wA/gK/ACOBAZSsOogUdAM2b9AkZx0TSEEeOHv36dDEun7D6xeQEa4FRUQOWzh+mG/3edjompXLoWoAHOhCRVNtP+Cli/zuYKk3JdWBP9Bg53/JlDwE/g9dbH0dBq4CndPwUa4HxAXmWQgMf0K8HFgLzKYJYSXArIqwwSk+8KWoJCJOAh/UqwHJBXGVgCWQK1JXhAvxJcDsirDBJwn34luBKQVxlYApGAe/QrwcrwcZVDTf8SrA4fVznUwF0sQdEq4Db9SnA1IK8ysASiAm7RrwTXAvIqgwq4Sb8SXA/IqwxmLUE17qJLwCvgW88Lu+Zn3eC/Eixvg1CuYdcKtC1YAp6hEi0m4A6wLziIYuytgDVgd3QShViroxMoVFMD76NTKMy7BHwBjkYnUYhRAj4Au4CDwWE0rFXam0n/HAFe0v5RGP0/qivv2nAjSPPF7wMK5jeCBZvlmQCHP+d8IKRgPhdYMJ8MLpjvBhTMt4MK5vAL5hvCBZtljwCHP+fcIKJgDr9g7hRWMPcKLJi7hRYsAU9w+EVys+jCTXNm0Lh1LiKstt5nug8/24ERGtYC3Yd/ISSpsvDQKPGR6YbvsXE71Ak2H74HR+5gFZPv+3t0bCEq4BjwBvhO+37mc2B/ZChJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRtQ38A9GwPyk+0wKwAAAAASUVORK5CYII="/>
-                            </defs>
-                            </svg> Back
-                        </a>
-                        <form action="" class="create-company-form">
-                            <div class="row">
-                                <div class="col-12 col-md-8">
-                                    <div class="row">
-                                        <div class="col-5 col-md-3 pe-sm-4 mb-4">
-                                            <label class="ratio ratio-1x1 bg-darkgrey rounded-4 position-relative" for="logocompany">
-                                                <div class="w-100 h-100 d-flex fw-600 align-items-center justify-content-center text-muted">Logo</div>
-                                                <input type="file" name="logocompany" id="logocompany" class="position-absolute opacity-0">
-                                            </label>
-                                        </div>
-                                        <div class="col-12 col-md-9">                                            
-                                            <div class="form-group mb-4 pb-2 position-relative">
-                                                <label class="fw-600 mb-0">Company Name :</label>
-                                                <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companyname" placeholder="" required="">
-                                            </div>                                         
-                                            <div class="form-group mb-4 pb-2 position-relative">
-                                                <label class="fw-600 mb-0">Company Address :</label>
-                                                <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companyaddress" placeholder="" required="">
+                    <a class="text-xs text-decoration-none text-black fw-500 d-flex align-items-center mb-4" href="javascript:history.back()" style="width: 70px;">
+                          <svg class="me-2" width="20" height="20" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                          <rect width="25" height="25" transform="matrix(-1 0 0 1 25.6289 0.940674)" fill="url(#pattern0)"/>
+                          <defs>
+                          <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                          <use xlink:href="#image0_2_13868" transform="scale(0.0078125)"/>
+                          </pattern>
+                          <image id="image0_2_13868" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADsQAAA7EB9YPtSQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAJwSURBVHic7d09axRRGIbhe+aAla3B0r8hYmcjGFJbib1so+IXaBtN/GhUrPwW7ESsxcJC1F9gof4CESIKIo7FoASzS3Zmc+bN5twXnDLDA+/DJpmdOQckSZIkSZIkSZIkSZIkSZIkSZIkSZIkSZIkbVABx4G3wA/gK/ACOBAZSsOogUdAM2b9AkZx0TSEEeOHv36dDEun7D6xeQEa4FRUQOWzh+mG/3edjompXLoWoAHOhCRVNtP+Cli/zuYKk3JdWBP9Bg53/JlDwE/g9dbH0dBq4CndPwUa4HxAXmWQgMf0K8HFgLzKYJYSXArIqwwSk+8KWoJCJOAh/UqwHJBXGVgCWQK1JXhAvxJcDsirDBJwn34luBKQVxlYApGAe/QrwcrwcZVDTf8SrA4fVznUwF0sQdEq4Db9SnA1IK8ysASiAm7RrwTXAvIqgwq4Sb8SXA/IqwxmLUE17qJLwCvgW88Lu+Zn3eC/Eixvg1CuYdcKtC1YAp6hEi0m4A6wLziIYuytgDVgd3QShViroxMoVFMD76NTKMy7BHwBjkYnUYhRAj4Au4CDwWE0rFXam0n/HAFe0v5RGP0/qivv2nAjSPPF7wMK5jeCBZvlmQCHP+d8IKRgPhdYMJ8MLpjvBhTMt4MK5vAL5hvCBZtljwCHP+fcIKJgDr9g7hRWMPcKLJi7hRYsAU9w+EVys+jCTXNm0Lh1LiKstt5nug8/24ERGtYC3Yd/ISSpsvDQKPGR6YbvsXE71Ak2H74HR+5gFZPv+3t0bCEq4BjwBvhO+37mc2B/ZChJkiRJkiRJkiRJkiRJkiRJkiRJkiRJkiRtQ38A9GwPyk+0wKwAAAAASUVORK5CYII="/>
+                          </defs>
+                          </svg> Back
+                      </a>
+                      <form action="" class="create-job-form form-block pt-2">
+                          <div class="row">
+                            <div class="col-12 col-md-8">
+                                <div class="row">
+                                    <div class="col-12 col-md-4">                                   
+                                      <div class="form-group mb-4 pb-2 position-relative ">
+                                          <label class="fw-bold mb-0">Company :</label>
+                                          <div class="filter-form position-relative top-0 start-0 mb-0">
+                                            <div class="dropdown show me-3 w-100">
+                                              <a class="btn btn-secondary dropdown-toggle bg-white border-0 px-3 py-2 rounded-3 text-xs fw-500 text-muted d-flex align-items-center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <svg width="20" height="20" class="me-2" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                                                <mask id="mask0_2_9828" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="25" height="25">
+                                                <rect x="0.916016" y="0.766113" width="23.33" height="23.33" fill="url(#patterncompany)"/>
+                                                </mask>
+                                                <g mask="url(#mask0_2_9828)">
+                                                <rect x="0.916016" y="0.766113" width="23.33" height="23.33" fill="#16A799"/>
+                                                </g>
+                                                <defs>
+                                                <pattern id="patterncompany" patternContentUnits="objectBoundingBox" width="1" height="1">
+                                                <use xlink:href="#image0_2_9828" transform="scale(0.0078125)"/>
+                                                </pattern>
+                                                <image id="image0_2_9828" width="128" height="128" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAMAAAD04JH5AAAAA3NCSVQICAjb4U/gAAAACXBIWXMAAC99AAAvfQHNrEeoAAAAGXRFWHRTb2Z0d2FyZQB3d3cuaW5rc2NhcGUub3Jnm+48GgAAAXRQTFRF////AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARmHy3gAAAHt0Uk5TAAECAwQFBggLDA4REhQVFhcaHB4fICIkJSkqKy4vMjY3ODk7PD1BQ0dJSkxNUFFSV1haXV5iZWpsbW5wcnN6fX+Bg4iOj5CUlpidnqCkqKuvsLK1uLm/wMHFxsfJzM3O0NPW19jb3d7f4uPn6err7O/x8vT1+Pr7/P3+22Zr8QAAAfVJREFUeNrt09dTU0EAxeHNNQaCBQsiKooFRBF7bCCi0owaG4Jij6JGEQuaiPn98z44GUJyEwhzd3ccznncPTvne1ljFEVR7CbZZcyhZm/ziYH5cWPSc5c2epkPUjkYNyYNH87F3O/3Z6EEgDfHHc/3zEA5AJ4edjjfOQmVAHi4z9F8e6ZIGIA/d9sczG+bKEA4APJjWy3Pt9z8CbUBsHA9aXG+aegb1AfA/EDC0vyGC59gZQDkUoGN/dNvYXUAyPZHPn/0BaweADM9kc4fmILGADDZGdl8x70ijQMoZtojmQ/Sv2EtAChMRPL3YK0AEEAAAQQQQAAB/i9AhzE74v4A3Y/fGTP4/mzMD6B3GmaNGYTXxzwA+p5BCQDTB90CYqde/iuXAPBgrztAcCZbKi8BWLyz0w0gnppdKpcBID+6xT4gcfFjeXkZAH4MJ+0Cmi5/Xl6uAMCXKwl7gOahucpyFQBy5wM7gJZrX6vLIQDYZQOw+cb3sLIrQOvIQnjZDWD72K9aZReAtlv52mX7gN23C/XKtgF7MovgD7D/fhH8AboesXLsAbqnwCOg9wl4BPQ9B5+AV+AXgAACCCCAAAIIIIAAAggggAACCCCAAAIIIIAAAggggAACCLDuASMN5KoxR6oON5l4vTcnjDlZ794oirLu8xccRUwjTVlGsQAAAABJRU5ErkJggg=="/>
+                                                </defs>
+                                                </svg>Company
+                                              </a>
+
+                                              <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                                <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                                                <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                                                <a class="dropdown-item text-xs" href="#">Google, Inc</a>
+                                              </div>
                                             </div>
-                                            <div class="row">
-                                                <div class="col-12 col-md-7">                                    
-                                                    <div class="form-group mb-4 pb-2 position-relative">
-                                                        <label class="fw-600 mb-1">Working Days :</label>
-                                                        <div class="bg-white d-flex rounded-2 px-2 py-2 align-items-center justify-content-between">
-                                                            <select name="workingstart" class="bg-transparent border-0 text-xs">
-                                                                <option value="">Select</option>
-                                                                <option value="monday">Monday</option>
-                                                                <option value="tuesday">Tuesday</option>
-                                                                <option value="wednesday">Wednesday</option>
-                                                                <option value="thursday">Thursday</option>
-                                                                <option value="friday">Friday</option>
-                                                                <option value="saturday">Saturday</option>
-                                                                <option value="sunday">Sunday</option>
-                                                            </select>
-                                                            <div class="mx-2">-</div>
-                                                            <select name="workingend" class="bg-transparent border-0 text-xs">
-                                                                <option value="">Select</option>
-                                                                <option value="monday">Monday</option>
-                                                                <option value="tuesday">Tuesday</option>
-                                                                <option value="wednesday">Wednesday</option>
-                                                                <option value="thursday">Thursday</option>
-                                                                <option value="friday">Friday</option>
-                                                                <option value="saturday">Saturday</option>
-                                                                <option value="sunday">Sunday</option>
-                                                            </select>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-12 col-md-5">                                      
-                                                    <div class="form-group mb-4 pb-2 position-relative">
-                                                        <label class="fw-600 mb-0">Company Size :</label>
-                                                        <div class="d-flex align-items-center">
-                                                            <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companysize" placeholder="" required="">
-                                                            <div class="fw-600 ms-1 text-xs">Employees</div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
+                                          </div>
+                                      </div>
                                     </div>
-                                    <div class="form-group mb-3 position-relative">
-                                        <label class="fw-600 mb-1">Company Overview :</label>    
-                                        <div class="bg-white rounded-3 p-2">
-                                          <textarea name="overview" class="usetiny"></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12 col-md-4">                                      
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Name :</label>
+                                    <div class="col-12 col-md-4">                                    
+                                      <div class="form-group mb-4 pb-2 position-relative">
+                                        <label class="fw-bold mb-0">Placement City :</label>
                                         <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactname" placeholder="" required="">
+                                      </div>
                                     </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Number :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactnumber" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Contact Email :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="contactemail" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Website :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="website" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Location :</label>
-                                        <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="location" placeholder="" required="">
-                                    </div>
-                                    <div class="form-group mb-4 pb-2 position-relative">
-                                        <label class="fw-600 mb-0">Industry :</label>
-                                        <div class="industry-input">
-                                            <div class="industry-input-list d-flex">
-                                                <select name="industry1" class="bg-white border-0 text-xs px-2 py-1 rounded-1">
-                                                    <option value="">Select</option>
-                                                    <option value="a">Industy A</option>
-                                                    <option value="b">Industy B</option>
-                                                    <option value="c">Industy C</option>
-                                                </select>
-                                                <div class="add-industry ms-3">+</div>
+                                    <div class="col-12 col-md-4">                                      
+                                        <div class="form-group mb-4 pb-2 position-relative">
+                                          <div class="d-flex align-items-center">
+                                            <label class="fw-bold mb-0">Salary per :</label>
+                                            <select name="salaryper" class="bg-white border-0 text-sm px-2 py-1 rounded-1 ms-2">
+                                                <option value="month">Month</option>
+                                                <option value="week">Week</option>
+                                            </select>
+                                          </div>
+                                            <div class="d-flex align-items-center">
+                                              <select name="currency" class="bg-white border-0 text-sm px-2 py-1 rounded-1 me-2">
+                                                  <option value="idr">IDR</option>
+                                                  <option value="usd">USD</option>
+                                              </select>
+                                              <input type="text" class="form-control text-sm rounded-0 border-0 border-bottom" name="companysize" placeholder="" required="">
                                             </div>
                                         </div>
                                     </div>
-                                    <button class="btn btn-primary text-sm rounded-1 mb-2 d-inline-block fw-500" type="submit" style="padding-left: 35px;padding-right: 35px;">Save</button>
                                 </div>
-                            </div>
-                        </form>
+                                <div class="form-group mb-4 position-relative">
+                                    <label class="fw-bold mb-1">Job Description :</label>    
+                                    <div class="bg-white rounded-3 p-2">
+                                      <textarea name="jobdescription" class="usetiny"></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group pt-2 position-relative">
+                                    <label class="fw-bold mb-1">Job Requirements :</label>    
+                                    <div class="bg-white rounded-3 p-2">
+                                      <textarea name="jobrequirements" class="usetiny"></textarea>
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="col-12 col-md-4">                                      
+                                  <div class="form-group mb-4 pb-2 position-relative">
+                                      <label class="fw-bold mb-0 w-100">Career Level :</label>
+                                      <select name="currency" class="bg-white border-0 text-sm px-2 py-1 rounded-1 me-2">
+                                          <option value="senior">Senior-Level</option>
+                                          <option value="junior">Junior-Level</option>
+                                      </select>
+                                  </div>
+                                  <div class="form-group mb-4 pb-2 position-relative">
+                                      <label class="fw-bold mb-0">Brief Qualification :</label>
+                                      <div class="bg-white rounded-3 px-3 py-3 pb-2">
+                                        <textarea id="inputText" rows="4" maxlength="200"  oninput="countCharacters()" class="border-0 w-100 bg-secondary rounded-3 px-2 py-2 bg-opacity-10"></textarea>
+                                        <div id="charCount" class="text-end text-xs pt-1">0/200</div>
+                                      </div>
+                                  </div>
+                                  <div class="form-group mb-4 pb-2 position-relative">
+                                      <label class="fw-bold mb-0">Years of experience :</label>
+                                      <div class="d-flex bg-white px-3 py-3 rounded-3 align-items-center">
+                                        <input type="text" class="form-control text-sm  bg-secondary  bg-opacity-10 border-0 rounded-3" style="width:50px" name="yearexperience" placeholder="17" required="">
+                                        <div class="mx-2 text-sm">Years, in</div>
+                                        <input type="text" class="form-control text-sm  bg-secondary  bg-opacity-10 w-50 border-0 rounded-3" name="jobexperience" placeholder="Graphic Design" required="">
+                                      </div>
+                                  </div>
+                                  <div class="form-group mb-4 pb-2 position-relative">
+                                      <label class="fw-bold mb-0">Available Until :</label>
+                                      <input type="date" class="form-control text-sm px-3 py-2 border-0 bg-white rounded-3 w-50 " name="available" placeholder="" required="">
+                                  </div>
+                                  <div class="form-group mb-4 pb-2 position-relative">
+                                      <label class="fw-bold mb-0 w-100">Skills Specialization :</label>
+                                      <div class="add-skill edit-icon mb-3" data-toggle="profile-skill_data">+</div>
+                                      <div class="profile-skill_list">
+                                          <div class="text-sm position-relative">UI Designer</div>
+                                          <div class="text-sm position-relative">UX Designer</div>
+                                          <div class="text-sm position-relative">Figma</div>
+                                          <div class="text-sm position-relative">Product Designer</div>
+                                      </div>
+                                  </div>
+                                  <a href="" class="btn btn-primary text-sm rounded-1 mb-2 d-inline-block fw-500 me-2 bg-transparent text-green" style="padding-left: 35px;padding-right: 35px;">Preview</a>
+                                  <button class="btn btn-primary text-sm rounded-1 mb-2 d-inline-block fw-500" type="submit" style="padding-left: 35px;padding-right: 35px;">Publish</button>
+                              </div>
+                          </div>
+                      </form>
                   </div>
                   <div class="tab-pane fade" id="companyinactive" role="tabpanel" aria-labelledby="companyinactive-tab">
                     <div class="filter-form d-flex">  
@@ -482,12 +491,23 @@
     <script src="./assets/vendors/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
     <!-- End custom js for this page -->
     <script>
+      function countCharacters() {
+            var textarea = document.getElementById("inputText");
+            var charCount = document.getElementById("charCount");
+            var count = textarea.value.length;
+            if (count > 200) {
+                // Jika melebihi batas 200 karakter, potong teks
+                textarea.value = textarea.value.substring(0, 200);
+                count = 200;
+            }
+            charCount.textContent = count+"/200";
+        }
       $(document).ready(function(){
         
         tinymce.init({
-                selector:'.usetiny',
-                menubar: "table tools",
-            });
+            selector:'.usetiny',
+            menubar: "table tools",
+        });
 
         $('.sidebar-slide').owlCarousel({
             stagePadding: 20,
