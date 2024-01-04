@@ -328,8 +328,8 @@
               <div class="col-md-6 pe-md-4">
                 <div class="card mb-4">
                   <div class="card-body">
-                    <div class="align-items-center d-flex justify-content-between mb-3">
-                      <div>
+                    <div class="align-items-center d-sm-flex justify-content-between mb-3">
+                      <div class="mb-2 mb-sm-0">
                         <h4 class="card-title float-left fw-bold text-black mb-1 fs-6">Job Applied</h4>
                         <div class="text-muted text-xs">Daily applicant reports</div>
                       </div>
@@ -502,7 +502,7 @@
                 </div>
                 <div class="row">
                   <div class="col-6 pe-md-3 pe-2 d-flex">
-                    <div class="card px-2 mb-4">
+                    <div class="card px-sm-2 mb-4">
                       <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
                         <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Total Companies</div>
                         <div class="dashboard-number text-black fs-1 fw-500 mb-2">20</div>
@@ -510,7 +510,7 @@
                     </div>
                   </div>
                   <div class="col-6 ps-md-2 ps-2 d-flex">
-                    <div class="card px-2 mb-4">
+                    <div class="card px-sm-2 mb-4">
                       <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
                         <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Active Jobs</div>
                         <div class="dashboard-number text-black fs-1 fw-500 mb-2">170</div>
@@ -518,7 +518,7 @@
                     </div>
                   </div>
                   <div class="col-6 pe-md-3 pe-2 d-flex">
-                    <div class="card px-2 mb-4">
+                    <div class="card px-sm-2 mb-4">
                       <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
                         <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Total Candidates</div>
                         <div class="dashboard-number text-black fs-1 fw-500 mb-2">5k</div>
@@ -526,7 +526,7 @@
                     </div>
                   </div>
                   <div class="col-6 ps-md-2 ps-2 d-flex">
-                    <div class="card px-2 mb-4">
+                    <div class="card px-sm-2 mb-4">
                       <div class="card-body px-3 px-sm-4 py-2 py-sm-4">
                         <div class="dashboard-title text-muted fs-5 fw-500 mt-3">Today Interviews</div>
                         <div class="dashboard-number text-black fs-1 fw-500 mb-2">200</div>

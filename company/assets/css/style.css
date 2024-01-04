@@ -3507,6 +3507,48 @@ a.sidebar-slide-data img {
     -webkit-overflow-scrolling: touch; } }
 
 @media (max-width: 767.98px) {
+  .sidebar .nav .nav-item .dropdown-menu {
+    border: 0;
+    background: transparent;
+    position: relative;
+    padding: 0 0 15px 0 !important;
+    margin-top: -5px;
+}
+.nav-tabs button {
+    white-space: nowrap;
+}
+.nav-tabs {
+  overflow-x: auto;
+  display: flex !important;
+  flex-wrap: nowrap !important;
+}
+/* width */
+.nav-tabs::-webkit-scrollbar {
+  height: 4px !important;
+  border-radius: 10px;
+}
+
+/* Track */
+.nav-tabs::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+/* Handle */
+.nav-tabs::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.nav-tabs::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  border-radius: 10px;
+}
+  .sidebar .nav .nav-item .dropdown-menu a{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
   .page-title {
     display: none;
   }
@@ -5375,6 +5417,16 @@ textarea.form-control-lg {
       overflow-y: visible; } }
 
 @media (min-width: 768px) {
+  
+  .sidebar .nav .nav-item .dropdown-menu {
+    position: absolute;
+    left: calc(100% - 40px);
+    top: -6px;
+    padding: 15px 0;
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
+}
   .navbar-expand-md {
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
@@ -11350,6 +11402,7 @@ address p {
   margin: 0 !important;
   width: 130px;
 }
+.list-step img{position:relative}
 .list-step.check:before {background: #075256;}
 .list-step:before {
   content: "";
@@ -11368,6 +11421,22 @@ address p {
     font-size: 0 !important;
     min-width: auto;
     margin: 0 6px !important;
+}
+.date-range input {
+  width: 180px !important;
+}
+.activity-list {
+  margin-left: 70px;
+  border-left: 3px solid #ddd;
+  padding-left: 20px;
+  position: relative;
+  padding-bottom: 50px;
+  padding-right: 15px;
+}
+.date-activity {
+  position: absolute;
+  left: -70px;
+  font-size: 12px !important;
 }
 .navbar.fixed-top {
     position: relative;
@@ -14662,8 +14731,13 @@ input[type="range"]::-moz-range-thumb {
     right: 0;
     width: 100%;
     flex-wrap: wrap;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
   }
+  .hero-job-list__item .card{margin-bottom: 0;}
+  div#jobposting-page .filter-form {
+    right: auto;
+    left: 0;
+}
   .filter-form .dropdown {
     width: calc(50% - 10px);
     margin: 0 5px 10px!important;
@@ -15012,13 +15086,7 @@ div#matchingcandidates {
       .sidebar .nav .nav-item .collapse {
         z-index: 999; }
         .sidebar .nav .nav-item .dropdown-menu {
-          position: absolute;
-          left: calc(100% - 40px);
-          top: -6px;
           padding: 15px 0;
-          border-radius: 10px;
-          background: #FFF;
-          box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.15);
       }
       .sidebar .nav .nav-item .dropdown-menu.collapsing {
         height: auto;
