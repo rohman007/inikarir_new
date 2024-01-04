@@ -561,7 +561,7 @@ fieldset[disabled] .btn-primary.active {
         padding: 8px;
     }
     .sticky-header #header .navbar .navbar-collapse {
-        /* top: 97px; */
+        /* top: 97px; */ 
     }
     #header .navbar .navbar-collapse {
         position: fixed;
