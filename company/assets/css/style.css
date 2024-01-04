@@ -3527,6 +3527,10 @@ a.sidebar-slide-data img {
   height: 4px !important;
   border-radius: 10px;
 }
+.clickable-date {
+  cursor: pointer;
+  background-color: #e6f7ff; /* Change background color for clickable dates */
+}
 
 /* Track */
 .nav-tabs::-webkit-scrollbar-track {
