@@ -496,7 +496,79 @@ fieldset[disabled] .btn-primary.active {
     background-color: var(--ik-primary-color);
     color: #ffffff;
 }
-
+.nav-profile-img.profile-photo {
+    left: 0;
+    width: 50px;
+    height: 50px;
+    padding: 0;
+    box-shadow: none !important;
+    top: 0;
+    transform: none;
+}
+.page-tile h1 {
+    position: relative;
+    background: #fff;
+    display: inline-block;
+    padding-right: 20px;
+}
+.no-result{
+    color: #ddd;
+}
+.page-tile {
+    position: relative;
+}
+.page-tile:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #ddd;
+    display: block;
+    top: 50%;
+    position: absolute;
+    margin-top: -2px;
+}
+@media(min-width:992px){
+    .after-login nav#navbar .tags-input,.after-login section.search-loker .tags-input {
+        width: 50%;
+        left: 46%;
+    }
+    .after-login .navbar-collapse {
+        position: relative;
+    }
+}
+@media(max-width:767px){
+    .after-login nav#navbar .tags-input {
+        width: calc(100% - 230px);
+        left: 44%;
+    }
+    .nav-profile-img.profile-photo {
+        left: 0;
+        width: 45px;
+        height: 45px;
+    }
+    button.navbar-toggler {
+        padding-left: 9px;
+        padding-right: 9px;
+    }
+    a.logout-button {
+        font-size: 11pt;
+        width: 100%;
+        padding: 8px;
+    }
+    .sticky-header #header .navbar .navbar-collapse {
+        top: 97px;
+    }
+    #header .navbar .navbar-collapse {
+        position: fixed;
+        top: 82px;
+        background: #fff;
+        z-index: 999999;
+        width: 100%;
+        left: 0;
+        padding: 10px 15px 20px;
+        box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.25);
+    }
+}
 
 /**
  * HERO AUTHENTIC
