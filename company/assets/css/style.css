@@ -6034,8 +6034,8 @@ textarea.form-control-lg {
 .page-item.active .page-link {
   z-index: 3;
   color: #fff;
-  background-color: #0d6efd;
-  border-color: #0d6efd; }
+  background-color: #16A799 ;
+  border-color: #16A799; }
 
 .page-item.disabled .page-link {
   color: #6c757d;
@@ -14277,6 +14277,97 @@ div#jobposting-page .filter-form {
 }
 
 
+
+/*Our Team*/
+a.text-green{color:#16A799 !important}
+a.text-yellow{color:#C1A822  !important}
+div#ourteam-table td, div#ourteam-table th {
+  border-color: rgba(0, 0, 0, 0.15);
+  padding-left: 0;
+}
+div#ourteam-table .dataTables_filter input {
+    font-size: 12px;
+    background: #fff;
+    height: auto;
+    padding: 10px 13px;
+    min-height: auto;
+    border: 0;
+    border-radius: 7px;
+    min-width: 220px;
+}
+.title-border:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background: rgba(0, 0, 0, 0.35);
+    top: 12px;
+}
+.title-border {
+  position: relative;
+}
+.title-border h1 {
+  position: relative;
+  background: #f3f3f3;
+  display: inline-block;
+  min-width: 160px;
+}
+div#ourteam-table .dataTables_filter {
+  position: absolute;
+  left: 100px;
+  top: 17px;
+  border-right: 10px solid #f3f3f3;
+}
+div#ourteam-table #tableourteam_filter.dataTables_filter {
+  left: 140px;
+}
+div#ourteam-table .dataTables_filter label {
+  font-size: 0;
+}
+div#ourteam-table .dataTables_paginate {
+  margin-top: 30px !important;
+}
+.dataTables_scrollHeadInner {
+  margin-bottom: 15px;
+}
+div#ourteam-table th {
+  font-weight:600 !important;
+  font-size:12pt !important;
+  border:0;
+}
+div#ourteam-table div.dataTables_length{
+  display: none;
+}
+div#ourteam-table div.dataTables_wrapper div.dataTables_info {
+    display: none;
+}
+@media(max-width:767px){
+  div#ourteam-table .dataTables_filter {
+    position: relative;
+    left: 0 !important;
+    top: 0;
+    border-right: 0px solid #f3f3f3;
+    margin: 0 !important;
+}
+.title-border h1 {
+  min-width: auto;
+  padding-right: 15px;
+}
+div#ourteam-table .dataTables_filter input {
+  min-width: 100%;
+  width: 100%;
+  margin: -20px 0 20px !important;
+}
+div#ourteam-table .dataTables_filter label {
+  display: block;
+}
+div#ourteam-table .card-body {
+  padding-left: 0;
+  padding-right: 0;
+}
+}
+
 /*Company*/
 .action-company a:last-child img {
   height: 16px;
@@ -14620,20 +14711,20 @@ table#table2 td:last-child img,table#table2mactingcandidates td:last-child img,t
 .bg-grey{
 background: #ddd;
 }
-li#table1_previous a:before,li#table1mactingcandidates_previous a:before,li#table1allcandidates_previous a:before {
+li.page-item.previous a:before,li#table1mactingcandidates_previous a:before,li#table1allcandidates_previous a:before {
     font: normal normal normal 24px/1 "Material Design Icons";
     content: "\F141";
     font-size: 18px;
 }
-li#table1_next a:before,li#table1mactingcandidates_next a:before,li#table1allcandidates_next a:before {
+li.page-item.next a:before,li#table1mactingcandidates_next a:before,li#table1allcandidates_next a:before {
     font: normal normal normal 24px/1 "Material Design Icons";
     content: "\F142";
     font-size: 18px;
 }
-li#table1_next a,li#table1mactingcandidates_next a,li#table1allcandidates_next a {
+li.page-item.next a,li#table1mactingcandidates_next a,li#table1allcandidates_next a {
   font-size: 0;
 }
-li#table1_previous a,li#table1mactingcandidates_previous a,li#table1allcandidates_previous a {
+li.page-item.previous a,li#table1mactingcandidates_previous a,li#table1allcandidates_previous a {
   font-size: 0;
 }
 table#table2 td,table#table2mactingcandidates td,table#table2allcandidates td {
