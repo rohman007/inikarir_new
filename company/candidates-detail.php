@@ -300,15 +300,178 @@
         </nav>
         <!-- partial -->
         <div class="main-panel">
-          <div class="content-wrapper" id="ourteam-table">
+          <div class="content-wrapper" id="candidataes-add">
             <div class="row">
               <div class="col-12">
-                <div class="card mb-4">
+                <div class="card mb-4 px-md-2">
                   <div class="card-body">
                       <div class="row">
-                        <div class="col-12 col-md-6">
-                          <div class="d-md-flex">
-                            
+                        <div class="col-12 col-md-6 mb-4">
+                          <div class="d-md-flex w-100">
+                            <a href="candidates.php" class="btn-back me-md-4"><img src="assets/images/icon/delete-icon.svg" alt="" style="width:12px"></a>
+                            <div class="bg-grey rounded-pill fw-600 text-black initial-name big-initial mx-0">N</div>
+                            <div class="ms-md-3">
+                              <div class="fs-5 fw-500 text-black">Namaku Panjang Sekali Z</div>
+                              <div class="text-sm text-muted fw-500 mb-1">Designation</div>
+                              <div class="profile-skill_list">
+                                  <div class="text-xs position-relative fw-normal"><div class="delete-skill">x</div>UI Designer</div>
+                                  <div class="text-xs position-relative fw-normal"><div class="delete-skill">x</div>UX Designer</div>
+                                  <div class="text-xs position-relative fw-normal"><div class="delete-skill">x</div>Figma</div>
+                                  <div class="text-xs position-relative fw-normal"><div class="delete-skill">x</div>Product Designer</div>
+                                  <!-- <div class="add-skill edit-icon px-0" data-toggle="profile-skill_data">+</div> -->
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-6 mb-4 mb-md-5">
+                          <table class="text-sm fw-500">
+                            <tr>
+                              <td class="py-1 pe-3"><img src="assets/images/icon/black-phone.svg"></td>
+                              <td>0812345678910</td>
+                            </tr>
+                            <tr>
+                              <td class="py-1 pe-3"><img src="assets/images/icon/black-letter.svg"></td>
+                              <td>Namaku.Panjang@gmail.com</td>
+                            </tr>
+                            <tr>
+                              <td class="py-1 pe-3"><img src="assets/images/icon/black-address.svg"></td>
+                              <td>Bekasi</td>
+                            </tr>
+                            <tr>
+                              <td class="py-1 pe-3"><img src="assets/images/icon/black-services.svg"></td>
+                              <td>17 Tahun</td>
+                            </tr>
+                          </table>
+                        </div>
+                        <div class="col-12 col-md-8">
+                          <div class="row">
+                            <div class="col-12 col-md-5 mb-4 mb-md-4">
+                              <div class="card profile-page_data-papikostick">
+                                  <div class="card-header bg-white px-4 py-3 d-flex justify-content-between align-items-center">
+                                      <div class="">
+                                          <div class="fw-600 text-sm">PAPIKOSTICK</div>
+                                          <div class="text-sm text-muted">Psychology Test</div>
+                                      </div>
+                                      <div class="icon-card-header">
+                                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 32 32" fill="none">
+                                          <circle cx="16.0718" cy="16.233" r="15.6558" fill="#BDBDBD"></circle>
+                                          <rect x="13.4629" y="12.7539" width="5.2186" height="13.9163" rx="2.6093" fill="white"></rect>
+                                          <rect x="13.4629" y="5.7959" width="5.2186" height="5.2186" rx="2.6093" fill="white"></rect>
+                                          </svg>
+                                      </div>
+                                  </div>
+                                  <div class="card-body px-2">
+                                  <canvas id="papikostick" width="470" height="100" style="display: block; box-sizing: border-box; height: 100px; width: 100px;max-height:200px"></canvas>
+                                  </div>
+                              </div>
+                            </div>
+                            <div class="col-12 col-md-7 text-sm mb-4 mb-md-4">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan odio et erat dictum, vel tincidunt ex vulputate. Phasellus turpis turpis, elementum vel molestie in, ultrices sed nulla. Integer tempus ex ac ex efficitur congue. Fusce velit felis, suscipit a ipsum in, fermentum ullamcorper nulla. Mauris non dignissim orci,
+                            </div>
+                            <div class="col-12">
+                              <!-- Embed PDF File -->
+                              <div class="bg-secondary bg-opacity-10 rounded-3 px-3 py-3 mb-4 mb-md-0">
+                                <embed src= "assets/dummy.pdf" width= "100%" height= "375">
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col-12 col-md-4">
+                          <div class="bg-secondary bg-opacity-10 rounded-3 px-3 py-3 mb-3">
+                            <div class="text-sm fw-600 text-secondary mb-1">Notes</div>
+                            <div class="bg-white rounded-3 px-3 py-3 text-sm">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi accumsan odio et erat dictum, vel tincidunt ex vulputate. Phasellus turpis turpis, elementum vel molestie in, ultrices sed nulla. Integer tempus ex ac ex efficitur congue. Fusce velit felis, suscipit a ipsum in, fermentum ullamcorper nulla. Mauris non dignissim orci,
+                            </div>
+                          </div>
+                          <div class="bg-secondary bg-opacity-10 rounded-3 px-3 py-3">
+                            <div class="text-sm fw-600 text-secondary mb-1">Job Applied</div>
+                            <table id="jobapplied" class="table data-jobapplied" style="width:100%">
+                              <thead class="text-sm">
+                                  <tr>
+                                      <th></th>
+                                      <th></th>
+                                  </tr>
+                              </thead>
+                              <tbody class="fw-500 text-s">
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                                  <tr>
+                                      <td class="ps-0">
+                                        <div class="text-black text-sm fw-600 mb-2">Chief Technical Officer</div>
+                                        <div class="text-xs text-secondary">PT Talent Smart Technology</div>
+                                      </td>
+                                      <td class="text-center pe-0 percentage-image"><img src="assets/images/90-circle.png"></td>
+                                  </tr>
+                              </tbody>
+                            </table>
                           </div>
                         </div>
                       </div>
@@ -343,13 +506,66 @@
     <script src="https://cdn.datatables.net/1.13.7/js/jquery.dataTables.min.js"></script>
     <script src="https://cdn.datatables.net/1.13.7/js/dataTables.bootstrap5.min.js"></script>
     <script type="text/javascript" src="https://cdn.jsdelivr.net/momentjs/latest/moment.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.2/fullcalendar.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0-rc"></script>
     <!-- End custom js for this page -->
     <script>
       $(document).ready(function(){
-
+        
+        new DataTable('#jobapplied',{ 
+          "dom": 'rtip',
+          "pageLength": 5
+        });
+        const papikostick = document.getElementById('papikostick');
+            Chart.register(ChartDataLabels);
+            new Chart(papikostick, {
+                type: 'radar',
+                data: {
+                    labels: [
+                        'Work Direction',
+                        'Leadership',
+                        'Social Nature',
+                        'Activity',
+                        'Work Style',
+                        'Temprament',
+                        'Followeship'
+                    ],
+                    datasets: [{
+                        label: '',
+                        data: [65, 59, 90, 81, 56, 55, 40],
+                        fill: true,
+                        backgroundColor: 'rgb(7 82 87 / 30%)',
+                        borderColor: '#075257',
+                        pointBackgroundColor: '#075257',
+                        pointBorderColor: '#075257',
+                        pointHoverBackgroundColor: '#fff',
+                        pointHoverBorderColor: '#075257',
+                        pointColor: '#f00'
+                    }]
+                },
+                options: {
+                    elements: {
+                        line: {
+                            borderWidth: 2
+                        },
+                    },
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                        datalabels: {
+                            display: false,
+                        },
+                    },
+                    scales: {
+                        r: {
+                            ticks: {
+                            display: false // Hides the labels in the middel (numbers)
+                            }
+                        }
+                    }
+                },
+            });
         $('.sidebar-slide').owlCarousel({
             stagePadding: 20,
             center:false,

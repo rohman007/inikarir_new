@@ -3512,6 +3512,11 @@ a.sidebar-slide-data img {
     -webkit-overflow-scrolling: touch; } }
 
 @media (max-width: 767.98px) {
+  .hero-company-list__item .card{width: calc(100% - 40px);}
+  .content-wrapper {
+    padding-left: 17px;
+    padding-right: 17px;
+}
   .sidebar .nav .nav-item .dropdown-menu {
     border: 0;
     background: transparent;
@@ -14415,7 +14420,7 @@ div#ourteam-table .dataTables_filter label {
 div#ourteam-table .dataTables_paginate {
   margin-top: 30px !important;
 }
-.dataTables_scrollHeadInner {
+div#ourteam-table .dataTables_scrollHeadInner {
   margin-bottom: 15px;
 }
 div#ourteam-table th {
@@ -14625,6 +14630,40 @@ div#candidates-table .card {
   width: auto;
   margin-bottom: 60px !important;
 }
+#jobapplied thead{display: none;}
+#jobapplied_wrapper .dataTables_info{display: none !important;}
+table#jobapplied td {
+    border-color: #ccc;
+    padding: 10px 0;
+}
+#candidataes-add .delete-skill {
+  color: #F00;
+  font-weight: bold;
+  position: absolute;
+  left: -3px;
+  top: -6px;
+  font-size: 9px !important;
+}
+#candidataes-add .profile-skill_list > div {
+  border-radius: 40px !important;
+}
+#candidataes-add .profile-skill_list > div {
+  color: #075256;
+  border-radius: 5px;
+  font-size: 11px !important;
+  background: rgba(7, 82, 86, 0.10);
+  display: inline-block;
+  padding: 3px 13px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+.card.profile-page_data-papikostick {
+  box-shadow: 0px 0px 9.544px 0px rgba(0, 0, 0, 0.10);
+  border-radius: 15px;
+  border: 0;
+  overflow: hidden;
+}
+.rounded-3{border-radius:10px !important}
 .filter-form {
   position: absolute;
   top: -68px;
@@ -14751,7 +14790,10 @@ input[type="range"]::-moz-range-thumb {
     flex-wrap: wrap;
     margin-bottom: 20px;
   }
-  .hero-job-list__item .card{margin-bottom: 0;}
+  .hero-job-list__item .card{
+    margin-bottom: 0;
+    width: calc(100% - 40px);
+  }
   div#jobposting-page .filter-form {
     right: auto;
     left: 0;
@@ -14783,6 +14825,7 @@ a.page-link {
   margin: 0 5px;
   font-weight: 500;
   font-size: 12px;
+  color: #16a799;
 }
 div#candidates-table th:first-child:before,
 div#candidates-table th:first-child:after,
@@ -14876,6 +14919,10 @@ div#table2_wrapper th,div#table2mactingcandidates_wrapper th ,div#table2allcandi
   justify-content: center;
   margin: 0 -15px 0 -10px;
 }
+.big-initial{
+  width: 80px;
+  height: 80px;
+}
 div#candidates-table div#table1_paginate,div#candidates-table div#table1mactingcandidates_paginate,div#candidates-table div#table1allcandidates_paginate {
   position: absolute;
   right: 0;
@@ -14895,6 +14942,7 @@ ul#candidatesTab button {
 }
 ul#candidatesTab.nav-tabs {
   border-bottom: 2px solid #ddd;
+  overflow-y: hidden;
 }
 .premium-only:before {
   content: "";
@@ -15308,6 +15356,7 @@ div#matchingcandidates {
 /* style for off-canvas menu*/
 @media screen and (max-width: 991px) {
   .sidebar-offcanvas {
+    z-index: 9999;
     position: fixed;
     max-height: calc(100vh);
     top: 0px;
