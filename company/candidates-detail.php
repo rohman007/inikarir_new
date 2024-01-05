@@ -32,7 +32,7 @@
           <button class="navbar-toggler navbar-toggler align-self-center d-sm-none" type="button" data-toggle="minimize">
             <span class="mdi mdi-menu"></span>
           </button>
-          <h1 class="page-title mb-0 fs-5 fw-600">Calendar</h1>
+          <h1 class="page-title mb-0 fs-5 fw-600">Candidates</h1>
           <div class="search-field d-none d-md-block">
             <form class="d-flex align-items-center h-100" action="#">
               <div class="input-group">
@@ -303,26 +303,14 @@
           <div class="content-wrapper" id="ourteam-table">
             <div class="row">
               <div class="col-12">
-                <div class="card mb-4 bg-transparent">
+                <div class="card mb-4">
                   <div class="card-body">
-                      <div id="calendar"></div>
-
-                      <!-- Bootstrap Modal for Date Click Details -->
-                      <div class="modal fade" id="dateClickModal" tabindex="-1" role="dialog" aria-labelledby="dateClickModalLabel" aria-hidden="true">
-                          <div class="modal-dialog" role="document">
-                              <div class="modal-content">
-                                  <div class="modal-header">
-                                      <h5 class="modal-title" id="dateClickModalLabel">Date Click Details</h5>
-                                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                                          <span aria-hidden="true">&times;</span>
-                                      </button>
-                                  </div>
-                                  <div class="modal-body" id="dateClickModalBody"></div>
-                                  <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                  </div>
-                              </div>
+                      <div class="row">
+                        <div class="col-12 col-md-6">
+                          <div class="d-md-flex">
+                            
                           </div>
+                        </div>
                       </div>
                   </div>
                 </div>
@@ -361,52 +349,6 @@
     <!-- End custom js for this page -->
     <script>
       $(document).ready(function(){
-        // Initialize FullCalendar
-        $('#calendar').fullCalendar({
-            header: {
-                left: '',
-                center: 'title',
-                right: ''
-            },
-            events: [
-                {
-                    title: 'Meeting',
-                    start: '2024-01-10T10:00:00',
-                    end: '2024-01-10T12:00:00',
-                    backgroundColor: '#007BFF', // Event color
-                    borderColor: '#007BFF' // Event border color
-                },{
-                    title: 'Meeting 2',
-                    start: '2024-01-10T10:00:00',
-                    end: '2024-01-10T12:00:00',
-                    backgroundColor: '#007BFF', // Event color
-                    borderColor: '#007BFF' // Event border color
-                },
-                // Add more events as needed
-            ],
-            dayClick: function (date, jsEvent, view) {
-              var hasEvent = $('#calendar').fullCalendar('clientEvents', function (event) {
-                  return moment(event.start).isSame(date, 'day');
-              }).length > 0;
-
-              if (hasEvent) {
-                  // Display date click details in a modal
-                  $('#dateClickModalLabel').text('Date Clicked: ' + moment(date).format('MMMM D, YYYY'));
-                  $('#dateClickModalBody').html('<p>Additional details or actions can be added here.</p>');
-
-                  $('#dateClickModal').modal('show');
-              }
-            },
-            eventClick: function (event, jsEvent, view) {
-                // Display event details in a modal
-                $('#eventModalLabel').text(event.title);
-                $('#eventModalBody').html('<p>Start: ' + moment(event.start).format('MMMM D, YYYY h:mm A') + '</p>' +
-                    '<p>End: ' + moment(event.end).format('MMMM D, YYYY h:mm A') + '</p>');
-
-                $('#eventModal').modal('show');
-            }
-        });
-
 
         $('.sidebar-slide').owlCarousel({
             stagePadding: 20,

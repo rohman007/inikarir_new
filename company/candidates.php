@@ -563,7 +563,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -579,7 +579,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -595,7 +595,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -611,7 +611,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -627,7 +627,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -643,7 +643,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -659,7 +659,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -675,7 +675,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -691,7 +691,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -707,7 +707,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -723,7 +723,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -739,7 +739,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -755,7 +755,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -987,7 +987,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1003,7 +1003,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1019,7 +1019,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1035,7 +1035,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1051,7 +1051,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1067,7 +1067,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1083,7 +1083,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1099,7 +1099,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1115,7 +1115,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1131,7 +1131,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1147,7 +1147,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1163,7 +1163,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1179,7 +1179,7 @@
                                 <td class="text-warning">Review</td>
                                 <td>Jakarta</td>
                                 <td>
-                                  <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                  <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                   <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                   <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                 </td>
@@ -1406,7 +1406,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1422,7 +1422,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1438,7 +1438,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1454,7 +1454,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1470,7 +1470,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1486,7 +1486,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1502,7 +1502,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1518,7 +1518,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1534,7 +1534,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1550,7 +1550,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1566,7 +1566,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1582,7 +1582,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>
@@ -1598,7 +1598,7 @@
                                     <td class="text-warning">Review</td>
                                     <td>Jakarta</td>
                                     <td>
-                                      <a href="" class=""><img src="assets/images/icon/cv-icon.svg"></a>
+                                      <a href="candidates-detail.php" class=""><img src="assets/images/icon/cv-icon.svg"></a>
                                       <a href="" class="mx-2"><img src="assets/images/icon/blue-phone-icon.svg"></a>
                                       <a href="" class=""><img src="assets/images/icon/option-icon.svg"></a>
                                     </td>

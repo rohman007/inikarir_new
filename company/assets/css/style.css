@@ -14263,6 +14263,20 @@ dl {
     .navbar .navbar-brand-wrapper .brand-logo-mini {
       padding-top: 0px; } }
 
+/*Calendar*/
+.fc-day-grid-event {
+  width: 8px;
+  height: 8px;
+  padding: 0 !important;
+  border-radius: 50px !important;
+  margin-bottom: 2px !important;
+  margin-left: auto !important;
+  margin-right: 4px !important;
+}
+.fc-event .fc-content {
+  font-size: 0;
+}
+
 
 /*Job Posting*/
 div#jobposting-page .filter-form {
@@ -15062,7 +15076,7 @@ div#matchingcandidates {
   box-shadow: 18px 4px 35px 0px rgba(0, 0, 0, 0.02);
   padding: 10px 0 0;
   width: 250px;
-  z-index: 9999;
+  z-index: 99;
   transition: width 0.25s ease, background 0.25s ease;
   -webkit-transition: width 0.25s ease, background 0.25s ease;
   -moz-transition: width 0.25s ease, background 0.25s ease;
