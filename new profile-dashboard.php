@@ -122,7 +122,7 @@
             </div>
         </section>
         <main id="main">
-            <section id="profile-page" class="py-5">
+            <section id="profile-page" class="pb-5 py-sm-5">
                 <div class="container">
                     <div class="row">
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3 profile-page_sidebar">
