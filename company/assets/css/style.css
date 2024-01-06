@@ -14270,8 +14270,8 @@ dl {
 
 /*Calendar*/
 .fc-day-grid-event {
-  width: 8px;
-  height: 8px;
+  width: 7px;
+  height: 7px;
   padding: 0 !important;
   border-radius: 50px !important;
   margin-bottom: 2px !important;
@@ -14280,6 +14280,109 @@ dl {
 }
 .fc-event .fc-content {
   font-size: 0;
+}
+div#calendar-page td {
+  border-color: #eee;
+  border-width: 0px !important;
+}
+div#calendar-page td.fc-day:hover {
+  /* border: 2px solid #73cac2 !important;
+  position: relative;
+  z-index: 3; */
+}
+#dateClickModal button.btn.btn-primary {
+    background: #16a69a;
+    border-color: #16a69a;
+    padding: 12px 20px;
+    border-radius: 5px !important;
+    font-weight: 500;
+}
+#dateClickModal .modal-content {
+  border: 0;
+  border-radius: 12px;
+  background: #fff;
+  padding: 7px 10px 7px 2px;
+}
+div#calendar-page td.fc-day {
+  border: 2px solid #eee !important;
+  /* border-bottom: 2px solid #eee !important; */
+}
+div#calendar-page td.fc-event-container {
+    padding: 12px 4px 0 0;
+}
+div#calendar-page tr:first-child>td>.fc-day-grid-event {
+  margin-top: 2px;
+  margin-bottom: -7px !important;
+}
+.fc-unthemed td.fc-today {
+  background: #fcf8e3 !important;
+}
+.fc-body > tr > td.fc-widget-content {
+  border: 0 !important;
+}
+div#calendar-page .fc-day-grid-container {
+  border-radius: 10px;
+  border: 1px solid #ddd;
+  overflow: hidden !important;
+  background: #fff;
+  height: auto !important;
+}
+div#calendar h2 {
+  font-size: 16pt;
+  color: #666;
+  margin: 0 20px;
+  min-width: 200px;
+}
+.fc-toolbar .fc-center div {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+button.fc-button.fc-state-default {
+  background: transparent;
+  border: 0;
+  box-shadow: none;
+}
+.fc-icon-left-single-arrow:after {
+  content: "<" !important;
+  font-weight: normal !important;
+  top: 0 !important;
+  font-size: 17pt !important;
+  color: #555 !important;
+}
+.fc-icon-right-single-arrow:after {
+  content: ">" !important;
+  font-weight: normal !important;
+  top: 0 !important;
+  font-size: 17pt !important;
+  color: #555 !important;
+}
+th.fc-day-header {
+  border: 0 !important;
+  font-weight: normal;
+  color: #666;
+  padding-bottom: 10px !important;
+}
+.fc-ltr .fc-basic-view .fc-day-top .fc-day-number {
+  float: left !important;
+  font-size: 13pt !important;
+  padding: 10px 10px 0;
+  font-weight: 500;
+  color: #555 !important;
+  position: absolute;
+}
+.fc-basic-view .fc-body .fc-row {
+  min-height: 6em !important;
+  height: auto !important;
+}
+.fc td, .fc th{
+  border-width: 2px;
+}
+td.fc-head-container.fc-widget-header {
+  border: 0;
+}
+.fc-row.fc-widget-header {
+  border: 0 !important;
 }
 
 

@@ -300,26 +300,26 @@
         </nav>
         <!-- partial -->
         <div class="main-panel">
-          <div class="content-wrapper" id="ourteam-table">
+          <div class="content-wrapper" id="calendar-page">
             <div class="row">
               <div class="col-12">
                 <div class="card mb-4 bg-transparent">
-                  <div class="card-body">
+                  <div class="card-body px-0">
                       <div id="calendar"></div>
 
                       <!-- Bootstrap Modal for Date Click Details -->
                       <div class="modal fade" id="dateClickModal" tabindex="-1" role="dialog" aria-labelledby="dateClickModalLabel" aria-hidden="true">
                           <div class="modal-dialog" role="document">
                               <div class="modal-content">
-                                  <div class="modal-header">
-                                      <h5 class="modal-title" id="dateClickModalLabel">Date Click Details</h5>
-                                      <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                                  <div class="modal-header border-0">
+                                      <h5 class="modal-title text-sm text-secondary fw-normal d-flex align-items-center" id="dateClickModalLabel">Date Click Details</h5>
+                                      <!-- <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
                                           <span aria-hidden="true">&times;</span>
-                                      </button>
+                                      </button> -->
                                   </div>
-                                  <div class="modal-body" id="dateClickModalBody"></div>
-                                  <div class="modal-footer">
-                                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                  <div class="modal-body border-0 py-0" id="dateClickModalBody"></div>
+                                  <div class="modal-footer border-0 pt-0">
+                                      <button type="button" class="btn btn-primary" data-bs-dismiss="modal">+ Add new note</button>
                                   </div>
                               </div>
                           </div>
@@ -365,7 +365,7 @@
         $('#calendar').fullCalendar({
             header: {
                 left: '',
-                center: 'title',
+                center: 'prev,title,next',
                 right: ''
             },
             events: [
@@ -373,26 +373,33 @@
                     title: 'Meeting',
                     start: '2024-01-10T10:00:00',
                     end: '2024-01-10T12:00:00',
-                    backgroundColor: '#007BFF', // Event color
-                    borderColor: '#007BFF' // Event border color
+                    backgroundColor: '#73cac2', // Event color
+                    borderColor: '#73cac2' // Event border color
                 },{
                     title: 'Meeting 2',
                     start: '2024-01-10T10:00:00',
                     end: '2024-01-10T12:00:00',
-                    backgroundColor: '#007BFF', // Event color
-                    borderColor: '#007BFF' // Event border color
+                    backgroundColor: '#73cac2', // Event color
+                    borderColor: '#73cac2' // Event border color
                 },
                 // Add more events as needed
             ],
             dayClick: function (date, jsEvent, view) {
-              var hasEvent = $('#calendar').fullCalendar('clientEvents', function (event) {
+              var eventsOnDate = $('#calendar').fullCalendar('clientEvents', function (event) {
                   return moment(event.start).isSame(date, 'day');
-              }).length > 0;
+              });
 
-              if (hasEvent) {
-                  // Display date click details in a modal
-                  $('#dateClickModalLabel').text('Date Clicked: ' + moment(date).format('MMMM D, YYYY'));
-                  $('#dateClickModalBody').html('<p>Additional details or actions can be added here.</p>');
+              if (eventsOnDate.length > 0) {
+                
+                eventListHTML = '<div>';
+                  eventsOnDate.forEach(function (event) {
+                      eventListHTML += '<div class="d-flex align-items-center justify-content-between mb-4 ps-4"><div class="ps-2"><div class="fw-500 text-black fs-6">' + event.title + '</div><div class="fw-500 text-muted text-sm">' + moment(event.start).format('h:mm') + ' - ' + moment(event.end).format('h:mm') + '</div></div><img src="assets/images/icon/option-icon.svg" style="width:23px"></div>';
+                  });
+                  eventListHTML += '</div>';
+
+                  // Display date click details with event list in a modal
+                  $('#dateClickModalLabel').html('<i class="mdi-calendar me-2 text-muted mdi fs-5"></i><span style="color:#16a69a">' + moment(date).format('dddd') + '</span>, ' + moment(date).format('MMMM D, YYYY'));
+                  $('#dateClickModalBody').html(eventListHTML);
 
                   $('#dateClickModal').modal('show');
               }
@@ -404,7 +411,14 @@
                     '<p>End: ' + moment(event.end).format('MMMM D, YYYY h:mm A') + '</p>');
 
                 $('#eventModal').modal('show');
-            }
+            },
+            dayRender: function (date, cell) {
+                // Tentukan tinggi yang diinginkan (misalnya 50px)
+                var cellHeight = 90;
+
+                // Atur tinggi elemen kotak tanggal
+                cell.css('height', cellHeight + 'px');
+            },
         });
 
 
