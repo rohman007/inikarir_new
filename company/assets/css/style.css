@@ -14400,6 +14400,9 @@ div#jobposting-page .filter-form {
 .hero-job-list__wrapper .action-company a:last-child {
     background: #fff !important;
 }
+.hero-job-list__item{
+  display: flex;
+}
 .hero-job-list__item.add-company .card {
   background: transparent;
   box-shadow: none;
@@ -14438,6 +14441,15 @@ div#jobposting-page .filter-form {
     border-radius: 8px !important;
     width: calc(100% - 30px);
     margin-bottom: 30px;
+}
+@media(min-width:1900px){
+  .hero-company-list__item:first-child .card {
+    display: flex;
+  }
+  a.add-button {
+    padding-top: 0 !important;
+    height: 100%;
+  }
 }
 
 /*Create Job*/
@@ -14696,6 +14708,9 @@ a.add-button .label-button {
   left: 0;
   font-size: 10pt;
   color: #075256;
+}
+.hero-company-list__item{
+  display: flex;
 }
 .hero-company-list__item.add-company .card{
   background: transparent;

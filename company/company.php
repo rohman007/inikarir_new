@@ -404,7 +404,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -450,7 +450,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -496,7 +496,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -542,7 +542,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -588,7 +588,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -634,7 +634,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -680,7 +680,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -730,7 +730,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -776,7 +776,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -822,7 +822,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -868,7 +868,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -914,7 +914,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -960,7 +960,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -1006,7 +1006,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
@@ -1052,7 +1052,7 @@
                           </div>
                           <div class="card-body text-sm">
                             <div class="row">
-                              <div class="col-4 col-sm-5 pe-0">
+                              <div class="col-4 col-sm-5 col-xl-4 pe-0">
                                 <div class="hero-loker-list__item-image mb-3 rounded overflow-hidden">
                                   <div class="ratio ratio-1x1">
                                       <div>
