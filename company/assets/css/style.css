@@ -14526,6 +14526,18 @@ div#ourteam-table .dataTables_filter {
   top: 17px;
   border-right: 10px solid #f3f3f3;
 }
+div#ourteam-table .dataTables_filter:before {
+    content: "\F349";
+    font: normal normal normal 24px/1 "Material Design Icons";
+    position: absolute;
+    right: 0;
+    background: #fff;
+    padding: 8px 6px 5px;
+    top: 0px;
+    border-radius: 10px;
+    font-size: 17pt;
+    color: #939393;
+}
 div#ourteam-table #tableourteam_filter.dataTables_filter {
   left: 140px;
 }
