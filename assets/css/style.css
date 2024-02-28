@@ -3133,3 +3133,24 @@ label.date-icon img {
         max-width: 1200px !important;
     }
 }
+
+/*NEW NAVBAR STYLE*/
+.header__cta svg{
+    height: 14px;
+    width: auto;
+    position: relative;
+    top: -1px;
+    margin-left: -2px;
+}
+
+
+@media only screen and (min-width: 992px){
+    .headerv2 .navbar-collapse .navbar-nav {
+        margin-left: auto;
+        margin-right: auto;
+        position: absolute;
+        left: 140px;
+        right: auto;
+        justify-content: center;
+    }
+}
