@@ -205,7 +205,7 @@
                 </div>
             </section>
             
-            <section id="consult-banner" class="hero-loker-list pt-0">
+            <section id="consult-banner" class="mt-4">
                 <div class="container">
                     <div class="row align-items-center flex-sm-row-reverse">
                         <div class="col-sm-4 mb-3 mb-sm-0">
@@ -221,7 +221,179 @@
                     </div>
                 </div>
             </section>
+                
+            <section id="gallery-career" class="py-5">
+                <div class="container">
+                    <div class="row align-items-center justify-content-center">
+                        <div class="col-sm-11 text-center">
+                            <h2 class="fs-2 fw-bolder text-green mb-3 ">Konsultasikan Program Training Secara GRATIS!</h3>
+                            <div class="hero-testimony__slider d-flex">
+                                <div class="hero-testimony__swiper-prev swiper-circle__navigation-prev d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                        </svg>
+                                    </div>
+                                </div>
 
+                                <div class="swiper hero-testimony__slider-swiper text-green">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="hero-testimony__item d-block d-md-flex shadow-sm m-3 px-3 py-3">
+                                                aaa
+                                            </div>
+                                        </div>
+
+                                        
+                                        <div class="swiper-slide">
+                                            <div class="hero-testimony__item d-block d-md-flex shadow-sm m-3 px-3 py-3">
+                                                bbb
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="hero-testimony__swiper-next swiper-circle__navigation-next d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div> <!-- /.slider -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="testimony-career" class="hero-testimony bg-white py-5">
+                <div class="container">
+                    <div class="hero-testimony__heading text-center mb-4">
+                        <h1 class="fw-bold fs-1 mb-3 text-green mt-2">What they say about our Program?</h1>
+                        <div class=" text-muted col-sm-9 mx-auto">Discover the real benefits of our program that is designed to enhance your skills and competencies. These are some words from our participants who took advantage of our program.</div>
+                    </div> <!-- /.heading -->
+
+                    <div class="row justify-content-center">
+                        <div class="col-12 col-sm-12 col-md-12 col-lg-11">
+                            <div class="hero-testimony__slider d-flex">
+                                <div class="hero-testimony__swiper-prev swiper-circle__navigation-prev d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+
+                                <div class="swiper hero-testimony__slider-swiper text-green">
+                                    <div class="swiper-wrapper">
+                                        <div class="swiper-slide">
+                                            <div class="hero-testimony__item d-block d-md-flex shadow-sm m-3 px-3 py-3">
+                                                <div class="hero-testimony__media relative d-flex align-items-center">
+                                                    <div class="ratio" style="--bs-aspect-ratio: 86%;">
+                                                        <div>
+                                                            <video
+                                                                muted
+                                                                id="hero-testimony__video-1"
+                                                                class="video-js"
+                                                                preload="auto"
+                                                                data-setup="{}"
+                                                            >
+                                                                <source src="./assets/videos/Testimoni Keberangkatan SPCC Arab Saudi - Pak Alfian.mp4" type="video/mp4" />
+                                                                <p class="vjs-no-js">
+                                                                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                                                </p>
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hero-testimony__content bg-white relative d-flex justify-content-center align-items-center flex-grow-1">
+                                                    <div class="p-3 px-lg-5">
+                                                        <div class="d-block mb-3 hero-testimony__content-image">
+                                                            <img src="./assets/images/image 3.png" class="w-50" alt="Logo" />
+                                                        </div>
+
+                                                        <div class="d-block mb-3 text-sm">
+                                                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud"
+                                                        </div>
+
+                                                        <div class="d-flex hero-testimony__user align-items-center mt-3">
+                                                            <div class="hero-testimony__user-avatar">
+                                                                <img src="./assets/images/image 9.png" class="rounded-circle" alt="Avatar" />
+                                                            </div>
+
+                                                            <div class="block ps-3">
+                                                                <div class="fw-bold">Prof. Sulaiman Al Majed</div>
+                                                                <div class="text-muted text-xs">SVP Medical Affair</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="swiper-slide">
+                                            <div class="hero-testimony__item d-block d-md-flex shadow-sm m-3 px-3 py-3">
+                                                <div class="hero-testimony__media relative d-flex align-items-center">
+                                                    <div class="ratio" style="--bs-aspect-ratio: 86%;">
+                                                        <div>
+                                                            <video
+                                                                muted
+                                                                id="hero-testimony__video-2"
+                                                                class="video-js"
+                                                                preload="auto"
+                                                                data-setup="{}"
+                                                            >
+                                                                <source src="./assets/videos/sample-5s.mp4" type="video/mp4" />
+                                                                <p class="vjs-no-js">
+                                                                    To view this video please enable JavaScript, and consider upgrading to a web browser that
+                                                                    <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                                                                </p>
+                                                            </video>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="hero-testimony__content bg-white relative d-flex justify-content-center align-items-center flex-grow-1">
+                                                    <div class="p-3 px-lg-5">
+                                                        <div class="d-block mb-3 hero-testimony__content-image">
+                                                            <img src="./assets/images/image 3.png" class="w-50" alt="Logo" />
+                                                        </div>
+
+                                                        <div class="d-block mb-3 text-sm">
+                                                            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ut enim ad minim veniam, quis nostrud"
+                                                        </div>
+
+                                                        <div class="d-flex hero-testimony__user align-items-center mt-3">
+                                                            <div class="hero-testimony__user-avatar">
+                                                                <img src="./assets/images/image 9.png" class="rounded-circle" alt="Avatar" />
+                                                            </div>
+
+                                                            <div class="block ps-3">
+                                                                <div class="fw-bold">Prof. Sulaiman Al Majed</div>
+                                                                <div class="text-muted text-xs">SVP Medical Affair</div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="hero-testimony__swiper-next swiper-circle__navigation-next d-flex align-items-center justify-content-center">
+                                    <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                                        </svg>
+                                    </div>
+                                </div>
+                            </div> <!-- /.slider -->
+                        </div> <!-- ./col -->
+                    </div> <!-- ./row -->
+                </div> <!-- /.container -->
+            </section> <!-- /.hero testimony -->
         </main> <!-- /.main -->
 
         <section class="bg-darkgrey py-5">

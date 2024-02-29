@@ -3166,7 +3166,15 @@ section#program-for img {
 section#consult-banner {
     background: #feffd7;
 }
-
+section#testimony-career .hero-testimony__media {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+}
+section#testimony-career .hero-testimony__media .video-js {
+    border-radius: 10px !important;
+    overflow: hidden;
+}
 
 @media only screen and (min-width: 992px){
     .headerv2 .navbar-collapse .navbar-nav {
@@ -3179,5 +3187,11 @@ section#consult-banner {
     }
     section#consult-banner .fs-2 {
         font-size: 22pt !important;
+    }
+    section#testimony-career .hero-testimony__media {
+        width: 40%;
+    }
+    section#testimony-career .hero-testimony__content {
+        width: 80%;
     }
 }
