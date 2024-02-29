@@ -3175,6 +3175,27 @@ section#testimony-career .hero-testimony__media .video-js {
     border-radius: 10px !important;
     overflow: hidden;
 }
+section#gallery-career .swiper-slide.swiper-slide-active {
+    transform: scale(1.5);
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+section#gallery-career {
+    background: #edfcf9;
+}
+section#gallery-career .hero-gallery__item img {
+    border: 5px solid #fff;
+    border-radius: 15px;
+    filter: brightness(50%);
+}
+section#gallery-career .swiper.hero-gallery__slider-swiper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+section#gallery-career .swiper-slide.swiper-slide-active  img {
+    filter: brightness(100%);
+}
 
 @media only screen and (min-width: 992px){
     .headerv2 .navbar-collapse .navbar-nav {
@@ -3193,5 +3214,15 @@ section#testimony-career .hero-testimony__media .video-js {
     }
     section#testimony-career .hero-testimony__content {
         width: 80%;
+    }
+}
+@media(max-width:767px){
+    section#gallery-career .hero-gallery__item img {
+        border: 4px solid #fff;
+        border-radius: 10px;
+    }
+    section#gallery-career .swiper.hero-gallery__slider-swiper {
+        padding-top: 40px;
+        padding-bottom: 40px;
     }
 }

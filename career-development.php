@@ -92,7 +92,7 @@
                 </div> <!-- /.container -->
             </nav> <!-- /.nav -->
         </header> <!-- /.header -->
-        <main id="main" class="px-3 px-sm-0">
+        <main id="main" class="">
             <section class="hero-loker-list py-5 pt-0 pt-sm-3">
                 <div class="container">
                     <div class="row align-items-center flex-sm-row-reverse">
@@ -123,7 +123,7 @@
                             </div>
                             <div class="bg-blue2 mb-5 rounded-pill text-green fw-bold fs-4 px-4 py-2 d-inline-block">Program ini dirancang untuk orang-orang yang…</div>
                             <div class="row">
-                                <div class="col-sm-6">
+                                <div class="col-sm-6 mb-5 mb-sm-0">
                                     <div class="card px-4 py-4 rounded-4 border-1 d-block list-seeker pt-0">
                                         <div class="fs-4 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Cari Pekerjaan</div>
                                         <div class="text-sm text-muted">Untuk Jobseekers yang mau mempersiapkan karir dengan belajar kompetensi dasar yang dibutuhkan oleh perusahaan, seperti komunikasi, kerjasama, dan penyelesaian masalah. Kamu juga akan mendapatkan persiapan yang optimal untuk masuk dan beradaptasi di lingkungan kerja baru, serta meraih peluang karier yang kamu inginkan.</div>
@@ -211,7 +211,7 @@
                         <div class="col-sm-4 mb-3 mb-sm-0">
                             <img src="assets/images/pelatihan/konsultasi-hero.png" alt="Job Portal" class="w-100 rounded-4">
                         </div>
-                        <div class="col-sm-8 text-center pe-sm-0 ps-sm-0">
+                        <div class="col-sm-8 text-center pe-sm-0 ps-sm-0 pt-3 pb-5 pt-sm-0 pb-sm-0">
                             <h2 class="fs-2 fw-bolder text-green mb-3 ">Konsultasikan Program Training Secara GRATIS!</h3>
                             <div class="text-green mb-3 px-sm-5 fw-500">
                             Tanyakan sekarang dan dapatkan jawabannya langsung dengan menghubungi Career Advisor kami.
@@ -226,9 +226,9 @@
                 <div class="container">
                     <div class="row align-items-center justify-content-center">
                         <div class="col-sm-11 text-center">
-                            <h2 class="fs-2 fw-bolder text-green mb-3 ">Konsultasikan Program Training Secara GRATIS!</h3>
-                            <div class="hero-testimony__slider d-flex">
-                                <div class="hero-testimony__swiper-prev swiper-circle__navigation-prev d-flex align-items-center justify-content-center">
+                            <h1 class="fs-1 fw-bolder text-green mb-3 ">Gallery Activities</h1>
+                            <div class="hero-gallery__slider d-flex">
+                                <div class="hero-gallery__swiper-prev swiper-circle__navigation-prev d-flex align-items-center justify-content-center">
                                     <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-left" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
@@ -236,24 +236,44 @@
                                     </div>
                                 </div>
 
-                                <div class="swiper hero-testimony__slider-swiper text-green">
+                                <div class="swiper hero-gallery__slider-swiper text-green">
                                     <div class="swiper-wrapper">
                                         <div class="swiper-slide">
-                                            <div class="hero-testimony__item d-block d-md-flex shadow-sm m-3 px-3 py-3">
-                                                aaa
+                                            <div class="hero-gallery__item d-block d-md-flex px-1 px-sm-3">
+                                            <img src="assets/images/pelatihan/gallery1.jpg" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="hero-gallery__item d-block d-md-flex px-1 px-sm-3">
+                                            <img src="assets/images/pelatihan/gallery2.jpg" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="hero-gallery__item d-block d-md-flex px-1 px-sm-3">
+                                            <img src="assets/images/pelatihan/gallery3.jpg" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="hero-gallery__item d-block d-md-flex px-1 px-sm-3">
+                                            <img src="assets/images/pelatihan/gallery4.jpg" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="hero-gallery__item d-block d-md-flex px-1 px-sm-3">
+                                            <img src="assets/images/pelatihan/gallery5.jpg" class="w-100">
+                                            </div>
+                                        </div>
+                                        <div class="swiper-slide">
+                                            <div class="hero-gallery__item d-block d-md-flex px-1 px-sm-3">
+                                            <img src="assets/images/pelatihan/gallery6.jpg" class="w-100">
                                             </div>
                                         </div>
 
                                         
-                                        <div class="swiper-slide">
-                                            <div class="hero-testimony__item d-block d-md-flex shadow-sm m-3 px-3 py-3">
-                                                bbb
-                                            </div>
-                                        </div>
                                     </div>
                                 </div>
 
-                                <div class="hero-testimony__swiper-next swiper-circle__navigation-next d-flex align-items-center justify-content-center">
+                                <div class="hero-gallery__swiper-next swiper-circle__navigation-next d-flex align-items-center justify-content-center">
                                     <div class="d-flex align-items-center justify-content-center rounded-circle shadow-sm bg-white">
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>

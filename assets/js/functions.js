@@ -36,6 +36,43 @@ function stickyHeader() {
     }
 }
 
+
+
+
+/**
+ * HERO GLALLERY SWIPER
+ */
+const swiperGallery = new Swiper('.hero-gallery__slider-swiper', {
+    // Optional parameters
+    loop: false,
+
+    // Navigation arrows
+    navigation: {
+        nextEl: '.hero-gallery__swiper-next',
+        prevEl: '.hero-gallery__swiper-prev',
+    },
+
+    // Default parameters
+    slidesPerView: 3,
+    centeredSlides: true,
+    spaceBetween: 0,
+    breakpoints: {
+        // when window width is >= 320px
+        320: {
+            slidesPerView: 2,
+        },
+        // when window width is >= 480px
+        480: {
+            slidesPerView: 2,
+        },
+        // when window width is >= 640px
+        640: {
+            slidesPerView: 3,
+        }
+    }
+});
+
+
 /**
  * HERO VIDEO
  */
@@ -124,6 +161,8 @@ const swiperTestimony = new Swiper('.hero-testimony__slider-swiper', {
     slidesPerView: 1,
     spaceBetween: 0,
 });
+
+
 
 /**
  * HERO TESTIMONY VIDEO
@@ -565,3 +604,4 @@ $('.hero-intro__grid').masonry({
     percentPosition: true,
     gutter: 10
 });
+
