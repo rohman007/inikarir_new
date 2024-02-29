@@ -3145,6 +3145,27 @@ label.date-icon img {
 .bg-blue {
     background: #f0feff;
 }
+.bg-green{
+    background: #075256;
+}
+.list-seeker{
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.bg-blue2{
+    background: #bae8dd;
+}
+.list-seeker .fs-4 {
+    position: relative;
+    top: -25px;
+    margin-bottom: -10px !important;
+}
+section#program-for img {
+    width: 80px;
+    height: auto !important;
+}
+section#consult-banner {
+    background: #feffd7;
+}
 
 
 @media only screen and (min-width: 992px){
@@ -3155,5 +3176,8 @@ label.date-icon img {
         left: 140px;
         right: auto;
         justify-content: center;
+    }
+    section#consult-banner .fs-2 {
+        font-size: 22pt !important;
     }
 }

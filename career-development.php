@@ -61,10 +61,10 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="about.php">Layanan</a>
+                                    <a class="nav-link" href="about.php">Layanan</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="career-development.php">Pelatihan</a>
+                                    <a class="nav-link active" href="career-development.php">Pelatihan</a>
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link " href="">Artikel</a>
@@ -97,72 +97,126 @@
                 <div class="container">
                     <div class="row align-items-center flex-sm-row-reverse">
                         <div class="col-10 col-sm-4 ps-sm-5 mx-auto mb-4 mb-sm-0">
-                            <img src="assets/images/about/about-hero.jpg" alt="Our Services" class="w-100 rounded-circle">
+                            <img src="assets/images/pelatihan/career-hero.png" alt="Our Services" class="w-100 rounded-circle">
                         </div>
                         <div class="col-sm-8">
-                            <h1 class="fs-1 fw-bolder text-green">Our Services</h1>
-                            <h4 class="fs-5 text-green fw-600 fst-italic mb-3">Partner Anda dalam Mencari dan Mengembangkan Karir Anda!</h4>
-                            <div class=" text-muted">Kami adalah perusahaan teknologi yang spesialis di bidang sumber daya manusia. Kami memiliki pengalaman lebih dari 10 tahun di berbagai industri, sehingga kami memahami apa yang dibutuhkan untuk mencapai karir yang berkualitas dan berprestasi. Kami dapat membantu Anda mencari dan mengembangkan karir Anda dengan layanan-layanan yang inovatif dan efektif. Mari kita bekerja sama untuk menciptakan masa depan yang cerah bagi Anda dengan IniKarir!</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="hero-loker-list py-5 pt-0">
-                <div class="container bg-blue py-4 px-4 rounded-4">
-                    <div class="row align-items-center">
-                        <div class="col-sm-4 mb-3 mb-sm-0">
-                            <img src="assets/images/about/job-portal.jpg" alt="Job Portal" class="w-100 rounded-4">
-                        </div>
-                        <div class="col-sm-8">
-                            <h2 class="fs-3 fw-bolder text-green">Job Portal Service</h3>
-                            <h5 class="fs-6 text-green fw-600 fst-italic mb-2">
-                                Temukan Pekerjaan Impian Anda yang Sesuai dengan Visi dan Misi Anda!
-                            </h5>
-                            <div class="text-sm text-muted mb-3">
-                                Kami tidak hanya mencocokkan keterampilan dan pengalaman, tetapi juga memastikan bahwa pekerjaan yang Anda cari memiliki nilai-nilai yang sejalan dengan visi dan misi Anda. Kami juga menyediakan fitur unggulan Job Matching dan Percentage Matched Advance Search untuk memfasilitasi pencarian pekerjaan yang sesuai dengan penelusuran dan profil Anda. 
+                            <h1 class="h1 fw-bolder text-green mb-3">Kembangkan Karirmu bersama IniKarir!</h1>
+                            <div class="text-sm text-muted">
+                            Layanan Career Development dari IniKarir adalah program pelatihan yang dirancang untuk membantu orang-orang yang ingin memasuki atau meningkatkan karir mereka di dunia kerja. Anda dapat mengembangkan diri Anda sebagai individu dan sebagai bagian dari tim, serta memberikan kontribusi yang optimal bagi kesuksesan perusahaan Anda. Layanan ini juga dapat membantu Anda mengatasi hambatan yang Anda hadapi dalam mencari atau mengembangkan pekerjaan. Layanan ini terbuka untuk siapa saja yang ingin mengubah hidup mereka melalui karir mereka. Kami menyediakan 2 Program Career Development: Career Readiness Program</span> dan <span class="fw-600">Employee Readiness Program.</span>
                             </div>
-                            <a href="" class="text-green fw-500 text-decoration-none">Show Detail >></a>
+                            <div class="mt-4 d-flex gap-3">
+                                <a href="#" class="btn btn-primary text-xs fw-bold px-3 py-2 rounded-4">Konsultasikan Dengan Kami!</a>
+                                <a href="#" class="btn btn-outline-primary text-xs fw-bold px-3 py-2 rounded-4">Pelajari Lebih Lanjut</a>
+                            </div>
                         </div>
                     </div>
                 </div>
             </section>
             
-            <section class="hero-loker-list py-5 pt-0">
-                <div class="container bg-blue py-4 px-4 rounded-4">
+            <section class="hero-loker-list py-5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-sm-12">
+                            <h1 class="fs-3 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Career Readiness Program</h1>
+                            <div class="text-sm text-muted mb-4">
+                            Career Readiness Program adalah program yang dapat membawa Anda ke tingkat yang lebih tinggi dalam dunia kerja. Program ini ditujukan untuk orang-orang yang berkeinginan untuk berkarier di bidang yang mereka minati. Kami akan membantu Anda untuk menemukan pekerjaan yang sesuai dengan bakat dan minat Anda, serta memberikan bimbingan untuk meningkatkan keterampilan dan kompetensi Anda. 
+                            </div>
+                            <div class="bg-blue2 mb-5 rounded-pill text-green fw-bold fs-4 px-4 py-2 d-inline-block">Program ini dirancang untuk orang-orang yang…</div>
+                            <div class="row">
+                                <div class="col-sm-6">
+                                    <div class="card px-4 py-4 rounded-4 border-1 d-block list-seeker pt-0">
+                                        <div class="fs-4 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Cari Pekerjaan</div>
+                                        <div class="text-sm text-muted">Untuk Jobseekers yang mau mempersiapkan karir dengan belajar kompetensi dasar yang dibutuhkan oleh perusahaan, seperti komunikasi, kerjasama, dan penyelesaian masalah. Kamu juga akan mendapatkan persiapan yang optimal untuk masuk dan beradaptasi di lingkungan kerja baru, serta meraih peluang karier yang kamu inginkan.</div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="card px-4 py-4 rounded-4 border-1 d-block list-seeker pt-0">
+                                        <div class="fs-4 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Cari Kesempatan Baru</div>
+                                        <div class="text-sm text-muted">Untuk karyawan maupun jobseekers yang ingin membangun pengetahuan kerja tentang Personal Leadership untuk meningkatkan kinerja dan karier anda. Bagi Perusahaan juga akan mendapatkan strategi kepemimpinan yang dapat mendorong perubahan organisasi dan mempersiapkan masa depan, serta menjaga kinerja tim Anda.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="program-for" class="hero-loker-list py-5 pt-0">
+                <div class="container">
+                    <div class="bg-blue py-4 px-4 rounded-4 text-green">
+                        <div class="text-center">
+                            <div class="bg-blue2 mb-4 rounded-pill text-green fw-bold fs-4 px-4 py-2 d-inline-block mx-auto">Setelah mengikuti Program ini kamu akan...</div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/images/pelatihan/bag-icon.png" class="me-3">
+                                    <div>
+                                        <div class="fs-6 fw-600">
+                                        Lebih siap untuk mencapai karir impian
+                                        </div>
+                                        <div class="text-sm">
+                                        Kesiapan mental personal dan kerangka kerja untuk menyempurnakan tujuan karir kamu, selaras dengan tujuan.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/images/pelatihan/paper-icon.png" class="me-3">
+                                    <div>
+                                        <div class="fs-6 fw-600">
+                                        Upgade kemampuan dan keterampilan
+                                        </div>
+                                        <div class="text-sm">
+                                        Keterampilan untuk menghadapi tantangan, seperti melakukan percakapan yang memadai, memimpin diri, dan beradaptasi di lingkungan kerjamu.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/images/pelatihan/folder-icon.png" class="me-3">
+                                    <div>
+                                        <div class="fs-6 fw-600">
+                                        Mengetahui strategi kepemimpiman dan tim
+                                        </div>
+                                        <div class="text-sm">
+                                        Strategi kepemimpinan untuk mendorong perubahan organisasi dan mempersiapkan masa depan, sekaligus menjaga kinerja tim.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 mb-4">
+                                <div class="d-flex align-items-center">
+                                    <img src="assets/images/pelatihan/user-icon.png" class="me-3">
+                                    <div>
+                                        <div class="fs-6 fw-600">
+                                        Akses ke INIKARIR Development Program Alumni
+                                        </div>
+                                        <div class="text-sm">
+                                        Akses ke jaringan INIKARIR Development Program Alumni, yang merupakan komunitas profesional yang dapat memberikan dukungan, saran, dan peluang bagi Anda.
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="consult-banner" class="hero-loker-list pt-0">
+                <div class="container">
                     <div class="row align-items-center flex-sm-row-reverse">
                         <div class="col-sm-4 mb-3 mb-sm-0">
-                            <img src="assets/images/about/career-development.jpg" alt="Job Portal" class="w-100 rounded-4">
+                            <img src="assets/images/pelatihan/konsultasi-hero.png" alt="Job Portal" class="w-100 rounded-4">
                         </div>
-                        <div class="col-sm-8">
-                            <h2 class="fs-3 fw-bolder text-green">Career Development</h3>
-                            <h5 class="fs-6 text-green fw-600 fst-italic mb-2">
-                            Kembangkan Diri Anda sebagai Individu dan sebagai Bagian dari Tim!
-                            </h5>
-                            <div class="text-sm text-muted mb-3">
-                            Kami menyediakan program pelatihan Employment Readiness Program dan Customized Training Program yang dirancang untuk membantu Anda memasuki atau meningkatkan karir Anda di dunia kerja. Anda dapat mengembangkan diri Anda sebagai individu dan sebagai bagian dari tim, serta memberikan kontribusi yang optimal bagi kesuksesan perusahaan Anda.    
+                        <div class="col-sm-8 text-center pe-sm-0 ps-sm-0">
+                            <h2 class="fs-2 fw-bolder text-green mb-3 ">Konsultasikan Program Training Secara GRATIS!</h3>
+                            <div class="text-green mb-3 px-sm-5 fw-500">
+                            Tanyakan sekarang dan dapatkan jawabannya langsung dengan menghubungi Career Advisor kami.
                             </div>
-                            <a href="" class="text-green fw-500 text-decoration-none">Show Detail >></a>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section class="hero-loker-list py-5 pt-0">
-                <div class="container bg-blue py-4 px-4 rounded-4">
-                    <div class="row align-items-center">
-                        <div class="col-sm-4 mb-3 mb-sm-0">
-                            <img src="assets/images/about/hr-solution.jpg" alt="Job Portal" class="w-100 rounded-4">
-                        </div>
-                        <div class="col-sm-8">
-                            <h2 class="fs-3 fw-bolder text-green">HR Solutions</h3>
-                            <h5 class="fs-6 text-green fw-600 fst-italic mb-2">
-                            Optimalkan Pengelolaan Sumber Daya Manusia Perusahaan Anda!
-                            </h5>
-                            <div class="text-sm text-muted mb-3">
-                                Kami menyediakan solusi lengkap untuk mengelola sumber daya manusia perusahaan Anda. Dengan layanan HR Solutions ini, Anda dapat meningkatkan kualitas dan kinerja sumber daya manusia perusahaan Anda, serta membentuk tim yang solid dan kompetitif untuk kesuksesan jangka panjang. Layanan ini cocok untuk perusahaan yang ingin mengoptimalkan pengelolaan sumber daya manusia mereka.
-                            </div>
-                            <a href="" class="text-green fw-500 text-decoration-none">Show Detail >></a>
+                            <a href="#" class="btn btn-primary fw-bold px-3 py-2 rounded-4">Consult Now</a>
                         </div>
                     </div>
                 </div>
