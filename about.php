@@ -170,8 +170,8 @@
 
         </main> <!-- /.main -->
 
-        <section class="">
-            <div class="container bg-darkgrey py-5">
+        <section class="bg-darkgrey py-5">
+            <div class="container">
                 <div class="row">
                     <div class="col-12 text-center">
                         <h1 class="fw-bolder fs-1 mb-3">What you <span class="text-site">focus on</span> will <span class="text-site">grow!</span></h1>
