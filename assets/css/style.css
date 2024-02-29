@@ -3217,6 +3217,7 @@ section#gallery-career .swiper-slide.swiper-slide-active  img {
     }
 }
 @media(max-width:767px){
+    .bg-blue2.fs-4{line-height: 1.2;}
     section#gallery-career .hero-gallery__item img {
         border: 4px solid #fff;
         border-radius: 10px;
