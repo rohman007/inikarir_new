@@ -14,7 +14,7 @@
 
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&family=Poppins:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,800;1,400;1,500;1,600;1,800&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,700&display=swap" rel="stylesheet">
 
         <!-- Stylesheets -->
         <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css" />
@@ -51,35 +51,35 @@
                             
                             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                                 <li class="nav-item">
-                                    <a class="nav-link " href="">Beranda</a>
+                                    <a class="nav-link " href="">Home</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" ref="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Lowongan</a>
+                                    <a class="nav-link dropdown-toggle" ref="#" id="navbarDarkDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Vacancy</a>
                                         <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
-                                        <li><a class="dropdown-item text-sm" href="">Lokal</a></li>
-                                        <li><a class="dropdown-item text-sm" href="">Mancanegara</a></li>
+                                        <li><a class="dropdown-item text-sm" href="">Local</a></li>
+                                        <li><a class="dropdown-item text-sm" href="">Abroad</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.php">Layanan</a>
+                                    <a class="nav-link" href="about.php">Services</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link active" href="career-development.php">Pelatihan</a>
+                                    <a class="nav-link active" href="career-development.php">Training</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link " href="">Artikel</a>
+                                    <a class="nav-link " href="">Article</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="">Hubungi Kami</a>
+                                    <a class="nav-link" href="">Contact Us</a>
                                 </li>
                                 
                             </ul>
                             <div class="ms-auto">
                                 <div class="header__cta d-flex gap-2 position-relative">
-                                    <a href="#" class="btn btn-outline-primary py-2 text-sm">Log In</a>
-                                    <a href="#" class="btn btn-outline-primary  py-2 text-sm">Daftar</a>
+                                    <a href="#" class="btn btn-outline-primary py-2 text-sm">Login</a>
+                                    <a href="#" class="btn btn-outline-primary  py-2 text-sm">Register</a>
                                     <a href="#" class="btn btn-primary  py-2 text-sm">
-                                        Untuk Perusahaan
+                                        For Jobseekers
                                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="none" class="bi bi-chevron-double-right" viewBox="0 0 16 16">
                                             <path fill-rule="evenodd" d="M3.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L9.293 8 3.646 2.354a.5.5 0 0 1 0-.708" stroke="currentColor" stroke-width="1.1"></path>
                                             <path fill-rule="evenodd" d="M7.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L13.293 8 7.646 2.354a.5.5 0 0 1 1 0" stroke="currentColor" stroke-width="1.1"></path>
@@ -93,16 +93,17 @@
             </nav> <!-- /.nav -->
         </header> <!-- /.header -->
         <main id="main" class="">
-            <section class="hero-loker-list py-5 pt-0 pt-sm-3">
+            <section class="py-5 pt-0 pt-sm-3">
                 <div class="container">
                     <div class="row align-items-center flex-sm-row-reverse">
                         <div class="col-10 col-sm-4 ps-sm-2 mx-auto mb-4 mb-sm-0">
-                            <img src="assets/images/pelatihan/career-hero.png" alt="Our Services" class="w-100 rounded-circle">
+                            <img src="assets/images/employee/employee-hero.jpg" alt="Our Services" class="w-100 rounded-circle">
                         </div>
                         <div class="col-sm-8">
-                            <h1 class="h1 fw-bolder text-green mb-3">Kembangkan Karirmu bersama IniKarir!</h1>
+                            <h1 class="h1 fw-bolder text-green mb-3">Employee Readiness Program</h1>
+                            <h4 class="fs-5 text-green fw-600 fst-italic mb-3">Solusi Membangun Tim Yang Unggul, Solid, dan Siap Beradaptasi di Dunia Kerja!</h4>
                             <div class="text-sm text-muted">
-                            Layanan Career Development dari IniKarir adalah program pelatihan yang dirancang untuk membantu orang-orang yang ingin memasuki atau meningkatkan karir mereka di dunia kerja. Anda dapat mengembangkan diri Anda sebagai individu dan sebagai bagian dari tim, serta memberikan kontribusi yang optimal bagi kesuksesan perusahaan Anda. Layanan ini juga dapat membantu Anda mengatasi hambatan yang Anda hadapi dalam mencari atau mengembangkan pekerjaan. Layanan ini terbuka untuk siapa saja yang ingin mengubah hidup mereka melalui karir mereka. Kami menyediakan 2 Program Career Development: Career Readiness Program</span> dan <span class="fw-600">Employee Readiness Program.</span>
+                            Employee Readiness Program adalah program pelatihan yang dirancang khusus untuk memenuhi kebutuhan dan tujuan klien. Program ini merupakan hasil dari Analisa Kebutuhan Training yang kami lakukan untuk mengetahui solusi optimal bagi organisasi atau perusahaan Anda. Dengan program ini, Anda dapat meningkatkan produktivitas dan nilai organisasi atau perusahaan Anda melalui pengembangan sumber daya manusia yang berkualitas.
                             </div>
                             <div class="mt-4 d-flex gap-3">
                                 <a href="#" class="btn btn-primary text-xs fw-bold px-3 py-2 rounded-4">Konsultasikan Dengan Kami!</a>
@@ -113,26 +114,27 @@
                 </div>
             </section>
             
-            <section class="hero-loker-list py-5">
+            <section class="  py-3 py-md-5">
                 <div class="container">
                     <div class="row align-items-center">
                         <div class="col-sm-12">
-                            <h1 class="fs-3 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Career Readiness Program</h1>
-                            <div class="text-sm text-muted mb-4">
-                            Career Readiness Program adalah program yang dapat membawa Anda ke tingkat yang lebih tinggi dalam dunia kerja. Program ini ditujukan untuk orang-orang yang berkeinginan untuk berkarier di bidang yang mereka minati. Kami akan membantu Anda untuk menemukan pekerjaan yang sesuai dengan bakat dan minat Anda, serta memberikan bimbingan untuk meningkatkan keterampilan dan kompetensi Anda. 
+                            <h1 class="h1 fw-bolder text-green mb-3 text-center">Pilih Program Sesuai Kebutuhan Anda!</h1>
+                            <div class="text-sm text-muted mb-4 text-center">
+                            Program Career Development IniKarir dibuat menyesuaikan kebutuhan (Personalized) juga menyelaraskan dengan perkembangan Human Resource Management (HRM) berdasarkan Industri tempat anda bekerja (Adaptive). Menciptakan Personalized & Adaptive Training yang akan dapat membantu anda maupun tim mencapai potensi maksimal. IniKarir juga menyediakan pelatihan khusus (Customized) training yang menyesuaikan dengan kebutuhan training dari masing-masing Individual dan Perusahaan.
                             </div>
-                            <div class="bg-blue2 mb-5 rounded-pill text-green fw-bold fs-4 px-4 py-2 d-inline-block">Program ini dirancang untuk orang-orang yang…</div>
                             <div class="row">
-                                <div class="col-sm-6 mb-5 mb-sm-0">
-                                    <div class="card px-4 py-4 rounded-4 border-1 d-block list-seeker pt-0">
-                                        <div class="fs-4 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Cari Pekerjaan</div>
-                                        <div class="text-sm text-muted">Untuk Jobseekers yang mau mempersiapkan karir dengan belajar kompetensi dasar yang dibutuhkan oleh perusahaan, seperti komunikasi, kerjasama, dan penyelesaian masalah. Kamu juga akan mendapatkan persiapan yang optimal untuk masuk dan beradaptasi di lingkungan kerja baru, serta meraih peluang karier yang kamu inginkan.</div>
+                                <div class="col-sm-6 mb-4 mb-sm-0">
+                                    <div class="card px-0 py-0 rounded-5 overflow-hidden d-block banner-program border-0 position-relative">
+                                        <img src="assets/images/employee/employee.jpg" class="w-100 rounded-5">
+                                        <div class="title-banner-program fs-2 fw-bold text-center position-absolute h-100 w-100 d-flex align-items-center justify-content-center top-0 start-0 text-white">Employee <br/>Readiness Program</div>
+                                        <a href="" class="position-absolute w-100 h-100 top-0 start-0"></a>
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
-                                    <div class="card px-4 py-4 rounded-4 border-1 d-block list-seeker pt-0">
-                                        <div class="fs-4 fw-bold text-white bg-green rounded-pill d-inline-block px-4 py-2 mb-3">Cari Kesempatan Baru</div>
-                                        <div class="text-sm text-muted">Untuk karyawan maupun jobseekers yang ingin membangun pengetahuan kerja tentang Personal Leadership untuk meningkatkan kinerja dan karier anda. Bagi Perusahaan juga akan mendapatkan strategi kepemimpinan yang dapat mendorong perubahan organisasi dan mempersiapkan masa depan, serta menjaga kinerja tim Anda.</div>
+                                    <div class="card px-0 py-0 rounded-5 overflow-hidden d-block banner-program border-0 position-relative">
+                                        <img src="assets/images/employee/training.jpg" class="w-100 rounded-5">
+                                        <div class="title-banner-program fs-2 fw-bold text-center position-absolute h-100 w-100 d-flex align-items-center justify-content-center top-0 start-0 text-white">Customized <br/>Training Program</div>
+                                        <a href="" class="position-absolute w-100 h-100 top-0 start-0"></a>
                                     </div>
                                 </div>
                             </div>
@@ -141,61 +143,61 @@
                 </div>
             </section>
             
-            <section id="program-for" class="hero-loker-list py-5 pt-0">
+            <section id="program-for" class="py-5 ">
                 <div class="container">
-                    <div class="bg-blue py-4 px-4 rounded-4 text-green">
+                    <div class="text-center">
+                        <h1 class="h1 fw-bolder text-green mb-4 text-center d-inline-block title-border px-0 px-sm-3 pb-3">Employee Readiness Program</h1>
+                    </div>
+                    <div class="row justify-content-center pt-3">
+                        <div class="col-sm-10">
+                        <img src="assets/images/employee/full-banner.jpg" class="img-fluid mx-auto mb-4">
+                        </div>
+                    </div>
+                    <p class="text-sm text-muted text-center">Employee Readiness Program adalah program pelatihan yang dirancang khusus untuk memenuhi kebutuhan dan tujuan Perusahaan atau Tim Anda. Program ini merupakan hasil dari Analisa Kebutuhan Training yang kami lakukan untuk mengetahui solusi optimal bagi organisasi atau perusahaan. Dengan program ini, Anda dapat meningkatkan produktivitas dan nilai organisasi atau perusahaan Anda melalui pengembangan sumber daya manusia yang berkualitas.</p>
+                    <p class="text-sm text-muted text-center pb-3">Program ini menggunakan metode pembelajaran yang sesuai dengan gaya, preferensi, dan tingkat kemampuan peserta. Kami juga memastikan bahwa materi pelatihan relevan dengan bidang pekerjaan peserta, sehingga mereka dapat menerapkan keterampilan yang dipelajari dengan baik di tempat kerja dan merasakan dampak positifnya.</p>
+                </div>
+                <div class="container px-sm-5">
+                    <div class="bg-blue py-4 px-4 rounded-4 text-green mt-4">
                         <div class="text-center">
-                            <div class="bg-blue2 mb-4 rounded-pill text-green fw-bold fs-4 px-4 py-2 d-inline-block mx-auto">Setelah mengikuti Program ini kamu akan...</div>
+                            <div class="bg-blue2 mb-4 rounded-pill text-green fw-bold fs-4 px-4 py-2 d-inline-block mx-auto">Setelah mengikuti Program ini Tim Anda akan mampu...</div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6 mb-4">
                                 <div class="d-flex align-items-center">
-                                    <img src="assets/images/pelatihan/bag-icon.png" class="me-3">
+                                    <img src="assets/images/employee/lamp-icon.png" class="me-3">
                                     <div>
-                                        <div class="fs-6 fw-600">
-                                        Lebih siap untuk mencapai karir impian
-                                        </div>
-                                        <div class="text-sm">
-                                        Kesiapan mental personal dan kerangka kerja untuk menyempurnakan tujuan karir kamu, selaras dengan tujuan.
+                                        <div class="fw-600">
+                                        Meningkatkan komunikasi, kolaborasi, dan inovasi dalam bekerja
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-4">
                                 <div class="d-flex align-items-center">
-                                    <img src="assets/images/pelatihan/paper-icon.png" class="me-3">
+                                    <img src="assets/images/employee/hand-icon.png" class="me-3">
                                     <div>
-                                        <div class="fs-6 fw-600">
-                                        Upgade kemampuan dan keterampilan
-                                        </div>
-                                        <div class="text-sm">
-                                        Keterampilan untuk menghadapi tantangan, seperti melakukan percakapan yang memadai, memimpin diri, dan beradaptasi di lingkungan kerjamu.
+                                        <div class="fw-600">
+                                        Meningkatkan motivasi dan keterlibatan diri dalam tim.
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-4">
                                 <div class="d-flex align-items-center">
-                                    <img src="assets/images/pelatihan/folder-icon.png" class="me-3">
+                                    <img src="assets/images/employee/efisien-icon.png" class="me-3">
                                     <div>
-                                        <div class="fs-6 fw-600">
-                                        Mengetahui strategi kepemimpiman dan tim
-                                        </div>
-                                        <div class="text-sm">
-                                        Strategi kepemimpinan untuk mendorong perubahan organisasi dan mempersiapkan masa depan, sekaligus menjaga kinerja tim.
+                                        <div class="fw-600">
+                                        Meningkatkan efisiensi, efektivitas, dan fleksibilitas kerja individu dan tim
                                         </div>
                                     </div>
                                 </div>
                             </div>
                             <div class="col-sm-6 mb-4">
                                 <div class="d-flex align-items-center">
-                                    <img src="assets/images/pelatihan/user-icon.png" class="me-3">
+                                    <img src="assets/images/employee/bedge-icon.png" class="me-3">
                                     <div>
-                                        <div class="fs-6 fw-600">
-                                        Akses ke INIKARIR Development Program Alumni
-                                        </div>
-                                        <div class="text-sm">
-                                        Akses ke jaringan INIKARIR Development Program Alumni, yang merupakan komunitas profesional yang dapat memberikan dukungan, saran, dan peluang bagi Anda.
+                                        <div class="fw-600">
+                                        Meningkatkan retensi, daya saing, dan reputasi perusahaan Anda
                                         </div>
                                     </div>
                                 </div>
@@ -204,7 +206,221 @@
                     </div>
                 </div>
             </section>
-            
+            <section id="customized-program" class="py-2 py-md-5 ">
+                <div class="container">
+                    <div class="text-center">
+                        <h1 class="h1 fw-bolder text-green mb-4 text-center d-inline-block title-border px-0 px-sm-3 pb-3">Our Customized Program</h1>
+                    </div>
+                    <div class="text-sm text-muted text-center mb-3">Customized Training Program adalah program pelatihan yang efektif, fleksibel, dan sesuai dengan kebutuhan Tim atau Perusahaan. Program ini dapat membantu Anda mencapai tujuan Anda dengan lebih cepat dan mudah. Kami menyediakan layanan kebutuhan pengembangan Sumber Daya Manusia (SDM) di bidang-bidang berikut:</div>
+                    <div class="accordion" id="accordionProgram">
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button fs-5 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Leadership Program
+                            </button>
+                            </h2>
+                            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionProgram">
+                            <div class="accordion-body">
+                                <div class="table-wrapper">
+                                    <table class="table-program text-sm text-green table">
+                                        <thead>
+                                            <tr>
+                                                <th>Learning Program</th>
+                                                <th>Subject</th>
+                                                <th>Suitable For</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Strategic Leadership</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Business Goal Management</li>
+                                                        <li>Coaching & Mentoring</li>
+                                                        <li>HR Strategy</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Business Owner / Top Leader</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Performance Driven Leadership</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Senior Manager Development</li>
+                                                        <li>Portfolio Management</li>
+                                                        <li>Performance Appraisal</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Senior Manager <br/>(GM/VP/SVP)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">High Impact Leadership</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>BM Development </li>
+                                                        <li>Performance appraisal</li>
+                                                        <li>Discipline in Execution</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Middle Manager <br/>(Manager/Kepala Bagian/Head)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Supervisory Leadership</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Officer Development</li>
+                                                        <li>Product Knowledge</li>
+                                                        <li>Engagement</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Officer/Supervisor/Team Leader</td>
+                                            </tr>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Personal Leadership</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Empowering Internal Effectiveness</li>
+                                                        <li>Orientation Program</li>
+                                                        <li>Integration Program</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Clerical</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button fs-5 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Business Management Program
+                            </button>
+                            </h2>
+                            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionProgram">
+                            <div class="accordion-body">
+                                <div class="table-wrapper">
+                                    <table class="table-program text-sm text-green table">
+                                        <thead>
+                                            <tr>
+                                                <th>Learning Program</th>
+                                                <th>Subject</th>
+                                                <th>Suitable For</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Managing Business</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Intrapreneurship Visionary Leadership Business Acumen</li>
+                                                        <li>Business Model Strategy, Planning, Execution</li>
+                                                        <li>Balanced Scorecard Development</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Business Owner / Top Leader</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button fs-5 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Human Capital Management Program
+                            </button>
+                            </h2>
+                            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionProgram">
+                            <div class="accordion-body">
+                                <div class="table-wrapper">
+                                    <table class="table-program text-sm text-green table">
+                                        <thead>
+                                            <tr>
+                                                <th>Learning Program</th>
+                                                <th>Subject</th>
+                                                <th>Suitable For</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Human Resources</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Hiring & Sourcing Skills</li>
+                                                        <li>Organizational Development</li>
+                                                        <li>Talent Management</li>
+                                                        <li>Employee Engagement</li>
+                                                        <li>Training for Trainers</li>
+                                                    </ul>
+                                                </td>
+                                                <td>Business Owner/HR Manager/Managers</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header" id="headingFour">
+                            <button class="accordion-button fs-5 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Personal Development Program
+                            </button>
+                            </h2>
+                            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionProgram">
+                            <div class="accordion-body">
+                                <div class="table-wrapper">
+                                    <table class="table-program text-sm text-green table">
+                                        <thead>
+                                            <tr>
+                                                <th>Learning Program</th>
+                                                <th>Subject</th>
+                                                <th>Suitable For</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>
+                                                    <div class="program-name">Personal Development</div>
+                                                </td>
+                                                <td>
+                                                    <ul>
+                                                        <li>Communication Skills</li>
+                                                        <li>Presentation Skills</li>
+                                                        <li>Time Management</li>
+                                                        <li>Stress Management</li>
+                                                        <li>Followership</li>
+                                                        <li>Team Building</li>
+                                                    </ul>
+                                                </td>
+                                                <td>All levels</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
             <section id="consult-banner" class="mt-4">
                 <div class="container">
                     <div class="row align-items-center flex-sm-row-reverse">
